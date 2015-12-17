@@ -9,7 +9,7 @@
         <region>all</region>
         <portalId>-1</portalId>
         <addAttributes>
-            <att name="title">SECOORA Sensor Service</att>
+            <att name="title">SECOORA Sensor Data (Unified)</att>
         </addAttributes>
     </dataset>
 
