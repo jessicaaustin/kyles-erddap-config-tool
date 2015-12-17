@@ -6,7 +6,7 @@
     <dataset type="EDDTableFromAxiomSensorCSVService" datasetID="secoora_sensor_service">
         <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
         <reloadEveryNMinutes>360</reloadEveryNMinutes>
-        <region>secoora</region>
+        <region>all</region>
         <portalId>-1</portalId>
         <addAttributes>
             <att name="title">SECOORA Sensor Service</att>
