@@ -172,7 +172,7 @@ Prevent mass mailing worms from sending mail" is un-checked.
 <emailUserName></emailUserName>
 <emailPassword></emailPassword>
 <emailProperties></emailProperties>
-<emailSmtpHost>smtp.iinet.com</emailSmtpHost>
+<emailSmtpHost></emailSmtpHost>  <!-- smtp.iinet.com -->
 <emailSmtpPort>25</emailSmtpPort>
 
 
