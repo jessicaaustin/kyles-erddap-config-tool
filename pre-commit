@@ -3,8 +3,6 @@
 # This merges all of the individual dataset XML files in a single datasets.xml
 # file to be used in ERDDAP.
 
-# Copy this file to your .git/hooks directory to get started.
-
 for x in $(find . -name "datasets" -type d); do
     FOLDER=$(dirname $x)
     TMP=$FOLDER/datasets.tmp
@@ -21,4 +19,7 @@ for x in $(find . -name "datasets" -type d); do
         xmllint --format $TMP --noblanks --output $MASTER
         rm $TMP
     fi
+
+    git add .
+
 done
