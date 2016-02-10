@@ -1,5 +1,7 @@
 ## ERDDAP Content
 
+Requires the `libxml2-utils` package (for `xmllint`)
+
 **NOTE**
 You need to run this before commiting in the repo!
 
