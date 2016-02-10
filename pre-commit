@@ -1,0 +1,12 @@
+#!/bin/sh
+#
+# This merges all of the individual dataset XML files in a single datasets.xml
+# file to be used in ERDDAP.
+
+# Copy this file to your .git/hooks directory to get started.
+
+echo `pwd`
+
+#for x in $(find . -name "datasets" -type d); do
+    #echo $x
+#done
