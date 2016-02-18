@@ -131,17 +131,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_45049" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>45049</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Agness Oregon</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_41079" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>41079</stationId>
@@ -373,17 +362,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_15381" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>15381</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">BEAR COVE, KACHEMAK BAY</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_54051" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>54051</stationId>
@@ -516,6 +494,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_39285" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>39285</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">N Santiam River below Boulder Creek (Oregon)</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_48083" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>48083</stationId>
@@ -549,12 +538,12 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_11045" type="EDDTableFromAxiomStation">
+  <dataset datasetID="station_12910" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>11045</stationId>
+    <stationId>12910</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">Mcneil Canyon</att>
+      <att name="title">Caribou Peak</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -610,6 +599,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">(21414) AMCHITKA - 170 NM South of Amchitka, AK</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_41043" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>41043</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Snohomish River near Monroe (Washington)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -923,17 +923,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_41013" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>41013</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Wenatchee River at Peshastin (Washington)</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_10792" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>10792</stationId>
@@ -995,6 +984,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Little Susitna</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_15723" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>15723</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Tok AKTAS</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -1391,6 +1391,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">nw_kuparuk</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_15451" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>15451</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Chankliut Island</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -1803,6 +1814,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_11774" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>11774</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Little Susitna R below Hatcher Pass Bridge</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_34249" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>34249</stationId>
@@ -2012,17 +2034,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_15736" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>15736</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Aniak</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_44062" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>44062</stationId>
@@ -2073,17 +2084,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Alpine Meadows</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_41043" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>41043</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Snohomish River near Monroe (Washington)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -2342,12 +2342,34 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_11051" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>11051</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Mt. Eyak</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_13603" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>13603</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Metlakatla</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_41013" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>41013</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Wenatchee River at Peshastin (Washington)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -2859,17 +2881,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_11855" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>11855</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Crooked Creek at Airport Rd Bridge</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_54085" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>54085</stationId>
@@ -3277,17 +3288,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_44057" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>44057</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Lester Washington</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_15193" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>15193</stationId>
@@ -3497,6 +3497,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_39247" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>39247</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Reservoir at Dexter (Oregon)</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_47715" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>47715</stationId>
@@ -3519,6 +3530,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_11069" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>11069</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Tatitlek</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_54068" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>54068</stationId>
@@ -3536,6 +3558,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">White River below Mud Mountain Dam (Washington)</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_39192" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>39192</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">N Santiam River at Mehama (Oregon)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -4058,17 +4091,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_11770" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>11770</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Montana Creek at Mendenhall Loop Bridge</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_12925" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>12925</stationId>
@@ -4086,17 +4108,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">CANNING RIVER NEAR KAKTOVIK 75SE</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_44033" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>44033</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Gold Hill Washington</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -4663,6 +4674,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_11043" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>11043</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Little Chena Ridge</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_14186" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>14186</stationId>
@@ -5202,17 +5224,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_12952" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>12952</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Jarvis Creek</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_12907" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>12907</stationId>
@@ -5367,6 +5378,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_12990" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>12990</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Seven Mile</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_15141" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>15141</stationId>
@@ -5494,6 +5516,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Tuluksak</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_44057" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>44057</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Lester Washington</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5653,23 +5686,23 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_40975" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>40975</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Tieton River at Tieton Headworks (Washington)</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_13340" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>13340</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Taiya River</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_41077" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>41077</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Yakima River at Keechelus Outflow (Washington)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5829,6 +5862,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_11855" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>11855</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Crooked Creek at Airport Rd Bridge</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_11697" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>11697</stationId>
@@ -5928,6 +5972,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_12944" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>12944</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Helmut Mountain</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_15423" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>15423</stationId>
@@ -5961,23 +6016,23 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_39285" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>39285</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">N Santiam River below Boulder Creek (Oregon)</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_10784" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>10784</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Richardson Hwy @ Edgerton Highway MP 83</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_39114" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>39114</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">McKenzie River below Trail Bridge Dam (Oregon)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -6093,6 +6148,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_39097" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>39097</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Wind River near Carson (Washington)</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_43982" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>43982</stationId>
@@ -6110,6 +6176,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">IBEX RIVER NEAR WHITEHORSE</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_14018" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>14018</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Fort Wainwright AAF</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -6170,23 +6247,23 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_11887" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>11887</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Alsek River above Bates River</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_60368" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>60368</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Anchor Point Offshore Test Fishery, Station 7</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_11037" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>11037</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Independence Mine</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -6533,34 +6610,12 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_39231" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>39231</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Tualatin River at Farmington (Oregon)</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_13577" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>13577</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">False Pass</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_11069" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>11069</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Tatitlek</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -6764,34 +6819,12 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_11717" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>11717</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Salmon Creek  at Salmon Creek Road</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_57521" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>57521</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">(PBLW1) Ploeg Channel, Padilla Bay Reserve, WA</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_39246" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>39246</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Tualatin River near Dilley (Oregon)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -6924,17 +6957,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Blue River below Tidbits Creek (Oregon)</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_41064" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>41064</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Little Naches River near Nile (Washington)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -7182,6 +7204,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_39131" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>39131</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Sandy River near Bull Run (Oregon)</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_15810" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>15810</stationId>
@@ -7254,6 +7287,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">PUDDING RIVER NEAR WOODBURN, OR</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_41129" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>41129</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Newaukum Creek near Black Diamond (Washington)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -7347,17 +7391,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_14015" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>14015</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Fairbanks, Eielson Air Force Base</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_15507" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>15507</stationId>
@@ -7375,17 +7408,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Trinity</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_18409" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>18409</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">(46050) STONEWALL BANK - 20NM West of Newport, OR</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -7666,17 +7688,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_44935" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>44935</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Goodwin Peak Oregon</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_49341" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>49341</stationId>
@@ -7892,6 +7903,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">COWLITZ RIVER AT PACKWOOD, WA</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_15067" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>15067</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Togiak Village, Togiak Airport</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -8134,17 +8156,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Kasaan</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_11823" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>11823</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Gakona River at Tok Cutoff Bridge</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -8447,6 +8458,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_11054" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>11054</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Nuchek</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_16999" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>16999</stationId>
@@ -8568,12 +8590,12 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_41138" type="EDDTableFromAxiomStation">
+  <dataset datasetID="station_39141" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>41138</stationId>
+    <stationId>39141</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">North Fork Stillaguamish River near Arlington (Washington)</att>
+      <att name="title">S Fk Bull Run River near Bull Run (Oregon)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -8843,6 +8865,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_15318" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>15318</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Comfort Cove, Port Gravina</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_29838" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>29838</stationId>
@@ -8860,6 +8893,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Deshka River</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_39276" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>39276</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Columbia River at Bonneville Dam (Oregon)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -8970,17 +9014,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">CANYON CREEK AT PIPELINE CROSSING</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_41035" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>41035</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Nason Creek near Mouth (Washington)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -9371,6 +9404,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_39277" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>39277</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Bull Run River near Multnomah Falls (Oregon)</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_47667" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>47667</stationId>
@@ -9503,45 +9547,12 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_11065" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>11065</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Strawberry Reef</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_26775" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>26775</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">SILVER CREEK AT SILVERTON, OR</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_39097" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>39097</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Wind River near Carson (Washington)</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_39247" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>39247</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Reservoir at Dexter (Oregon)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -9652,17 +9663,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Exit Glacier</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_12910" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>12910</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Caribou Peak</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10592,6 +10592,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_39293" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>39293</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Willamette River at Albany (Oregon)</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_10795" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>10795</stationId>
@@ -10735,6 +10746,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_39282" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>39282</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Nestucca River near Beaver (Oregon)</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_11620" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>11620</stationId>
@@ -10763,17 +10785,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Red Dog Dock</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_14023" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>14023</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Golovin, Golovin Airport</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10961,17 +10972,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Johnstone Passage, Yakutat Bay</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_44042" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>44042</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Wamic Mill Oregon</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11230,17 +11230,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_11054" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>11054</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Nuchek</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_39116" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>39116</stationId>
@@ -11263,12 +11252,12 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_13000" type="EDDTableFromAxiomStation">
+  <dataset datasetID="station_11064" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13000</stationId>
+    <stationId>11064</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">Tebay</att>
+      <att name="title">Seal Island</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11291,17 +11280,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Lower Cook Inlet, AK - 204</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_11067" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>11067</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Summit Creek</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11676,6 +11654,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Little Susitna R at Parks Hwy Bridge</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_15736" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>15736</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Aniak</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -12209,6 +12198,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_11045" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>11045</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Mcneil Canyon</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_15420" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>15420</stationId>
@@ -12616,17 +12616,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_11774" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>11774</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Little Susitna R below Hatcher Pass Bridge</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_11652" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>11652</stationId>
@@ -12655,6 +12644,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Togiak</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_41028" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>41028</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Nooksack River at North Cedarvillle (Washington)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -12721,6 +12721,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Petersburg</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_15459" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>15459</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Dent Point, Stepovak Bay</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -13045,17 +13056,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_39192" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>39192</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">N Santiam River at Mehama (Oregon)</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_13723" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>13723</stationId>
@@ -13210,12 +13210,12 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_41676" type="EDDTableFromAxiomStation">
+  <dataset datasetID="station_14015" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>41676</stationId>
+    <stationId>14015</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">Padilla Bay Farm</att>
+      <att name="title">Fairbanks, Eielson Air Force Base</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -13991,6 +13991,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_15199" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>15199</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Papke's Landing</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_20077" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>20077</stationId>
@@ -14184,17 +14195,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Judy Creek near Nuiqsut</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_41028" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>41028</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Nooksack River at North Cedarvillle (Washington)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -14646,6 +14646,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Chitina</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_44931" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>44931</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Yellowstone Mountain Oregon</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -15157,6 +15168,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_44010" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>44010</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Canyon Creek Washington</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_34203" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>34203</stationId>
@@ -15174,6 +15196,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Minchumina, Minchumina Airport</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_41054" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>41054</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Mission Creek near Cashmere (Washington)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -15515,17 +15548,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">South White Hills Met</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_15723" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>15723</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Tok AKTAS</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -16180,6 +16202,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_44042" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>44042</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Wamic Mill Oregon</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_20059" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>20059</stationId>
@@ -16263,6 +16296,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">700632</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_13000" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13000</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Tebay</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -16851,6 +16895,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_20835" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>20835</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Mackenzie, B. C.</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_15149" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>15149</stationId>
@@ -17022,6 +17077,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Chigmit Mtns</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_44945" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>44945</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Long Prairie Oregon</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -17225,17 +17291,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_15590" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>15590</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Kiwalik, Kotzebue Sound</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_39160" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>39160</stationId>
@@ -17379,23 +17434,23 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_11039" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>11039</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Johnson'S Camp</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_41718" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>41718</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Homer Surface 3</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_41690" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>41690</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Winchester Arm</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -17418,6 +17473,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">TOFINO CREEK NEAR THE MOUTH</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_41034" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>41034</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Newaukum River near Chehalis (Washington)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -17473,17 +17539,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">NAWC13 (NAWC13)</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_41687" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>41687</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Charleston Bridge</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -17676,17 +17731,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_15318" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>15318</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Comfort Cove, Port Gravina</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_15672" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>15672</stationId>
@@ -17715,6 +17759,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">DORENA LAKE NEAR COTTAGE GROVE,OREG.</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_13982" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13982</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Anchorage, Ted Stevens Anchorage International Airport</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -17753,17 +17808,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_11064" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>11064</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Seal Island</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_11753" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>11753</stationId>
@@ -17792,17 +17836,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">crackerjack</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_34661" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>34661</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Indian River at Sitka (Alaska)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -17946,17 +17979,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Busby Island</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_41005" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>41005</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Puyallup River at Puyallup (Washington)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -18292,17 +18314,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_39251" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>39251</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Dairy Creek at Hwy 8 near Hillsboro (Oregon)</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_26384" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>26384</stationId>
@@ -18501,17 +18512,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_44966" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>44966</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Mount Stella Oregon</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_15743" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>15743</stationId>
@@ -18694,6 +18694,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Granite</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_14023" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>14023</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Golovin, Golovin Airport</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -19161,17 +19172,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_12988" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>12988</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Small Arms Range</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_14130" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>14130</stationId>
@@ -19288,6 +19288,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Level Island</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_41118" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>41118</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Chehalis River near Grand Mound (Washington)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -20217,17 +20228,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_13348" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13348</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Kashwitna River near Willow</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_54264" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>54264</stationId>
@@ -20778,6 +20778,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_41019" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>41019</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Puyallup River near Orting (Washington)</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_21273" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>21273</stationId>
@@ -21119,6 +21130,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_11067" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>11067</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Summit Creek</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_24452" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>24452</stationId>
@@ -21328,17 +21350,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_20696" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>20696</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Homer Dolphin Deep</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_15495" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>15495</stationId>
@@ -21460,6 +21471,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_11019" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>11019</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Anchorage Hillside</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_54284" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>54284</stationId>
@@ -21548,17 +21570,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_11043" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>11043</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Little Chena Ridge</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_14012" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>14012</stationId>
@@ -21631,17 +21642,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Gertrude Cove, Kiska Island</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_41690" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>41690</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Winchester Arm</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -21746,17 +21746,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_11026" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>11026</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Eagle Summit</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_14046" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>14046</stationId>
@@ -21829,6 +21818,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Port Alice, Heceta Island</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_39201" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>39201</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Little Sandy River near Bull Run (Oregon)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22219,6 +22219,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_42811" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>42811</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Three Forks Alaska</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_25249" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>25249</stationId>
@@ -22236,6 +22247,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">BATTLE CREEK ABOVE MOUTH NEAR HOMER 22NE</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_41035" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>41035</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Nason Creek near Mouth (Washington)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22494,6 +22516,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_13009" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13009</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Vunzik Lake</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_56156" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>56156</stationId>
@@ -22582,17 +22615,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_14031" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>14031</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Huslia, Huslia Airport</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_13133" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>13133</stationId>
@@ -22610,6 +22632,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">OR Corvallis 10 SSW</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_40986" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>40986</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">North Fork Stillaguamish River near Oso (Washington)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22687,6 +22720,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Klawasi</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_11823" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>11823</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Gakona River at Tok Cutoff Bridge</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22791,34 +22835,12 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_39141" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>39141</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">S Fk Bull Run River near Bull Run (Oregon)</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_13978" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>13978</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Anaktuvuk Pass, Anaktuvuk Pass Airport</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_39114" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>39114</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">McKenzie River below Trail Bridge Dam (Oregon)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -23105,6 +23127,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Point Lay</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_11770" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>11770</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Montana Creek at Mendenhall Loop Bridge</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -23506,17 +23539,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_15199" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>15199</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Papke's Landing</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_14201" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>14201</stationId>
@@ -23534,17 +23556,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">BIG CLIFF DAM NEAR NIAGARA, OR</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_40986" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>40986</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">North Fork Stillaguamish River near Oso (Washington)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -23814,17 +23825,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_39276" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>39276</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Columbia River at Bonneville Dam (Oregon)</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_31770" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>31770</stationId>
@@ -23919,6 +23919,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Pepper Creek</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_12952" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>12952</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Jarvis Creek</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -24139,6 +24150,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Warrenton, Skipanon River, Oreg.</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_12930" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>12930</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Farewell</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -24529,6 +24551,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_41005" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>41005</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Puyallup River at Puyallup (Washington)</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_13740" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>13740</stationId>
@@ -24590,17 +24623,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Kanuti NWR</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_14018" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>14018</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Fort Wainwright AAF</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -24700,6 +24722,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Togiak River</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_13348" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13348</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Kashwitna River near Willow</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -24859,6 +24892,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_40953" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>40953</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Chewuch River at Winthrop (Washington)</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_30606" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>30606</stationId>
@@ -25013,6 +25057,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_20696" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>20696</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Homer Dolphin Deep</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_20678" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>20678</stationId>
@@ -25030,6 +25085,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">(ATKA2) 9461710 - Atka, AK</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_41673" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>41673</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Ploeg Channel</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -25409,23 +25475,23 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_11020" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>11020</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Atigun Pass</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_34050" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>34050</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">South Fork Bull Run</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_15067" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>15067</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Togiak Village, Togiak Airport</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -25805,6 +25871,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_14168" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>14168</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Serpentine</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_34036" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>34036</stationId>
@@ -25899,6 +25976,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Cedar Oregon</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_18409" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>18409</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">(46050) STONEWALL BANK - 20NM West of Newport, OR</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -26036,17 +26124,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_11878" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>11878</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Tanana River at Big Delta</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_15565" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>15565</stationId>
@@ -26075,6 +26152,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">MERCER CREEK NEAR BELLEVUE, WA</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_11873" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>11873</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Bradley River near Homer</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -26229,6 +26317,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Skookumchuck River at Centralia (Washington)</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_39278" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>39278</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Blue River near Blue River (Oregon)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -26751,45 +26850,12 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_11873" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>11873</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Bradley River near Homer</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_19978" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>19978</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Takotna</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_41118" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>41118</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Chehalis River near Grand Mound (Washington)</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_39201" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>39201</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Little Sandy River near Bull Run (Oregon)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -26883,17 +26949,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_15310" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>15310</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Pete Dahl Slough</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_20342" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>20342</stationId>
@@ -26922,6 +26977,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Ella Creek Alaska</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_15381" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>15381</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">BEAR COVE, KACHEMAK BAY</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -27202,17 +27268,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_41019" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>41019</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Puyallup River near Orting (Washington)</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_11626" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>11626</stationId>
@@ -27285,6 +27340,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Chinook, Baker Bay, Wash.</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_44966" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>44966</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Mount Stella Oregon</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -27521,6 +27587,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_44935" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>44935</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Goodwin Peak Oregon</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_52543" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>52543</stationId>
@@ -27697,28 +27774,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_41034" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>41034</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Newaukum River near Chehalis (Washington)</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_41673" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>41673</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Ploeg Channel</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_39088" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>39088</stationId>
@@ -27747,6 +27802,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Mendenhall Glacier Visitor Center</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_11878" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>11878</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Tanana River at Big Delta</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -28236,6 +28302,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_14031" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>14031</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Huslia, Huslia Airport</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_34238" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>34238</stationId>
@@ -28451,6 +28528,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">500653</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_41138" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>41138</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">North Fork Stillaguamish River near Arlington (Washington)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -28841,6 +28929,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_11717" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>11717</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Salmon Creek  at Salmon Creek Road</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_13998" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>13998</stationId>
@@ -28924,6 +29023,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Pelly River at Pelly Crossing</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_41676" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>41676</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Padilla Bay Farm</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -29072,17 +29182,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_13982" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13982</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Anchorage, Ted Stevens Anchorage International Airport</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_17816" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>17816</stationId>
@@ -29094,23 +29193,23 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_42811" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>42811</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Three Forks Alaska</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_13782" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>13782</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">(AUGA2) Augustine Island, AK</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_11033" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>11033</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Granite Crk</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -29688,6 +29787,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_15321" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>15321</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Cape Hichinbrook</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_11977" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>11977</stationId>
@@ -29853,17 +29963,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_14168" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>14168</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Serpentine</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_34044" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>34044</stationId>
@@ -30024,6 +30123,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Tununak at Tununak (Alaska)</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_11034" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>11034</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Grouse Creek Divide</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -30288,17 +30398,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">TATALINA R NR TAKOTNA AK</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_11051" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>11051</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Mt. Eyak</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -30579,17 +30678,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_11033" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>11033</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Granite Crk</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_44085" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>44085</stationId>
@@ -30717,17 +30805,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">NAWC22 (NAWC22)</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_39278" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>39278</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Blue River near Blue River (Oregon)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -30970,6 +31047,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">KLINAKLINI RIVER EAST CHANNEL (MAIN) NEAR THE MOUTH</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_45049" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>45049</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Agness Oregon</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -31426,6 +31514,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_39231" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>39231</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Tualatin River at Farmington (Oregon)</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_15663" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>15663</stationId>
@@ -31679,17 +31778,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_39275" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>39275</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Breitenbush River near Detroit (Oregon)</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_11803" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>11803</stationId>
@@ -31811,17 +31899,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_44070" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>44070</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Mill Creek Washington</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_56053" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>56053</stationId>
@@ -31888,17 +31965,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_39183" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>39183</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Siuslaw River near Mapleton (Oregon)</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_15425" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>15425</stationId>
@@ -31927,6 +31993,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Skagway at Skagway</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_44070" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>44070</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Mill Creek Washington</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -32119,23 +32196,23 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_20835" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>20835</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Mackenzie, B. C.</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_15444" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>15444</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Kanatak Lagoon, Portage Bay</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_15590" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>15590</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Kiwalik, Kotzebue Sound</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -32592,17 +32669,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_39131" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>39131</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Sandy River near Bull Run (Oregon)</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_19973" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>19973</stationId>
@@ -32939,17 +33005,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">HOKO RIVER NEAR SEKIU, WA</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_13009" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13009</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Vunzik Lake</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -33406,17 +33461,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_11034" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>11034</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Grouse Creek Divide</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_55807" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>55807</stationId>
@@ -33527,17 +33571,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_44945" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>44945</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Long Prairie Oregon</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_54303" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>54303</stationId>
@@ -33599,17 +33632,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">EMMA C NR HEALY AK</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_44931" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>44931</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Yellowstone Mountain Oregon</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -33698,6 +33720,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">NERRS water quality site, Kachemak Bay Near Seldovia, 1N</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_39183" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>39183</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Siuslaw River near Mapleton (Oregon)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -34033,6 +34066,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_15310" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>15310</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Pete Dahl Slough</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_55932" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>55932</stationId>
@@ -34187,6 +34231,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_44033" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>44033</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Gold Hill Washington</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_55929" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>55929</stationId>
@@ -34204,6 +34259,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">BAKER RIVER AT HENRY THOMPSON BR AT CONCRETE, WA</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_34661" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>34661</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Indian River at Sitka (Alaska)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -34556,17 +34622,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">FOULWEATHER BLUFF</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_41054" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>41054</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Mission Creek near Cashmere (Washington)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -35051,17 +35106,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Nakchamik Island</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_39277" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>39277</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Bull Run River near Multnomah Falls (Oregon)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -35859,28 +35903,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_11887" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>11887</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Alsek River above Bates River</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_56411" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>56411</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Kotzebue Sound At Kotzebue</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_11852" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>11852</stationId>
@@ -36090,6 +36112,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_11048" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>11048</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Monument Creek</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_14026" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>14026</stationId>
@@ -36222,17 +36255,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_12990" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>12990</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Seven Mile</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_11568" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>11568</stationId>
@@ -36261,17 +36283,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">BLACK LAKE ABOVE OUTLET NEAR CHIGNIK LAKE NEAR CHIGNIK 23NW</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_44010" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>44010</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Canyon Creek Washington</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -36618,6 +36629,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_41687" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>41687</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Charleston Bridge</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_12971" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>12971</stationId>
@@ -36816,17 +36838,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_15459" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>15459</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Dent Point, Stepovak Bay</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_54215" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>54215</stationId>
@@ -36921,6 +36932,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Knob Ridge</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_39275" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>39275</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Breitenbush River near Detroit (Oregon)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -37036,6 +37058,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_11039" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>11039</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Johnson'S Camp</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_15105" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>15105</stationId>
@@ -37075,6 +37108,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Point Spencer, Port Clarence</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_12988" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>12988</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Small Arms Range</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -37619,17 +37663,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_40975" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>40975</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Tieton River at Tieton Headworks (Washington)</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_57179" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>57179</stationId>
@@ -37658,6 +37691,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Point Thatcher</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_39246" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>39246</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Tualatin River near Dilley (Oregon)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -37735,17 +37779,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Tacoma MET</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_41129" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>41129</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Newaukum Creek near Black Diamond (Washington)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -38136,17 +38169,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_11036" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>11036</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Imnaviat Creek</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_55913" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>55913</stationId>
@@ -38268,6 +38290,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_41064" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>41064</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Little Naches River near Nile (Washington)</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_57160" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>57160</stationId>
@@ -38318,17 +38351,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">UBLUTUOCH RIVER NEAR NUIQSUT 7WNW</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_40953" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>40953</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Chewuch River at Winthrop (Washington)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -38653,6 +38675,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_11026" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>11026</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Eagle Summit</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_31419" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>31419</stationId>
@@ -38747,6 +38780,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Port Heiden</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_11037" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>11037</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Independence Mine</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -39027,6 +39071,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_11065" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>11065</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Strawberry Reef</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_34244" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>34244</stationId>
@@ -39093,12 +39148,12 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_15451" type="EDDTableFromAxiomStation">
+  <dataset datasetID="station_56411" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>15451</stationId>
+    <stationId>56411</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">Chankliut Island</att>
+      <att name="title">Kotzebue Sound At Kotzebue</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -39121,6 +39176,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">atqasuk-arm</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_39251" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>39251</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Dairy Creek at Hwy 8 near Hillsboro (Oregon)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -39731,17 +39797,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_11019" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>11019</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Anchorage Hillside</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_31874" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>31874</stationId>
@@ -39781,17 +39836,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Redoubt - Hut</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_12944" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>12944</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Helmut Mountain</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -39962,17 +40006,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_39282" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>39282</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Nestucca River near Beaver (Oregon)</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_47556" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>47556</stationId>
@@ -40078,17 +40111,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Black Knob Washington</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_12930" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>12930</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Farewell</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -40259,6 +40281,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_11036" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>11036</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Imnaviat Creek</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_34197" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>34197</stationId>
@@ -40375,17 +40408,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">COWLITZ RIVER NEAR KOSMOS, WA</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_11048" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>11048</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Monument Creek</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -40776,17 +40798,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_15321" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>15321</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Cape Hichinbrook</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_20070" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>20070</stationId>
@@ -40864,17 +40875,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_11020" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>11020</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Atigun Pass</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_15833" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>15833</stationId>
@@ -40919,6 +40919,17 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_41077" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>41077</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Yakima River at Keechelus Outflow (Washington)</att>
+      <att name="institution">AOOS</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_11547" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>11547</stationId>
@@ -40958,17 +40969,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">LITTLE NORTH SANTIAM RIVER NEAR MEHAMA, OR</att>
-      <att name="institution">AOOS</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_39293" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>39293</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Willamette River at Albany (Oregon)</att>
       <att name="institution">AOOS</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
