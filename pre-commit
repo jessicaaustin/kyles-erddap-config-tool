@@ -20,6 +20,6 @@ for x in $(find . -name "datasets" -type d); do
         rm $TMP
     fi
 
-    git add .
+    git add $MASTER
 
 done
