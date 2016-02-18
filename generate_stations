@@ -1,0 +1,5 @@
+#!/bin/bash
+
+python oikos_stations.py -r cencoos -o cencoos/datasets/0050_regional_stations.xml -p CeNCOOS -e jpatterson@mbari.org -i CeNCOOS
+python oikos_stations.py -r secoora -o secoora/datasets/0050_regional_stations.xml -p SECOORA -e vembu@secoora.org -i SECOORA
+python oikos_stations.py -r aoos -o aoos/datasets/0050_regional_stations.xml -p AOOS -i AOOS

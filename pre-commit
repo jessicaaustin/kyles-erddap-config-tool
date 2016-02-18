@@ -3,6 +3,8 @@
 # This merges all of the individual dataset XML files in a single datasets.xml
 # file to be used in ERDDAP.
 
+bash generate_stations
+
 for x in $(find . -name "datasets" -type d); do
     FOLDER=$(dirname $x)
     TMP=$FOLDER/datasets.tmp
