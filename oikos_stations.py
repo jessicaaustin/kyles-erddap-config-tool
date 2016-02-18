@@ -19,7 +19,7 @@ def main(outfile, region, publisher, publisher_email, institution):
     r.raise_for_status()
 
     datasets = []
-    for s in r.json().get("stations"):
+    for s in sorted(r.json().get("stations"), key=lambda x: x['id']):
 
         sid = s.get('id')
 
