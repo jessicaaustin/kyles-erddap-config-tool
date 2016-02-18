@@ -1202,17 +1202,6 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_47393" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>47393</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Catalina Harbor, Santa Catalina Island</att>
-      <att name="institution">CeNCOOS</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_19889" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>19889</stationId>
@@ -2451,17 +2440,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">US-101 : South Of SR-36</att>
-      <att name="institution">CeNCOOS</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_16265" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>16265</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Montecito California</att>
       <att name="institution">CeNCOOS</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -6339,17 +6317,6 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_17797" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>17797</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Point Potrero Richmond, CA  (9414847)</att>
-      <att name="institution">CeNCOOS</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_20584" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>20584</stationId>
@@ -6433,6 +6400,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">EW4662 Big Sur</att>
+      <att name="institution">CeNCOOS</att>
+      <att name="publisher_name">CeNCOOS</att>
+      <att name="publisher_email">jpatterson@mbari.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_57532" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>57532</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">(TIQC1) Oneonta Slough, Tijuana River Reserve, CA</att>
       <att name="institution">CeNCOOS</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -10101,6 +10079,17 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_17797" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>17797</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Point Potrero Richmond, CA  (9414847)</att>
+      <att name="institution">CeNCOOS</att>
+      <att name="publisher_name">CeNCOOS</att>
+      <att name="publisher_email">jpatterson@mbari.org</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_19571" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>19571</stationId>
@@ -11619,17 +11608,6 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_57532" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>57532</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">(TIQC1) Oneonta Slough, Tijuana River Reserve, CA</att>
-      <att name="institution">CeNCOOS</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_49006" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>49006</stationId>
@@ -12230,6 +12208,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Suisun City, Suisun Slough</att>
+      <att name="institution">CeNCOOS</att>
+      <att name="publisher_name">CeNCOOS</att>
+      <att name="publisher_email">jpatterson@mbari.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_47393" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>47393</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Catalina Harbor, Santa Catalina Island</att>
       <att name="institution">CeNCOOS</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -13902,6 +13891,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Hopkins Marine Station 1 (HMS001)</att>
+      <att name="institution">CeNCOOS</att>
+      <att name="publisher_name">CeNCOOS</att>
+      <att name="publisher_email">jpatterson@mbari.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_16265" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>16265</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Montecito California</att>
       <att name="institution">CeNCOOS</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>

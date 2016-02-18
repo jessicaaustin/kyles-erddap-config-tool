@@ -1991,17 +1991,6 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_42426" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>42426</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Waycross Georgia</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_47155" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>47155</stationId>
@@ -2123,17 +2112,6 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_34352" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>34352</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Coosa River at Wetumpka (Alabama)</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_39679" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>39679</stationId>
@@ -2162,6 +2140,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">HAW RIVER NEAR BYNUM, NC</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_35288" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>35288</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Echeconnee Creek near Byron (Georgia)</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -3762,17 +3751,6 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_42485" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>42485</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Dallas Georgia</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_46984" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>46984</stationId>
@@ -3817,17 +3795,6 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_47002" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>47002</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Southwest Fork (spillway)</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_47765" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>47765</stationId>
@@ -3867,17 +3834,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Black Creek near Brooklyn (Mississippi)</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_39922" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>39922</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">South Fork Holston River at Kingsport (Tennessee)</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -5280,6 +5236,17 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_34352" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>34352</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Coosa River at Wetumpka (Alabama)</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_31779" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>31779</stationId>
@@ -5731,17 +5698,6 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_42026" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>42026</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">(SANF1) Sand Key, FL</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_32918" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>32918</stationId>
@@ -5869,17 +5825,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">TUCSAWHATCHEE CREEK NEAR HAWKINSVILLE, GA</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_34408" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>34408</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Fish River (AL) near Silverhill (Alabama)</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -7271,6 +7216,17 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_38511" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>38511</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Rocky River NC near ROCKY RIVER/ ABV IRISH BUFFALO CK (North Carolina)</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_60388" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>60388</stationId>
@@ -7519,6 +7475,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Pearl River near Pearl River (Louisiana)</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_35152" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>35152</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Yellow River near Conyers below Milstead (Georgia)</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -8388,6 +8355,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">East Bay Bottom</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_21430" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>21430</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Eastman, Heart of Georgia Regional Airport</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -9609,6 +9587,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">LTL SUGAR CR AT MEDICAL CENTER DR AT CHARLOTTE, NC</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_47103" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>47103</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Matecumbe Harbor, Lower Matecumbe Key, Fla. Bay</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -10852,17 +10841,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">(41063) Raleigh Bay - 17 NM South of Ocracoke Inlet, NC</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_38592" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>38592</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Campbell Creek (NC) at Idlewild road (North Carolina)</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -12727,17 +12705,6 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_43661" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>43661</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Croatan North Carolina</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_30434" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>30434</stationId>
@@ -14091,17 +14058,6 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_47149" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>47149</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Crawl Key, Big Spanish Channel</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_41906" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>41906</stationId>
@@ -14355,6 +14311,17 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_38543" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>38543</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Fourmile Creek (NC) at Elm Lane (North Carolina)</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_47157" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>47157</stationId>
@@ -14438,6 +14405,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Oconee River near Mount Vernon (Georgia)</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_42026" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>42026</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">(SANF1) Sand Key, FL</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -15400,6 +15378,17 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_38525" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>38525</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Nantahala River near HEWITT (North Carolina)</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_46462" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>46462</stationId>
@@ -15747,6 +15736,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">TURTLE MOUND, MOSQUITO LAGOON</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_37118" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>37118</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Escatawpa River above Orange Grove (Mississippi)</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -16236,6 +16236,17 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_38591" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>38591</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Cane Creek near Orange Grove Nr Carrboro (North Carolina)</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_42479" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>42479</stationId>
@@ -16275,17 +16286,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Sherwood Forest</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_46590" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>46590</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Windsor Plantation, Black River</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -17644,17 +17644,6 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_38525" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>38525</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Nantahala River near HEWITT (North Carolina)</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_27408" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>27408</stationId>
@@ -17837,6 +17826,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">NASSAU RIVER NEAR TISONIA, FL</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_38516" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>38516</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Drowning Creek at Hoffman (North Carolina)</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -19063,17 +19063,6 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_38376" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>38376</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Chicod Creek near Simpson (North Carolina)</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_47358" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>47358</stationId>
@@ -19091,6 +19080,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Yadkin River at Wilkesboro (North Carolina)</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_34359" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>34359</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Tallapoosa River at Martin Dam (Alabama)</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -20867,17 +20867,6 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_35305" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>35305</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Long Swamp Creek near Nelson (Georgia)</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_21967" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>21967</stationId>
@@ -21230,17 +21219,6 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_35129" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>35129</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Flint River (GA) near Oakfield (SR 32) (Georgia)</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_35284" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>35284</stationId>
@@ -21280,6 +21258,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Shell Key, northwest side, Lignumvitae Basin</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_34915" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>34915</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">St. Johns River at Racy Point (Florida)</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -22215,17 +22204,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">UPATOI CREEK NEAR COLUMBUS, GA</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_34359" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>34359</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Tallapoosa River at Martin Dam (Alabama)</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -23210,17 +23188,6 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_34397" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>34397</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Little Double Bridges Creek near Enterprise (CR 606) (Alabama)</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_31730" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>31730</stationId>
@@ -23843,6 +23810,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">EDEN 8 IN WATER CONSERVATION AREA 3-A</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_38592" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>38592</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Campbell Creek (NC) at Idlewild road (North Carolina)</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -25311,17 +25289,6 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_46572" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>46572</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Bennet's Dock, Pawleys Island Creek</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_34923" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>34923</stationId>
@@ -25960,17 +25927,6 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_34380" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>34380</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Little Claybank Creek near Ozark (US 231) (Alabama)</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_39699" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>39699</stationId>
@@ -26142,17 +26098,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">FAUSETT CREEK NEAR TALKING ROCK, GA</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_37118" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>37118</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Escatawpa River above Orange Grove (Mississippi)</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -29326,17 +29271,6 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_38543" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>38543</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Fourmile Creek (NC) at Elm Lane (North Carolina)</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_34918" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>34918</stationId>
@@ -29744,6 +29678,17 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_34408" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>34408</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Fish River (AL) near Silverhill (Alabama)</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_32409" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>32409</stationId>
@@ -29904,6 +29849,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">South Island Ferry, Intracoastal Waterway</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_34397" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>34397</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Little Double Bridges Creek near Enterprise (CR 606) (Alabama)</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -30195,6 +30151,17 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_42485" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>42485</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Dallas Georgia</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_31843" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>31843</stationId>
@@ -30481,17 +30448,6 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_38366" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>38366</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Tar River at NC581 Nr Spring Hope (North Carolina)</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_42425" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>42425</stationId>
@@ -30696,6 +30652,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">LONG SWAMP CREEK AT REAVIS MTN RD, NR NELSON, GA</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_46697" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>46697</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Leadenwah Creek, 3 mi. above entrance</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -32604,17 +32571,6 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_35325" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>35325</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Middle Oconee River near Arcade (Georgia)</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_30265" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>30265</stationId>
@@ -32934,6 +32890,17 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_39688" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>39688</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Black River at Kingstree (South Carolina)</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_23590" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>23590</stationId>
@@ -33039,17 +33006,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Tavernier Harbor, Hawk Channel</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_38516" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>38516</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Drowning Creek at Hoffman (North Carolina)</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -34040,6 +33996,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Suwannee River at White Springs (Florida)</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_38376" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>38376</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Chicod Creek near Simpson (North Carolina)</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -35321,6 +35288,17 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_42426" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>42426</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Waycross Georgia</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_31699" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>31699</stationId>
@@ -35459,17 +35437,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Goldsboro, Goldsboro-Wayne Municipal Airport</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_34915" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>34915</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">St. Johns River at Racy Point (Florida)</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -35695,6 +35662,17 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_57254" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>57254</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">(41159) Onslow Bay Outer Waverider, NC (217)</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_21601" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>21601</stationId>
@@ -35877,6 +35855,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Canova Beach</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_39922" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>39922</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">South Fork Holston River at Kingsport (Tennessee)</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -36790,17 +36779,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">CRN-63 RAINGAGE AT ODELL ELEMENTARY SCHOOL</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_38591" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>38591</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Cane Creek near Orange Grove Nr Carrboro (North Carolina)</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -37736,6 +37714,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">30AA38</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_38366" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>38366</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Tar River at NC581 Nr Spring Hope (North Carolina)</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -40557,17 +40546,6 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_39642" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>39642</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Saluda River near WARE SHOALS (South Carolina)</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_32879" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>32879</stationId>
@@ -42427,17 +42405,6 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_21430" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>21430</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Eastman, Heart of Georgia Regional Airport</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_24659" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>24659</stationId>
@@ -42466,17 +42433,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Wharf Creek entrance</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_35152" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>35152</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Yellow River near Conyers below Milstead (Georgia)</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -43527,6 +43483,17 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_47002" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>47002</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Southwest Fork (spillway)</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_31379" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>31379</stationId>
@@ -43610,17 +43577,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">BRIER CREEK AT MILLHAVEN, GA</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_39688" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>39688</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Black River at Kingstree (South Carolina)</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -43797,6 +43753,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Aucilla River near Nutall Rise (Florida)</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_39642" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>39642</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Saluda River near WARE SHOALS (South Carolina)</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -44066,6 +44033,17 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_35305" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>35305</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Long Swamp Creek near Nelson (Georgia)</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_46930" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>46930</stationId>
@@ -44209,17 +44187,6 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_46697" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>46697</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Leadenwah Creek, 3 mi. above entrance</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_33159" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>33159</stationId>
@@ -44314,17 +44281,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">(KVKY) Main Pass 289C (Apache Corp.)</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_35288" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>35288</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Echeconnee Creek near Byron (Georgia)</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -45056,17 +45012,6 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_57254" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>57254</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">(41159) Onslow Bay Outer Waverider, NC (217)</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_38600" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>38600</stationId>
@@ -45518,6 +45463,17 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_34380" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>34380</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Little Claybank Creek near Ozark (US 231) (Alabama)</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_28312" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>28312</stationId>
@@ -45568,6 +45524,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">CYPRESS SLOUGH NEAR BASINGER, FL</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_47149" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>47149</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Crawl Key, Big Spanish Channel</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -46910,6 +46877,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">KINCHAFOONEE CREEK AT PRESTON, GA</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_46572" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>46572</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Bennet's Dock, Pawleys Island Creek</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -48774,17 +48752,6 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="station_38511" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>38511</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Rocky River NC near ROCKY RIVER/ ABV IRISH BUFFALO CK (North Carolina)</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="station_47270" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>47270</stationId>
@@ -48939,12 +48906,34 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_43661" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>43661</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Croatan North Carolina</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_24548" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>24548</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">30AA04</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_35129" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>35129</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Flint River (GA) near Oakfield (SR 32) (Georgia)</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -50391,6 +50380,17 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="station_35325" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>35325</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Middle Oconee River near Arcade (Georgia)</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="station_24088" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>24088</stationId>
@@ -50584,17 +50584,6 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Florida Power</att>
-      <att name="institution">SECOORA</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="station_47103" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>47103</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Matecumbe Harbor, Lower Matecumbe Key, Fla. Bay</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -51937,6 +51926,17 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">WILMINGTON INT'L AIRPORT</att>
+      <att name="institution">SECOORA</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="station_46590" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>46590</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Windsor Plantation, Black River</att>
       <att name="institution">SECOORA</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
