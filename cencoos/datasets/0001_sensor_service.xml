@@ -4,6 +4,6 @@
     <region>cencoos</region>
     <portalId>-1</portalId>
     <addAttributes>
-        <att name="title">CeNCOOS Sensor Data (Unified)</att>
+        <att name="title">(CeNCOOS) Unified Sensor Data</att>
     </addAttributes>
 </dataset>

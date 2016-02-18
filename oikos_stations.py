@@ -36,8 +36,11 @@ def main(outfile, region, publisher, publisher_email, institution):
 
         # Attributes
         atts = etree.SubElement(dataset, "addAttributes")
+
+        label = s.get('label')
+        label = label.replace('(', '').replace(')', '')
         title = etree.SubElement(atts, "att", name="title")
-        title.text = s.get('label')
+        title.text = label
 
         instit = etree.SubElement(atts, "att", name="institution")
         instit.text = institution

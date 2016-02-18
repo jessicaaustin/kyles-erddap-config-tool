@@ -3,7 +3,7 @@
   <stationId>15882</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Santa Margarita River at Ysidora (California)</att>
+    <att name="title">Santa Margarita River at Ysidora California</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -15,7 +15,7 @@
   <stationId>15893</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Ventura River at Foster Park (California)</att>
+    <att name="title">Ventura River at Foster Park California</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -27,7 +27,7 @@
   <stationId>15898</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Santa Clara River at Victoria Avenue (California)</att>
+    <att name="title">Santa Clara River at Victoria Avenue California</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -39,7 +39,7 @@
   <stationId>15920</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Salinas River near Spreckels (California)</att>
+    <att name="title">Salinas River near Spreckels California</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -51,7 +51,7 @@
   <stationId>15921</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Salsipuedes Creek near Lompoc (California)</att>
+    <att name="title">Salsipuedes Creek near Lompoc California</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -63,7 +63,7 @@
   <stationId>15922</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">San Luis Rey River at Oceanside (California)</att>
+    <att name="title">San Luis Rey River at Oceanside California</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -75,7 +75,7 @@
   <stationId>15928</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Eel River near Scotia (California)</att>
+    <att name="title">Eel River near Scotia California</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -87,7 +87,7 @@
   <stationId>15943</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Redwood Creek near Orick (California)</att>
+    <att name="title">Redwood Creek near Orick California</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -99,7 +99,7 @@
   <stationId>15948</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Navarro River near Navarro (California)</att>
+    <att name="title">Navarro River near Navarro California</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -111,7 +111,7 @@
   <stationId>15950</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Santa Ynez River at Narrows (California)</att>
+    <att name="title">Santa Ynez River at Narrows California</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -135,7 +135,7 @@
   <stationId>15969</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Santa Ynez River at Los Laurels (California)</att>
+    <att name="title">Santa Ynez River at Los Laurels California</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -147,7 +147,7 @@
   <stationId>15971</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Klamath River near Klamath (California)</att>
+    <att name="title">Klamath River near Klamath California</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -159,7 +159,7 @@
   <stationId>15978</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Russian River near Healdsburg (California)</att>
+    <att name="title">Russian River near Healdsburg California</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -171,7 +171,7 @@
   <stationId>15981</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Russian River at Guerneville (California)</att>
+    <att name="title">Russian River at Guerneville California</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -183,7 +183,7 @@
   <stationId>15982</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Guadalupe River above Hwy 101 at San Jose (California)</att>
+    <att name="title">Guadalupe River above Hwy 101 at San Jose California</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -195,7 +195,7 @@
   <stationId>15990</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Smith River at Dr Fine Bridge (California)</att>
+    <att name="title">Smith River at Dr Fine Bridge California</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -207,7 +207,7 @@
   <stationId>15992</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">San Diego River at Fashion Valley (California)</att>
+    <att name="title">San Diego River at Fashion Valley California</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -219,7 +219,7 @@
   <stationId>15993</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Eel River at Fernbridge (California)</att>
+    <att name="title">Eel River at Fernbridge California</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -231,7 +231,7 @@
   <stationId>16008</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Smith River at Jed Smith near Crescent City (California)</att>
+    <att name="title">Smith River at Jed Smith near Crescent City California</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -243,7 +243,7 @@
   <stationId>16012</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Calleguas Creek at CSUCI Bridge (California)</att>
+    <att name="title">Calleguas Creek at CSUCI Bridge California</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -267,7 +267,7 @@
   <stationId>16029</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Pajaro River at Chittenden (California)</att>
+    <att name="title">Pajaro River at Chittenden California</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -279,7 +279,7 @@
   <stationId>16030</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Mad River near Arcata (California)</att>
+    <att name="title">Mad River near Arcata California</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1419,7 +1419,7 @@
   <stationId>16701</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Sacramento River at Butte City - BTC (CA53E4E4)</att>
+    <att name="title">Sacramento River at Butte City - BTC CA53E4E4</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1443,7 +1443,7 @@
   <stationId>16743</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Earl Lake near Fort Dick near Crescent City 6N - EFD (CA30B1A4)</att>
+    <att name="title">Earl Lake near Fort Dick near Crescent City 6N - EFD CA30B1A4</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1455,7 +1455,7 @@
   <stationId>16752</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Farallon Islands near San Francisco (15CCE6A4)</att>
+    <att name="title">Farallon Islands near San Francisco 15CCE6A4</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1467,7 +1467,7 @@
   <stationId>16785</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Highlands Peak Met Station near Lucia 3NNW (CD08E760)</att>
+    <att name="title">Highlands Peak Met Station near Lucia 3NNW CD08E760</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1491,7 +1491,7 @@
   <stationId>16888</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Point Reyes Alert near Inverness 5W (15DA527A)</att>
+    <att name="title">Point Reyes Alert near Inverness 5W 15DA527A</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1527,7 +1527,7 @@
   <stationId>16905</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Redwood City (15DA410C)</att>
+    <att name="title">Redwood City 15DA410C</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1563,7 +1563,7 @@
   <stationId>16912</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">San Francisco Downtown (15C952EA)</att>
+    <att name="title">San Francisco Downtown 15C952EA</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1575,7 +1575,7 @@
   <stationId>16962</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Whale Point Met Station near Lucia 4NW (CD08F416)</att>
+    <att name="title">Whale Point Met Station near Lucia 4NW CD08F416</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1587,7 +1587,7 @@
   <stationId>16970</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Cape San Martin - 55 NM West NW of Morro Bay, CA (46028)</att>
+    <att name="title">Cape San Martin - 55 NM West NW of Morro Bay, CA 46028</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1599,7 +1599,7 @@
   <stationId>16971</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Diablo Canyon, CA - 076 (46215)</att>
+    <att name="title">Diablo Canyon, CA - 076 46215</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1611,7 +1611,7 @@
   <stationId>16974</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(TIXC1) Tijuana River Reserve, CA</att>
+    <att name="title">TIXC1 Tijuana River Reserve, CA</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1623,7 +1623,7 @@
   <stationId>16975</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(46232) Point Loma South, CA (191)</att>
+    <att name="title">46232 Point Loma South, CA 191</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1635,7 +1635,7 @@
   <stationId>16976</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(SDBC1) 9410170 - San Diego, CA</att>
+    <att name="title">SDBC1 9410170 - San Diego, CA</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1647,7 +1647,7 @@
   <stationId>16977</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(LJAC1) 9410230 - La Jolla, CA</att>
+    <att name="title">LJAC1 9410230 - La Jolla, CA</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1659,7 +1659,7 @@
   <stationId>16978</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(OHBC1) 9410660 - Los Angeles, CA</att>
+    <att name="title">OHBC1 9410660 - Los Angeles, CA</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1671,7 +1671,7 @@
   <stationId>16980</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(LJPC1) La Jolla, CA (073)</att>
+    <att name="title">LJPC1 La Jolla, CA 073</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1683,7 +1683,7 @@
   <stationId>16981</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Harvest, CA - 071 (46218)</att>
+    <att name="title">Harvest, CA - 071 46218</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1695,7 +1695,7 @@
   <stationId>16982</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(46086) SAN CLEMENTE BASIN - 27NM SE OF San Clemente Is, CA</att>
+    <att name="title">46086 SAN CLEMENTE BASIN - 27NM SE OF San Clemente Is, CA</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1707,7 +1707,7 @@
   <stationId>16983</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(46047) TANNER BANK - 121NM West of San Diego, CA</att>
+    <att name="title">46047 TANNER BANK - 121NM West of San Diego, CA</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1719,7 +1719,7 @@
   <stationId>16984</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(46225) Torrey Pines Outer, CA (100)</att>
+    <att name="title">46225 Torrey Pines Outer, CA 100</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1731,7 +1731,7 @@
   <stationId>16985</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(46224) Oceanside Offshore, CA (045)</att>
+    <att name="title">46224 Oceanside Offshore, CA 045</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1743,7 +1743,7 @@
   <stationId>16986</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(46223) Dana Point, CA (096)</att>
+    <att name="title">46223 Dana Point, CA 096</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1755,7 +1755,7 @@
   <stationId>16987</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(46222) San Pedro, CA (092)</att>
+    <att name="title">46222 San Pedro, CA 092</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1767,7 +1767,7 @@
   <stationId>16988</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(46221) Santa Monica Bay, CA (028)</att>
+    <att name="title">46221 Santa Monica Bay, CA 028</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1779,7 +1779,7 @@
   <stationId>16989</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(46025) Santa Monica Basin - 33NM WSW of Santa Monica, CA</att>
+    <att name="title">46025 Santa Monica Basin - 33NM WSW of Santa Monica, CA</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1791,7 +1791,7 @@
   <stationId>16990</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Anacapa Passage, CA - 111 (46217)</att>
+    <att name="title">Anacapa Passage, CA - 111 46217</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1803,7 +1803,7 @@
   <stationId>16991</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(46069) SOUTH SANTA ROSA IS. CA</att>
+    <att name="title">46069 SOUTH SANTA ROSA IS. CA</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1815,7 +1815,7 @@
   <stationId>16992</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">East Santa Barbara - 12 NM Southwest of Santa Barbara, CA (46053)</att>
+    <att name="title">East Santa Barbara - 12 NM Southwest of Santa Barbara, CA 46053</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1827,7 +1827,7 @@
   <stationId>16993</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Goleta Point, CA - 107 (46216)</att>
+    <att name="title">Goleta Point, CA - 107 46216</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1839,7 +1839,7 @@
   <stationId>16994</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">West Santa Barbara 38 NM West of Santa Barbara, CA (46054)</att>
+    <att name="title">West Santa Barbara 38 NM West of Santa Barbara, CA 46054</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1851,7 +1851,7 @@
   <stationId>16995</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Santa Maria - 21 NM NW of Point Arguello, CA (46011)</att>
+    <att name="title">Santa Maria - 21 NM NW of Point Arguello, CA 46011</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1863,7 +1863,7 @@
   <stationId>16996</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(46242) Camp Pendleton Nearshore, CA (043)</att>
+    <att name="title">46242 Camp Pendleton Nearshore, CA 043</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1875,7 +1875,7 @@
   <stationId>17002</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Southeast Papa - 600 NM West of Eureka, CA (46006)</att>
+    <att name="title">Southeast Papa - 600 NM West of Eureka, CA 46006</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1899,7 +1899,7 @@
   <stationId>17011</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Carmel River near Carmel, CA (11143250)</att>
+    <att name="title">Carmel River near Carmel, CA 11143250</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -2067,7 +2067,7 @@
   <stationId>17070</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Santa Ynez River at Narrows near Lompoc, CA (11133000)</att>
+    <att name="title">Santa Ynez River at Narrows near Lompoc, CA 11133000</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -2115,7 +2115,7 @@
   <stationId>17084</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Lagunitas Creek at Samuel P Taylor State Park, CA (11460400)</att>
+    <att name="title">Lagunitas Creek at Samuel P Taylor State Park, CA 11460400</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -2199,7 +2199,7 @@
   <stationId>17115</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Noyo River near Fort Bragg, CA (11468500)</att>
+    <att name="title">Noyo River near Fort Bragg, CA 11468500</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -2211,7 +2211,7 @@
   <stationId>17116</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">San Francisco Bay at Old Dumbarton Bridge near Newark, CA (373025122065901)</att>
+    <att name="title">San Francisco Bay at Old Dumbarton Bridge near Newark, CA 373025122065901</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -2235,7 +2235,7 @@
   <stationId>17118</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Lower Crystal Springs Reservoir near San Mateo, CA (11162750)</att>
+    <att name="title">Lower Crystal Springs Reservoir near San Mateo, CA 11162750</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -2259,7 +2259,7 @@
   <stationId>17123</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Pilarcitos Creek below Stone Dam near Hillsborough, CA (11162620)</att>
+    <att name="title">Pilarcitos Creek below Stone Dam near Hillsborough, CA 11162620</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -2283,7 +2283,7 @@
   <stationId>17129</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Redwood Creek at Orick, CA (11482500)</att>
+    <att name="title">Redwood Creek at Orick, CA 11482500</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -2319,7 +2319,7 @@
   <stationId>17142</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Salsipuedes Creek near Lompoc, CA (11132500)</att>
+    <att name="title">Salsipuedes Creek near Lompoc, CA 11132500</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -2331,7 +2331,7 @@
   <stationId>17144</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Coyote Creek above Hwy 237 at Milpitas, CA (11172175)</att>
+    <att name="title">Coyote Creek above Hwy 237 at Milpitas, CA 11172175</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -2415,7 +2415,7 @@
   <stationId>17165</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Santa Ynez River at H Street near Lompoc, CA (11134000)</att>
+    <att name="title">Santa Ynez River at H Street near Lompoc, CA 11134000</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -2439,7 +2439,7 @@
   <stationId>17170</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Mad River near Arcata, CA (11481000)</att>
+    <att name="title">Mad River near Arcata, CA 11481000</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -2463,7 +2463,7 @@
   <stationId>17175</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Pescadero Creek near Pescadero, CA (11162500)</att>
+    <att name="title">Pescadero Creek near Pescadero, CA 11162500</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -2475,7 +2475,7 @@
   <stationId>17177</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Guadalupe River above Hwy 101 at San Jose, CA (11169025)</att>
+    <att name="title">Guadalupe River above Hwy 101 at San Jose, CA 11169025</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -2523,7 +2523,7 @@
   <stationId>17197</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">South Fork Gualala River near The Sea Ranch, CA (11467510)</att>
+    <att name="title">South Fork Gualala River near The Sea Ranch, CA 11467510</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -2535,7 +2535,7 @@
   <stationId>17200</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Big Sur River at Andrew Molera State Park near Big Sur, CA (11143010)</att>
+    <att name="title">Big Sur River at Andrew Molera State Park near Big Sur, CA 11143010</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -2547,7 +2547,7 @@
   <stationId>17206</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">San Lorenzo River at Santa Cruz, CA (11161000)</att>
+    <att name="title">San Lorenzo River at Santa Cruz, CA 11161000</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -2619,7 +2619,7 @@
   <stationId>17238</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Matadero Creek at Palo Alto, CA (11166000)</att>
+    <att name="title">Matadero Creek at Palo Alto, CA 11166000</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -2655,7 +2655,7 @@
   <stationId>17244</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Navarro River near Navarro, CA (11468000)</att>
+    <att name="title">Navarro River near Navarro, CA 11468000</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -2667,7 +2667,7 @@
   <stationId>17245</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">North Fork Gualala River above South Fork Gualala River near Gualala, CA (11467553)</att>
+    <att name="title">North Fork Gualala River above South Fork Gualala River near Gualala, CA 11467553</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -2751,7 +2751,7 @@
   <stationId>17264</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Walker Creek near Marshall, CA (11460750)</att>
+    <att name="title">Walker Creek near Marshall, CA 11460750</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -2775,7 +2775,7 @@
   <stationId>17269</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Pilarcitos Creek at Half Moon Bay, CA (11162630)</att>
+    <att name="title">Pilarcitos Creek at Half Moon Bay, CA 11162630</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -2979,7 +2979,7 @@
   <stationId>17307</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Corte Madera Creek at Ross, CA (11460000)</att>
+    <att name="title">Corte Madera Creek at Ross, CA 11460000</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -3075,7 +3075,7 @@
   <stationId>17354</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">San Lorenzo River at Big Trees, CA (11160500)</att>
+    <att name="title">San Lorenzo River at Big Trees, CA 11160500</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -3099,7 +3099,7 @@
   <stationId>17358</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Lagunitas Creek near Point Reyes Station, CA (11460600)</att>
+    <att name="title">Lagunitas Creek near Point Reyes Station, CA 11460600</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -3207,7 +3207,7 @@
   <stationId>17391</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Klamath River near Klamath, CA (11530500)</att>
+    <att name="title">Klamath River near Klamath, CA 11530500</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -3363,7 +3363,7 @@
   <stationId>17437</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Novato Creek at Novato, CA (11459500)</att>
+    <att name="title">Novato Creek at Novato, CA 11459500</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -3435,7 +3435,7 @@
   <stationId>17450</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Reclamation Ditch near Salinas, CA (11152650)</att>
+    <att name="title">Reclamation Ditch near Salinas, CA 11152650</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -3507,7 +3507,7 @@
   <stationId>17475</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Smith River near Fort Dick, CA (11532650)</att>
+    <att name="title">Smith River near Fort Dick, CA 11532650</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -3519,7 +3519,7 @@
   <stationId>17478</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Austin Creek near Cazadero, CA (11467200)</att>
+    <att name="title">Austin Creek near Cazadero, CA 11467200</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -3579,7 +3579,7 @@
   <stationId>17490</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">South Fork Eel River at Leggett, CA (11475800)</att>
+    <att name="title">South Fork Eel River at Leggett, CA 11475800</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -3603,7 +3603,7 @@
   <stationId>17508</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Soquel Creek at Soquel, CA (11160000)</att>
+    <att name="title">Soquel Creek at Soquel, CA 11160000</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -3627,7 +3627,7 @@
   <stationId>17522</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Pilarcitos Lake near Hillsborough, CA (11162618)</att>
+    <att name="title">Pilarcitos Lake near Hillsborough, CA 11162618</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -3675,7 +3675,7 @@
   <stationId>17541</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Castro Valley Creek at Hayward, CA (11181008)</att>
+    <att name="title">Castro Valley Creek at Hayward, CA 11181008</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -3759,7 +3759,7 @@
   <stationId>17568</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">San Lorenzo Creek at San Lorenzo, CA (11181040)</att>
+    <att name="title">San Lorenzo Creek at San Lorenzo, CA 11181040</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -3771,7 +3771,7 @@
   <stationId>17576</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Smith River near Crescent City, CA (11532500)</att>
+    <att name="title">Smith River near Crescent City, CA 11532500</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -3795,7 +3795,7 @@
   <stationId>17588</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Big Sur River near Big Sur, CA (11143000)</att>
+    <att name="title">Big Sur River near Big Sur, CA 11143000</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -3807,7 +3807,7 @@
   <stationId>17596</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Little River near Trinidad, CA (11481200)</att>
+    <att name="title">Little River near Trinidad, CA 11481200</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -3819,7 +3819,7 @@
   <stationId>17599</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Orcutt Creek near Orcutt, CA (11141050)</att>
+    <att name="title">Orcutt Creek near Orcutt, CA 11141050</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -3867,7 +3867,7 @@
   <stationId>17620</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Corralitos Creek at Freedom, CA (11159200)</att>
+    <att name="title">Corralitos Creek at Freedom, CA 11159200</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -3879,7 +3879,7 @@
   <stationId>17628</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Mattole River near Petrolia, CA (11469000)</att>
+    <att name="title">Mattole River near Petrolia, CA 11469000</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -3915,7 +3915,7 @@
   <stationId>17635</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">San Gregorio Creek at San Gregorio, CA (11162570)</att>
+    <att name="title">San Gregorio Creek at San Gregorio, CA 11162570</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -3951,7 +3951,7 @@
   <stationId>17645</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Elder Creek near Branscomb, CA (11475560)</att>
+    <att name="title">Elder Creek near Branscomb, CA 11475560</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -3963,7 +3963,7 @@
   <stationId>17652</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Eel River at Fernbridge, CA (11479560)</att>
+    <att name="title">Eel River at Fernbridge, CA 11479560</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4035,7 +4035,7 @@
   <stationId>17775</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Alameda, CA (9414750)</att>
+    <att name="title">Alameda, CA 9414750</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4095,7 +4095,7 @@
   <stationId>17780</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Santa Monica, CA (9410840)</att>
+    <att name="title">Santa Monica, CA 9410840</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4107,7 +4107,7 @@
   <stationId>17781</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Santa Barbara, CA  (9411340)</att>
+    <att name="title">Santa Barbara, CA  9411340</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4119,7 +4119,7 @@
   <stationId>17782</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Oil Platform Harvest, CA (9411406)</att>
+    <att name="title">Oil Platform Harvest, CA 9411406</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4131,7 +4131,7 @@
   <stationId>17783</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Port San Luis, CA  (9412110)</att>
+    <att name="title">Port San Luis, CA  9412110</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4143,7 +4143,7 @@
   <stationId>17784</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Monterey, CA  (9413450)</att>
+    <att name="title">Monterey, CA  9413450</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4155,7 +4155,7 @@
   <stationId>17785</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Redwood City, CA  (9414523)</att>
+    <att name="title">Redwood City, CA  9414523</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4167,7 +4167,7 @@
   <stationId>17786</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Oakland Berth 67, CA  (9414763)</att>
+    <att name="title">Oakland Berth 67, CA  9414763</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4179,7 +4179,7 @@
   <stationId>17787</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Oakland Middle Harbor, CA  (9414769)</att>
+    <att name="title">Oakland Middle Harbor, CA  9414769</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4191,7 +4191,7 @@
   <stationId>17788</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Richmond, CA  (9414863)</att>
+    <att name="title">Richmond, CA  9414863</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4203,7 +4203,7 @@
   <stationId>17789</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Arena Cove, CA  (9416841)</att>
+    <att name="title">Arena Cove, CA  9416841</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4215,7 +4215,7 @@
   <stationId>17790</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">North Spit, Humboldt Bay, CA  (9418767)</att>
+    <att name="title">North Spit, Humboldt Bay, CA  9418767</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4227,7 +4227,7 @@
   <stationId>17791</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Crescent City, CA  (9419750)</att>
+    <att name="title">Crescent City, CA  9419750</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4239,7 +4239,7 @@
   <stationId>17792</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Point Reyes, CA  (9415020)</att>
+    <att name="title">Point Reyes, CA  9415020</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4251,7 +4251,7 @@
   <stationId>17793</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">San Francisco, CA  (9414290)</att>
+    <att name="title">San Francisco, CA  9414290</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4263,7 +4263,7 @@
   <stationId>17794</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Port Chicago, CA  (9415144)</att>
+    <att name="title">Port Chicago, CA  9415144</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4275,7 +4275,7 @@
   <stationId>17795</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Bolinas, Bolinas Lagoon, CA (9414958)</att>
+    <att name="title">Bolinas, Bolinas Lagoon, CA 9414958</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4299,7 +4299,7 @@
   <stationId>17797</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Point Potrero Richmond, CA  (9414847)</att>
+    <att name="title">Point Potrero Richmond, CA  9414847</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4311,7 +4311,7 @@
   <stationId>17798</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Pittsburg, Suisun Bay, CA  (9415115)</att>
+    <att name="title">Pittsburg, Suisun Bay, CA  9415115</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4323,7 +4323,7 @@
   <stationId>17799</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Davis Point, San Pablo Bay, CA  (9415141)</att>
+    <att name="title">Davis Point, San Pablo Bay, CA  9415141</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4335,7 +4335,7 @@
   <stationId>17800</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Oakland Berth 34, San Francisco Bay, CA  (9414776)</att>
+    <att name="title">Oakland Berth 34, San Francisco Bay, CA  9414776</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4347,7 +4347,7 @@
   <stationId>17801</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Pier 1 San Francisco, CA  (9414311)</att>
+    <att name="title">Pier 1 San Francisco, CA  9414311</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4383,7 +4383,7 @@
   <stationId>17804</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Martinez-AMORCO Pier, CA (9415102)</att>
+    <att name="title">Martinez-AMORCO Pier, CA 9415102</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4395,7 +4395,7 @@
   <stationId>17805</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Union Pacific Rail Road Bridge, CA (9415118)</att>
+    <att name="title">Union Pacific Rail Road Bridge, CA 9415118</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4743,7 +4743,7 @@
   <stationId>18072</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">San Lorenzo Creek at Hayward (16C7A4E0)</att>
+    <att name="title">San Lorenzo Creek at Hayward 16C7A4E0</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4791,7 +4791,7 @@
   <stationId>18083</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">San Mateo Creek below Lower Crystal Springs Reservoir at San Mateo (DD0B5464)</att>
+    <att name="title">San Mateo Creek below Lower Crystal Springs Reservoir at San Mateo DD0B5464</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4839,7 +4839,7 @@
   <stationId>18097</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Mattole River near Petrolia 1SE (DDD3B0CA)</att>
+    <att name="title">Mattole River near Petrolia 1SE DDD3B0CA</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -4935,7 +4935,7 @@
   <stationId>18173</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Eel River near Scotia 1N (173877AC)</att>
+    <att name="title">Eel River near Scotia 1N 173877AC</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5019,7 +5019,7 @@
   <stationId>18238</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Klamath River at Turwar Creek near Klamath 1SE (166D4016)</att>
+    <att name="title">Klamath River at Turwar Creek near Klamath 1SE 166D4016</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5067,7 +5067,7 @@
   <stationId>18298</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(PFXC1) Los Angeles Pier F, CA - 9410670</att>
+    <att name="title">PFXC1 Los Angeles Pier F, CA - 9410670</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5079,7 +5079,7 @@
   <stationId>18299</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(PRJC1) Long Beach Pier J, CA - 9410665</att>
+    <att name="title">PRJC1 Long Beach Pier J, CA - 9410665</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5091,7 +5091,7 @@
   <stationId>18300</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Point Arguello, CA (PTGC1)</att>
+    <att name="title">Point Arguello, CA PTGC1</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5163,7 +5163,7 @@
   <stationId>18369</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">San Francisco Bay at NE Shore Alcatraz Island, CA (374938122251801)</att>
+    <att name="title">San Francisco Bay at NE Shore Alcatraz Island, CA 374938122251801</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5187,7 +5187,7 @@
   <stationId>18373</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Cabrillo Point, Monterey Bay, CA - 158 (46240)</att>
+    <att name="title">Cabrillo Point, Monterey Bay, CA - 158 46240</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5199,7 +5199,7 @@
   <stationId>18374</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Point Sur, CA - 157 (46239)</att>
+    <att name="title">Point Sur, CA - 157 46239</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5211,7 +5211,7 @@
   <stationId>18377</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">San Francisco Bar, CA - 142 (46237)</att>
+    <att name="title">San Francisco Bar, CA - 142 46237</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5223,7 +5223,7 @@
   <stationId>18378</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(ELXC1) Elkhorn Slough Reserve, CA</att>
+    <att name="title">ELXC1 Elkhorn Slough Reserve, CA</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5235,7 +5235,7 @@
   <stationId>18379</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(SFXC1) San Francisco Bay Reserve, CA</att>
+    <att name="title">SFXC1 San Francisco Bay Reserve, CA</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5247,7 +5247,7 @@
   <stationId>18380</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Monterey Canyon Outer, CA - 156 (46236)</att>
+    <att name="title">Monterey Canyon Outer, CA - 156 46236</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5259,7 +5259,7 @@
   <stationId>18387</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Bodega Bay - 48 NM NNW of San Francisco, CA (46013)</att>
+    <att name="title">Bodega Bay - 48 NM NNW of San Francisco, CA 46013</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5271,7 +5271,7 @@
   <stationId>18389</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Pt Arena - 19 NM North of Point Arena, CA (46014)</att>
+    <att name="title">Pt Arena - 19 NM North of Point Arena, CA 46014</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5283,7 +5283,7 @@
   <stationId>18390</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Monterey - 27 NM WNW of Monterey, CA (46042)</att>
+    <att name="title">Monterey - 27 NM WNW of Monterey, CA 46042</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5295,7 +5295,7 @@
   <stationId>18392</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Half Moon Bay - 24 NM SSW of San Francisco, CA (46012)</att>
+    <att name="title">Half Moon Bay - 24 NM SSW of San Francisco, CA 46012</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5307,7 +5307,7 @@
   <stationId>18393</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Point Reyes, CA - 029 (46214)</att>
+    <att name="title">Point Reyes, CA - 029 46214</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5319,7 +5319,7 @@
   <stationId>18394</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">San Francisco - 18 NM West of San Francisco, CA (46026)</att>
+    <att name="title">San Francisco - 18 NM West of San Francisco, CA 46026</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5331,7 +5331,7 @@
   <stationId>18396</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Humboldt Bay, North Spit, CA (46244)</att>
+    <att name="title">Humboldt Bay, North Spit, CA 46244</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5343,7 +5343,7 @@
   <stationId>18399</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Cape Mendocino, CA - 094 (46213)</att>
+    <att name="title">Cape Mendocino, CA - 094 46213</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5355,7 +5355,7 @@
   <stationId>18400</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(46212) Humboldt Bay South Spit, CA (128)</att>
+    <att name="title">46212 Humboldt Bay South Spit, CA 128</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5367,7 +5367,7 @@
   <stationId>18401</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(46022) EEL RIVER - 17NM WSW of Eureka, CA</att>
+    <att name="title">46022 EEL RIVER - 17NM WSW of Eureka, CA</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5379,7 +5379,7 @@
   <stationId>18403</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(CECC1) 9419750 - Crescent City, CA</att>
+    <att name="title">CECC1 9419750 - Crescent City, CA</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5391,7 +5391,7 @@
   <stationId>18404</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">St Georges - 8 NM NW of Crescent City, CA (46027)</att>
+    <att name="title">St Georges - 8 NM NW of Crescent City, CA 46027</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5403,7 +5403,7 @@
   <stationId>18413</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Honeydew 1SW - HNY (CA4DA418)</att>
+    <att name="title">Honeydew 1SW - HNY CA4DA418</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5415,7 +5415,7 @@
   <stationId>18416</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Monterey Aquarium (MBA)</att>
+    <att name="title">Monterey Aquarium MBA</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5427,7 +5427,7 @@
   <stationId>18417</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Granite Canyon (GCN)</att>
+    <att name="title">Granite Canyon GCN</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5439,7 +5439,7 @@
   <stationId>18418</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Fort Ord (ORD)</att>
+    <att name="title">Fort Ord ORD</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5451,7 +5451,7 @@
   <stationId>18419</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Point Sur Naval (PTS)</att>
+    <att name="title">Point Sur Naval PTS</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5463,7 +5463,7 @@
   <stationId>18420</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Santa Cruz, CA (LML)</att>
+    <att name="title">Santa Cruz, CA LML</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5475,7 +5475,7 @@
   <stationId>18421</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Azevedo Pond (elkapwq)</att>
+    <att name="title">Azevedo Pond elkapwq</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5487,7 +5487,7 @@
   <stationId>18422</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Elkhorn Slough (elkcwmet)</att>
+    <att name="title">Elkhorn Slough elkcwmet</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5499,7 +5499,7 @@
   <stationId>18423</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">North Marsh (elknmwq)</att>
+    <att name="title">North Marsh elknmwq</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5511,7 +5511,7 @@
   <stationId>18424</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">South Marsh (elksmwq)</att>
+    <att name="title">South Marsh elksmwq</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5523,7 +5523,7 @@
   <stationId>18425</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Vierra Mouth (elkvmwq)</att>
+    <att name="title">Vierra Mouth elkvmwq</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5571,7 +5571,7 @@
   <stationId>18431</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">San Francisco Bay (sfbrrmet)</att>
+    <att name="title">San Francisco Bay sfbrrmet</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5583,7 +5583,7 @@
   <stationId>18432</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">China Camp (sfbccwq)</att>
+    <att name="title">China Camp sfbccwq</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5607,7 +5607,7 @@
   <stationId>18434</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">First Mallard (sfbfmwq)</att>
+    <att name="title">First Mallard sfbfmwq</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5619,7 +5619,7 @@
   <stationId>18435</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Second Mallard (sfbsmwq)</att>
+    <att name="title">Second Mallard sfbsmwq</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5631,7 +5631,7 @@
   <stationId>18436</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Gallinas Creek (sfbgcwq)</att>
+    <att name="title">Gallinas Creek sfbgcwq</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5655,7 +5655,7 @@
   <stationId>18443</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Monterey Bay 20 Km (M1SURF)</att>
+    <att name="title">Monterey Bay 20 Km M1SURF</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5667,7 +5667,7 @@
   <stationId>18444</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Main Channel (L01SURF)</att>
+    <att name="title">Main Channel L01SURF</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5679,7 +5679,7 @@
   <stationId>18446</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">L01Deep (L01DEEP)</att>
+    <att name="title">L01Deep L01DEEP</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5691,7 +5691,7 @@
   <stationId>18447</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">L04Deep (L04DEEP)</att>
+    <att name="title">L04Deep L04DEEP</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -7779,7 +7779,7 @@
   <stationId>19853</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">NB 805 at Home Ave (On Ramp)</att>
+    <att name="title">NB 805 at Home Ave On Ramp</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -7815,7 +7815,7 @@
   <stationId>19856</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">SB 805 at El Cajon Blvd (On Ramp)</att>
+    <att name="title">SB 805 at El Cajon Blvd On Ramp</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -7827,7 +7827,7 @@
   <stationId>19857</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">SB 805 at Madison Ave (Off Ramp)</att>
+    <att name="title">SB 805 at Madison Ave Off Ramp</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -7851,7 +7851,7 @@
   <stationId>19859</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">SB 15 and SB 805 (Intersection)</att>
+    <att name="title">SB 15 and SB 805 Intersection</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8031,7 +8031,7 @@
   <stationId>19889</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">SB 5 at E St. (On Ramp)</att>
+    <att name="title">SB 5 at E St. On Ramp</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8283,7 +8283,7 @@
   <stationId>19938</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Santa Cruz Wharf (KCASANTA132)</att>
+    <att name="title">Santa Cruz Wharf KCASANTA132</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8295,7 +8295,7 @@
   <stationId>19939</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Del Monte Beach, Monterey (DMB)</att>
+    <att name="title">Del Monte Beach, Monterey DMB</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8307,7 +8307,7 @@
   <stationId>19940</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Fort Ord #1 (FO1)</att>
+    <att name="title">Fort Ord #1 FO1</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8319,7 +8319,7 @@
   <stationId>19941</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Fort Ord #2 (FO2)</att>
+    <att name="title">Fort Ord #2 FO2</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8331,7 +8331,7 @@
   <stationId>19942</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Fort Ord #3 (FO3)</att>
+    <att name="title">Fort Ord #3 FO3</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8343,7 +8343,7 @@
   <stationId>19943</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Fort Ord #4 (FO4)</att>
+    <att name="title">Fort Ord #4 FO4</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8355,7 +8355,7 @@
   <stationId>19944</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Fort Ord, Range 07 (R07)</att>
+    <att name="title">Fort Ord, Range 07 R07</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8367,7 +8367,7 @@
   <stationId>19945</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Fort Ord, Range 30 (R30)</att>
+    <att name="title">Fort Ord, Range 30 R30</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8379,7 +8379,7 @@
   <stationId>19946</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Bodega Bay (BML_WTS)</att>
+    <att name="title">Bodega Bay BML_WTS</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8391,7 +8391,7 @@
   <stationId>19947</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">San Francisco Bay (FPT_WTS_latest)</att>
+    <att name="title">San Francisco Bay FPT_WTS_latest</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8415,7 +8415,7 @@
   <stationId>19953</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Bodega 6 WSW (1531)</att>
+    <att name="title">Bodega 6 WSW 1531</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8451,7 +8451,7 @@
   <stationId>20079</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Austin Creek near Cazadero 2SE (171BB452)</att>
+    <att name="title">Austin Creek near Cazadero 2SE 171BB452</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8475,7 +8475,7 @@
   <stationId>20103</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Corralitos Creek at Freedom (17B08436)</att>
+    <att name="title">Corralitos Creek at Freedom 17B08436</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8511,7 +8511,7 @@
   <stationId>20139</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Gasquet Ranger Station near Gasquet 1E - GAS (CA2DB55C)</att>
+    <att name="title">Gasquet Ranger Station near Gasquet 1E - GAS CA2DB55C</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8523,7 +8523,7 @@
   <stationId>20143</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Guadalupe River above Highway 101 at San Jose (17E253E8)</att>
+    <att name="title">Guadalupe River above Highway 101 at San Jose 17E253E8</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8547,7 +8547,7 @@
   <stationId>20148</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Pilarcitos Creek at Halfmoon Bay (17B067C4)</att>
+    <att name="title">Pilarcitos Creek at Halfmoon Bay 17B067C4</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8571,7 +8571,7 @@
   <stationId>20192</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">MAPEL RANCH NEAR ROCKLAND LANDING 3NE (MAP)</att>
+    <att name="title">MAPEL RANCH NEAR ROCKLAND LANDING 3NE MAP</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8667,7 +8667,7 @@
   <stationId>20237</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">VENADO (VEN)</att>
+    <att name="title">VENADO VEN</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8751,7 +8751,7 @@
   <stationId>20296</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(46219) San Nicolas Island, CA (067)</att>
+    <att name="title">46219 San Nicolas Island, CA 067</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8763,7 +8763,7 @@
   <stationId>20297</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(46251) Santa Cruz Basin, CA</att>
+    <att name="title">46251 Santa Cruz Basin, CA</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8787,7 +8787,7 @@
   <stationId>20316</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">YORKVILLE 1WNW (YOR)</att>
+    <att name="title">YORKVILLE 1WNW YOR</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8799,7 +8799,7 @@
   <stationId>20357</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(TDPC1) Trinidad</att>
+    <att name="title">TDPC1 Trinidad</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8811,7 +8811,7 @@
   <stationId>20358</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(TIBC1) Tiburon</att>
+    <att name="title">TIBC1 Tiburon</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8931,7 +8931,7 @@
   <stationId>20524</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Humboldt Bay Bar Channel LBB 2 (hb0101)</att>
+    <att name="title">Humboldt Bay Bar Channel LBB 2 hb0101</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8943,7 +8943,7 @@
   <stationId>20525</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Point Arena, CA (PTAC1)</att>
+    <att name="title">Point Arena, CA PTAC1</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8955,7 +8955,7 @@
   <stationId>20530</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Hookton Channel Day Marker 5 (hb0301)</att>
+    <att name="title">Hookton Channel Day Marker 5 hb0301</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8967,7 +8967,7 @@
   <stationId>20534</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">150 NM West of Mendocino Bay, CA (46411)</att>
+    <att name="title">150 NM West of Mendocino Bay, CA 46411</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8979,7 +8979,7 @@
   <stationId>20536</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Oakland Outer Harbor Lb3 (s09010)</att>
+    <att name="title">Oakland Outer Harbor Lb3 s09010</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8991,7 +8991,7 @@
   <stationId>20541</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Farallon Islands near San Franci, CA (FNDC1)</att>
+    <att name="title">Farallon Islands near San Franci, CA FNDC1</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9003,7 +9003,7 @@
   <stationId>20542</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Tiburon Pier, San Francisco Bay, CA (TIBC1)</att>
+    <att name="title">Tiburon Pier, San Francisco Bay, CA TIBC1</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9027,7 +9027,7 @@
   <stationId>20546</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Old Salinas River (L03SURF)</att>
+    <att name="title">Old Salinas River L03SURF</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9051,7 +9051,7 @@
   <stationId>20552</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Southampton Shoal Channel LB 6 (S08010)</att>
+    <att name="title">Southampton Shoal Channel LB 6 S08010</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9063,7 +9063,7 @@
   <stationId>20555</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Golden Gate Bridge (GGBC1)</att>
+    <att name="title">Golden Gate Bridge GGBC1</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9099,7 +9099,7 @@
   <stationId>20562</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Martinez-AMORCO Pier (S06010)</att>
+    <att name="title">Martinez-AMORCO Pier S06010</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9195,7 +9195,7 @@
   <stationId>20588</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Angel Island (AISC1)</att>
+    <att name="title">Angel Island AISC1</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9207,7 +9207,7 @@
   <stationId>20593</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Oakland Berth 38 (9414797)</att>
+    <att name="title">Oakland Berth 38 9414797</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9231,7 +9231,7 @@
   <stationId>20595</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">17 NM WNW of Point Arguello, CA (46023)</att>
+    <att name="title">17 NM WNW of Point Arguello, CA 46023</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9255,7 +9255,7 @@
   <stationId>20599</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Cannery Row, CA (CAN001)</att>
+    <att name="title">Cannery Row, CA CAN001</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9267,7 +9267,7 @@
   <stationId>20600</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Kirby Park (L02SURF)</att>
+    <att name="title">Kirby Park L02SURF</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9279,7 +9279,7 @@
   <stationId>20601</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Entrance Channel LB9 (hb0201)</att>
+    <att name="title">Entrance Channel LB9 hb0201</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9291,7 +9291,7 @@
   <stationId>20602</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Watsonville, CA (WVI)</att>
+    <att name="title">Watsonville, CA WVI</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9303,7 +9303,7 @@
   <stationId>20606</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Trinidad Head Observatory (THD)</att>
+    <att name="title">Trinidad Head Observatory THD</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9327,7 +9327,7 @@
   <stationId>20609</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">357 NM West of San Francisco, CA (46059)</att>
+    <att name="title">357 NM West of San Francisco, CA 46059</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9339,7 +9339,7 @@
   <stationId>20611</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Mare Island, CA (9415218)</att>
+    <att name="title">Mare Island, CA 9415218</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9351,7 +9351,7 @@
   <stationId>20612</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Chevron Pier (hb0401)</att>
+    <att name="title">Chevron Pier hb0401</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9363,7 +9363,7 @@
   <stationId>20613</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Point Reyes RCA (PTRCA)</att>
+    <att name="title">Point Reyes RCA PTRCA</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9375,7 +9375,7 @@
   <stationId>20621</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Hopkins Marine Station 1 (HMS001)</att>
+    <att name="title">Hopkins Marine Station 1 HMS001</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9387,7 +9387,7 @@
   <stationId>20623</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Hopkins Marine Station 2 (HMS002)</att>
+    <att name="title">Hopkins Marine Station 2 HMS002</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9399,7 +9399,7 @@
   <stationId>20624</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Hopkins Marine Station 3 (HMS003)</att>
+    <att name="title">Hopkins Marine Station 3 HMS003</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9411,7 +9411,7 @@
   <stationId>20625</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Hopkins Marine Station 4 (HMS004)</att>
+    <att name="title">Hopkins Marine Station 4 HMS004</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9423,7 +9423,7 @@
   <stationId>20626</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Point Joe, CA (JOE001)</att>
+    <att name="title">Point Joe, CA JOE001</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9435,7 +9435,7 @@
   <stationId>20627</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">La Cruz Rock, CA (LAC001)</att>
+    <att name="title">La Cruz Rock, CA LAC001</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9447,7 +9447,7 @@
   <stationId>20628</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">LOCO Experiment 2005 (LOCO05)</att>
+    <att name="title">LOCO Experiment 2005 LOCO05</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9459,7 +9459,7 @@
   <stationId>20629</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">K4 Mooring, LOCO Experiment 2006 (LOCOK4)</att>
+    <att name="title">K4 Mooring, LOCO Experiment 2006 LOCOK4</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9471,7 +9471,7 @@
   <stationId>20630</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">NW Mooring, LOCO Experiment, 2006 (LOCONW)</att>
+    <att name="title">NW Mooring, LOCO Experiment, 2006 LOCONW</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9483,7 +9483,7 @@
   <stationId>20631</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Lopez Rock, CA (LOP001)</att>
+    <att name="title">Lopez Rock, CA LOP001</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9495,7 +9495,7 @@
   <stationId>20632</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Lovers Point, CA (LOV001)</att>
+    <att name="title">Lovers Point, CA LOV001</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9507,7 +9507,7 @@
   <stationId>20633</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Malpaso Creek, CA (MAL001)</att>
+    <att name="title">Malpaso Creek, CA MAL001</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9519,7 +9519,7 @@
   <stationId>20634</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Pigeon Point, CA (PIG001)</att>
+    <att name="title">Pigeon Point, CA PIG001</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9531,7 +9531,7 @@
   <stationId>20635</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Point Sur 1 (PTS001)</att>
+    <att name="title">Point Sur 1 PTS001</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9543,7 +9543,7 @@
   <stationId>20636</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Point Sur 2 (PTS002)</att>
+    <att name="title">Point Sur 2 PTS002</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9555,7 +9555,7 @@
   <stationId>20637</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Sand Hill Bluff 1 (SHB001)</att>
+    <att name="title">Sand Hill Bluff 1 SHB001</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9567,7 +9567,7 @@
   <stationId>20638</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Sand Hill Bluff 2 (SHB002)</att>
+    <att name="title">Sand Hill Bluff 2 SHB002</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9579,7 +9579,7 @@
   <stationId>20639</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Soquel Point (SQP001)</att>
+    <att name="title">Soquel Point SQP001</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9591,7 +9591,7 @@
   <stationId>20640</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">San Simeon 1 (SSM001)</att>
+    <att name="title">San Simeon 1 SSM001</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9603,7 +9603,7 @@
   <stationId>20641</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">San Simeon 2 (SSM002)</att>
+    <att name="title">San Simeon 2 SSM002</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9615,7 +9615,7 @@
   <stationId>20642</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Sunset Point, CA (SUN001)</att>
+    <att name="title">Sunset Point, CA SUN001</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9627,7 +9627,7 @@
   <stationId>20643</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">South Wreck Beach, CA (SWB001)</att>
+    <att name="title">South Wreck Beach, CA SWB001</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9639,7 +9639,7 @@
   <stationId>20644</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Stillwater Cove 1 (SWC001)</att>
+    <att name="title">Stillwater Cove 1 SWC001</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9651,7 +9651,7 @@
   <stationId>20645</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Stillwater Cove 2 (SWC002)</att>
+    <att name="title">Stillwater Cove 2 SWC002</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9663,7 +9663,7 @@
   <stationId>20646</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Terrace Point 1 (TPT001)</att>
+    <att name="title">Terrace Point 1 TPT001</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9675,7 +9675,7 @@
   <stationId>20647</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Terrace Point 2 (TPT002)</att>
+    <att name="title">Terrace Point 2 TPT002</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9687,7 +9687,7 @@
   <stationId>20648</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Terrace Point 3 (TPT003)</att>
+    <att name="title">Terrace Point 3 TPT003</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9699,7 +9699,7 @@
   <stationId>20649</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Terrace Point 4 (TPT004)</att>
+    <att name="title">Terrace Point 4 TPT004</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9711,7 +9711,7 @@
   <stationId>20650</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Terrace Point 5 (TPT005)</att>
+    <att name="title">Terrace Point 5 TPT005</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9723,7 +9723,7 @@
   <stationId>20651</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Terrace Point 6 (TPT006)</att>
+    <att name="title">Terrace Point 6 TPT006</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9735,7 +9735,7 @@
   <stationId>20652</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Terrace Point 7 (TPT007)</att>
+    <att name="title">Terrace Point 7 TPT007</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9747,7 +9747,7 @@
   <stationId>20653</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Terrace Point 8 (TPT008)</att>
+    <att name="title">Terrace Point 8 TPT008</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9759,7 +9759,7 @@
   <stationId>20654</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Terrace Point 11 (TPT011)</att>
+    <att name="title">Terrace Point 11 TPT011</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9771,7 +9771,7 @@
   <stationId>20655</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Terrace Point 13 (TPT013)</att>
+    <att name="title">Terrace Point 13 TPT013</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9783,7 +9783,7 @@
   <stationId>20656</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Weston Beach, CA (WES001)</att>
+    <att name="title">Weston Beach, CA WES001</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9795,7 +9795,7 @@
   <stationId>20657</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">White Rock 1 (WRK001)</att>
+    <att name="title">White Rock 1 WRK001</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9807,7 +9807,7 @@
   <stationId>20658</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">White Rock 2 (WRK002)</att>
+    <att name="title">White Rock 2 WRK002</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9831,7 +9831,7 @@
   <stationId>20669</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(46231) Mission Bay, CA (093)</att>
+    <att name="title">46231 Mission Bay, CA 093</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9855,7 +9855,7 @@
   <stationId>20700</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(46114) West Monterey Bay - 23NM WNW of Monterey, CA</att>
+    <att name="title">46114 West Monterey Bay - 23NM WNW of Monterey, CA</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9951,7 +9951,7 @@
   <stationId>42067</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(46412) San Diego - 175 NM West of San Diego, CA</att>
+    <att name="title">46412 San Diego - 175 NM West of San Diego, CA</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -10167,7 +10167,7 @@
   <stationId>47379</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Santa Ana River entrance (inside)</att>
+    <att name="title">Santa Ana River entrance inside</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -10179,7 +10179,7 @@
   <stationId>47380</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Los Patos (highway bridge)</att>
+    <att name="title">Los Patos highway bridge</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -10263,7 +10263,7 @@
   <stationId>47387</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Mugu Lagoon (ocean pier)</att>
+    <att name="title">Mugu Lagoon ocean pier</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -10887,7 +10887,7 @@
   <stationId>47440</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">San Mateo Bridge (east end)</att>
+    <att name="title">San Mateo Bridge east end</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -10959,7 +10959,7 @@
   <stationId>47446</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Redwood Creek entrance (inside)</att>
+    <att name="title">Redwood Creek entrance inside</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -11151,7 +11151,7 @@
   <stationId>47462</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">Angel Island (west side)</att>
+    <att name="title">Angel Island west side</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -11931,7 +11931,7 @@
   <stationId>48035</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(MLSC1) Moss Landing Marine Laboratories Sea Water Station</att>
+    <att name="title">MLSC1 Moss Landing Marine Laboratories Sea Water Station</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -16179,7 +16179,7 @@
   <stationId>57099</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">NAWC32 (NAWC32)</att>
+    <att name="title">NAWC32 NAWC32</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -16191,7 +16191,7 @@
   <stationId>57104</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">N46213 (N46213)</att>
+    <att name="title">N46213 N46213</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -16203,7 +16203,7 @@
   <stationId>57107</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">N46047 (N46047)</att>
+    <att name="title">N46047 N46047</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -16215,7 +16215,7 @@
   <stationId>57114</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">N46214 (N46214)</att>
+    <att name="title">N46214 N46214</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -16227,7 +16227,7 @@
   <stationId>57123</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">NAWC31 (NAWC31)</att>
+    <att name="title">NAWC31 NAWC31</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -16239,7 +16239,7 @@
   <stationId>57126</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">NAWC33 (NAWC33)</att>
+    <att name="title">NAWC33 NAWC33</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -16251,7 +16251,7 @@
   <stationId>57136</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">N46219 (N46219)</att>
+    <att name="title">N46219 N46219</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -16263,7 +16263,7 @@
   <stationId>57149</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">N46028 (N46028)</att>
+    <att name="title">N46028 N46028</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -16275,7 +16275,7 @@
   <stationId>57150</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">N46069 (N46069)</att>
+    <att name="title">N46069 N46069</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -16287,7 +16287,7 @@
   <stationId>57157</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">N46042 (N46042)</att>
+    <att name="title">N46042 N46042</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -16323,7 +16323,7 @@
   <stationId>57292</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(46253) San Pedro South, CA - 213</att>
+    <att name="title">46253 San Pedro South, CA - 213</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -16335,7 +16335,7 @@
   <stationId>57293</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(46254) SCRIPPS Nearshore, CA (201)</att>
+    <att name="title">46254 SCRIPPS Nearshore, CA 201</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -16347,7 +16347,7 @@
   <stationId>57294</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(46255) Begg Rock, CA (138)</att>
+    <att name="title">46255 Begg Rock, CA 138</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -16359,7 +16359,7 @@
   <stationId>57295</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(46256) Long Beach Channel, CA - 215</att>
+    <att name="title">46256 Long Beach Channel, CA - 215</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -16371,7 +16371,7 @@
   <stationId>57296</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(46257) Harvest Southeast, CA - 216</att>
+    <att name="title">46257 Harvest Southeast, CA - 216</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -16383,7 +16383,7 @@
   <stationId>57505</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(ELQC1) South Marsh, Elkhorn Slough Reserve, CA</att>
+    <att name="title">ELQC1 South Marsh, Elkhorn Slough Reserve, CA</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -16395,7 +16395,7 @@
   <stationId>57506</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(EVMC1) Vierra Mouth, Elkhorn Slough Reserve, CA</att>
+    <att name="title">EVMC1 Vierra Mouth, Elkhorn Slough Reserve, CA</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -16407,7 +16407,7 @@
   <stationId>57507</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(FFFC1) First Mallard</att>
+    <att name="title">FFFC1 First Mallard</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -16419,7 +16419,7 @@
   <stationId>57509</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(GGGC1) Gallinas Creek</att>
+    <att name="title">GGGC1 Gallinas Creek</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -16431,7 +16431,7 @@
   <stationId>57523</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(RYEC1) Second Mallard</att>
+    <att name="title">RYEC1 Second Mallard</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -16443,7 +16443,7 @@
   <stationId>57526</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(SCQC1) China Camp, San Francisco Bay Reserve, CA</att>
+    <att name="title">SCQC1 China Camp, San Francisco Bay Reserve, CA</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -16455,7 +16455,7 @@
   <stationId>57532</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(TIQC1) Oneonta Slough, Tijuana River Reserve, CA</att>
+    <att name="title">TIQC1 Oneonta Slough, Tijuana River Reserve, CA</att>
     <att name="institution">CeNCOOS</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
