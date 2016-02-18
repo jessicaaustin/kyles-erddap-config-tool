@@ -23,8 +23,8 @@ for x in $(find . -name "datasets" -type d); do
     fi
 
     git add $MASTER
-    if [ -e $FOLDER/0050_regional_stations.xml ]; then
-        git add $FOLDER/0050_regional_stations.xml
+    if [ -e "$FOLDER/datasets/0050_regional_stations.xml" ]; then
+        git add $FOLDER/datasets/0050_regional_stations.xml
     fi
 
 done
