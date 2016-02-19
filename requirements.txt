@@ -1,0 +1,3 @@
+slugify
+lxml
+requests
