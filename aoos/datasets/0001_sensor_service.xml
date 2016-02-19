@@ -4,6 +4,6 @@
     <region>aoos</region>
     <portalId>-1</portalId>
     <addAttributes>
-        <att name="title">AOOS Sensor Data (Unified)</att>
+        <att name="title">(AOOS) Unified Sensor Data</att>
     </addAttributes>
 </dataset>
