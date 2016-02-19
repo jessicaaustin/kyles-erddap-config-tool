@@ -13,13 +13,16 @@ def main(outfile, region, publisher, publisher_email, institution):
         'verbose': 'true',
         'jsoncallback': 'false',
         'method': 'GetStationsResultSetRowsJSON',
-        'version': 2
+        'version': 3
     }
     r = requests.get('http://pdx.axiomalaska.com/stationsensorservice/getDataValues', params=params)
     r.raise_for_status()
+    r = r.json()
+
+    sources = r.get('sources')
 
     datasets = []
-    for s in sorted(r.json().get("stations"), key=lambda x: x['id']):
+    for s in sorted(r.get("stations"), key=lambda x: x['id']):
 
         sid = s.get('id')
 
@@ -42,6 +45,8 @@ def main(outfile, region, publisher, publisher_email, institution):
         title = etree.SubElement(atts, "att", name="title")
         title.text = label
 
+        source_id = s.get('sourceId')
+        institution = sources[str(source_id)]['label']
         instit = etree.SubElement(atts, "att", name="institution")
         instit.text = institution
 
@@ -83,7 +88,7 @@ if __name__ == "__main__":
                         default='axiom+sensors@axiomdatascience.com',
                         nargs='?')
     parser.add_argument('-i', '--institution',
-                        help="Institution (defaults to 'Axiom Data Science')",
+                        help="Default Institution (defaults to 'Axiom Data Science') if one can't be found",
                         default='Axiom Data Science',
                         nargs='?')
     args = parser.parse_args()
