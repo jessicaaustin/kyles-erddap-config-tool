@@ -24,13 +24,13 @@ def main(outfile, region, publisher, publisher_email, institution):
     datasets = []
     for s in sorted(r.get("stations"), key=lambda x: x['id']):
 
-        sid = s.get('id')
-
-        dataset = etree.Element("dataset", type="EDDTableFromAxiomStation", datasetID="station_{}".format(sid))
+        urn = s.get('urn')
+        dataset = etree.Element("dataset", type="EDDTableFromAxiomStation", datasetID=urn)
 
         source = etree.SubElement(dataset, "sourceUrl")
         source.text = 'http://pdx.axiomalaska.com/stationsensorservice/'
 
+        sid = s.get('id')
         station = etree.SubElement(dataset, "stationId")
         station.text = str(sid)
 
