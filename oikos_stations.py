@@ -6,7 +6,7 @@ import requests
 from lxml import etree
 
 
-def main(outfile, region, publisher, publisher_email, institution):
+def main(outfile, region, publisher, publisher_email, institution, publishers):
 
     params = {
         'appregion': region,
@@ -26,6 +26,9 @@ def main(outfile, region, publisher, publisher_email, institution):
 
     datasets = []
     for s in sorted(r.get("stations"), key=lambda x: x['id']):
+
+        if publishers and s.get('publisherId') not in publishers:
+            continue
 
         urn = slug(s.get('urn').replace('urn:ioos:station:', ''))
         dataset = etree.Element("dataset", type="EDDTableFromAxiomStation", datasetID=urn)
@@ -101,6 +104,10 @@ if __name__ == "__main__":
                         help="Default Institution (defaults to 'Axiom Data Science') if one can't be found",
                         default='Axiom Data Science',
                         nargs='?')
+    parser.add_argument('-d', '--publishers',
+                        help="Subset by these provider IDs",
+                        default=[],
+                        nargs='*')
     args = parser.parse_args()
 
-    main(args.output, args.region, args.publisher, args.publisher_email, args.institution)
+    main(args.output, args.region, args.publisher, args.publisher_email, args.institution, args.publishers)
