@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 import argparse
 
+from slugify import UniqueSlugify
 import requests
 from lxml import etree
 
@@ -21,10 +22,12 @@ def main(outfile, region, publisher, publisher_email, institution):
 
     sources = r.get('sources')
 
+    slug = UniqueSlugify(separator='_', to_lower=True)
+
     datasets = []
     for s in sorted(r.get("stations"), key=lambda x: x['id']):
 
-        urn = s.get('urn')
+        urn = slug(s.get('urn').replace('urn:ioos:station:', ''))
         dataset = etree.Element("dataset", type="EDDTableFromAxiomStation", datasetID=urn)
 
         source = etree.SubElement(dataset, "sourceUrl")
