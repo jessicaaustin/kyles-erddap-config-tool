@@ -1,0 +1,34 @@
+#!/bin/bash
+
+# Generate regional stations
+python oikos_stations.py -r cencoos -o cencoos/datasets/0050_regional_stations.xml -p CeNCOOS -e jpatterson@mbari.org -i CeNCOOS
+python oikos_stations.py -r secoora -o secoora/datasets/0050_regional_stations.xml -p SECOORA -e vembu@secoora.org -i SECOORA
+python oikos_stations.py -r aoos -o aoos/datasets/0050_regional_stations.xml -p AOOS -i AOOS
+
+
+# This merges all of the individual dataset XML files in a single datasets.xml
+# file to be used in ERDDAP.
+for x in $(find . -name "datasets" -type d); do
+
+    FOLDER=$(dirname $x)
+    TMP=$FOLDER/datasets.tmp
+    MASTER=$FOLDER/datasets.xml
+
+    if [ -e $TMP ]; then
+        rm -f $TMP  # Clear file
+    fi
+    for x in $(find $FOLDER -regextype posix-extended -regex '.*[0-9]{4}_.*\.xml' -type f | sort); do
+        cat $x >> $TMP  # Append contents
+    done
+
+    if [ -e $TMP ]; then
+        xmllint --format $TMP --noblanks --output $MASTER
+        rm $TMP
+    fi
+
+    #git add $MASTER
+    #if [ -e "$FOLDER/datasets/0050_regional_stations.xml" ]; then
+    #    git add $FOLDER/datasets/0050_regional_stations.xml
+    #fi
+
+done
