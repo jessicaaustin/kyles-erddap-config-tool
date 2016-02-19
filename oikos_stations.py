@@ -50,6 +50,13 @@ def main(outfile, region, publisher, publisher_email, institution):
         instit = etree.SubElement(atts, "att", name="institution")
         instit.text = institution
 
+        try:
+            url = sources[str(source_id)]['url']
+            infourl = etree.SubElement(atts, "att", name="infoUrl")
+            infourl.text = url
+        except KeyError:
+            pass
+
         pubname = etree.SubElement(atts, "att", name="publisher_name")
         pubname.text = publisher
 
