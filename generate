@@ -25,6 +25,12 @@ python oikos_stations.py \
     -i AOOS \
     -t "(AOOS)"
 
+python oikos_stations.py \
+    -r all \
+    -o all/datasets/0050_regional_stations.xml \
+    -p Axiom \
+    -i Axiom
+
 # This merges all of the individual dataset XML files in a single datasets.xml
 # file to be used in ERDDAP.
 for x in $(find . -name "datasets" -type d); do
