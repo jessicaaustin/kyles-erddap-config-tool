@@ -51,7 +51,7 @@ Whether or not you set up the email system, all potential email messages
 are logged to an emailLogYEAR-MONTH.txt file in the bigParentDirectory.
 -->
 <emailEverythingTo>axiom+cencoos.erddap@axiomdatascience.com</emailEverythingTo>
-<emailDailyReportsTo>axiom+cencoos.erddap@axiomdatascience.com</emailDailyReportsTo>
+<emailDailyReportsTo></emailDailyReportsTo>
 
 <!-- This lets you specify a regular expression which determines which datasetIDs
 in the datasets.xml file should be loaded.
