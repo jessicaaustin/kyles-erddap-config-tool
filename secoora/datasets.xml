@@ -26,7 +26,7 @@
       <att name="project">FWCFWRI</att>
       <att name="publisher_name">Vembu Subramanian</att>
       <att name="publisher_email">vembu@secoora.org</att>
-      <att name="title">FWCFWRI Fisheries Independent Monitoring Data</att>
+      <att name="title">(SECOORA) FWCFWRI Fisheries Independent Monitoring Data</att>
       <att name="sourceUrl">(local files)</att>
       <att name="cdm_data_type">Point</att>
       <att name="Conventions">COARDS, CF-1.0, Unidata Dataset Discovery v1.0</att>
@@ -994,7 +994,7 @@
       <att name="project">MARMAP</att>
       <att name="publisher_name">Vembu Subramanian</att>
       <att name="publisher_email">vembu@secoora.org</att>
-      <att name="title">MARMAP Chevron Trap Species Collections</att>
+      <att name="title">(SECOORA) MARMAP Chevron Trap Species Collections</att>
       <att name="sourceUrl">(local files)</att>
       <att name="cdm_data_type">Point</att>
       <att name="Conventions">COARDS, CF-1.0, Unidata Dataset Discovery v1.0</att>
@@ -51925,7 +51925,7 @@
     <stationId>60375</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">Indian River Lagoon - Link Port IRL-LP</att>
+      <att name="title">(SECOORA) Indian River Lagoon - Link Port IRL-LP</att>
       <att name="institution">Florida Atlantic University</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -51936,7 +51936,7 @@
     <stationId>60377</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">Indian River Lagoon - Jensen Beach IRL-JB</att>
+      <att name="title">(SECOORA) Indian River Lagoon - Jensen Beach IRL-JB</att>
       <att name="institution">Florida Atlantic University</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -51947,7 +51947,7 @@
     <stationId>60378</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">Indian River Lagoon - St. Lucie Estuary IRL-SLE</att>
+      <att name="title">(SECOORA) Indian River Lagoon - St. Lucie Estuary IRL-SLE</att>
       <att name="institution">Florida Atlantic University</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -51958,7 +51958,7 @@
     <stationId>60379</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">St. Lucie Estuary - Middle Estuary SLE-ME</att>
+      <att name="title">(SECOORA) St. Lucie Estuary - Middle Estuary SLE-ME</att>
       <att name="institution">Florida Atlantic University</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -51969,7 +51969,7 @@
     <stationId>60380</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">St. Lucie Estuary - North Fork SLE-NF</att>
+      <att name="title">(SECOORA) St. Lucie Estuary - North Fork SLE-NF</att>
       <att name="institution">Florida Atlantic University</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -51980,7 +51980,7 @@
     <stationId>60381</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">Indian River Lagoon - Fort Pierce IRL-FP</att>
+      <att name="title">(SECOORA) Indian River Lagoon - Fort Pierce IRL-FP</att>
       <att name="institution">Florida Atlantic University</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -51991,7 +51991,7 @@
     <stationId>60382</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">Indian River Lagoon - Vero Beach IRL-VB</att>
+      <att name="title">(SECOORA) Indian River Lagoon - Vero Beach IRL-VB</att>
       <att name="institution">Florida Atlantic University</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -52002,7 +52002,7 @@
     <stationId>60383</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">Indian River Lagoon - Sebastian IRL-SB</att>
+      <att name="title">(SECOORA) Indian River Lagoon - Sebastian IRL-SB</att>
       <att name="institution">Florida Atlantic University</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -52013,7 +52013,7 @@
     <stationId>60384</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">St. Lucie Estuary - South Fork SLE-SF</att>
+      <att name="title">(SECOORA) St. Lucie Estuary - South Fork SLE-SF</att>
       <att name="institution">Florida Atlantic University</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -52024,7 +52024,7 @@
     <stationId>60386</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">42023 - C13 - WFS South Buoy, 50m Isobath</att>
+      <att name="title">(SECOORA) 42023 - C13 - WFS South Buoy, 50m Isobath</att>
       <att name="institution">USF CMS - Coastal Ocean Monitoring and Prediction System</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -52035,7 +52035,7 @@
     <stationId>60387</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">42013 - C10 - WFS Central Buoy, 25m Isobath</att>
+      <att name="title">(SECOORA) 42013 - C10 - WFS Central Buoy, 25m Isobath</att>
       <att name="institution">USF CMS - Coastal Ocean Monitoring and Prediction System</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
@@ -52046,7 +52046,7 @@
     <stationId>60388</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">42022 - C12 - WFS Central Buoy, 50m Isobath</att>
+      <att name="title">(SECOORA) 42022 - C12 - WFS Central Buoy, 50m Isobath</att>
       <att name="institution">USF CMS - Coastal Ocean Monitoring and Prediction System</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>

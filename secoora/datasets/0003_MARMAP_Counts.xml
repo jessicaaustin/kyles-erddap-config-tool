@@ -14,7 +14,7 @@
         <att name="project">MARMAP</att>
         <att name="publisher_name">Vembu Subramanian</att>
         <att name="publisher_email">vembu@secoora.org</att>
-        <att name="title">MARMAP Chevron Trap Species Collections</att>
+        <att name="title">(SECOORA) MARMAP Chevron Trap Species Collections</att>
         <att name="sourceUrl">(local files)</att>
         <att name="cdm_data_type">Point</att>
         <att name="Conventions">COARDS, CF-1.0, Unidata Dataset Discovery v1.0</att>

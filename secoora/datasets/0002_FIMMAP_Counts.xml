@@ -14,7 +14,7 @@
         <att name="project">FWCFWRI</att>
         <att name="publisher_name">Vembu Subramanian</att>
         <att name="publisher_email">vembu@secoora.org</att>
-        <att name="title">FWCFWRI Fisheries Independent Monitoring Data</att>
+        <att name="title">(SECOORA) FWCFWRI Fisheries Independent Monitoring Data</att>
         <att name="sourceUrl">(local files)</att>
         <att name="cdm_data_type">Point</att>
         <att name="Conventions">COARDS, CF-1.0, Unidata Dataset Discovery v1.0</att>

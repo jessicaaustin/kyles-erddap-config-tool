@@ -16,6 +16,7 @@ python oikos_stations.py \
     -p SECOORA \
     -e vembu@secoora.org \
     -i SECOORA \
+    -l 60375 60377 60378 60379 60380 60381 60382 60383 60384 60386 60387 60388 \
     -t "(SECOORA)"
 
 python oikos_stations.py \
