@@ -31,6 +31,14 @@ python oikos_stations.py \
     -p Axiom \
     -i Axiom
 
+python oikos_stations.py \
+    -r all \
+    -o usgs-cmg/datasets/0050_regional_stations.xml \
+    -p "USGS Coastal and Marine Geology Program" \
+    -e rsignell@usgs.gov \
+    -i "USGS Coastal and Marine Geology Program" \
+    -d 86
+
 # This merges all of the individual dataset XML files in a single datasets.xml
 # file to be used in ERDDAP.
 for x in $(find . -name "datasets" -type d); do

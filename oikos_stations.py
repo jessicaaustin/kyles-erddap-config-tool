@@ -12,6 +12,9 @@ def main(outfile, region, publisher, publisher_email, institution, publishers, h
     if highlight:
         highlight = [ int(x) for x in highlight ]
 
+    if publishers:
+        publishers = [ int(x) for x in publishers ]
+
     params = {
         'appregion': region,
         'realtimeonly': 'false',
