@@ -6,7 +6,11 @@ import requests
 from lxml import etree
 
 
-def main(outfile, region, publisher, publisher_email, institution, publishers):
+def main(outfile, region, publisher, publisher_email, institution, publishers, highlight, highlight_title):
+
+    # Convert highlight list to ints
+    if highlight:
+        highlight = [ int(x) for x in highlight ]
 
     params = {
         'appregion': region,
@@ -48,6 +52,8 @@ def main(outfile, region, publisher, publisher_email, institution, publishers):
 
         label = s.get('label')
         label = label.replace('(', '').replace(')', '')
+        if sid in highlight:
+            label = '{} {}'.format(highlight_title, label)
         title = etree.SubElement(atts, "att", name="title")
         title.text = label
 
@@ -108,6 +114,14 @@ if __name__ == "__main__":
                         help="Subset by these provider IDs",
                         default=[],
                         nargs='*')
+    parser.add_argument('-l', '--highlight',
+                        help="Put these stations at the top",
+                        default=[],
+                        nargs='*')
+    parser.add_argument('-t', '--highlight_title',
+                        help="Use this for the highlight title",
+                        default='*',
+                        nargs='?')
     args = parser.parse_args()
 
-    main(args.output, args.region, args.publisher, args.publisher_email, args.institution, args.publishers)
+    main(args.output, args.region, args.publisher, args.publisher_email, args.institution, args.publishers, args.highlight, args.highlight_title)

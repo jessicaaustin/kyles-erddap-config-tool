@@ -10,186 +10,6 @@
       <att name="title">(CeNCOOS) Unified Sensor Data</att>
     </addAttributes>
   </dataset>
-  <dataset type="EDDTableFromAxiomStation" datasetID="cencoos_station_20679">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>20679</stationId>
-    <addAttributes>
-      <att name="title">(CeNCOOS) Morro Bay - T Pier</att>
-      <!--att name="creator_name"></att>
-        <att name="creator_email"></att>
-        <att name="contributor_name"></att>
-        <att name="infoUrl"><att>
-        <att name="project"></att-->
-      <att name="institution">CeNCOOS</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset type="EDDTableFromAxiomStation" datasetID="cencoos_station_20542">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>20542</stationId>
-    <addAttributes>
-      <att name="title">(CeNCOOS) Tiburon Pier, San Francisco Bay, CA</att>
-      <!--att name="creator_name"></att>
-        <att name="creator_email"></att>
-        <att name="contributor_name"></att>
-        <att name="infoUrl"><att>
-        <att name="project"></att-->
-      <att name="institution">CeNCOOS</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset type="EDDTableFromAxiomStation" datasetID="cencoos_station_20063">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>20063</stationId>
-    <addAttributes>
-      <att name="title">(CeNCOOS) King Island Buoy</att>
-      <!--att name="creator_name"></att>
-        <att name="creator_email"></att>
-        <att name="contributor_name"></att>
-        <att name="infoUrl"><att>
-        <att name="project"></att-->
-      <att name="institution">CeNCOOS</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset type="EDDTableFromAxiomStation" datasetID="cencoos_station_20523">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>20523</stationId>
-    <addAttributes>
-      <att name="title">(CeNCOOS) HBC</att>
-      <!--att name="creator_name"></att>
-        <att name="creator_email"></att>
-        <att name="contributor_name"></att>
-        <att name="infoUrl"><att>
-        <att name="project"></att-->
-      <att name="institution">CeNCOOS</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset type="EDDTableFromAxiomStation" datasetID="cencoos_station_20363">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>20363</stationId>
-    <addAttributes>
-      <att name="title">(CeNCOOS) Humboldt</att>
-      <!--att name="creator_name"></att>
-        <att name="creator_email"></att>
-        <att name="contributor_name"></att>
-        <att name="infoUrl"><att>
-        <att name="project"></att-->
-      <att name="institution">CeNCOOS</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset type="EDDTableFromAxiomStation" datasetID="cencoos_station_20362">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>20362</stationId>
-    <addAttributes>
-      <att name="title">(CeNCOOS) Monterey</att>
-      <!--att name="creator_name"></att>
-        <att name="creator_email"></att>
-        <att name="contributor_name"></att>
-        <att name="infoUrl"><att>
-        <att name="project"></att-->
-      <att name="institution">CeNCOOS</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset type="EDDTableFromAxiomStation" datasetID="cencoos_station_20358">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>20358</stationId>
-    <addAttributes>
-      <att name="title">(CeNCOOS) Tiburon</att>
-      <!--att name="creator_name"></att>
-        <att name="creator_email"></att>
-        <att name="contributor_name"></att>
-        <att name="infoUrl"><att>
-        <att name="project"></att-->
-      <att name="institution">CeNCOOS</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset type="EDDTableFromAxiomStation" datasetID="cencoos_station_20366">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>20366</stationId>
-    <addAttributes>
-      <att name="title">(CeNCOOS) Bodega</att>
-      <!--att name="creator_name"></att>
-        <att name="creator_email"></att>
-        <att name="contributor_name"></att>
-        <att name="infoUrl"><att>
-        <att name="project"></att-->
-      <att name="institution">CeNCOOS</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset type="EDDTableFromAxiomStation" datasetID="cencoos_station_20357">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>20357</stationId>
-    <addAttributes>
-      <att name="title">(CeNCOOS) Trinidad</att>
-      <!--att name="creator_name"></att>
-        <att name="creator_email"></att>
-        <att name="contributor_name"></att>
-        <att name="infoUrl"><att>
-        <att name="project"></att-->
-      <att name="institution">CeNCOOS</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset type="EDDTableFromAxiomStation" datasetID="cencoos_station_20364">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>20364</stationId>
-    <addAttributes>
-      <att name="title">(CeNCOOS) Fort Point</att>
-      <!--att name="creator_name"></att>
-        <att name="creator_email"></att>
-        <att name="contributor_name"></att>
-        <att name="infoUrl"><att>
-        <att name="project"></att-->
-      <att name="institution">CeNCOOS</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset type="EDDTableFromAxiomStation" datasetID="cencoos_station_48035">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>48035</stationId>
-    <addAttributes>
-      <att name="title">(CeNCOOS) Moss Landing Marine Laboratories Sea Water Station</att>
-      <!--att name="creator_name"></att>
-        <att name="creator_email"></att>
-        <att name="contributor_name"></att>
-        <att name="infoUrl"><att>
-        <att name="project"></att-->
-      <att name="institution">Moss Landing Marine Laboratories</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset type="EDDTableFromAxiomStation" datasetID="cencoos_station_20365">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>20365</stationId>
-    <addAttributes>
-      <att name="title">(CeNCOOS) Carquinez</att>
-      <!--att name="creator_name"></att>
-        <att name="creator_email"></att>
-        <att name="contributor_name"></att>
-        <att name="infoUrl"><att>
-        <att name="project"></att-->
-      <att name="institution">CeNCOOS</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="gov_noaa_water_ydrc1" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>15882</stationId>
@@ -8258,7 +8078,7 @@
     <stationId>20357</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">TDPC1 Trinidad</att>
+      <att name="title">(CeNCOOS) TDPC1 Trinidad</att>
       <att name="institution">Central &amp; Northern California Ocean Observing System (CeNCOOS)</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8269,7 +8089,7 @@
     <stationId>20358</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">TIBC1 Tiburon</att>
+      <att name="title">(CeNCOOS) TIBC1 Tiburon</att>
       <att name="institution">Central &amp; Northern California Ocean Observing System (CeNCOOS)</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8302,7 +8122,7 @@
     <stationId>20362</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">Monterey</att>
+      <att name="title">(CeNCOOS) Monterey</att>
       <att name="institution">Central &amp; Northern California Ocean Observing System (CeNCOOS)</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8313,7 +8133,7 @@
     <stationId>20363</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">Humboldt</att>
+      <att name="title">(CeNCOOS) Humboldt</att>
       <att name="institution">Central &amp; Northern California Ocean Observing System (CeNCOOS)</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8324,7 +8144,7 @@
     <stationId>20364</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">Fort Point</att>
+      <att name="title">(CeNCOOS) Fort Point</att>
       <att name="institution">University of California Davis, Bodega Marine Laboratory</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8335,7 +8155,7 @@
     <stationId>20365</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">Carquinez</att>
+      <att name="title">(CeNCOOS) Carquinez</att>
       <att name="institution">Central &amp; Northern California Ocean Observing System (CeNCOOS)</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8346,7 +8166,7 @@
     <stationId>20366</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">Bodega</att>
+      <att name="title">(CeNCOOS) Bodega</att>
       <att name="institution">University of California Davis, Bodega Marine Laboratory</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8368,7 +8188,7 @@
     <stationId>20523</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">HBC</att>
+      <att name="title">(CeNCOOS) HBC</att>
       <att name="institution">Humboldt State University</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8445,7 +8265,7 @@
     <stationId>20542</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">Tiburon Pier, San Francisco Bay, CA TIBC1</att>
+      <att name="title">(CeNCOOS) Tiburon Pier, San Francisco Bay, CA TIBC1</att>
       <att name="institution">San Francisco State University CMA</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9215,7 +9035,7 @@
     <stationId>20679</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">Morro Bay - T Pier</att>
+      <att name="title">(CeNCOOS) Morro Bay - T Pier</att>
       <att name="institution">California Polytechnic State University, Center for Coastal Marine Sciences</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -11129,7 +10949,7 @@
     <stationId>48035</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">MLSC1 Moss Landing Marine Laboratories Sea Water Station</att>
+      <att name="title">(CeNCOOS) MLSC1 Moss Landing Marine Laboratories Sea Water Station</att>
       <att name="institution">Moss Landing Marine Laboratories (MLML)</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>

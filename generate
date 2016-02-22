@@ -1,10 +1,29 @@
 #!/bin/bash
 
 # Generate regional stations
-python oikos_stations.py -r cencoos -o cencoos/datasets/0050_regional_stations.xml -p CeNCOOS -e jpatterson@mbari.org -i CeNCOOS
-python oikos_stations.py -r secoora -o secoora/datasets/0050_regional_stations.xml -p SECOORA -e vembu@secoora.org -i SECOORA
-python oikos_stations.py -r aoos -o aoos/datasets/0050_regional_stations.xml -p AOOS -i AOOS
+python oikos_stations.py \
+    -r cencoos \
+    -o cencoos/datasets/0050_regional_stations.xml \
+    -p CeNCOOS \
+    -e jpatterson@mbari.org \
+    -i CeNCOOS \
+    -l 20679 20542 20063 20523 20363 20362 20358 20366 20357 20364 48035 20365 \
+    -t "(CeNCOOS)"
 
+python oikos_stations.py \
+    -r secoora \
+    -o secoora/datasets/0050_regional_stations.xml \
+    -p SECOORA \
+    -e vembu@secoora.org \
+    -i SECOORA \
+    -t "(SECOORA)"
+
+python oikos_stations.py \
+    -r aoos \
+    -o aoos/datasets/0050_regional_stations.xml \
+    -p AOOS \
+    -i AOOS \
+    -t "(AOOS)"
 
 # This merges all of the individual dataset XML files in a single datasets.xml
 # file to be used in ERDDAP.
