@@ -16296,18 +16296,6 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="gov_usgs_waterdata_02481661" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>28634</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">TRIBUTARY TO BAYOU LASALLE NEAR VIDALIA, MS</att>
-      <att name="institution">USGS National Water Information System (NWIS)</att>
-      <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="gov_usgs_waterdata_021989791" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>28643</stationId>
@@ -24084,18 +24072,6 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="gov_usgs_waterdata_0248166310" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>32773</stationId>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">MILL CREEK AT FENTON, MS</att>
-      <att name="institution">USGS National Water Information System (NWIS)</att>
-      <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="gov_usgs_waterdata_02098198" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>32774</stationId>
@@ -29766,6 +29742,18 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Ocmulgee River at Lumber City Georgia</att>
+      <att name="institution">NOAA Water</att>
+      <att name="infoUrl">http://water.weather.gov/ahps/index.php</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_noaa_water_lawg1" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>35183</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Pew Creek near Lawrenceville Georgia</att>
       <att name="institution">NOAA Water</att>
       <att name="infoUrl">http://water.weather.gov/ahps/index.php</att>
       <att name="publisher_name">SECOORA</att>
@@ -54588,6 +54576,18 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="gov_usgs_cmgp_nearshore_865" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>56907</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">NEARSHORE - 865</att>
+      <att name="institution">USGS Coastal and Marine Geology Program</att>
+      <att name="infoUrl">http://marine.usgs.gov/</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="gov_usgs_cmgp_myrtlebeach_742" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>56912</stationId>
@@ -55967,6 +55967,282 @@
       <att name="title">(SECOORA) 42022 - C12 - WFS Central Buoy, 50m Isobath</att>
       <att name="institution">USF CMS - Coastal Ocean Monitoring and Prediction System</att>
       <att name="infoUrl">http://comps.marine.usf.edu/</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="edu_ccu_lbos_2nd_ave_pier" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60395</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">(SECOORA) 2nd Avenue Pier</att>
+      <att name="institution">Long Bay Observation System</att>
+      <att name="infoUrl">http://bccmws.coastal.edu/lbos/</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="edu_ccu_lbos_apache" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60396</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">(SECOORA) Apache Pier</att>
+      <att name="institution">Long Bay Observation System</att>
+      <att name="infoUrl">http://bccmws.coastal.edu/lbos/</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="edu_ccu_lbos_cherry_grove" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60397</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">(SECOORA) Cherry Grove Pier</att>
+      <att name="institution">Long Bay Observation System</att>
+      <att name="infoUrl">http://bccmws.coastal.edu/lbos/</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_fl_fldep_8728732" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60398</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">(SECOORA) Pilot&#8217;s Cove, Apalachicola Bay</att>
+      <att name="institution">Florida Department of Environmental Protection</att>
+      <att name="infoUrl">http://fldep-stevens.com/</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_fl_fldep_8720757" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60399</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">(SECOORA) Bing's Landing, Matanzas River</att>
+      <att name="institution">Florida Department of Environmental Protection</att>
+      <att name="infoUrl">http://fldep-stevens.com/</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_fl_fldep_8722213" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60400</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">(SECOORA) Binney Dock, Ft. Pierce Inlet</att>
+      <att name="institution">Florida Department of Environmental Protection</att>
+      <att name="infoUrl">http://fldep-stevens.com/</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_fl_fldep_8728744" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60401</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">(SECOORA) Dry Bar, Apalachicola Bay</att>
+      <att name="institution">Florida Department of Environmental Protection</att>
+      <att name="infoUrl">http://fldep-stevens.com/</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_fl_fldep_8728603" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60403</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">(SECOORA) East Bay</att>
+      <att name="institution">Florida Department of Environmental Protection</att>
+      <att name="infoUrl">http://fldep-stevens.com/</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_fl_fldep_8728703" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60405</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">(SECOORA) Little St. Marks River</att>
+      <att name="institution">Florida Department of Environmental Protection</att>
+      <att name="infoUrl">http://fldep-stevens.com/</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_fl_fldep_8721843" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60406</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">(SECOORA) Melbourne, Indian River, ICW</att>
+      <att name="institution">Florida Department of Environmental Protection</att>
+      <att name="infoUrl">http://fldep-stevens.com/</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_fl_fldep_8725114" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60407</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">(SECOORA) Naples Bay, North</att>
+      <att name="institution">Florida Department of Environmental Protection</att>
+      <att name="infoUrl">http://fldep-stevens.com/</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_fl_fldep_8721147" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60408</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">(SECOORA) Ponce de Leon South, Florida</att>
+      <att name="institution">Florida Department of Environmental Protection</att>
+      <att name="infoUrl">http://fldep-stevens.com/</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_fl_fldep_8722375" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60410</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">(SECOORA) St. Lucie Inlet</att>
+      <att name="institution">Florida Department of Environmental Protection</att>
+      <att name="infoUrl">http://fldep-stevens.com/</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_fl_fldep_8720494" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60411</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">(SECOORA) Tolomato River, ICW</att>
+      <att name="institution">Florida Department of Environmental Protection</att>
+      <att name="infoUrl">http://fldep-stevens.com/</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_fl_fldep_8720554" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60415</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">(SECOORA) Vilano Beach, ICW</att>
+      <att name="institution">Florida Department of Environmental Protection</att>
+      <att name="infoUrl">http://fldep-stevens.com/</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="edu_fit_sipf1" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60416</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">(SECOORA) SIPF1</att>
+      <att name="institution">Florida Institute Of Technology</att>
+      <att name="infoUrl">http://research.fit.edu/wave-data/realtime-data.php</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="org_cormp_cap2" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60417</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">(SECOORA) cap2</att>
+      <att name="institution">Coastal Ocean Research and Monitoring Program</att>
+      <att name="infoUrl">http://www.cormp.org/index.php</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="org_cormp_frp2" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60418</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">(SECOORA) frp2</att>
+      <att name="institution">Coastal Ocean Research and Monitoring Program</att>
+      <att name="infoUrl">http://www.cormp.org/index.php</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="org_cormp_ilm2" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60419</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">(SECOORA) ilm2</att>
+      <att name="institution">Coastal Ocean Research and Monitoring Program</att>
+      <att name="infoUrl">http://www.cormp.org/index.php</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="org_cormp_ilm2wave" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60420</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">(SECOORA) ilm2wave</att>
+      <att name="institution">Coastal Ocean Research and Monitoring Program</att>
+      <att name="infoUrl">http://www.cormp.org/index.php</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="org_cormp_ilm3" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60421</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">(SECOORA) ilm3</att>
+      <att name="institution">Coastal Ocean Research and Monitoring Program</att>
+      <att name="infoUrl">http://www.cormp.org/index.php</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="org_cormp_lej3wave" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60423</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">(SECOORA) lej3wave</att>
+      <att name="institution">Coastal Ocean Research and Monitoring Program</att>
+      <att name="infoUrl">http://www.cormp.org/index.php</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="org_cormp_sun2" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60424</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">(SECOORA) sun2</att>
+      <att name="institution">Coastal Ocean Research and Monitoring Program</att>
+      <att name="infoUrl">http://www.cormp.org/index.php</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>

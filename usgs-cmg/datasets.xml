@@ -5821,6 +5821,18 @@
       <att name="publisher_email">rsignell@usgs.gov</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="gov_usgs_cmgp_nearshore_865" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>56907</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">NEARSHORE - 865</att>
+      <att name="institution">USGS Coastal and Marine Geology Program</att>
+      <att name="infoUrl">http://marine.usgs.gov/</att>
+      <att name="publisher_name">USGS Coastal and Marine Geology Program</att>
+      <att name="publisher_email">rsignell@usgs.gov</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="gov_usgs_cmgp_barnegat_977" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>56908</stationId>
@@ -8095,6 +8107,78 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">MOBILE_BAY - 350</att>
+      <att name="institution">USGS Coastal and Marine Geology Program</att>
+      <att name="infoUrl">http://marine.usgs.gov/</att>
+      <att name="publisher_name">USGS Coastal and Marine Geology Program</att>
+      <att name="publisher_email">rsignell@usgs.gov</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_usgs_cmgp_barnegat_2014_1042" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60389</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">BARNEGAT_2014 - 1042</att>
+      <att name="institution">USGS Coastal and Marine Geology Program</att>
+      <att name="infoUrl">http://marine.usgs.gov/</att>
+      <att name="publisher_name">USGS Coastal and Marine Geology Program</att>
+      <att name="publisher_email">rsignell@usgs.gov</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_usgs_cmgp_barnegat_2014_1041" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60390</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">BARNEGAT_2014 - 1041</att>
+      <att name="institution">USGS Coastal and Marine Geology Program</att>
+      <att name="infoUrl">http://marine.usgs.gov/</att>
+      <att name="publisher_name">USGS Coastal and Marine Geology Program</att>
+      <att name="publisher_email">rsignell@usgs.gov</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_usgs_cmgp_barnegat_2014_1014" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60391</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">BARNEGAT_2014 - 1014</att>
+      <att name="institution">USGS Coastal and Marine Geology Program</att>
+      <att name="infoUrl">http://marine.usgs.gov/</att>
+      <att name="publisher_name">USGS Coastal and Marine Geology Program</att>
+      <att name="publisher_email">rsignell@usgs.gov</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_usgs_cmgp_barnegat_2014_1015" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60392</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">BARNEGAT_2014 - 1015</att>
+      <att name="institution">USGS Coastal and Marine Geology Program</att>
+      <att name="infoUrl">http://marine.usgs.gov/</att>
+      <att name="publisher_name">USGS Coastal and Marine Geology Program</att>
+      <att name="publisher_email">rsignell@usgs.gov</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_usgs_cmgp_barnegat_2014_1017" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60393</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">BARNEGAT_2014 - 1017</att>
+      <att name="institution">USGS Coastal and Marine Geology Program</att>
+      <att name="infoUrl">http://marine.usgs.gov/</att>
+      <att name="publisher_name">USGS Coastal and Marine Geology Program</att>
+      <att name="publisher_email">rsignell@usgs.gov</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_usgs_cmgp_barnegat_2014_1016" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60394</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">BARNEGAT_2014 - 1016</att>
       <att name="institution">USGS Coastal and Marine Geology Program</att>
       <att name="infoUrl">http://marine.usgs.gov/</att>
       <att name="publisher_name">USGS Coastal and Marine Geology Program</att>
