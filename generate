@@ -17,6 +17,8 @@ python oikos_stations.py \
     -e vembu@secoora.org \
     -i SECOORA \
     -l 60375 60377 60378 60379 60380 60381 60382 60383 60384 60386 60387 60388 \
+60395 60396 60397 60398 60399 60400 60401 60403 60405 60406 60407 60408 60410 \
+60411 60415 60416 60417 60418 60419 60420 60421 60423 60424 \
     -t "(SECOORA)"
 
 python oikos_stations.py \
@@ -59,10 +61,4 @@ for x in $(find . -name "datasets" -type d); do
         xmllint --format $TMP --noblanks --output $MASTER
         rm $TMP
     fi
-
-    #git add $MASTER
-    #if [ -e "$FOLDER/datasets/0050_regional_stations.xml" ]; then
-    #    git add $FOLDER/datasets/0050_regional_stations.xml
-    #fi
-
 done
