@@ -42,6 +42,26 @@ python oikos_stations.py \
     -i "USGS Coastal and Marine Geology Program" \
     -d 86
 
+# Gliders
+python gliders.py \
+    ioos \
+    -o cencoos/datasets/0070_line_67_gliders.xml \
+    -n sp028-20140605T170300 sp011-20140923T0000 sp030-20150109T2113 \
+sp011-20150427T1749 sp025-20150813T1746 sp028-20151124T1741 \
+    -t "(CeNCOOS) Line 67 Glider"
+
+python gliders.py \
+    ioos \
+    -o cencoos/datasets/0071_trinidad_gliders.xml \
+    -n UW157-20141116T2118 UW130-20150309T2005 UW157-20150917T1833 \
+    -t "(CeNCOOS) Trinidad Glider"
+
+python gliders.py \
+    ioos \
+    -o cencoos/datasets/0072_monterey_bay_gliders.xml \
+    -n UCSC294-20150430T2218 UCSC260-20150520T0000 \
+    -t "(CeNCOOS) Monterey Bay"
+
 # This merges all of the individual dataset XML files in a single datasets.xml
 # file to be used in ERDDAP.
 for x in $(find . -name "datasets" -type d); do
