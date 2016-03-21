@@ -1,9 +1,9 @@
-<dataset type="EDDTableFromNcCFFiles" datasetID="ucsc294_20150430t2218">
+<dataset type="EDDTableFromNcCFFiles" datasetID="ucsc260_20150520t0000">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/mnt/gluster/data/netCDF/gliders/download/ioos_dac</fileDir>
-    <fileNameRegex>UCSC294-20150430T2218.nc</fileNameRegex>
+    <fileNameRegex>UCSC260-20150520T0000.nc</fileNameRegex>
     <addAttributes>
-        <att name="title">(CeNCOOS) Monterey Bay - UCSC294-20150430T2218</att>
+        <att name="title">(CeNCOOS) Monterey Bay - UCSC260-20150520T0000</att>
     </addAttributes>
     <dataVariable><sourceName>trajectory</sourceName><destinationName>trajectory</destinationName><dataType>String</dataType></dataVariable>
     <dataVariable><sourceName>wmo_id</sourceName><destinationName>wmo_id</destinationName><dataType>String</dataType></dataVariable>
@@ -46,12 +46,12 @@
     <dataVariable><sourceName>instrument_ctd</sourceName><destinationName>instrument_ctd</destinationName><dataType>byte</dataType></dataVariable>
 </dataset>
 
-<dataset type="EDDTableFromNcCFFiles" datasetID="ucsc260_20150520t0000">
+<dataset type="EDDTableFromNcCFFiles" datasetID="ucsc294_20150430t2218">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/mnt/gluster/data/netCDF/gliders/download/ioos_dac</fileDir>
-    <fileNameRegex>UCSC260-20150520T0000.nc</fileNameRegex>
+    <fileNameRegex>UCSC294-20150430T2218.nc</fileNameRegex>
     <addAttributes>
-        <att name="title">(CeNCOOS) Monterey Bay - UCSC260-20150520T0000</att>
+        <att name="title">(CeNCOOS) Monterey Bay - UCSC294-20150430T2218</att>
     </addAttributes>
     <dataVariable><sourceName>trajectory</sourceName><destinationName>trajectory</destinationName><dataType>String</dataType></dataVariable>
     <dataVariable><sourceName>wmo_id</sourceName><destinationName>wmo_id</destinationName><dataType>String</dataType></dataVariable>

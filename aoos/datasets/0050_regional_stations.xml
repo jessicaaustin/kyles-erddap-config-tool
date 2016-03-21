@@ -10411,19 +10411,6 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="gov_noaa_nws_pacz" type="EDDTableFromAxiomStation">
-  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-  <stationId>13999</stationId>
-  <reloadEveryNMinutes>60</reloadEveryNMinutes>
-  <addAttributes>
-    <att name="title">Cape Romanzof, Cape Romanzof LRRS Airport</att>
-    <att name="institution">NOAA Weather</att>
-    <att name="infoUrl">http://www.weather.gov/</att>
-    <att name="publisher_name">AOOS</att>
-    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-  </addAttributes>
-</dataset>
-
 <dataset datasetID="gov_noaa_nws_palr" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>14000</stationId>
@@ -46568,6 +46555,825 @@
     <att name="title">Anchor Point Offshore Test Fishery, Station 5</att>
     <att name="institution">Alaska Department of Fish and Game</att>
     <att name="infoUrl">http://www.adfg.alaska.gov/sf/FishCounts/index.cfm?adfg=main.home</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_15862500" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60505</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">UBLUTUOCH R 13.7 MI AB MOUTH NR NUIQSUT AK</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_14197900" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60506</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">WILLAMETTE RIVER AT NEWBERG, OR</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_453439122223900" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60523</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">COLUMBIA RIVER, RIGHT BANK, AT WASHOUGAL, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_14181500" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60532</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">NORTH SANTIAM RIVER AT NIAGARA, OR</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_471541123425300" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60546</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">ABERDEEN RESERVOIR NEAR GRISDALE, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_452840122302202" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60561</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">01S/02E-13CDA1</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_14328000" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60562</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">ROGUE RIVER ABOVE PROSPECT, OR</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_14316500" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60590</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">N UMPQUA RIVER ABV COPELAND CK NR TOKETEE FALLS,OR</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12449500" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60601</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">METHOW RIVER AT TWISP, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12024000" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60609</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">SOUTH FORK NEWAUKUM RIVER NEAR ONALASKA, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12102190" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60612</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">SWAN CREEK AT 80TH ST EAST NEAR TACOMA, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12211200" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60627</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">NOOKSACK RIVER AT EVERSON, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12020525" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60631</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">ELK CREEK BELOW DEER CREEK NEAR DOTY, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12213145" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60669</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">NOOKSACK RIVER AT MARINE DR BR NR BELLINGHAM, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12100500" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60673</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">WHITE RIVER NEAR SUMNER, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12025100" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60746</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">CHEHALIS RIVER AT WWTP AT CHEHALIS, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12091100" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60776</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">FLETT CREEK AT TACOMA, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12115700" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60777</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">BOULDER CREEK NEAR CEDAR FALLS, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12157025" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60821</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">QUILCEDA CR TRIB AB 27TH AVE NE NR MARYSVILLE, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12090500" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60828</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">CLOVER CREEK NEAR TILLICUM, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12101470" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60844</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">PUYALLUP RIVER AT 5TH ST BRIDGE AT PUYALLUP, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_11503000" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60855</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">ANNIE SPRING NEAR CRATER LAKE, OR</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12201960" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60858</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">BRANNIAN CREEK AT S BAY DR NR WICKERSHAM, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12083000" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60907</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">MINERAL CREEK NEAR MINERAL, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12158032" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60932</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">EAST FORK TULALIP CREEK NEAR MOUTH NR TULALIP, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_14164700" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60937</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">CEDAR CREEK AT SPRINGFIELD, OR</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12143600" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60987</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">SF SNOQUALMIE RIVER AT EDGEWICK, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12147470" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60990</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">NF TOLT RIVER ABOVE YELLOW CREEK NR CARNATION, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12211195" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61002</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">NOOKSACK R OVERFLOW AT HIGHWAY 544 AT EVERSON, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12166185" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61008</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">NF STILLAGUAMISH R AT C-POST BRIDGE NEAR OSO, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12091290" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61082</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">LEACH CR AT MEADOW PARK GC AT UNIVERSITY PLACE, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_15057596" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61092</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">SALMON R AT GUSTAVUS AK</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_14205400" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61112</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">EAST FORK DAIRY CREEK NEAR MEACHAM CORNER, OR</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12020800" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61124</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">SOUTH FORK CHEHALIS RIVER NEAR WILDWOOD, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_452840122302201" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61162</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">01S/02E-13CDA2</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12096505" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61198</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">PUYALLUP RIVER AT E MAIN BRIDGE AT PUYALLUP, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12100498" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61250</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">WHITE RIVER AT PACIFIC, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12116100" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61254</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">CANYON CREEK NEAR CEDAR FALLS, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_471700123380000" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61277</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">ELK MEADOWS PRECIPITATION SITE</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12088000" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61284</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">OHOP CREEK NEAR EATONVILLE, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_14111400" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61301</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">KLICKITAT RIVER BL SUMMIT CREEK NEAR GLENWOOD, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_14320934" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61331</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">LITTLE WOLF CREEK NEAR TYEE, OR</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12035450" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61365</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">BIG CREEK NEAR GRISDALE, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12186450" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61430</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">WHITE CHUCK RIVER ABV CRYSTAL CR NR DARRINGTON, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12144000" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61475</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">SF SNOQUALMIE RIVER AT NORTH BEND, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12158010" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61497</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">WEST FORK TULALIP CREEK NEAR TULALIP, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12039510" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61507</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">COOK CREEK BLW HATCHERY NEAR QUINAULT, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12210220" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61523</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">JONES CREEK AT ACME, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12202450" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61537</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">SILVER BEACH CR AT MAYNARD PL AT BELLINGHAM, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12052210" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61538</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">BIG QUILCENE RIVER BELOW DIVERSION NR QUILCENE, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12024400" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61578</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">NF NEWAUKUM RIVER ABOVE BEAR CREEK NEAR FOREST, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12054000" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61589</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">DUCKABUSH RIVER NEAR BRINNON, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12213140" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61610</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">NOOKSACK RIVER AT BRENNAN, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12028060" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61612</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">CHEHALIS RIVER NEAR ROCHESTER, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12100494" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61624</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">WHITE RIVER AT ROEGNER PARK NEAR AUBURN, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_15088000" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61649</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">SAWMILL C NR SITKA AK</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_15087700" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61675</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">INDIAN R AT SITKA AK</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12035380" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61728</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">WYNOOCHEE LAKE NEAR GRISDALE, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12035000" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61736</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">SATSOP RIVER NEAR SATSOP, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12021800" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61792</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">CHEHALIS RIVER NEAR ADNA, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12143700" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61810</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">BOXLEY CREEK NEAR CEDAR FALLS, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_452912122312801" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>62599</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">01.00S/02.00E-14ABC01</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_15310002" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>63671</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">MOSQUITO FORK 2 MI BL KECHUMSTUK C NR CHICKEN AK</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>

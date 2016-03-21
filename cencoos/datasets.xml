@@ -15875,208 +15875,101 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset type="EDDTableFromNcCFFiles" datasetID="sp028_20140605t170300">
-    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/netCDF/gliders/download/ioos_dac</fileDir>
-    <fileNameRegex>sp028-20140605T170300.nc</fileNameRegex>
+  <dataset datasetID="gov_usgs_waterdata_344640120274401" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60530</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">(CeNCOOS) Line 67 Glider - sp028-20140605T170300</att>
+      <att name="title">008N034W16C001S</att>
+      <att name="institution">USGS National Water Information System (NWIS)</att>
+      <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+      <att name="publisher_name">CeNCOOS</att>
+      <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
-    <dataVariable>
-      <sourceName>trajectory</sourceName>
-      <destinationName>trajectory</destinationName>
-      <dataType>String</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>wmo_id</sourceName>
-      <destinationName>wmo_id</destinationName>
-      <dataType>String</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>time</sourceName>
-      <destinationName>time</destinationName>
-      <dataType>double</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>latitude</sourceName>
-      <destinationName>latitude</destinationName>
-      <dataType>double</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>longitude</sourceName>
-      <destinationName>longitude</destinationName>
-      <dataType>double</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>profile_id</sourceName>
-      <destinationName>profile_id</destinationName>
-      <dataType>short</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>time_uv</sourceName>
-      <destinationName>time_uv</destinationName>
-      <dataType>double</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>lat_uv</sourceName>
-      <destinationName>lat_uv</destinationName>
-      <dataType>double</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>lon_uv</sourceName>
-      <destinationName>lon_uv</destinationName>
-      <dataType>double</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>u</sourceName>
-      <destinationName>u</destinationName>
-      <dataType>double</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>v</sourceName>
-      <destinationName>v</destinationName>
-      <dataType>double</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>latitude_qc</sourceName>
-      <destinationName>latitude_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>longitude_qc</sourceName>
-      <destinationName>longitude_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>time_qc</sourceName>
-      <destinationName>time_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>depth</sourceName>
-      <destinationName>depth</destinationName>
-      <dataType>float</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>depth_qc</sourceName>
-      <destinationName>depth_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>pressure</sourceName>
-      <destinationName>pressure</destinationName>
-      <dataType>double</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>pressure_qc</sourceName>
-      <destinationName>pressure_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>conductivity</sourceName>
-      <destinationName>conductivity</destinationName>
-      <dataType>float</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>conductivity_qc</sourceName>
-      <destinationName>conductivity_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>density</sourceName>
-      <destinationName>density</destinationName>
-      <dataType>float</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>density_qc</sourceName>
-      <destinationName>density_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>precise_lat</sourceName>
-      <destinationName>precise_lat</destinationName>
-      <dataType>double</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>precise_lon</sourceName>
-      <destinationName>precise_lon</destinationName>
-      <dataType>double</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>precise_time</sourceName>
-      <destinationName>precise_time</destinationName>
-      <dataType>double</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>precise_lat_qc</sourceName>
-      <destinationName>precise_lat_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>precise_lon_qc</sourceName>
-      <destinationName>precise_lon_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>precise_time_qc</sourceName>
-      <destinationName>precise_time_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>salinity</sourceName>
-      <destinationName>salinity</destinationName>
-      <dataType>float</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>salinity_qc</sourceName>
-      <destinationName>salinity_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>temperature</sourceName>
-      <destinationName>temperature</destinationName>
-      <dataType>float</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>temperature_qc</sourceName>
-      <destinationName>temperature_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>time_uv_qc</sourceName>
-      <destinationName>time_uv_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>lat_uv_qc</sourceName>
-      <destinationName>lat_uv_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>lon_uv_qc</sourceName>
-      <destinationName>lon_uv_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>u_qc</sourceName>
-      <destinationName>u_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>v_qc</sourceName>
-      <destinationName>v_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>platform_meta</sourceName>
-      <destinationName>platform_meta</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>instrument_ctd</sourceName>
-      <destinationName>instrument_ctd</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
+  </dataset>
+  <dataset datasetID="gov_usgs_waterdata_344640120274404" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60558</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">008N034W16C004S</att>
+      <att name="institution">USGS National Water Information System (NWIS)</att>
+      <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+      <att name="publisher_name">CeNCOOS</att>
+      <att name="publisher_email">jpatterson@mbari.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_usgs_waterdata_11455780" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>60676</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">SUISUN BAY A BENICIA BRIDGE NR BENICIA CA</att>
+      <att name="institution">USGS National Water Information System (NWIS)</att>
+      <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+      <att name="publisher_name">CeNCOOS</att>
+      <att name="publisher_email">jpatterson@mbari.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_usgs_waterdata_375607122264701" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>61265</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">SAN FRANCISCO BAY A RICHMOND-SAN RAFAEL BRIDGE CA</att>
+      <att name="institution">USGS National Water Information System (NWIS)</att>
+      <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+      <att name="publisher_name">CeNCOOS</att>
+      <att name="publisher_email">jpatterson@mbari.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_usgs_waterdata_344640120274402" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>61345</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">008N034W16C002S</att>
+      <att name="institution">USGS National Water Information System (NWIS)</att>
+      <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+      <att name="publisher_name">CeNCOOS</att>
+      <att name="publisher_email">jpatterson@mbari.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_usgs_waterdata_11467590" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>61436</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">GARCIA R AT EUREKA HILL RD NR PT ARENA CA</att>
+      <att name="institution">USGS National Water Information System (NWIS)</att>
+      <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+      <att name="publisher_name">CeNCOOS</att>
+      <att name="publisher_email">jpatterson@mbari.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_usgs_waterdata_11460151" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>61518</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">REDWOOD C A HWY 1 BRIDGE A MUIR BEACH CA</att>
+      <att name="institution">USGS National Water Information System (NWIS)</att>
+      <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+      <att name="publisher_name">CeNCOOS</att>
+      <att name="publisher_email">jpatterson@mbari.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_usgs_waterdata_11174600" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>61580</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">ALAMO CN NR PLEASANTON CA</att>
+      <att name="institution">USGS National Water Information System (NWIS)</att>
+      <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+      <att name="publisher_name">CeNCOOS</att>
+      <att name="publisher_email">jpatterson@mbari.org</att>
+    </addAttributes>
   </dataset>
   <dataset type="EDDTableFromNcCFFiles" datasetID="sp011_20140923t0000">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
@@ -16084,209 +15977,6 @@
     <fileNameRegex>sp011-20140923T0000.nc</fileNameRegex>
     <addAttributes>
       <att name="title">(CeNCOOS) Line 67 Glider - sp011-20140923T0000</att>
-    </addAttributes>
-    <dataVariable>
-      <sourceName>trajectory</sourceName>
-      <destinationName>trajectory</destinationName>
-      <dataType>String</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>wmo_id</sourceName>
-      <destinationName>wmo_id</destinationName>
-      <dataType>String</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>time</sourceName>
-      <destinationName>time</destinationName>
-      <dataType>double</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>latitude</sourceName>
-      <destinationName>latitude</destinationName>
-      <dataType>double</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>longitude</sourceName>
-      <destinationName>longitude</destinationName>
-      <dataType>double</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>profile_id</sourceName>
-      <destinationName>profile_id</destinationName>
-      <dataType>short</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>time_uv</sourceName>
-      <destinationName>time_uv</destinationName>
-      <dataType>double</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>lat_uv</sourceName>
-      <destinationName>lat_uv</destinationName>
-      <dataType>double</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>lon_uv</sourceName>
-      <destinationName>lon_uv</destinationName>
-      <dataType>double</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>u</sourceName>
-      <destinationName>u</destinationName>
-      <dataType>double</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>v</sourceName>
-      <destinationName>v</destinationName>
-      <dataType>double</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>latitude_qc</sourceName>
-      <destinationName>latitude_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>longitude_qc</sourceName>
-      <destinationName>longitude_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>time_qc</sourceName>
-      <destinationName>time_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>depth</sourceName>
-      <destinationName>depth</destinationName>
-      <dataType>float</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>depth_qc</sourceName>
-      <destinationName>depth_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>pressure</sourceName>
-      <destinationName>pressure</destinationName>
-      <dataType>double</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>pressure_qc</sourceName>
-      <destinationName>pressure_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>conductivity</sourceName>
-      <destinationName>conductivity</destinationName>
-      <dataType>float</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>conductivity_qc</sourceName>
-      <destinationName>conductivity_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>density</sourceName>
-      <destinationName>density</destinationName>
-      <dataType>float</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>density_qc</sourceName>
-      <destinationName>density_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>precise_lat</sourceName>
-      <destinationName>precise_lat</destinationName>
-      <dataType>double</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>precise_lon</sourceName>
-      <destinationName>precise_lon</destinationName>
-      <dataType>double</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>precise_time</sourceName>
-      <destinationName>precise_time</destinationName>
-      <dataType>double</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>precise_lat_qc</sourceName>
-      <destinationName>precise_lat_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>precise_lon_qc</sourceName>
-      <destinationName>precise_lon_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>precise_time_qc</sourceName>
-      <destinationName>precise_time_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>salinity</sourceName>
-      <destinationName>salinity</destinationName>
-      <dataType>float</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>salinity_qc</sourceName>
-      <destinationName>salinity_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>temperature</sourceName>
-      <destinationName>temperature</destinationName>
-      <dataType>float</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>temperature_qc</sourceName>
-      <destinationName>temperature_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>time_uv_qc</sourceName>
-      <destinationName>time_uv_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>lat_uv_qc</sourceName>
-      <destinationName>lat_uv_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>lon_uv_qc</sourceName>
-      <destinationName>lon_uv_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>u_qc</sourceName>
-      <destinationName>u_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>v_qc</sourceName>
-      <destinationName>v_qc</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>platform_meta</sourceName>
-      <destinationName>platform_meta</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-    <dataVariable>
-      <sourceName>instrument_ctd</sourceName>
-      <destinationName>instrument_ctd</destinationName>
-      <dataType>byte</dataType>
-    </dataVariable>
-  </dataset>
-  <dataset type="EDDTableFromNcCFFiles" datasetID="sp030_20150109t2113">
-    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/netCDF/gliders/download/ioos_dac</fileDir>
-    <fileNameRegex>sp030-20150109T2113.nc</fileNameRegex>
-    <addAttributes>
-      <att name="title">(CeNCOOS) Line 67 Glider - sp030-20150109T2113</att>
     </addAttributes>
     <dataVariable>
       <sourceName>trajectory</sourceName>
@@ -16890,6 +16580,412 @@
       <dataType>byte</dataType>
     </dataVariable>
   </dataset>
+  <dataset type="EDDTableFromNcCFFiles" datasetID="sp025_20160310t1858">
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <fileDir>/mnt/gluster/data/netCDF/gliders/download/ioos_dac</fileDir>
+    <fileNameRegex>sp025-20160310T1858.nc</fileNameRegex>
+    <addAttributes>
+      <att name="title">(CeNCOOS) Line 67 Glider - sp025-20160310T1858</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>trajectory</sourceName>
+      <destinationName>trajectory</destinationName>
+      <dataType>String</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>wmo_id</sourceName>
+      <destinationName>wmo_id</destinationName>
+      <dataType>String</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>latitude</sourceName>
+      <destinationName>latitude</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>longitude</sourceName>
+      <destinationName>longitude</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>profile_id</sourceName>
+      <destinationName>profile_id</destinationName>
+      <dataType>short</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_uv</sourceName>
+      <destinationName>time_uv</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lat_uv</sourceName>
+      <destinationName>lat_uv</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lon_uv</sourceName>
+      <destinationName>lon_uv</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>u</sourceName>
+      <destinationName>u</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>v</sourceName>
+      <destinationName>v</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>latitude_qc</sourceName>
+      <destinationName>latitude_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>longitude_qc</sourceName>
+      <destinationName>longitude_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_qc</sourceName>
+      <destinationName>time_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>depth</sourceName>
+      <destinationName>depth</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>depth_qc</sourceName>
+      <destinationName>depth_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>pressure</sourceName>
+      <destinationName>pressure</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>pressure_qc</sourceName>
+      <destinationName>pressure_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>conductivity</sourceName>
+      <destinationName>conductivity</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>conductivity_qc</sourceName>
+      <destinationName>conductivity_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>density</sourceName>
+      <destinationName>density</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>density_qc</sourceName>
+      <destinationName>density_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lat</sourceName>
+      <destinationName>precise_lat</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lon</sourceName>
+      <destinationName>precise_lon</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_time</sourceName>
+      <destinationName>precise_time</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lat_qc</sourceName>
+      <destinationName>precise_lat_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lon_qc</sourceName>
+      <destinationName>precise_lon_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_time_qc</sourceName>
+      <destinationName>precise_time_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>salinity</sourceName>
+      <destinationName>salinity</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>salinity_qc</sourceName>
+      <destinationName>salinity_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>temperature</sourceName>
+      <destinationName>temperature</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>temperature_qc</sourceName>
+      <destinationName>temperature_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_uv_qc</sourceName>
+      <destinationName>time_uv_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lat_uv_qc</sourceName>
+      <destinationName>lat_uv_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lon_uv_qc</sourceName>
+      <destinationName>lon_uv_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>u_qc</sourceName>
+      <destinationName>u_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>v_qc</sourceName>
+      <destinationName>v_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>platform_meta</sourceName>
+      <destinationName>platform_meta</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>instrument_ctd</sourceName>
+      <destinationName>instrument_ctd</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNcCFFiles" datasetID="sp028_20140605t170300">
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <fileDir>/mnt/gluster/data/netCDF/gliders/download/ioos_dac</fileDir>
+    <fileNameRegex>sp028-20140605T170300.nc</fileNameRegex>
+    <addAttributes>
+      <att name="title">(CeNCOOS) Line 67 Glider - sp028-20140605T170300</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>trajectory</sourceName>
+      <destinationName>trajectory</destinationName>
+      <dataType>String</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>wmo_id</sourceName>
+      <destinationName>wmo_id</destinationName>
+      <dataType>String</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>latitude</sourceName>
+      <destinationName>latitude</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>longitude</sourceName>
+      <destinationName>longitude</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>profile_id</sourceName>
+      <destinationName>profile_id</destinationName>
+      <dataType>short</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_uv</sourceName>
+      <destinationName>time_uv</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lat_uv</sourceName>
+      <destinationName>lat_uv</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lon_uv</sourceName>
+      <destinationName>lon_uv</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>u</sourceName>
+      <destinationName>u</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>v</sourceName>
+      <destinationName>v</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>latitude_qc</sourceName>
+      <destinationName>latitude_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>longitude_qc</sourceName>
+      <destinationName>longitude_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_qc</sourceName>
+      <destinationName>time_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>depth</sourceName>
+      <destinationName>depth</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>depth_qc</sourceName>
+      <destinationName>depth_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>pressure</sourceName>
+      <destinationName>pressure</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>pressure_qc</sourceName>
+      <destinationName>pressure_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>conductivity</sourceName>
+      <destinationName>conductivity</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>conductivity_qc</sourceName>
+      <destinationName>conductivity_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>density</sourceName>
+      <destinationName>density</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>density_qc</sourceName>
+      <destinationName>density_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lat</sourceName>
+      <destinationName>precise_lat</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lon</sourceName>
+      <destinationName>precise_lon</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_time</sourceName>
+      <destinationName>precise_time</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lat_qc</sourceName>
+      <destinationName>precise_lat_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lon_qc</sourceName>
+      <destinationName>precise_lon_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_time_qc</sourceName>
+      <destinationName>precise_time_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>salinity</sourceName>
+      <destinationName>salinity</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>salinity_qc</sourceName>
+      <destinationName>salinity_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>temperature</sourceName>
+      <destinationName>temperature</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>temperature_qc</sourceName>
+      <destinationName>temperature_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_uv_qc</sourceName>
+      <destinationName>time_uv_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lat_uv_qc</sourceName>
+      <destinationName>lat_uv_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lon_uv_qc</sourceName>
+      <destinationName>lon_uv_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>u_qc</sourceName>
+      <destinationName>u_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>v_qc</sourceName>
+      <destinationName>v_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>platform_meta</sourceName>
+      <destinationName>platform_meta</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>instrument_ctd</sourceName>
+      <destinationName>instrument_ctd</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+  </dataset>
   <dataset type="EDDTableFromNcCFFiles" datasetID="sp028_20151124t1741">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/mnt/gluster/data/netCDF/gliders/download/ioos_dac</fileDir>
@@ -17093,12 +17189,12 @@
       <dataType>byte</dataType>
     </dataVariable>
   </dataset>
-  <dataset type="EDDTableFromNcCFFiles" datasetID="uw157_20141116t2118">
+  <dataset type="EDDTableFromNcCFFiles" datasetID="sp030_20150109t2113">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/mnt/gluster/data/netCDF/gliders/download/ioos_dac</fileDir>
-    <fileNameRegex>UW157-20141116T2118.nc</fileNameRegex>
+    <fileNameRegex>sp030-20150109T2113.nc</fileNameRegex>
     <addAttributes>
-      <att name="title">(CeNCOOS) Trinidad Glider - UW157-20141116T2118</att>
+      <att name="title">(CeNCOOS) Line 67 Glider - sp030-20150109T2113</att>
     </addAttributes>
     <dataVariable>
       <sourceName>trajectory</sourceName>
@@ -17499,6 +17595,209 @@
       <dataType>byte</dataType>
     </dataVariable>
   </dataset>
+  <dataset type="EDDTableFromNcCFFiles" datasetID="uw157_20141116t2118">
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <fileDir>/mnt/gluster/data/netCDF/gliders/download/ioos_dac</fileDir>
+    <fileNameRegex>UW157-20141116T2118.nc</fileNameRegex>
+    <addAttributes>
+      <att name="title">(CeNCOOS) Trinidad Glider - UW157-20141116T2118</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>trajectory</sourceName>
+      <destinationName>trajectory</destinationName>
+      <dataType>String</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>wmo_id</sourceName>
+      <destinationName>wmo_id</destinationName>
+      <dataType>String</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>latitude</sourceName>
+      <destinationName>latitude</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>longitude</sourceName>
+      <destinationName>longitude</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>profile_id</sourceName>
+      <destinationName>profile_id</destinationName>
+      <dataType>short</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_uv</sourceName>
+      <destinationName>time_uv</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lat_uv</sourceName>
+      <destinationName>lat_uv</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lon_uv</sourceName>
+      <destinationName>lon_uv</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>u</sourceName>
+      <destinationName>u</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>v</sourceName>
+      <destinationName>v</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>latitude_qc</sourceName>
+      <destinationName>latitude_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>longitude_qc</sourceName>
+      <destinationName>longitude_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_qc</sourceName>
+      <destinationName>time_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>depth</sourceName>
+      <destinationName>depth</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>depth_qc</sourceName>
+      <destinationName>depth_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>pressure</sourceName>
+      <destinationName>pressure</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>pressure_qc</sourceName>
+      <destinationName>pressure_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>conductivity</sourceName>
+      <destinationName>conductivity</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>conductivity_qc</sourceName>
+      <destinationName>conductivity_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>density</sourceName>
+      <destinationName>density</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>density_qc</sourceName>
+      <destinationName>density_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lat</sourceName>
+      <destinationName>precise_lat</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lon</sourceName>
+      <destinationName>precise_lon</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_time</sourceName>
+      <destinationName>precise_time</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lat_qc</sourceName>
+      <destinationName>precise_lat_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lon_qc</sourceName>
+      <destinationName>precise_lon_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_time_qc</sourceName>
+      <destinationName>precise_time_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>salinity</sourceName>
+      <destinationName>salinity</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>salinity_qc</sourceName>
+      <destinationName>salinity_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>temperature</sourceName>
+      <destinationName>temperature</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>temperature_qc</sourceName>
+      <destinationName>temperature_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_uv_qc</sourceName>
+      <destinationName>time_uv_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lat_uv_qc</sourceName>
+      <destinationName>lat_uv_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lon_uv_qc</sourceName>
+      <destinationName>lon_uv_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>u_qc</sourceName>
+      <destinationName>u_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>v_qc</sourceName>
+      <destinationName>v_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>platform_meta</sourceName>
+      <destinationName>platform_meta</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>instrument_ctd</sourceName>
+      <destinationName>instrument_ctd</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+  </dataset>
   <dataset type="EDDTableFromNcCFFiles" datasetID="uw157_20150917t1833">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/mnt/gluster/data/netCDF/gliders/download/ioos_dac</fileDir>
@@ -17702,12 +18001,12 @@
       <dataType>byte</dataType>
     </dataVariable>
   </dataset>
-  <dataset type="EDDTableFromNcCFFiles" datasetID="ucsc294_20150430t2218">
+  <dataset type="EDDTableFromNcCFFiles" datasetID="ucsc260_20150520t0000">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/mnt/gluster/data/netCDF/gliders/download/ioos_dac</fileDir>
-    <fileNameRegex>UCSC294-20150430T2218.nc</fileNameRegex>
+    <fileNameRegex>UCSC260-20150520T0000.nc</fileNameRegex>
     <addAttributes>
-      <att name="title">(CeNCOOS) Monterey Bay - UCSC294-20150430T2218</att>
+      <att name="title">(CeNCOOS) Monterey Bay - UCSC260-20150520T0000</att>
     </addAttributes>
     <dataVariable>
       <sourceName>trajectory</sourceName>
@@ -17905,12 +18204,12 @@
       <dataType>byte</dataType>
     </dataVariable>
   </dataset>
-  <dataset type="EDDTableFromNcCFFiles" datasetID="ucsc260_20150520t0000">
+  <dataset type="EDDTableFromNcCFFiles" datasetID="ucsc294_20150430t2218">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/mnt/gluster/data/netCDF/gliders/download/ioos_dac</fileDir>
-    <fileNameRegex>UCSC260-20150520T0000.nc</fileNameRegex>
+    <fileNameRegex>UCSC294-20150430T2218.nc</fileNameRegex>
     <addAttributes>
-      <att name="title">(CeNCOOS) Monterey Bay - UCSC260-20150520T0000</att>
+      <att name="title">(CeNCOOS) Monterey Bay - UCSC294-20150430T2218</att>
     </addAttributes>
     <dataVariable>
       <sourceName>trajectory</sourceName>

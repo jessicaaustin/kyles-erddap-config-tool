@@ -17190,3 +17190,107 @@
   </addAttributes>
 </dataset>
 
+<dataset datasetID="gov_usgs_waterdata_344640120274401" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60530</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">008N034W16C001S</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">CeNCOOS</att>
+    <att name="publisher_email">jpatterson@mbari.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_344640120274404" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60558</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">008N034W16C004S</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">CeNCOOS</att>
+    <att name="publisher_email">jpatterson@mbari.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_11455780" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60676</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">SUISUN BAY A BENICIA BRIDGE NR BENICIA CA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">CeNCOOS</att>
+    <att name="publisher_email">jpatterson@mbari.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_375607122264701" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61265</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">SAN FRANCISCO BAY A RICHMOND-SAN RAFAEL BRIDGE CA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">CeNCOOS</att>
+    <att name="publisher_email">jpatterson@mbari.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_344640120274402" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61345</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">008N034W16C002S</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">CeNCOOS</att>
+    <att name="publisher_email">jpatterson@mbari.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_11467590" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61436</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">GARCIA R AT EUREKA HILL RD NR PT ARENA CA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">CeNCOOS</att>
+    <att name="publisher_email">jpatterson@mbari.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_11460151" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61518</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">REDWOOD C A HWY 1 BRIDGE A MUIR BEACH CA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">CeNCOOS</att>
+    <att name="publisher_email">jpatterson@mbari.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_11174600" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61580</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">ALAMO CN NR PLEASANTON CA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">CeNCOOS</att>
+    <att name="publisher_email">jpatterson@mbari.org</att>
+  </addAttributes>
+</dataset>
+

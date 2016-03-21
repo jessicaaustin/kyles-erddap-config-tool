@@ -1,9 +1,9 @@
-<dataset type="EDDTableFromNcCFFiles" datasetID="uw157_20141116t2118">
+<dataset type="EDDTableFromNcCFFiles" datasetID="uw130_20150309t2005">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/mnt/gluster/data/netCDF/gliders/download/ioos_dac</fileDir>
-    <fileNameRegex>UW157-20141116T2118.nc</fileNameRegex>
+    <fileNameRegex>UW130-20150309T2005.nc</fileNameRegex>
     <addAttributes>
-        <att name="title">(CeNCOOS) Trinidad Glider - UW157-20141116T2118</att>
+        <att name="title">(CeNCOOS) Trinidad Glider - UW130-20150309T2005</att>
     </addAttributes>
     <dataVariable><sourceName>trajectory</sourceName><destinationName>trajectory</destinationName><dataType>String</dataType></dataVariable>
     <dataVariable><sourceName>wmo_id</sourceName><destinationName>wmo_id</destinationName><dataType>String</dataType></dataVariable>
@@ -46,12 +46,12 @@
     <dataVariable><sourceName>instrument_ctd</sourceName><destinationName>instrument_ctd</destinationName><dataType>byte</dataType></dataVariable>
 </dataset>
 
-<dataset type="EDDTableFromNcCFFiles" datasetID="uw130_20150309t2005">
+<dataset type="EDDTableFromNcCFFiles" datasetID="uw157_20141116t2118">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/mnt/gluster/data/netCDF/gliders/download/ioos_dac</fileDir>
-    <fileNameRegex>UW130-20150309T2005.nc</fileNameRegex>
+    <fileNameRegex>UW157-20141116T2118.nc</fileNameRegex>
     <addAttributes>
-        <att name="title">(CeNCOOS) Trinidad Glider - UW130-20150309T2005</att>
+        <att name="title">(CeNCOOS) Trinidad Glider - UW157-20141116T2118</att>
     </addAttributes>
     <dataVariable><sourceName>trajectory</sourceName><destinationName>trajectory</destinationName><dataType>String</dataType></dataVariable>
     <dataVariable><sourceName>wmo_id</sourceName><destinationName>wmo_id</destinationName><dataType>String</dataType></dataVariable>
