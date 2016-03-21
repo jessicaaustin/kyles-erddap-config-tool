@@ -48,6 +48,7 @@ python gliders.py \
     -o cencoos/datasets/0070_line_67_gliders.xml \
     -n sp028-20140605T170300 sp011-20140923T0000 sp030-20150109T2113 \
 sp011-20150427T1749 sp025-20150813T1746 sp028-20151124T1741 \
+sp025-20160310T1858 \
     -t "(CeNCOOS) Line 67 Glider"
 
 python gliders.py \
