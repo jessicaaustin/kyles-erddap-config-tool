@@ -304,7 +304,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Point Piedras Blanca</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -316,7 +316,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">ARCATA/EUREKA ARCATA AIRPORT</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -328,7 +328,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">NAPA COUNTY AIRPORT</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -340,7 +340,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">AVALON CATALINA AIRPORT</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -352,7 +352,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">CONCORD BUCHANAN FIELD</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -364,7 +364,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">CRESCENT CITY MC NAMARA</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -376,7 +376,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">CARLSBAD MCCLELLAN-PALOMAR</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -388,7 +388,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">HAWTHORNE MUNICIPAL AIRPORT </att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -400,7 +400,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">HAYWARD AIR TERMINAL</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -412,7 +412,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">LOS ANGELES INTERNTL AIRPORT</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -424,7 +424,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">LONG BEACH AIRPORT</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -436,7 +436,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Lompoc, Lompoc Airport</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -448,7 +448,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">LIVERMORE MUNICIPAL AIRPORT </att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -460,7 +460,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">MONTEREY PENINSULA AIRPORT</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -472,7 +472,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">SAN DIEGO MONTGOMERY FIELD</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -484,7 +484,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">MCAS CAMP PENDLETON</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -496,7 +496,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">MCAS MIRAMAR</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -508,7 +508,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">IMPERIAL BEACH, NOLF</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -520,7 +520,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">SAN NICOLAS ISLAND</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -532,7 +532,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">NAWCWPNS POINT MUGU, CA</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -544,7 +544,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">SAN CLEMENTE ISLAND NALF</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -556,7 +556,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">MOFFETT FIELD</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -568,7 +568,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">NAS NORTH ISLAND, SAN DIEGO</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -580,7 +580,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Shelter Cove</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -592,7 +592,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">METRO OAKLAND INTERNATIONAL  AIRPORT </att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -604,7 +604,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">OCEANSIDE</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -616,7 +616,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Oceanside, Oceanside Municipal Airport</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -628,7 +628,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">OXNARD AIRPORT</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -640,7 +640,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Palo Alto Airport</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -652,7 +652,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">San Jose / Reid / Hillv</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -664,7 +664,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">SAN DIEGO INTERNATIONAL \LINDBERGH FLD</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -676,7 +676,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">SANTA BARBARA MUNICIPAL</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -688,7 +688,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">SAN LUIS OBISPO MC CHESNEY</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -700,7 +700,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">San Diego, Brown Field Municipal Airport</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -712,7 +712,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">SAN FRANCISCO INTERNATIONAL  AIRPORT </att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -724,7 +724,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">SAN JOSE INTERNATIONAL  AIRPORT</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -736,7 +736,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Los Alamitos U. S. Army Airfield</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -748,7 +748,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">SANTA MONICA MUNICIPAL AIRPORT </att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -760,7 +760,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">SANTA MARIA PUBLIC AIRPORT</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -772,7 +772,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">SANTA ANA WAYNE ORANGE CTY</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -784,7 +784,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">San Carlos Airport</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -796,7 +796,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">SANTA ROSA SONOMA COUNTY</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -808,7 +808,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Torrance, Zamperini Field Airport</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -820,7 +820,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Lompoc, Vandenberg Air Force Base</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -832,7 +832,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">WATSONVILLE MUNICIPAL AIRPORT </att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -844,7 +844,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Mexicali International Airport </att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -856,7 +856,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Tijuana International Airport </att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -1582,7 +1582,7 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46215" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46215" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>16971</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -1594,19 +1594,19 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_tixc1" type="EDDTableFromAxiomStation">
+  <dataset datasetID="nerrs_tixc1" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>16974</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">TIXC1 Tijuana River Reserve, CA</att>
-      <att name="institution">National Data Buoy Center (NDBC)</att>
-      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="institution">National Estuarine Research Reserve System (NERRS)</att>
+      <att name="infoUrl">http://www.nerrs.noaa.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46232" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46232" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>16975</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -1618,43 +1618,43 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_sdbc1" type="EDDTableFromAxiomStation">
+  <dataset datasetID="noaa_nos_co_ops_sdbc1" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>16976</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">SDBC1 9410170 - San Diego, CA</att>
-      <att name="institution">National Data Buoy Center (NDBC)</att>
-      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+      <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_ljac1" type="EDDTableFromAxiomStation">
+  <dataset datasetID="noaa_nos_co_ops_ljac1" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>16977</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">LJAC1 9410230 - La Jolla, CA</att>
-      <att name="institution">National Data Buoy Center (NDBC)</att>
-      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+      <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_ohbc1" type="EDDTableFromAxiomStation">
+  <dataset datasetID="noaa_nos_co_ops_ohbc1" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>16978</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">OHBC1 9410660 - Los Angeles, CA</att>
-      <att name="institution">National Data Buoy Center (NDBC)</att>
-      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+      <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_ljpc1" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_ljpc1" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>16980</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -1666,7 +1666,7 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46218" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46218" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>16981</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -1702,7 +1702,7 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46225" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46225" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>16984</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -1714,7 +1714,7 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46224" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46224" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>16985</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -1726,7 +1726,7 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46223" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46223" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>16986</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -1738,7 +1738,7 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46222" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46222" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>16987</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -1750,7 +1750,7 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46221" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46221" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>16988</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -1774,7 +1774,7 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46217" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46217" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>16990</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -1810,7 +1810,7 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46216" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46216" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>16993</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -1846,7 +1846,7 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46242" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46242" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>16996</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -4942,26 +4942,26 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_pfxc1" type="EDDTableFromAxiomStation">
+  <dataset datasetID="noaa_nos_co_ops_pfxc1" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>18298</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">PFXC1 Los Angeles Pier F, CA - 9410670</att>
-      <att name="institution">National Data Buoy Center (NDBC)</att>
-      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+      <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_prjc1" type="EDDTableFromAxiomStation">
+  <dataset datasetID="noaa_nos_co_ops_prjc1" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>18299</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">PRJC1 Long Beach Pier J, CA - 9410665</att>
-      <att name="institution">National Data Buoy Center (NDBC)</att>
-      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+      <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
@@ -5062,7 +5062,7 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46240" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46240" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>18373</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -5074,7 +5074,7 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46239" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46239" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>18374</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -5086,7 +5086,7 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46237" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46237" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>18377</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -5098,31 +5098,31 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_elxc1" type="EDDTableFromAxiomStation">
+  <dataset datasetID="nerrs_elxc1" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>18378</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">ELXC1 Elkhorn Slough Reserve, CA</att>
-      <att name="institution">National Data Buoy Center (NDBC)</att>
-      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="institution">National Estuarine Research Reserve System (NERRS)</att>
+      <att name="infoUrl">http://www.nerrs.noaa.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_sfxc1" type="EDDTableFromAxiomStation">
+  <dataset datasetID="nerrs_sfxc1" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>18379</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">SFXC1 San Francisco Bay Reserve, CA</att>
-      <att name="institution">National Data Buoy Center (NDBC)</att>
-      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="institution">National Estuarine Research Reserve System (NERRS)</att>
+      <att name="infoUrl">http://www.nerrs.noaa.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46236" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46236" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>18380</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -5182,7 +5182,7 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46214" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46214" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>18393</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -5206,7 +5206,7 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46244" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46244" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>18396</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -5218,7 +5218,7 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46213" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46213" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>18399</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -5230,14 +5230,14 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46212" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46212" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>18400</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">46212 Humboldt Bay South Spit, CA 128</att>
-      <att name="institution">National Data Buoy Center (NDBC)</att>
-      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="institution">The Coastal Data Information Program</att>
+      <att name="infoUrl">http://cdip.ucsd.edu/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
@@ -5254,14 +5254,14 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_cecc1" type="EDDTableFromAxiomStation">
+  <dataset datasetID="noaa_nos_co_ops_cecc1" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>18403</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">CECC1 9419750 - Crescent City, CA</att>
-      <att name="institution">National Data Buoy Center (NDBC)</att>
-      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+      <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
@@ -8470,26 +8470,26 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46219" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46219" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>20296</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">46219 San Nicolas Island, CA 067</att>
-      <att name="institution">National Data Buoy Center (NDBC)</att>
-      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="institution">The Coastal Data Information Program</att>
+      <att name="infoUrl">http://cdip.ucsd.edu/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46251" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46251" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>20297</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">46251 Santa Cruz Basin, CA</att>
-      <att name="institution">National Data Buoy Center (NDBC)</att>
-      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="institution">The Coastal Data Information Program</att>
+      <att name="infoUrl">http://cdip.ucsd.edu/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
@@ -8691,7 +8691,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Farallon Islands near San Franci, CA FNDC1</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -8854,7 +8854,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Angel Island AISC1</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9008,7 +9008,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Point Reyes RCA PTRCA</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9421,19 +9421,19 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46044" type="EDDTableFromAxiomStation">
+  <dataset datasetID="org_mbari_46044" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>20667</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">46044</att>
-      <att name="institution">National Data Buoy Center (NDBC)</att>
-      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="institution">Monterey Bay Aquarium Research Institute</att>
+      <att name="infoUrl">http://www.mbari.org/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46231" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46231" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>20669</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -9457,7 +9457,7 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46114" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46114" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>20700</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -11563,7 +11563,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">ggbc1</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -11575,7 +11575,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">wvi</att>
-      <att name="institution">NOAA Weather</att>
+      <att name="institution">National Weather Service</att>
       <att name="infoUrl">http://www.weather.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -15731,146 +15731,146 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46253" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46253" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>57292</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">46253 San Pedro South, CA - 213</att>
-      <att name="institution">National Data Buoy Center (NDBC)</att>
-      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="institution">The Coastal Data Information Program</att>
+      <att name="infoUrl">http://cdip.ucsd.edu/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46254" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46254" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>57293</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">46254 SCRIPPS Nearshore, CA 201</att>
-      <att name="institution">National Data Buoy Center (NDBC)</att>
-      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="institution">The Coastal Data Information Program</att>
+      <att name="infoUrl">http://cdip.ucsd.edu/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46255" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46255" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>57294</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">46255 Begg Rock, CA 138</att>
-      <att name="institution">National Data Buoy Center (NDBC)</att>
-      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="institution">The Coastal Data Information Program</att>
+      <att name="infoUrl">http://cdip.ucsd.edu/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46256" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46256" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>57295</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">46256 Long Beach Channel, CA - 215</att>
-      <att name="institution">National Data Buoy Center (NDBC)</att>
-      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="institution">The Coastal Data Information Program</att>
+      <att name="infoUrl">http://cdip.ucsd.edu/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_46257" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_ucsd_cdip_46257" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>57296</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">46257 Harvest Southeast, CA - 216</att>
-      <att name="institution">National Data Buoy Center (NDBC)</att>
-      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="institution">The Coastal Data Information Program</att>
+      <att name="infoUrl">http://cdip.ucsd.edu/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_elqc1" type="EDDTableFromAxiomStation">
+  <dataset datasetID="nerrs_elqc1" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>57505</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">ELQC1 South Marsh, Elkhorn Slough Reserve, CA</att>
-      <att name="institution">National Data Buoy Center (NDBC)</att>
-      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="institution">National Estuarine Research Reserve System (NERRS)</att>
+      <att name="infoUrl">http://www.nerrs.noaa.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_evmc1" type="EDDTableFromAxiomStation">
+  <dataset datasetID="nerrs_evmc1" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>57506</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">EVMC1 Vierra Mouth, Elkhorn Slough Reserve, CA</att>
-      <att name="institution">National Data Buoy Center (NDBC)</att>
-      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="institution">National Estuarine Research Reserve System (NERRS)</att>
+      <att name="infoUrl">http://www.nerrs.noaa.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_fffc1" type="EDDTableFromAxiomStation">
+  <dataset datasetID="nerrs_fffc1" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>57507</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">FFFC1 First Mallard</att>
-      <att name="institution">National Data Buoy Center (NDBC)</att>
-      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="institution">National Estuarine Research Reserve System (NERRS)</att>
+      <att name="infoUrl">http://www.nerrs.noaa.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_gggc1" type="EDDTableFromAxiomStation">
+  <dataset datasetID="nerrs_gggc1" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>57509</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">GGGC1 Gallinas Creek</att>
-      <att name="institution">National Data Buoy Center (NDBC)</att>
-      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="institution">National Estuarine Research Reserve System (NERRS)</att>
+      <att name="infoUrl">http://www.nerrs.noaa.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_ryec1" type="EDDTableFromAxiomStation">
+  <dataset datasetID="nerrs_ryec1" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>57523</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">RYEC1 Second Mallard</att>
-      <att name="institution">National Data Buoy Center (NDBC)</att>
-      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="institution">National Estuarine Research Reserve System (NERRS)</att>
+      <att name="infoUrl">http://www.nerrs.noaa.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_scqc1" type="EDDTableFromAxiomStation">
+  <dataset datasetID="nerrs_scqc1" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>57526</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">SCQC1 China Camp, San Francisco Bay Reserve, CA</att>
-      <att name="institution">National Data Buoy Center (NDBC)</att>
-      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="institution">National Estuarine Research Reserve System (NERRS)</att>
+      <att name="infoUrl">http://www.nerrs.noaa.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="wmo_tiqc1" type="EDDTableFromAxiomStation">
+  <dataset datasetID="nerrs_tiqc1" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>57532</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">TIQC1 Oneonta Slough, Tijuana River Reserve, CA</att>
-      <att name="institution">National Data Buoy Center (NDBC)</att>
-      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="institution">National Estuarine Research Reserve System (NERRS)</att>
+      <att name="infoUrl">http://www.nerrs.noaa.gov/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
@@ -15967,6 +15967,54 @@
       <att name="title">ALAMO CN NR PLEASANTON CA</att>
       <att name="institution">USGS National Water Information System (NWIS)</att>
       <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+      <att name="publisher_name">CeNCOOS</att>
+      <att name="publisher_email">jpatterson@mbari.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="sccoos_ucsd" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>63971</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Scripps Pier</att>
+      <att name="institution">Southern California Coastal Ocean Observing System</att>
+      <att name="infoUrl">http://www.sccoos.org/</att>
+      <att name="publisher_name">CeNCOOS</att>
+      <att name="publisher_email">jpatterson@mbari.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="sccoos_ucsb" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>63975</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Stearns Wharf</att>
+      <att name="institution">Southern California Coastal Ocean Observing System</att>
+      <att name="infoUrl">http://www.sccoos.org/</att>
+      <att name="publisher_name">CeNCOOS</att>
+      <att name="publisher_email">jpatterson@mbari.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="edu_ucsd_cdip_46258" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>63986</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">46258 Mission Bay West, CA - 220</att>
+      <att name="institution">The Coastal Data Information Program</att>
+      <att name="infoUrl">http://cdip.ucsd.edu/</att>
+      <att name="publisher_name">CeNCOOS</att>
+      <att name="publisher_email">jpatterson@mbari.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="mil_army_usace_46259" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>63987</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">46259 Santa Lucia Escarpment, CA 222</att>
+      <att name="institution">U.S. Army Corps of Engineers</att>
+      <att name="infoUrl">http://www.usace.army.mil/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>

@@ -9202,6 +9202,19 @@
   </addAttributes>
 </dataset>
 
+<dataset datasetID="miscwebcam_108" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>13759</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Kodiak Habor</att>
+    <att name="institution">MiscWebCams</att>
+    <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
 <dataset datasetID="gov_faa_173" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13760</stationId>
@@ -9332,14 +9345,14 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_vdza2" type="EDDTableFromAxiomStation">
+<dataset datasetID="noaa_nos_co_ops_vdza2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13777</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">VDZA2 9454240 - Valdez, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -9371,14 +9384,14 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_swla2" type="EDDTableFromAxiomStation">
+<dataset datasetID="noaa_nos_co_ops_swla2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13780</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">SWLA2 9455090- Seward, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -9423,53 +9436,53 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_nkta2" type="EDDTableFromAxiomStation">
+<dataset datasetID="noaa_nos_co_ops_nkta2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13784</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">NKTA2 9455760 - Nikiski, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_plxa2" type="EDDTableFromAxiomStation">
+<dataset datasetID="noaa_nos_co_ops_plxa2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13786</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">PLXA2 9451054 - Port Alexander, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_tkea2" type="EDDTableFromAxiomStation">
+<dataset datasetID="org_mxak_tkea2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13787</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">TKEA2 Tenakee Springs, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Marine Exchange of Alaska</att>
+    <att name="infoUrl">http://www.mxak.org/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_elfa2" type="EDDTableFromAxiomStation">
+<dataset datasetID="noaa_nos_co_ops_elfa2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13788</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">ELFA2 9452634 - Elfin Cove, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -9488,14 +9501,14 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_lcna2" type="EDDTableFromAxiomStation">
+<dataset datasetID="gov_noaa_nws_lcna2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13791</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">LCNA2 Lincoln Rock, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">National Weather Service</att>
+    <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -9527,40 +9540,40 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_cspa2" type="EDDTableFromAxiomStation">
+<dataset datasetID="gov_noaa_nws_cspa2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13794</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">CSPA2 Cape Spencer, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">National Weather Service</att>
+    <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_sisa2" type="EDDTableFromAxiomStation">
+<dataset datasetID="gov_noaa_nws_sisa2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13795</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">SISA2 Sisters Island, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">National Weather Service</att>
+    <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_cdea2" type="EDDTableFromAxiomStation">
+<dataset datasetID="gov_noaa_nws_cdea2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13796</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">CDEA2 Cape Decision, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">National Weather Service</att>
+    <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -9579,170 +9592,170 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_pbpa2" type="EDDTableFromAxiomStation">
+<dataset datasetID="gov_noaa_nws_pbpa2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13798</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">PBPA2 Point Bishop, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">National Weather Service</att>
+    <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_sdia2" type="EDDTableFromAxiomStation">
+<dataset datasetID="gov_noaa_nws_sdia2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13799</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">SDIA2 South Douglas, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">National Weather Service</att>
+    <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_prta2" type="EDDTableFromAxiomStation">
+<dataset datasetID="gov_noaa_nws_prta2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13800</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">PRTA2 Point Retreat, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">National Weather Service</att>
+    <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_eroa2" type="EDDTableFromAxiomStation">
+<dataset datasetID="gov_noaa_nws_eroa2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13801</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">EROA2 Eldred Rock, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">National Weather Service</att>
+    <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_keca2" type="EDDTableFromAxiomStation">
+<dataset datasetID="noaa_nos_co_ops_keca2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13802</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">KECA2 9450460 - Ketchikan, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_yata2" type="EDDTableFromAxiomStation">
+<dataset datasetID="noaa_nos_co_ops_yata2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13803</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">YATA2 9453220- Yakutat, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_skta2" type="EDDTableFromAxiomStation">
+<dataset datasetID="noaa_nos_co_ops_skta2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13804</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">SKTA2 9452400 - Skagway, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_kgca2" type="EDDTableFromAxiomStation">
+<dataset datasetID="noaa_nos_co_ops_kgca2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13807</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">KGCA2 9459881 - King Cove, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_unla2" type="EDDTableFromAxiomStation">
+<dataset datasetID="noaa_nos_co_ops_unla2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13808</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">UNLA2 9462620- Unalaska, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_atka2" type="EDDTableFromAxiomStation">
+<dataset datasetID="noaa_nos_co_ops_atka2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13809</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">ATKA2 9461710 - Atka, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_alia2" type="EDDTableFromAxiomStation">
+<dataset datasetID="noaa_nos_co_ops_alia2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13810</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">ALIA2 9457804 - Alitak, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_46036" type="EDDTableFromAxiomStation">
+<dataset datasetID="ca_weather_46036" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13812</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46036 South Nomad</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Environment Canada</att>
+    <att name="infoUrl">https://weather.gc.ca/canada_e.html</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_46132" type="EDDTableFromAxiomStation">
+<dataset datasetID="ca_weather_46132" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13813</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46132 South Brooks</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Environment Canada</att>
+    <att name="infoUrl">https://weather.gc.ca/canada_e.html</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -9761,14 +9774,14 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_rdda2" type="EDDTableFromAxiomStation">
+<dataset datasetID="noaa_nos_co_ops_rdda2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13815</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">RDDA2 9491094 - Red Dog Dock, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -9787,53 +9800,53 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_46207" type="EDDTableFromAxiomStation">
+<dataset datasetID="ca_weather_46207" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13817</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46207 East Dellwood</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Environment Canada</att>
+    <att name="infoUrl">https://weather.gc.ca/canada_e.html</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_46004" type="EDDTableFromAxiomStation">
+<dataset datasetID="ca_weather_46004" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13818</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46004 Middle Nomad</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Environment Canada</att>
+    <att name="infoUrl">https://weather.gc.ca/canada_e.html</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_nmta2" type="EDDTableFromAxiomStation">
+<dataset datasetID="noaa_nos_co_ops_nmta2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13819</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">NMTA2 9468756 - Nome, Norton Sound, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_adka2" type="EDDTableFromAxiomStation">
+<dataset datasetID="noaa_nos_co_ops_adka2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13820</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">ADKA2 9461380 - Adak Island, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -9852,14 +9865,14 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_kdaa2" type="EDDTableFromAxiomStation">
+<dataset datasetID="noaa_nos_co_ops_kdaa2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13822</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">KDAA2 9457292- Kodiak Island, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -9878,14 +9891,14 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_snda2" type="EDDTableFromAxiomStation">
+<dataset datasetID="noaa_nos_co_ops_snda2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13824</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">SNDA2 9459450 - Sand Point, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -9930,118 +9943,118 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_46147" type="EDDTableFromAxiomStation">
+<dataset datasetID="ca_weather_46147" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13829</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46147 South Moresby</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Environment Canada</att>
+    <att name="infoUrl">https://weather.gc.ca/canada_e.html</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_46183" type="EDDTableFromAxiomStation">
+<dataset datasetID="ca_weather_46183" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13830</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46183 North Hecate Strait</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Environment Canada</att>
+    <att name="infoUrl">https://weather.gc.ca/canada_e.html</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_46145" type="EDDTableFromAxiomStation">
+<dataset datasetID="ca_weather_46145" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13831</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46145 Central Dixon Entrance Buoy</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Environment Canada</att>
+    <att name="infoUrl">https://weather.gc.ca/canada_e.html</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_46181" type="EDDTableFromAxiomStation">
+<dataset datasetID="ca_weather_46181" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13832</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46181 Nanakwa Shoal</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Environment Canada</att>
+    <att name="infoUrl">https://weather.gc.ca/canada_e.html</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_46185" type="EDDTableFromAxiomStation">
+<dataset datasetID="ca_weather_46185" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13833</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46185 South Hecate Strait</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Environment Canada</att>
+    <att name="infoUrl">https://weather.gc.ca/canada_e.html</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_46204" type="EDDTableFromAxiomStation">
+<dataset datasetID="ca_weather_46204" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13834</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46204 West Sea Otter</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Environment Canada</att>
+    <att name="infoUrl">https://weather.gc.ca/canada_e.html</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_46208" type="EDDTableFromAxiomStation">
+<dataset datasetID="ca_weather_46208" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13835</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46208 West Moresby</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Environment Canada</att>
+    <att name="infoUrl">https://weather.gc.ca/canada_e.html</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_46205" type="EDDTableFromAxiomStation">
+<dataset datasetID="ca_weather_46205" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13836</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46205 West Dixon Entrance</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Environment Canada</att>
+    <att name="infoUrl">https://weather.gc.ca/canada_e.html</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_46184" type="EDDTableFromAxiomStation">
+<dataset datasetID="ca_weather_46184" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13837</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46184 North Nomad</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Environment Canada</att>
+    <att name="infoUrl">https://weather.gc.ca/canada_e.html</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -10060,14 +10073,14 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_prda2" type="EDDTableFromAxiomStation">
+<dataset datasetID="noaa_nos_co_ops_prda2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13839</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">PRDA2 9497645 - Prudhoe Bay, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -10099,7 +10112,7 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_46246" type="EDDTableFromAxiomStation">
+<dataset datasetID="edu_ucsd_cdip_46246" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13843</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -10157,7 +10170,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Adak Island, Adak Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10170,7 +10183,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Anaktuvuk Pass, Anaktuvuk Pass Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10183,7 +10196,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Anchorage, Elmendorf Air Force Base</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10196,7 +10209,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Anchorage, Lake Hood Seaplane Base</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10209,7 +10222,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Anchorage, Merrill Field Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10222,7 +10235,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Anchorage, Ted Stevens Anchorage International Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10235,7 +10248,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Aniak, Aniak Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10248,7 +10261,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Annette, Annette Island Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10261,7 +10274,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Anvik, Anvik Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10274,7 +10287,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Arctic Village, Arctic Village Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10287,7 +10300,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Atka, Atka Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10300,7 +10313,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Barrow, Wiley Post-Will Rogers Memorial Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10313,7 +10326,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Barter Island, Barter Island LRRS Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10326,7 +10339,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Bethel, Bethel Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10339,7 +10352,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Bettles, Bettles Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10352,7 +10365,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Big River Lake</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10365,7 +10378,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Birchwood, Birchwood Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10378,7 +10391,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Buckland, Buckland Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10391,7 +10404,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Cape Lisburne, Cape Lisburne LRRS Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10404,7 +10417,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Cape Newenham, Cape Newenham LRRS Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10417,7 +10430,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Chandalar Lake, Chandalar Lake Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10430,7 +10443,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Chignik, Chignik Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10443,7 +10456,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Chulitna, Chulitna Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10456,7 +10469,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Cold Bay, Cold Bay Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10469,7 +10482,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Cordova, Merle K Mudhole Smith Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10482,7 +10495,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Deadhorse, Alpine Airstrip</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10495,7 +10508,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Deadhorse, Deadhorse Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10508,7 +10521,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Deering, Deering/New Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10521,7 +10534,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Delta Junction/Ft Greely, Allen Army Airfield</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10534,7 +10547,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Dillingham, Dillingham Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10547,7 +10560,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Eagle, Eagle Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10560,7 +10573,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Egegik, Egegik Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10573,7 +10586,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Elfin Cove, Elfin Cove Seaplane Base</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10586,7 +10599,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Emmonak, Emmonak Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10599,7 +10612,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Eureka, Skelton Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10612,7 +10625,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Fairbanks, Eielson Air Force Base</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10625,7 +10638,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Fairbanks, Fairbanks International Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10638,7 +10651,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Farewell Lake, Farewell Lake Seaplane Base</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10651,7 +10664,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Fort Wainwright AAF</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10664,7 +10677,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Fort Yukon, Fort Yukon Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10677,7 +10690,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Galbraith Lake, Galbraith Lake Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10690,7 +10703,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Galena, Edward G. Pitka Sr. Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10703,7 +10716,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Gambell, Gambell Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10716,7 +10729,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Golovin, Golovin Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10729,7 +10742,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Gulkana, Gulkana Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10742,7 +10755,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Gustavus, Gustavus Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10755,7 +10768,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Haines, Haines Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10768,7 +10781,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Homer, Homer Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10781,7 +10794,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Hoonah, Hoonah Seaplane Base</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10794,7 +10807,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Hooper Bay, Hooper Bay Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10807,7 +10820,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Huslia, Huslia Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10820,7 +10833,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Hydaburg, Hydaburg Seaplane Base</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10833,7 +10846,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Iliamna, Iliamna Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10846,7 +10859,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Juneau, Juneau International Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10859,7 +10872,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Kake, Kake Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10872,7 +10885,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Kaltag, Kaltag Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10885,7 +10898,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Kenai, Kenai Municipal Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10898,7 +10911,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Ketchikan, Ketchikan International Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10911,7 +10924,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">King Salmon, King Salmon Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10924,7 +10937,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Kipnuk, Kipnuk Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10937,7 +10950,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Kivalina, Kivalina Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10950,7 +10963,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Klawock, Klawock Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10963,7 +10976,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Kodiak, Kodiak Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10976,7 +10989,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Kotzebue, Ralph Wien Memorial Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10989,7 +11002,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Koyuk, Koyuk Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11002,7 +11015,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Kuparuk, Ugnu-Kuparuk Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11015,7 +11028,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Manley Hot Springs, Manly Hot Springs Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11028,7 +11041,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">McCarthy</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11041,7 +11054,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">McGrath, McGrath Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11054,7 +11067,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">McKinley Park, McKinley National Park Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11067,7 +11080,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Mekoryuk, Mekoryuk Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11080,7 +11093,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Merrill Pass West</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11093,7 +11106,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Metlakatla, Metlakatla Seaplane Base</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11106,7 +11119,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Middleton Island, Middleton Island Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11119,7 +11132,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Minchumina, Minchumina Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11132,7 +11145,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Nabesna, Devil Mountain Lodge Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11145,7 +11158,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Nenana, Nenana Municipal Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11158,7 +11171,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Noatak, Noatak Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11171,7 +11184,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Nome, Nome Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11184,7 +11197,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Northway, Northway Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11197,7 +11210,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Nuiqsut, Nuiqsut Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11210,7 +11223,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Palmer, Palmer Municipal Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11223,7 +11236,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Petersburg</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11236,7 +11249,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Platinum</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11249,7 +11262,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Point Hope, Point Hope Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11262,7 +11275,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Point Lay, Point Lay LRRS Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11275,7 +11288,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Port Alexander, Port Alexander Seaplane Base</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11288,7 +11301,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Port Heiden, Port Heiden Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11301,7 +11314,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Portage, Portage Glacier</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11314,7 +11327,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Puntilla</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11327,7 +11340,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Sand Point</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11340,7 +11353,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Savoonga Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11353,7 +11366,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Selawik</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11366,7 +11379,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Seldovia, Seldovia Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11379,7 +11392,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Seward</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11392,7 +11405,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Sheep Mountain, Sheep Mountain Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11405,7 +11418,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Shemya, Eareckson AFB</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11418,7 +11431,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Shishmaref, Shishmaref Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11431,7 +11444,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Sitka, Sitka Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11444,7 +11457,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Skagway</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11457,7 +11470,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Skwentna</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11470,7 +11483,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Slana Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11483,7 +11496,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Sleetmute</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11496,7 +11509,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Snowshoe Lake</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11509,7 +11522,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Soldotna</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11522,7 +11535,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">St. George, St. George Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11535,7 +11548,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">St. Mary's, St. Mary's Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11548,7 +11561,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">St. Paul Island, St. Paul Island Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11561,7 +11574,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Takotna, Tatalina LRRS Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11574,7 +11587,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Talkeetna, Talkeetna Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11587,7 +11600,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Tanana, Calhoun Memorial Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11600,7 +11613,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Tin City Airways Facilities Sector</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11613,7 +11626,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Unalakleet</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11626,7 +11639,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Unalaska, Unalaska Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11639,7 +11652,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Valdez 2</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11652,7 +11665,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Wainwright, Wainwright Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11665,7 +11678,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Wasilla, Wasilla Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11678,7 +11691,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Whittier</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11691,7 +11704,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Willow Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11704,7 +11717,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Wrangell</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11717,7 +11730,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Yakutat</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11862,6 +11875,19 @@
     <att name="title">GAK 1 near Seward</att>
     <att name="institution">NOAA: Pacific Marine Environmental Laboratory (PMEL) Carbon Program</att>
     <att name="infoUrl">http://www.pmel.noaa.gov/co2/</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="com_micro_specialties_kodiak" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>14121</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">AHON-Kodiak</att>
+    <att name="institution">Alaska Harbor Observation Network (AHON)</att>
+    <att name="infoUrl">http://www.micro-specialties.com/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -12172,7 +12198,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Prince Rupert, B. C.</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -12185,7 +12211,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Watson Lake, Y. T.</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -12198,7 +12224,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Whitehorse, Y. T.</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -12211,7 +12237,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Central, Central</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -12224,7 +12250,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Circle City Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -12237,7 +12263,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Ambler, Ambler Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -12250,7 +12276,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Hayes River, Hayes River Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -12263,7 +12289,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Kiana Kinana/Bob Baker Mem</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -12276,7 +12302,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Wales</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -12289,7 +12315,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Prospect Creek, Prospect Creek Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -12302,7 +12328,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Central, Central Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -12315,7 +12341,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Teller</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -12328,7 +12354,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Togiak Village, Togiak Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -12341,7 +12367,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Valdez Weather Station Office</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -12354,7 +12380,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Paxson</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -19836,40 +19862,40 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_48214" type="EDDTableFromAxiomStation">
+<dataset datasetID="com_shell_48214" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>15822</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">48214 Klondike MOB1</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Shell</att>
+    <att name="infoUrl">http://www.shell.com/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_48213" type="EDDTableFromAxiomStation">
+<dataset datasetID="com_shell_48213" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>15823</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">48213 Burger MOB2</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Shell</att>
+    <att name="infoUrl">http://www.shell.com/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_lpwa2" type="EDDTableFromAxiomStation">
+<dataset datasetID="gov_noaa_nmfs_lpwa2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>15826</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">LPWA2 Little Port Walter, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">National Marine Fisheries Service</att>
+    <att name="infoUrl">http://www.nmfs.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -20401,7 +20427,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">SEXTON SUMMIT</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -20421,40 +20447,40 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_46131" type="EDDTableFromAxiomStation">
+<dataset datasetID="ca_weather_46131" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>17001</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46131 Sentry Shoal</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Environment Canada</att>
+    <att name="infoUrl">https://weather.gc.ca/canada_e.html</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_46146" type="EDDTableFromAxiomStation">
+<dataset datasetID="ca_weather_46146" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>17003</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46146 Halibut Bank</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Environment Canada</att>
+    <att name="infoUrl">https://weather.gc.ca/canada_e.html</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_46206" type="EDDTableFromAxiomStation">
+<dataset datasetID="ca_weather_46206" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>17004</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46206 La Perouse Bank</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Environment Canada</att>
+    <att name="infoUrl">https://weather.gc.ca/canada_e.html</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -20811,14 +20837,14 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_chno3" type="EDDTableFromAxiomStation">
+<dataset datasetID="nerrs_chno3" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>18397</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">CHNO3 South Slough Reserve, OR</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">National Estuarine Research Reserve System (NERRS)</att>
+    <att name="infoUrl">http://www.nerrs.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -20830,20 +20856,21 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46229 UMPQUA OFFSHORE, OR 139</att>
-    <att name="institution">edu.ucsd.cdip</att>
+    <att name="institution">The Coastal Data Information Program</att>
+    <att name="infoUrl">http://cdip.ucsd.edu/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_poro3" type="EDDTableFromAxiomStation">
+<dataset datasetID="noaa_nos_co_ops_poro3" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>18405</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">PORO3 9431647 - Port Orford, OR</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -20862,14 +20889,14 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_chao3" type="EDDTableFromAxiomStation">
+<dataset datasetID="noaa_nos_co_ops_chao3" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>18407</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">CHAO3 9432780 - Charleston, OR</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -20901,14 +20928,14 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_sbeo3" type="EDDTableFromAxiomStation">
+<dataset datasetID="noaa_nos_co_ops_sbeo3" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>18410</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">SBEO3 9435380 - South Beach, OR</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -21057,14 +21084,14 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_46094" type="EDDTableFromAxiomStation">
+<dataset datasetID="edu_oregonstate_46094" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>19971</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46094 West of Newport NH-10, OR</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Oregon State University (OSU)</att>
+    <att name="infoUrl">http://agate.coas.oregonstate.edu/buoy_index.html</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -21577,14 +21604,14 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_itka2" type="EDDTableFromAxiomStation">
+<dataset datasetID="noaa_nos_co_ops_itka2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>20246</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">ITKA2 9451600 - Sitka, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -21772,14 +21799,14 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_jmla2" type="EDDTableFromAxiomStation">
+<dataset datasetID="org_mxak_jmla2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>20299</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">JMLA2 Juneau AML Dock</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Marine Exchange of Alaska</att>
+    <att name="infoUrl">http://www.mxak.org/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -22292,14 +22319,14 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_nkla2" type="EDDTableFromAxiomStation">
+<dataset datasetID="org_mxak_nkla2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>20670</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">NKLA2 Nikolski White Alice</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Marine Exchange of Alaska</att>
+    <att name="infoUrl">http://www.mxak.org/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -22558,7 +22585,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Nanaimo Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22571,7 +22598,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Comox, B. C.</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22584,7 +22611,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Vancouver International Air-Port, B. C.</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22597,7 +22624,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Abbotsford, B. C.</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22610,7 +22637,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Victoria Int. Airport, B. C.</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22623,7 +22650,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Mackenzie, B. C.</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22636,7 +22663,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Oak Harbor Airpark</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22649,7 +22676,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">PORT OF ASTORIA AIRPORT</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22662,7 +22689,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Arlington Municipal</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22675,7 +22702,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">SEATTLE BOEING FIELD</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22688,7 +22715,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">BELLINGHAM INTERNATIONAL  AIRPORT</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22701,7 +22728,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Burlington/Mount Vernon, Skagit Regional Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22714,7 +22741,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">PORT ANGELES FAIRCHILD INTERNATIONAL </att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22727,7 +22754,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Corvallis, Corvallis Municipal Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22740,7 +22767,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Cascade Locks State</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22753,7 +22780,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">THE DALLES MUNICIPAL AIRPORT </att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22766,7 +22793,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">ELLENSBURG BOWERS FIELD</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22779,7 +22806,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">MAHLON SWEET FIELD</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22792,7 +22819,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">FRIDAY HARBOR AIRPORT</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22805,7 +22832,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Fort Lewis / Gray U. S. Army Airfield</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22818,7 +22845,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">PORTLAND-HILLSBORO AIRPORT</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22831,7 +22858,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">HOQUIAM BOWERMAN AIRPORT</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22844,7 +22871,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Kelso, Kelso-Longview Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22857,7 +22884,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">MCMINNVILLE MUNICIPAL AIRPORT </att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22870,7 +22897,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">NAS WHIDBEY ISLAND</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22883,7 +22910,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">OLYMPIA AIRPORT</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22896,7 +22923,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Newport, Newport Municipal Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22909,7 +22936,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Eastsound, Orcas Island Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22922,7 +22949,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">North Bend, North Bend Municipal Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22935,7 +22962,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">EVERETT SNOHOMISH COUNTY</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22948,7 +22975,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">PORTLAND INTERNATIONAL  AIRPORT</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22961,7 +22988,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Bremerton, Bremerton National Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22974,7 +23001,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">ROSEBURG REGIONAL AIRPORT</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -22987,7 +23014,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">RENTON MUNICIPAL AIRPORT</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -23000,7 +23027,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Tillamook, Tillamook Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -23013,7 +23040,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">SEATTLE-TACOMA INTERNATIONAL  AIRPORT </att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -23026,7 +23053,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">SHELTON SANDERSON FIELD</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -23039,7 +23066,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">SALEM MCNARY FIELD</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -23052,7 +23079,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">STAMPEDE PASS</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -23065,7 +23092,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">SCAPPOOSE INDUSTRIAL AIRPARK</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -23078,7 +23105,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Tacoma / McChord Air Force Base</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -23091,7 +23118,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Toledo-Winlock Memorial</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -23104,7 +23131,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Tacoma, Tacoma Narrows Airport</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -23117,7 +23144,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">PORTLAND-TROUTDALE AIRPORT</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -23130,7 +23157,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">AURORA STATE AIRPORT</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -23143,7 +23170,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">QUILLAYUTE STATE AIRPORT</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -23156,7 +23183,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">PEARSON AIRFIELD</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -23169,7 +23196,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Ft. Richardson / Bryant U. S. Army Heliport, Ak</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -23182,7 +23209,7 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Umiat</att>
-    <att name="institution">NOAA Weather</att>
+    <att name="institution">National Weather Service</att>
     <att name="infoUrl">http://www.weather.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -33108,14 +33135,14 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_46096" type="EDDTableFromAxiomStation">
+<dataset datasetID="org_cmop_46096" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>41798</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46096 Columbia River Entrance - SATURN Station #02 Offshore</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Center for Coastal Margin Observation &amp; Prediction</att>
+    <att name="infoUrl">http://www.stccmop.org/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -33127,7 +33154,8 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46211 Grays Harbor, WA 036</att>
-    <att name="institution">edu.ucsd.cdip</att>
+    <att name="institution">The Coastal Data Information Program</att>
+    <att name="infoUrl">http://cdip.ucsd.edu/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -33139,7 +33167,8 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46243 Clatsop Spit, OR - 162</att>
-    <att name="institution">edu.ucsd.cdip</att>
+    <att name="institution">The Coastal Data Information Program</att>
+    <att name="infoUrl">http://cdip.ucsd.edu/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -33151,7 +33180,8 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46248 Astoria Canyon, OR 179</att>
-    <att name="institution">edu.ucsd.cdip</att>
+    <att name="institution">The Coastal Data Information Program</att>
+    <att name="infoUrl">http://cdip.ucsd.edu/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -37135,6 +37165,19 @@
   </addAttributes>
 </dataset>
 
+<dataset datasetID="com_micro_specialties_kayak_island" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>48032</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Kayak Island</att>
+    <att name="institution">Alaska Harbor Observation Network (AHON)</att>
+    <att name="infoUrl">http://www.micro-specialties.com/</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
 <dataset datasetID="edu_oregonstate_burkolator" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>48037</stationId>
@@ -37142,20 +37185,20 @@
   <addAttributes>
     <att name="title">Burkolator</att>
     <att name="institution">Oregon State University (OSU)</att>
-    <att name="infoUrl">http://oregonstate.edu/</att>
+    <att name="infoUrl">http://agate.coas.oregonstate.edu/buoy_index.html</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_48114" type="EDDTableFromAxiomStation">
+<dataset datasetID="aoos_48114" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>48043</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">48114 35 NM West of King Island</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Alaska Ocean Observing System (AOOS)</att>
+    <att name="infoUrl">http://www.aoos.org/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -40545,27 +40588,27 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_48012" type="EDDTableFromAxiomStation">
+<dataset datasetID="edu_uaf_48012" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>54308</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Point Lay UAF</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">University Of Alaska Fairbanks</att>
+    <att name="infoUrl">http://www.uaf.edu/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_48216" type="EDDTableFromAxiomStation">
+<dataset datasetID="com_shell_48216" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>54309</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Crackerjack Shell Arctic</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Shell</att>
+    <att name="infoUrl">http://www.shell.com/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -45650,19 +45693,6 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="gov_alaska_adfg_kenai_river_late_run_sockeye" type="EDDTableFromAxiomStation">
-  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-  <stationId>57192</stationId>
-  <reloadEveryNMinutes>60</reloadEveryNMinutes>
-  <addAttributes>
-    <att name="title">Kenai River Late-Run Sockeye</att>
-    <att name="institution">Alaska Department of Fish and Game</att>
-    <att name="infoUrl">http://www.adfg.alaska.gov/sf/FishCounts/index.cfm?adfg=main.home</att>
-    <att name="publisher_name">AOOS</att>
-    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-  </addAttributes>
-</dataset>
-
 <dataset datasetID="gov_alaska_adfg_kasilof_river_sockeye" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>57193</stationId>
@@ -46066,6 +46096,19 @@
   </addAttributes>
 </dataset>
 
+<dataset datasetID="gov_alaska_adfg_kenai_river_late_run_sockeye" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>57235</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Kenai River Late-Run Sockeye</att>
+    <att name="institution">Alaska Department of Fish and Game</att>
+    <att name="infoUrl">http://www.adfg.alaska.gov/sf/FishCounts/index.cfm?adfg=main.home</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
 <dataset datasetID="wmo_21415" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>57242</stationId>
@@ -46079,66 +46122,66 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_46120" type="EDDTableFromAxiomStation">
+<dataset datasetID="edu_washington_46120" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>57286</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46120 Pt Wells, WA U of Wash</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">University of Washington</att>
+    <att name="infoUrl">http://orca.ocean.washington.edu/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_46121" type="EDDTableFromAxiomStation">
+<dataset datasetID="edu_washington_46121" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>57287</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46121 Carr Inlet, WA U of Wash</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">University of Washington</att>
+    <att name="infoUrl">http://orca.ocean.washington.edu/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_46123" type="EDDTableFromAxiomStation">
+<dataset datasetID="edu_washington_46123" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>57288</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46123 Twanoh - Hood Canal, WA U of Wash</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">University of Washington</att>
+    <att name="infoUrl">http://orca.ocean.washington.edu/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_46125" type="EDDTableFromAxiomStation">
+<dataset datasetID="edu_washington_46125" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>57289</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46125 Hansville - Hood Canal, WA</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">University of Washington</att>
+    <att name="infoUrl">http://orca.ocean.washington.edu/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_46134" type="EDDTableFromAxiomStation">
+<dataset datasetID="ca_weather_46134" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>57290</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46134 Pat Bay</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Environment Canada</att>
+    <att name="infoUrl">https://weather.gc.ca/canada_e.html</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -46170,196 +46213,196 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_46451" type="EDDTableFromAxiomStation">
+<dataset datasetID="gov_noaa_pmel_46451" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>57299</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46451 PMEL 4G Test 1 - 83NM W of Newport, WA</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">NOAA: Pacific Marine Environmental Laboratory (PMEL) Carbon Program</att>
+    <att name="infoUrl">http://www.pmel.noaa.gov/co2/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_46452" type="EDDTableFromAxiomStation">
+<dataset datasetID="gov_noaa_pmel_46452" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>57300</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46452 PMEL 4G Test 2 - 74NM West of Newport, WA</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">NOAA: Pacific Marine Environmental Laboratory (PMEL) Carbon Program</att>
+    <att name="infoUrl">http://www.pmel.noaa.gov/co2/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_pbfw1" type="EDDTableFromAxiomStation">
+<dataset datasetID="nerrs_pbfw1" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>57409</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">PBFW1 Padilla Bay Farm, Padilla Bay Reserve, WA</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">National Estuarine Research Reserve System (NERRS)</att>
+    <att name="infoUrl">http://www.nerrs.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_46124" type="EDDTableFromAxiomStation">
+<dataset datasetID="edu_washington_46124" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>57493</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">46124 Hoodsport - Hood Canal, WA U of Wash</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">University of Washington</att>
+    <att name="infoUrl">http://orca.ocean.washington.edu/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_bvqw1" type="EDDTableFromAxiomStation">
+<dataset datasetID="nerrs_bvqw1" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>57500</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">BVQW1 Bayview Channel - Padilla Bay, WA</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">National Estuarine Research Reserve System (NERRS)</att>
+    <att name="infoUrl">http://www.nerrs.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_chqo3" type="EDDTableFromAxiomStation">
+<dataset datasetID="nerrs_chqo3" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>57501</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">CHQO3 Winchester Arm - South Slough, OR</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">National Estuarine Research Reserve System (NERRS)</att>
+    <att name="infoUrl">http://www.nerrs.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_cwqo3" type="EDDTableFromAxiomStation">
+<dataset datasetID="nerrs_cwqo3" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>57502</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">CWQO3 Charleston Bridge, South Slough Reserve, OR</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">National Estuarine Research Reserve System (NERRS)</att>
+    <att name="infoUrl">http://www.nerrs.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_hmra2" type="EDDTableFromAxiomStation">
+<dataset datasetID="nerrs_hmra2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>57511</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">HMRA2 Homer, Kachemak Bay Reserve, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">National Estuarine Research Reserve System (NERRS)</att>
+    <att name="infoUrl">http://www.nerrs.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_jtaw1" type="EDDTableFromAxiomStation">
+<dataset datasetID="org_cmop_jtaw1" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>57514</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">JTAW1 Jetty A, USCG Station Disappointment</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Center for Coastal Margin Observation &amp; Prediction</att>
+    <att name="infoUrl">http://www.stccmop.org/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_kcha2" type="EDDTableFromAxiomStation">
+<dataset datasetID="nerrs_kcha2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>57515</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">KCHA2 Homer Dolphin Deep, Kachemak Bay Reserve, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">National Estuarine Research Reserve System (NERRS)</att>
+    <att name="infoUrl">http://www.nerrs.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_pblw1" type="EDDTableFromAxiomStation">
+<dataset datasetID="nerrs_pblw1" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>57521</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">PBLW1 Ploeg Channel, Padilla Bay Reserve, WA</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">National Estuarine Research Reserve System (NERRS)</att>
+    <att name="infoUrl">http://www.nerrs.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_sefo3" type="EDDTableFromAxiomStation">
+<dataset datasetID="org_cmop_sefo3" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>57528</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">SEFO3 SATURN Estuary Station #04 at Mott Basin</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Center for Coastal Margin Observation &amp; Prediction</att>
+    <att name="infoUrl">http://www.stccmop.org/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_seqa2" type="EDDTableFromAxiomStation">
+<dataset datasetID="nerrs_seqa2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>57529</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">SEQA2 Seldovia Deep, Katchemak Bay Reserve, AK</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">National Estuarine Research Reserve System (NERRS)</att>
+    <att name="infoUrl">http://www.nerrs.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_seto3" type="EDDTableFromAxiomStation">
+<dataset datasetID="org_cmop_seto3" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>57530</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">SETO3 SATURN Estuary Station #03</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">Center for Coastal Margin Observation &amp; Prediction</att>
+    <att name="infoUrl">http://www.stccmop.org/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="wmo_soqo3" type="EDDTableFromAxiomStation">
+<dataset datasetID="nerrs_soqo3" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>57531</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">SOQO3 Valino Island, South Slough Reserve, OR</att>
-    <att name="institution">National Data Buoy Center (NDBC)</att>
-    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="institution">National Estuarine Research Reserve System (NERRS)</att>
+    <att name="infoUrl">http://www.nerrs.noaa.gov/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
@@ -47353,12 +47396,51 @@
   </addAttributes>
 </dataset>
 
+<dataset datasetID="gov_usgs_waterdata_452033122195901" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>61827</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">02S/04E-29DAD</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
 <dataset datasetID="gov_usgs_waterdata_452912122312801" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>62599</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">01.00S/02.00E-14ABC01</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_12458000" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>63144</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">ICICLE CREEK ABOVE SNOW CREEK NEAR LEAVENWORTH, WA</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_442242121405501" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>63247</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">14S/09E-08ABA</att>
     <att name="institution">USGS National Water Information System (NWIS)</att>
     <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
     <att name="publisher_name">AOOS</att>
@@ -47374,6 +47456,19 @@
     <att name="title">MOSQUITO FORK 2 MI BL KECHUMSTUK C NR CHICKEN AK</att>
     <att name="institution">USGS National Water Information System (NWIS)</att>
     <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="edu_wa_fhl_main_tower" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>63966</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">FHL Main Tower</att>
+    <att name="institution">Friday Harbor Laboratories</att>
+    <att name="infoUrl">http://depts.washington.edu/fhl/</att>
     <att name="publisher_name">AOOS</att>
     <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
   </addAttributes>
