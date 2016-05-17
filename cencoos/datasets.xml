@@ -16019,6 +16019,54 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="gov_usgs_cmgp_calcstwet_957" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64145</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">CALCSTWET - 957</att>
+      <att name="institution">USGS Coastal and Marine Geology Program</att>
+      <att name="infoUrl">http://marine.usgs.gov/</att>
+      <att name="publisher_name">CeNCOOS</att>
+      <att name="publisher_email">jpatterson@mbari.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_usgs_cmgp_calcstwet_983" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64159</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">CALCSTWET - 983</att>
+      <att name="institution">USGS Coastal and Marine Geology Program</att>
+      <att name="infoUrl">http://marine.usgs.gov/</att>
+      <att name="publisher_name">CeNCOOS</att>
+      <att name="publisher_email">jpatterson@mbari.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_usgs_cmgp_calcstwet_956" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64164</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">CALCSTWET - 956</att>
+      <att name="institution">USGS Coastal and Marine Geology Program</att>
+      <att name="infoUrl">http://marine.usgs.gov/</att>
+      <att name="publisher_name">CeNCOOS</att>
+      <att name="publisher_email">jpatterson@mbari.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_usgs_cmgp_calcstwet_981" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64165</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">CALCSTWET - 981</att>
+      <att name="institution">USGS Coastal and Marine Geology Program</att>
+      <att name="infoUrl">http://marine.usgs.gov/</att>
+      <att name="publisher_name">CeNCOOS</att>
+      <att name="publisher_email">jpatterson@mbari.org</att>
+    </addAttributes>
+  </dataset>
   <dataset type="EDDTableFromNcCFFiles" datasetID="sp011_20140923t0000">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/mnt/gluster/data/netCDF/gliders/download/ioos_dac</fileDir>

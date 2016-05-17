@@ -58579,6 +58579,19 @@
   </addAttributes>
 </dataset>
 
+<dataset datasetID="org_cormp_lej3" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60422</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Onslow Bay Outer, NC</att>
+    <att name="institution">UNCW - Coastal Ocean Research and Monitoring Program</att>
+    <att name="infoUrl">http://www.cormp.org/index.php</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
 <dataset datasetID="org_cormp_lej3wave" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>60423</stationId>
@@ -58598,6 +58611,19 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">(SECOORA) Sunset Nearshore SUN 2</att>
+    <att name="institution">UNCW - Coastal Ocean Research and Monitoring Program</att>
+    <att name="infoUrl">http://www.cormp.org/index.php</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="org_cormp_sun2wave" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>60425</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">sun2wave</att>
     <att name="institution">UNCW - Coastal Ocean Research and Monitoring Program</att>
     <att name="infoUrl">http://www.cormp.org/index.php</att>
     <att name="publisher_name">SECOORA</att>
@@ -60587,6 +60613,19 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">58A 88</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_251203080480600" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>62249</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">WEST LAKE OUTLET TO LONG LAKE NEAR FLAMINGO, FL</att>
     <att name="institution">USGS National Water Information System (NWIS)</att>
     <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
     <att name="publisher_name">SECOORA</att>
