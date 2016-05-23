@@ -5536,7 +5536,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Morro Bay Yacht Club</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5548,7 +5548,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Romberg Tiburon Center Pier</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5560,7 +5560,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Santa Cruz Harbor</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5572,7 +5572,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">San Mateo Bridge Toll</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5584,7 +5584,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Inn of the Lost Coast</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5596,7 +5596,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Humboldt Bay Bar</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5608,7 +5608,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">San Jose Downtown</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5620,7 +5620,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Nepenthe Restaurant</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5632,7 +5632,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Point Reyes National Seashore</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5644,7 +5644,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Sausalito</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5656,7 +5656,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Mount Tamalpais State Park</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
@@ -5668,7 +5668,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Ayala Cove, Angel Island</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>

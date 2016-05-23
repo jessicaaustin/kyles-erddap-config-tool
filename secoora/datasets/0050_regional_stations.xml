@@ -38914,7 +38914,7 @@
   <addAttributes>
     <att name="title">BDVF1 Broad River, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -38940,7 +38940,7 @@
   <addAttributes>
     <att name="title">BNKF1 Butternut Key, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -38953,13 +38953,13 @@
   <addAttributes>
     <att name="title">BOBF1 Bob Allen, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="org_disl_bsca1" type="EDDTableFromAxiomStation">
+<dataset datasetID="disl_bsca1" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>41827</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -38979,7 +38979,7 @@
   <addAttributes>
     <att name="title">BWSF1 Blackwater Sound, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -38992,7 +38992,7 @@
   <addAttributes>
     <att name="title">CANF1 Cane Patch, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -39018,13 +39018,13 @@
   <addAttributes>
     <att name="title">CNBF1 Cannon Bay, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="org_disl_crta1" type="EDDTableFromAxiomStation">
+<dataset datasetID="disl_crta1" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>41840</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -39044,7 +39044,7 @@
   <addAttributes>
     <att name="title">CWAF1 Clear Water Pass, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -39057,7 +39057,7 @@
   <addAttributes>
     <att name="title">DKKF1 Duck Key, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -39096,7 +39096,7 @@
   <addAttributes>
     <att name="title">GBIF1 Gunboat Island, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -39109,7 +39109,7 @@
   <addAttributes>
     <att name="title">GBTF1 Garfield Bight, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -39122,7 +39122,7 @@
   <addAttributes>
     <att name="title">HCEF1 Highway Creek, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -39135,13 +39135,13 @@
   <addAttributes>
     <att name="title">JKYF1 Johnson Key, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="org_disl_kata1" type="EDDTableFromAxiomStation">
+<dataset datasetID="disl_kata1" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>41862</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -39161,7 +39161,7 @@
   <addAttributes>
     <att name="title">LBRF1 Broad River Lower, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -39174,7 +39174,7 @@
   <addAttributes>
     <att name="title">LBSF1 Little Blackwater, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -39187,7 +39187,7 @@
   <addAttributes>
     <att name="title">LMDF1 Little Madeira, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -39213,7 +39213,7 @@
   <addAttributes>
     <att name="title">LMRF1 Lostmans River, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -39226,7 +39226,7 @@
   <addAttributes>
     <att name="title">LRIF1 Lane River, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -39239,7 +39239,7 @@
   <addAttributes>
     <att name="title">LRKF1 Little Rabbit Key, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -39252,13 +39252,13 @@
   <addAttributes>
     <att name="title">LSNF1 Long Sound, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="org_disl_mbla1" type="EDDTableFromAxiomStation">
+<dataset datasetID="disl_mbla1" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>41876</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -39271,7 +39271,7 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="org_disl_mhpa1" type="EDDTableFromAxiomStation">
+<dataset datasetID="disl_mhpa1" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>41880</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -39291,7 +39291,7 @@
   <addAttributes>
     <att name="title">MUKF1 Murray Key, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -39330,13 +39330,13 @@
   <addAttributes>
     <att name="title">PKYF1 Peterson Key, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
 </dataset>
 
-<dataset datasetID="org_disl_ppta1" type="EDDTableFromAxiomStation">
+<dataset datasetID="disl_ppta1" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>41903</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -39408,7 +39408,7 @@
   <addAttributes>
     <att name="title">TCVF1 Trout Cove, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -39421,7 +39421,7 @@
   <addAttributes>
     <att name="title">TPEF1 Tarpon Bay East, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -39434,7 +39434,7 @@
   <addAttributes>
     <att name="title">TRRF1 Taylor River, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -39460,7 +39460,7 @@
   <addAttributes>
     <att name="title">WIWF1 Willy Willy, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -39473,7 +39473,7 @@
   <addAttributes>
     <att name="title">WPLF1 Watson Place, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -39486,7 +39486,7 @@
   <addAttributes>
     <att name="title">WRBF1 Whipray Basin, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -39499,7 +39499,7 @@
   <addAttributes>
     <att name="title">WWEF1 White Water -West, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -57455,7 +57455,7 @@
   <addAttributes>
     <att name="title">BKYF1 Buoy Key, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -57520,7 +57520,7 @@
   <addAttributes>
     <att name="title">HREF1 Harney River, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -57624,7 +57624,7 @@
   <addAttributes>
     <att name="title">NRRF1 North River, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -57676,7 +57676,7 @@
   <addAttributes>
     <att name="title">SREF1 Shark River, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -57689,7 +57689,7 @@
   <addAttributes>
     <att name="title">TBYF1 Terrapin Bay, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -57741,7 +57741,7 @@
   <addAttributes>
     <att name="title">Shell Point</att>
     <att name="institution">SCCF RECON</att>
-    <att name="infoUrl">http://recon.sccf.org/index.shtml</att>
+    <att name="infoUrl">http://recon.sccf.org/</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -57754,7 +57754,7 @@
   <addAttributes>
     <att name="title">Gulf of Mexico</att>
     <att name="institution">SCCF RECON</att>
-    <att name="infoUrl">http://recon.sccf.org/index.shtml</att>
+    <att name="infoUrl">http://recon.sccf.org/</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -57767,7 +57767,7 @@
   <addAttributes>
     <att name="title">Beautiful Island</att>
     <att name="institution">SCCF RECON</att>
-    <att name="infoUrl">http://recon.sccf.org/index.shtml</att>
+    <att name="infoUrl">http://recon.sccf.org/</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -57780,7 +57780,7 @@
   <addAttributes>
     <att name="title">Redfish Pass</att>
     <att name="institution">SCCF RECON</att>
-    <att name="infoUrl">http://recon.sccf.org/index.shtml</att>
+    <att name="infoUrl">http://recon.sccf.org/</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -57793,7 +57793,7 @@
   <addAttributes>
     <att name="title">Tarpon Bay</att>
     <att name="institution">SCCF RECON</att>
-    <att name="infoUrl">http://recon.sccf.org/index.shtml</att>
+    <att name="infoUrl">http://recon.sccf.org/</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -57806,7 +57806,7 @@
   <addAttributes>
     <att name="title">Fort Myers</att>
     <att name="institution">SCCF RECON</att>
-    <att name="infoUrl">http://recon.sccf.org/index.shtml</att>
+    <att name="infoUrl">http://recon.sccf.org/</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -58040,7 +58040,7 @@
   <addAttributes>
     <att name="title">BSKF1 Big Sable Creek, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -58059,7 +58059,7 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="org_disl_dpha1" type="EDDTableFromAxiomStation">
+<dataset datasetID="disl_dpha1" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>57504</stationId>
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
@@ -58079,7 +58079,7 @@
   <addAttributes>
     <att name="title">GKYF1 Garden Key, FL</att>
     <att name="institution">Everglades National Park</att>
-    <att name="infoUrl">https://www.nps.gov/ever/index.htm</att>
+    <att name="infoUrl">http://www.nps.gov/ever/index.htm</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
@@ -60600,6 +60600,19 @@
   <reloadEveryNMinutes>60</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">GA-076</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_253417080224302" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>62089</stationId>
+  <reloadEveryNMinutes>60</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">BLACK CR CANAL RAINGAGE WEST OF US1 NR GOULDS, FL</att>
     <att name="institution">USGS National Water Information System (NWIS)</att>
     <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
     <att name="publisher_name">SECOORA</att>

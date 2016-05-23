@@ -5560,7 +5560,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Anchorage - 4th Ave and G St</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5572,7 +5572,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Anchorage - Sheraton</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5584,7 +5584,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Anchorage Denali Towers</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5596,7 +5596,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Augustine from Homer</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5608,7 +5608,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Augustine Island</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5620,7 +5620,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Augustine Lagoon</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5632,7 +5632,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Augustine Night FLIR</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5644,7 +5644,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Barrow</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5656,7 +5656,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Eagle Crest Skiing</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5668,7 +5668,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Esther Island</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5680,7 +5680,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Fairbanks IARC</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5692,7 +5692,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Four Peaked</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5704,7 +5704,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Juneau CBJ</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5716,7 +5716,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Katmai</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5728,7 +5728,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Ketchikan Dock</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5740,7 +5740,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Lake L9312</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5752,7 +5752,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Lake L9817</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5764,7 +5764,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">McGrath Airport</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5776,7 +5776,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Mendenhall Glacier Visitor Center</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5788,7 +5788,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Nome</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5800,7 +5800,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Pavlof - Cold Bay</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5812,7 +5812,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Pedro Bay</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5824,7 +5824,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Petersburg Dock</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5836,7 +5836,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Petersburg Frederich Sound</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5848,7 +5848,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Peulik</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5860,7 +5860,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Port San Juan</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5872,7 +5872,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Potter Marsh Weight Station</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5884,7 +5884,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Redoubt</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5896,7 +5896,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Redoubt - Hut</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5908,7 +5908,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Seldovia Airport</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5920,7 +5920,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Seldovia City Dock</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5932,7 +5932,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Seldovia Small Boat Harbor</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5944,7 +5944,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Seldovia Small Boat Harbor 2</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5956,7 +5956,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Seldovia Tree Tops Lodge</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5968,7 +5968,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Seward</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5980,7 +5980,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Shishaldin</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -5992,7 +5992,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Sitka</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -6004,7 +6004,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Sitka Dock</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -6016,7 +6016,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Skagway Dock</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -6028,7 +6028,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Spurr Crater Peak</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -6040,7 +6040,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Sunnahae Mt Craig</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -6052,7 +6052,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Tatitlek</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -6064,7 +6064,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Tee Harbor</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -6076,7 +6076,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Toolik Lake</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -6088,7 +6088,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Whittier Apt</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -6184,7 +6184,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Lake Clark/Port Alsworth</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -8236,7 +8236,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Akutan</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -8248,7 +8248,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Fairbanks Birch Hill Skiing</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -8260,7 +8260,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Whittier Dock</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -8272,7 +8272,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Kodiak Habor</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -9124,7 +9124,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Nuchek</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -9136,7 +9136,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Umiat Air Field</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10900,7 +10900,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Alyeska</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10924,7 +10924,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Alyeska</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10936,7 +10936,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Glen Alps Trailhead</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10960,7 +10960,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Anchorage Hilton</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10972,7 +10972,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Anchorage - 4th and D</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10984,7 +10984,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Anchorage Town Square</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -10996,7 +10996,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Lake Otis &amp; Tudor South View</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -11008,7 +11008,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Glenn Highway Weigh Station</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -17578,13 +17578,25 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="wmo_46071" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>15749</stationId>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">46071 Western Aleutians</att>
+      <att name="institution">National Data Buoy Center (NDBC)</att>
+      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
   <dataset datasetID="miscwebcam_3" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>15750</stationId>
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Cleveland</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -18388,7 +18400,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Ivotuk</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -18400,7 +18412,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Imnavait Creek</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -18412,7 +18424,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Mt. Eyak Ski Hill</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -18424,7 +18436,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Cordova Harbor</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -19060,7 +19072,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Marine Exchange Tatitlek</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -19264,7 +19276,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">48114 King Island Buoy</att>
-      <att name="institution">Alaska Ocean Observing System (AOOS)</att>
+      <att name="institution">Alaska Ocean Observing System</att>
       <att name="infoUrl">http://www.aoos.org/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -19336,7 +19348,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Lowell Point</att>
-      <att name="institution">MiscWebCams</att>
+      <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -20788,7 +20800,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">48114 35 NM West of King Island</att>
-      <att name="institution">Alaska Ocean Observing System (AOOS)</att>
+      <att name="institution">Alaska Ocean Observing System</att>
       <att name="infoUrl">http://www.aoos.org/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
@@ -21112,7 +21124,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Lower Cook Inlet, AK - 204</att>
-      <att name="institution">Alaska Ocean Observing System (AOOS)</att>
+      <att name="institution">Alaska Ocean Observing System</att>
       <att name="infoUrl">http://www.aoos.org/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
