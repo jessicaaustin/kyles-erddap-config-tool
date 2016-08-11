@@ -48,7 +48,7 @@ def main(outfile, region, publisher, publisher_email, institution, publishers, h
         station.text = str(sid)
 
         reload = etree.SubElement(dataset, "reloadEveryNMinutes")
-        reload.text = '60'
+        reload.text = '360'
 
         # Attributes
         atts = etree.SubElement(dataset, "addAttributes")

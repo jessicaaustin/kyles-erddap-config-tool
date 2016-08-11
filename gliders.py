@@ -7,7 +7,7 @@ from slugify import UniqueSlugify
 
 ioos_template = """
 <dataset type="EDDTableFromNcCFFiles" datasetID="{slug}">
-    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <fileDir>{folder}</fileDir>
     <fileNameRegex>{file}</fileNameRegex>
     <addAttributes>
