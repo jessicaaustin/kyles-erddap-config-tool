@@ -58,7 +58,7 @@ ioos_template = """
 
 def main(ztype, outfile, names, highlight_title):
 
-    root_folder = '/mnt/gluster/data/netCDF/gliders/download/'
+    root_folder = '/mnt/gluster/data/platforms/stage/download/glider/'
     slug = UniqueSlugify(separator='_', to_lower=True)
 
     datasets = []
