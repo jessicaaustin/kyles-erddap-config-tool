@@ -1,6 +1,6 @@
 <dataset type="EDDTableFromNcCFFiles" datasetID="sp011_20140923t0000">
-    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/netCDF/gliders/download/ioos_dac</fileDir>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <fileDir>/mnt/gluster/data/platforms/stage/download/glider/ioos_dac</fileDir>
     <fileNameRegex>sp011-20140923T0000.nc</fileNameRegex>
     <addAttributes>
         <att name="title">(CeNCOOS) Line 67 Glider - sp011-20140923T0000</att>
@@ -47,8 +47,8 @@
 </dataset>
 
 <dataset type="EDDTableFromNcCFFiles" datasetID="sp011_20150427t1749">
-    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/netCDF/gliders/download/ioos_dac</fileDir>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <fileDir>/mnt/gluster/data/platforms/stage/download/glider/ioos_dac</fileDir>
     <fileNameRegex>sp011-20150427T1749.nc</fileNameRegex>
     <addAttributes>
         <att name="title">(CeNCOOS) Line 67 Glider - sp011-20150427T1749</att>
@@ -95,8 +95,8 @@
 </dataset>
 
 <dataset type="EDDTableFromNcCFFiles" datasetID="sp025_20150813t1746">
-    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/netCDF/gliders/download/ioos_dac</fileDir>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <fileDir>/mnt/gluster/data/platforms/stage/download/glider/ioos_dac</fileDir>
     <fileNameRegex>sp025-20150813T1746.nc</fileNameRegex>
     <addAttributes>
         <att name="title">(CeNCOOS) Line 67 Glider - sp025-20150813T1746</att>
@@ -143,8 +143,8 @@
 </dataset>
 
 <dataset type="EDDTableFromNcCFFiles" datasetID="sp025_20160310t1858">
-    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/netCDF/gliders/download/ioos_dac</fileDir>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <fileDir>/mnt/gluster/data/platforms/stage/download/glider/ioos_dac</fileDir>
     <fileNameRegex>sp025-20160310T1858.nc</fileNameRegex>
     <addAttributes>
         <att name="title">(CeNCOOS) Line 67 Glider - sp025-20160310T1858</att>
@@ -191,8 +191,8 @@
 </dataset>
 
 <dataset type="EDDTableFromNcCFFiles" datasetID="sp028_20140605t170300">
-    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/netCDF/gliders/download/ioos_dac</fileDir>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <fileDir>/mnt/gluster/data/platforms/stage/download/glider/ioos_dac</fileDir>
     <fileNameRegex>sp028-20140605T170300.nc</fileNameRegex>
     <addAttributes>
         <att name="title">(CeNCOOS) Line 67 Glider - sp028-20140605T170300</att>
@@ -239,8 +239,8 @@
 </dataset>
 
 <dataset type="EDDTableFromNcCFFiles" datasetID="sp028_20151124t1741">
-    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/netCDF/gliders/download/ioos_dac</fileDir>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <fileDir>/mnt/gluster/data/platforms/stage/download/glider/ioos_dac</fileDir>
     <fileNameRegex>sp028-20151124T1741.nc</fileNameRegex>
     <addAttributes>
         <att name="title">(CeNCOOS) Line 67 Glider - sp028-20151124T1741</att>
@@ -286,9 +286,57 @@
     <dataVariable><sourceName>instrument_ctd</sourceName><destinationName>instrument_ctd</destinationName><dataType>byte</dataType></dataVariable>
 </dataset>
 
+<dataset type="EDDTableFromNcCFFiles" datasetID="sp028_20160628t1737">
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <fileDir>/mnt/gluster/data/platforms/stage/download/glider/ioos_dac</fileDir>
+    <fileNameRegex>sp028-20160628T1737.nc</fileNameRegex>
+    <addAttributes>
+        <att name="title">(CeNCOOS) Line 67 Glider - sp028-20160628T1737</att>
+    </addAttributes>
+    <dataVariable><sourceName>trajectory</sourceName><destinationName>trajectory</destinationName><dataType>String</dataType></dataVariable>
+    <dataVariable><sourceName>wmo_id</sourceName><destinationName>wmo_id</destinationName><dataType>String</dataType></dataVariable>
+    <dataVariable><sourceName>time</sourceName><destinationName>time</destinationName><dataType>double</dataType></dataVariable>
+    <dataVariable><sourceName>latitude</sourceName><destinationName>latitude</destinationName><dataType>double</dataType></dataVariable>
+    <dataVariable><sourceName>longitude</sourceName><destinationName>longitude</destinationName><dataType>double</dataType></dataVariable>
+    <dataVariable><sourceName>profile_id</sourceName><destinationName>profile_id</destinationName><dataType>short</dataType></dataVariable>
+    <dataVariable><sourceName>time_uv</sourceName><destinationName>time_uv</destinationName><dataType>double</dataType></dataVariable>
+    <dataVariable><sourceName>lat_uv</sourceName><destinationName>lat_uv</destinationName><dataType>double</dataType></dataVariable>
+    <dataVariable><sourceName>lon_uv</sourceName><destinationName>lon_uv</destinationName><dataType>double</dataType></dataVariable>
+    <dataVariable><sourceName>u</sourceName><destinationName>u</destinationName><dataType>double</dataType></dataVariable>
+    <dataVariable><sourceName>v</sourceName><destinationName>v</destinationName><dataType>double</dataType></dataVariable>
+    <dataVariable><sourceName>latitude_qc</sourceName><destinationName>latitude_qc</destinationName><dataType>byte</dataType></dataVariable>
+    <dataVariable><sourceName>longitude_qc</sourceName><destinationName>longitude_qc</destinationName><dataType>byte</dataType></dataVariable>
+    <dataVariable><sourceName>time_qc</sourceName><destinationName>time_qc</destinationName><dataType>byte</dataType></dataVariable>
+    <dataVariable><sourceName>depth</sourceName><destinationName>depth</destinationName><dataType>float</dataType></dataVariable>
+    <dataVariable><sourceName>depth_qc</sourceName><destinationName>depth_qc</destinationName><dataType>byte</dataType></dataVariable>
+    <dataVariable><sourceName>pressure</sourceName><destinationName>pressure</destinationName><dataType>double</dataType></dataVariable>
+    <dataVariable><sourceName>pressure_qc</sourceName><destinationName>pressure_qc</destinationName><dataType>byte</dataType></dataVariable>
+    <dataVariable><sourceName>conductivity</sourceName><destinationName>conductivity</destinationName><dataType>float</dataType></dataVariable>
+    <dataVariable><sourceName>conductivity_qc</sourceName><destinationName>conductivity_qc</destinationName><dataType>byte</dataType></dataVariable>
+    <dataVariable><sourceName>density</sourceName><destinationName>density</destinationName><dataType>float</dataType></dataVariable>
+    <dataVariable><sourceName>density_qc</sourceName><destinationName>density_qc</destinationName><dataType>byte</dataType></dataVariable>
+    <dataVariable><sourceName>precise_lat</sourceName><destinationName>precise_lat</destinationName><dataType>double</dataType></dataVariable>
+    <dataVariable><sourceName>precise_lon</sourceName><destinationName>precise_lon</destinationName><dataType>double</dataType></dataVariable>
+    <dataVariable><sourceName>precise_time</sourceName><destinationName>precise_time</destinationName><dataType>double</dataType></dataVariable>
+    <dataVariable><sourceName>precise_lat_qc</sourceName><destinationName>precise_lat_qc</destinationName><dataType>byte</dataType></dataVariable>
+    <dataVariable><sourceName>precise_lon_qc</sourceName><destinationName>precise_lon_qc</destinationName><dataType>byte</dataType></dataVariable>
+    <dataVariable><sourceName>precise_time_qc</sourceName><destinationName>precise_time_qc</destinationName><dataType>byte</dataType></dataVariable>
+    <dataVariable><sourceName>salinity</sourceName><destinationName>salinity</destinationName><dataType>float</dataType></dataVariable>
+    <dataVariable><sourceName>salinity_qc</sourceName><destinationName>salinity_qc</destinationName><dataType>byte</dataType></dataVariable>
+    <dataVariable><sourceName>temperature</sourceName><destinationName>temperature</destinationName><dataType>float</dataType></dataVariable>
+    <dataVariable><sourceName>temperature_qc</sourceName><destinationName>temperature_qc</destinationName><dataType>byte</dataType></dataVariable>
+    <dataVariable><sourceName>time_uv_qc</sourceName><destinationName>time_uv_qc</destinationName><dataType>byte</dataType></dataVariable>
+    <dataVariable><sourceName>lat_uv_qc</sourceName><destinationName>lat_uv_qc</destinationName><dataType>byte</dataType></dataVariable>
+    <dataVariable><sourceName>lon_uv_qc</sourceName><destinationName>lon_uv_qc</destinationName><dataType>byte</dataType></dataVariable>
+    <dataVariable><sourceName>u_qc</sourceName><destinationName>u_qc</destinationName><dataType>byte</dataType></dataVariable>
+    <dataVariable><sourceName>v_qc</sourceName><destinationName>v_qc</destinationName><dataType>byte</dataType></dataVariable>
+    <dataVariable><sourceName>platform_meta</sourceName><destinationName>platform_meta</destinationName><dataType>byte</dataType></dataVariable>
+    <dataVariable><sourceName>instrument_ctd</sourceName><destinationName>instrument_ctd</destinationName><dataType>byte</dataType></dataVariable>
+</dataset>
+
 <dataset type="EDDTableFromNcCFFiles" datasetID="sp030_20150109t2113">
-    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/netCDF/gliders/download/ioos_dac</fileDir>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <fileDir>/mnt/gluster/data/platforms/stage/download/glider/ioos_dac</fileDir>
     <fileNameRegex>sp030-20150109T2113.nc</fileNameRegex>
     <addAttributes>
         <att name="title">(CeNCOOS) Line 67 Glider - sp030-20150109T2113</att>

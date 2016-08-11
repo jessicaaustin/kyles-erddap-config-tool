@@ -1,6 +1,6 @@
 <dataset type="EDDTableFromNcCFFiles" datasetID="uw130_20150309t2005">
-    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/netCDF/gliders/download/ioos_dac</fileDir>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <fileDir>/mnt/gluster/data/platforms/stage/download/glider/ioos_dac</fileDir>
     <fileNameRegex>UW130-20150309T2005.nc</fileNameRegex>
     <addAttributes>
         <att name="title">(CeNCOOS) Trinidad Glider - UW130-20150309T2005</att>
@@ -47,8 +47,8 @@
 </dataset>
 
 <dataset type="EDDTableFromNcCFFiles" datasetID="uw157_20141116t2118">
-    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/netCDF/gliders/download/ioos_dac</fileDir>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <fileDir>/mnt/gluster/data/platforms/stage/download/glider/ioos_dac</fileDir>
     <fileNameRegex>UW157-20141116T2118.nc</fileNameRegex>
     <addAttributes>
         <att name="title">(CeNCOOS) Trinidad Glider - UW157-20141116T2118</att>
@@ -95,8 +95,8 @@
 </dataset>
 
 <dataset type="EDDTableFromNcCFFiles" datasetID="uw157_20150917t1833">
-    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/netCDF/gliders/download/ioos_dac</fileDir>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <fileDir>/mnt/gluster/data/platforms/stage/download/glider/ioos_dac</fileDir>
     <fileNameRegex>UW157-20150917T1833.nc</fileNameRegex>
     <addAttributes>
         <att name="title">(CeNCOOS) Trinidad Glider - UW157-20150917T1833</att>

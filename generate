@@ -30,7 +30,7 @@ python oikos_stations.py \
 
 python oikos_stations.py \
     -r all \
-    -o all/datasets/0050_regional_stations.xml \
+    -o axiom/datasets/0050_regional_stations.xml \
     -p Axiom \
     -i Axiom
 

@@ -1,6 +1,6 @@
 <dataset type="EDDTableFromNcCFFiles" datasetID="ucsc260_20150520t0000">
-    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/netCDF/gliders/download/ioos_dac</fileDir>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <fileDir>/mnt/gluster/data/platforms/stage/download/glider/ioos_dac</fileDir>
     <fileNameRegex>UCSC260-20150520T0000.nc</fileNameRegex>
     <addAttributes>
         <att name="title">(CeNCOOS) Monterey Bay - UCSC260-20150520T0000</att>
@@ -47,8 +47,8 @@
 </dataset>
 
 <dataset type="EDDTableFromNcCFFiles" datasetID="ucsc294_20150430t2218">
-    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/netCDF/gliders/download/ioos_dac</fileDir>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <fileDir>/mnt/gluster/data/platforms/stage/download/glider/ioos_dac</fileDir>
     <fileNameRegex>UCSC294-20150430T2218.nc</fileNameRegex>
     <addAttributes>
         <att name="title">(CeNCOOS) Monterey Bay - UCSC294-20150430T2218</att>
