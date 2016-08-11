@@ -1,7 +1,10 @@
 ## ERDDAP Content
 
-
-Requires the `libxml2-utils` package (for `xmllint`)
+```
+$ conda create -n erddap-content python=3.5
+$ source activate erddap-content
+$ conda install -c conda-forge --file requirements.txt
+```
 
 **NOTE** You need to do this before commiting in the repo:
 
