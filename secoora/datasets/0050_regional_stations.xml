@@ -38166,6 +38166,19 @@
   </addAttributes>
 </dataset>
 
+<dataset datasetID="gov_noaa_water_bclv2" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>40925</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Beaver Creek VA above Beaver Creek Dam HW near Bristol 3ENE Virginia</att>
+    <att name="institution">NOAA Water Resources Regions, National Weather Service</att>
+    <att name="infoUrl">http://water.weather.gov/ahps/index.php</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
 <dataset datasetID="gov_noaa_water_bcbv2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>40928</stationId>
@@ -38484,6 +38497,19 @@
   <reloadEveryNMinutes>360</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Thousand Acre</att>
+    <att name="institution">NOAA National Estuarine Research Reserve System (NERRS)</att>
+    <att name="infoUrl">http://www.nerrs.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="nerrs_nocecwq" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>41664</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">East Cribbing</att>
     <att name="institution">NOAA National Estuarine Research Reserve System (NERRS)</att>
     <att name="infoUrl">http://www.nerrs.noaa.gov/</att>
     <att name="publisher_name">SECOORA</att>
@@ -55677,6 +55703,58 @@
   </addAttributes>
 </dataset>
 
+<dataset datasetID="noaa_nos_co_ops_cb0701" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>52504</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Dominion Terminal</att>
+    <att name="institution">NOAA Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="noaa_nos_co_ops_mb0301" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>52505</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Mobile State Dock Pier E</att>
+    <att name="institution">NOAA Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="noaa_nos_co_ops_mb0401" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>52506</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Mobile Container Terminal</att>
+    <att name="institution">NOAA Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="noaa_nos_co_ops_ps0401" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>52509</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Pascagoula Harbor LB 10</att>
+    <att name="institution">NOAA Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
 <dataset datasetID="noaa_nos_co_ops_8653951" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>52528</stationId>
@@ -58280,19 +58358,6 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="org_cormp_ilm2wave" type="EDDTableFromAxiomStation">
-  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-  <stationId>60420</stationId>
-  <reloadEveryNMinutes>360</reloadEveryNMinutes>
-  <addAttributes>
-    <att name="title">(SECOORA) ilm2wave</att>
-    <att name="institution">UNCW - Coastal Ocean Research and Monitoring Program</att>
-    <att name="infoUrl">http://www.cormp.org/index.php</att>
-    <att name="publisher_name">SECOORA</att>
-    <att name="publisher_email">vembu@secoora.org</att>
-  </addAttributes>
-</dataset>
-
 <dataset datasetID="org_cormp_ilm3" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>60421</stationId>
@@ -58319,38 +58384,12 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="org_cormp_lej3wave" type="EDDTableFromAxiomStation">
-  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-  <stationId>60423</stationId>
-  <reloadEveryNMinutes>360</reloadEveryNMinutes>
-  <addAttributes>
-    <att name="title">(SECOORA) lej3wave</att>
-    <att name="institution">UNCW - Coastal Ocean Research and Monitoring Program</att>
-    <att name="infoUrl">http://www.cormp.org/index.php</att>
-    <att name="publisher_name">SECOORA</att>
-    <att name="publisher_email">vembu@secoora.org</att>
-  </addAttributes>
-</dataset>
-
 <dataset datasetID="org_cormp_sun2" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>60424</stationId>
   <reloadEveryNMinutes>360</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">(SECOORA) Sunset Nearshore SUN 2</att>
-    <att name="institution">UNCW - Coastal Ocean Research and Monitoring Program</att>
-    <att name="infoUrl">http://www.cormp.org/index.php</att>
-    <att name="publisher_name">SECOORA</att>
-    <att name="publisher_email">vembu@secoora.org</att>
-  </addAttributes>
-</dataset>
-
-<dataset datasetID="org_cormp_sun2wave" type="EDDTableFromAxiomStation">
-  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-  <stationId>60425</stationId>
-  <reloadEveryNMinutes>360</reloadEveryNMinutes>
-  <addAttributes>
-    <att name="title">sun2wave</att>
     <att name="institution">UNCW - Coastal Ocean Research and Monitoring Program</att>
     <att name="infoUrl">http://www.cormp.org/index.php</att>
     <att name="publisher_name">SECOORA</att>
@@ -60537,6 +60576,201 @@
     <att name="title">SSS-VA-NOR-004</att>
     <att name="institution">USGS</att>
     <att name="infoUrl">http://www.usgs.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="noaa_nos_co_ops" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64324</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Cape Henry LB 2CH</att>
+    <att name="institution">NOAA Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="noaa_nos_co_ops_1" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64325</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">York Spit LBB 22</att>
+    <att name="institution">NOAA Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="noaa_nos_co_ops_2" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64326</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Thimble Shoal LB 18</att>
+    <att name="institution">NOAA Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="noaa_nos_co_ops_3" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64327</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Naval Station Norfolk LB 7</att>
+    <att name="institution">NOAA Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="noaa_nos_co_ops_4" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64328</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Newport News Channel LB 14</att>
+    <att name="institution">NOAA Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="noaa_nos_co_ops_5" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64343</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">St Johns River LBB 6</att>
+    <att name="institution">NOAA Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="noaa_nos_co_ops_6" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64344</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Mayport Basin PC LBB</att>
+    <att name="institution">NOAA Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="noaa_nos_co_ops_7" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64345</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Mile Point LB 24</att>
+    <att name="institution">NOAA Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="noaa_nos_co_ops_8" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64346</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Fulton Cutoff LB 34</att>
+    <att name="institution">NOAA Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="noaa_nos_co_ops_9" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64347</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Dames Point Bridge</att>
+    <att name="institution">NOAA Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="noaa_nos_co_ops_10" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64348</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Trout River Cut LB 64</att>
+    <att name="institution">NOAA Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="noaa_nos_co_ops_11" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64349</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Acosta Bridge</att>
+    <att name="institution">NOAA Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="noaa_nos_co_ops_12" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64358</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Pascagoula Harbor LB 17</att>
+    <att name="institution">NOAA Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="noaa_nos_co_ops_13" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64359</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Northrop Grumman Pier</att>
+    <att name="institution">NOAA Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="noaa_nos_co_ops_14" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64364</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Sunshine Skyway Bridge</att>
+    <att name="institution">NOAA Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>

@@ -31188,6 +31188,19 @@
   </addAttributes>
 </dataset>
 
+<dataset datasetID="edu_washington_iabp_135078" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64222</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">135078</att>
+    <att name="institution">International Arctic Buoy Programme (IABP)</att>
+    <att name="infoUrl">http://iabp.apl.washington.edu/index.html</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
 <dataset datasetID="edu_washington_iabp_139588" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>64228</stationId>
@@ -31467,6 +31480,32 @@
   <reloadEveryNMinutes>360</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">300234062957210</att>
+    <att name="institution">International Arctic Buoy Programme (IABP)</att>
+    <att name="infoUrl">http://iabp.apl.washington.edu/index.html</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="edu_washington_iabp_300234063245420" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64301</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">300234063245420</att>
+    <att name="institution">International Arctic Buoy Programme (IABP)</att>
+    <att name="infoUrl">http://iabp.apl.washington.edu/index.html</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="edu_washington_iabp_300234063980340" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64305</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">300234063980340</att>
     <att name="institution">International Arctic Buoy Programme (IABP)</att>
     <att name="infoUrl">http://iabp.apl.washington.edu/index.html</att>
     <att name="publisher_name">AOOS</att>
