@@ -60776,3 +60776,16 @@
   </addAttributes>
 </dataset>
 
+<dataset datasetID="noaa_nos_co_ops_15" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64365</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Old Port Tampa</att>
+    <att name="institution">NOAA Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+    <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+

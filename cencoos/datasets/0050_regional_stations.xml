@@ -8791,7 +8791,7 @@
   <stationId>19947</stationId>
   <reloadEveryNMinutes>360</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">San Francisco Bay FPT_WTS_latest</att>
+    <att name="title">Fort Point</att>
     <att name="institution">University of California Davis, Bodega Marine Laboratory</att>
     <att name="infoUrl">http://bml.ucdavis.edu/</att>
     <att name="publisher_name">CeNCOOS</att>
@@ -9215,19 +9215,6 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="cencoos_santacruz" type="EDDTableFromAxiomStation">
-  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-  <stationId>20359</stationId>
-  <reloadEveryNMinutes>360</reloadEveryNMinutes>
-  <addAttributes>
-    <att name="title">Santa Cruz</att>
-    <att name="institution">Central &amp; Northern California Ocean Observing System (CeNCOOS)</att>
-    <att name="infoUrl">http://cencoos.org/</att>
-    <att name="publisher_name">CeNCOOS</att>
-    <att name="publisher_email">jpatterson@mbari.org</att>
-  </addAttributes>
-</dataset>
-
 <dataset datasetID="cencoos_monterey" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>20362</stationId>
@@ -9254,51 +9241,12 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="edu_ucdavis_bml_fortpoint" type="EDDTableFromAxiomStation">
-  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-  <stationId>20364</stationId>
-  <reloadEveryNMinutes>360</reloadEveryNMinutes>
-  <addAttributes>
-    <att name="title">(CeNCOOS) Fort Point</att>
-    <att name="institution">University of California Davis, Bodega Marine Laboratory</att>
-    <att name="infoUrl">http://bml.ucdavis.edu/</att>
-    <att name="publisher_name">CeNCOOS</att>
-    <att name="publisher_email">jpatterson@mbari.org</att>
-  </addAttributes>
-</dataset>
-
-<dataset datasetID="cencoos_carquinez" type="EDDTableFromAxiomStation">
-  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-  <stationId>20365</stationId>
-  <reloadEveryNMinutes>360</reloadEveryNMinutes>
-  <addAttributes>
-    <att name="title">(CeNCOOS) Carquinez</att>
-    <att name="institution">Central &amp; Northern California Ocean Observing System (CeNCOOS)</att>
-    <att name="infoUrl">http://cencoos.org/</att>
-    <att name="publisher_name">CeNCOOS</att>
-    <att name="publisher_email">jpatterson@mbari.org</att>
-  </addAttributes>
-</dataset>
-
-<dataset datasetID="edu_ucdavis_bml_bodega" type="EDDTableFromAxiomStation">
-  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-  <stationId>20366</stationId>
-  <reloadEveryNMinutes>360</reloadEveryNMinutes>
-  <addAttributes>
-    <att name="title">(CeNCOOS) Bodega Bay</att>
-    <att name="institution">University of California Davis, Bodega Marine Laboratory</att>
-    <att name="infoUrl">http://bml.ucdavis.edu/</att>
-    <att name="publisher_name">CeNCOOS</att>
-    <att name="publisher_email">jpatterson@mbari.org</att>
-  </addAttributes>
-</dataset>
-
 <dataset datasetID="edu_sfsu_cma" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>20514</stationId>
   <reloadEveryNMinutes>360</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">CMA</att>
+    <att name="title">Carquinez</att>
     <att name="institution">San Francisco State University CMA</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
@@ -9594,19 +9542,6 @@
     <att name="title">17 NM WNW of Point Arguello, CA 46023</att>
     <att name="institution">NOAA National Data Buoy Center (NDBC)</att>
     <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
-    <att name="publisher_name">CeNCOOS</att>
-    <att name="publisher_email">jpatterson@mbari.org</att>
-  </addAttributes>
-</dataset>
-
-<dataset datasetID="edu_calpoly_marine_bm1" type="EDDTableFromAxiomStation">
-  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-  <stationId>20596</stationId>
-  <reloadEveryNMinutes>360</reloadEveryNMinutes>
-  <addAttributes>
-    <att name="title">BM1</att>
-    <att name="institution">California Polytechnic State University, Center for Coastal Marine Sciences</att>
-    <att name="infoUrl">http://www.marine.calpoly.edu/</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
   </addAttributes>
@@ -12477,7 +12412,7 @@
   <stationId>48097</stationId>
   <reloadEveryNMinutes>360</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">tdp</att>
+    <att name="title">Trinidad tdp</att>
     <att name="institution">Humboldt State University</att>
     <att name="infoUrl">http://cencoos.humboldt.edu/</att>
     <att name="publisher_name">CeNCOOS</att>
@@ -12582,7 +12517,8 @@
   <reloadEveryNMinutes>360</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">lml</att>
-    <att name="institution">edu.ucsc</att>
+    <att name="institution">UC Santa Cruz</att>
+    <att name="infoUrl">https://www.ucsc.edu/</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
   </addAttributes>
@@ -12593,8 +12529,9 @@
   <stationId>48323</stationId>
   <reloadEveryNMinutes>360</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">scwharf1</att>
-    <att name="institution">edu.ucsc</att>
+    <att name="title">Santa Cruz</att>
+    <att name="institution">UC Santa Cruz</att>
+    <att name="infoUrl">https://www.ucsc.edu/</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
   </addAttributes>
@@ -17355,6 +17292,149 @@
     <att name="title">Indian Island</att>
     <att name="institution">Central &amp; Northern California Ocean Observing System (CeNCOOS)</att>
     <att name="infoUrl">http://cencoos.org/</att>
+    <att name="publisher_name">CeNCOOS</att>
+    <att name="publisher_email">jpatterson@mbari.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="com_wunderground_drstorm" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64371</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Sausalito</att>
+    <att name="institution">Weather Underground</att>
+    <att name="infoUrl">https://www.wunderground.com</att>
+    <att name="publisher_name">CeNCOOS</att>
+    <att name="publisher_email">jpatterson@mbari.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="com_wunderground_twmatt" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64372</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Richmond - Marina Bay</att>
+    <att name="institution">Weather Underground</att>
+    <att name="infoUrl">https://www.wunderground.com</att>
+    <att name="publisher_name">CeNCOOS</att>
+    <att name="publisher_email">jpatterson@mbari.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="com_wunderground_seanw71" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64373</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Santa Cruz Harbor - Beach View</att>
+    <att name="institution">Weather Underground</att>
+    <att name="infoUrl">https://www.wunderground.com</att>
+    <att name="publisher_name">CeNCOOS</att>
+    <att name="publisher_email">jpatterson@mbari.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="com_wunderground_barenjager" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64374</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Mussel rock- overlooking Pacifica</att>
+    <att name="institution">Weather Underground</att>
+    <att name="infoUrl">https://www.wunderground.com</att>
+    <att name="publisher_name">CeNCOOS</att>
+    <att name="publisher_email">jpatterson@mbari.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="com_wunderground_springville" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64375</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Point Arena</att>
+    <att name="institution">Weather Underground</att>
+    <att name="infoUrl">https://www.wunderground.com</att>
+    <att name="publisher_name">CeNCOOS</att>
+    <att name="publisher_email">jpatterson@mbari.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="com_wunderground_mjhamre" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64376</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Timber Cove</att>
+    <att name="institution">Weather Underground</att>
+    <att name="infoUrl">https://www.wunderground.com</att>
+    <att name="publisher_name">CeNCOOS</att>
+    <att name="publisher_email">jpatterson@mbari.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="com_wunderground_bmarton" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64377</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Sea Ranch</att>
+    <att name="institution">Weather Underground</att>
+    <att name="infoUrl">https://www.wunderground.com</att>
+    <att name="publisher_name">CeNCOOS</att>
+    <att name="publisher_email">jpatterson@mbari.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="com_wunderground_serenodelmar" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64378</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Bodega Bay North</att>
+    <att name="institution">Weather Underground</att>
+    <att name="infoUrl">https://www.wunderground.com</att>
+    <att name="publisher_name">CeNCOOS</att>
+    <att name="publisher_email">jpatterson@mbari.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="com_wunderground_shelt" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64379</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Mt Tiburon</att>
+    <att name="institution">Weather Underground</att>
+    <att name="infoUrl">https://www.wunderground.com</att>
+    <att name="publisher_name">CeNCOOS</att>
+    <att name="publisher_email">jpatterson@mbari.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="com_wunderground_gjpc" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64380</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">San Francisco - Golden Gate Park NW</att>
+    <att name="institution">Weather Underground</att>
+    <att name="infoUrl">https://www.wunderground.com</att>
+    <att name="publisher_name">CeNCOOS</att>
+    <att name="publisher_email">jpatterson@mbari.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="com_wunderground_mcnweather" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64381</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Mendocino Bay</att>
+    <att name="institution">Weather Underground</att>
+    <att name="infoUrl">https://www.wunderground.com</att>
     <att name="publisher_name">CeNCOOS</att>
     <att name="publisher_email">jpatterson@mbari.org</att>
   </addAttributes>

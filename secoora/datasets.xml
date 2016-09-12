@@ -58082,38 +58082,14 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="org_cormp_ilm2wave" type="EDDTableFromAxiomStation" active="false">
+  <dataset datasetID="noaa_nos_co_ops_15" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>60420</stationId>
+    <stationId>64365</stationId>
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">(SECOORA) ilm2wave</att>
-      <att name="institution">UNCW - Coastal Ocean Research and Monitoring Program</att>
-      <att name="infoUrl">http://www.cormp.org/index.php</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="org_cormp_sun2wave" type="EDDTableFromAxiomStation" active="false">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>60425</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">sun2wave</att>
-      <att name="institution">UNCW - Coastal Ocean Research and Monitoring Program</att>
-      <att name="infoUrl">http://www.cormp.org/index.php</att>
-      <att name="publisher_name">SECOORA</att>
-      <att name="publisher_email">vembu@secoora.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="org_cormp_lej3wave" type="EDDTableFromAxiomStation" active="false">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>60423</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">(SECOORA) lej3wave</att>
-      <att name="institution">UNCW - Coastal Ocean Research and Monitoring Program</att>
-      <att name="infoUrl">http://www.cormp.org/index.php</att>
+      <att name="title">Old Port Tampa</att>
+      <att name="institution">NOAA Center for Operational Oceanographic Products and Services (CO-OPS)</att>
+      <att name="infoUrl">http://co-ops.nos.noaa.gov/</att>
       <att name="publisher_name">SECOORA</att>
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>

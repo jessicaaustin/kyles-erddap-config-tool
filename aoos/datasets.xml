@@ -10743,7 +10743,7 @@
     <stationId>14118</stationId>
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">GAK 1 near Seward</att>
+      <att name="title">Gulf of Alaska Ocean Acidification Mooring</att>
       <att name="institution">NOAA Pacific Marine Environmental Lab (PMEL)</att>
       <att name="infoUrl">http://www.pmel.noaa.gov/co2/</att>
       <att name="publisher_name">AOOS</att>
@@ -28882,18 +28882,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="edu_washington_iabp_300234060430010" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>64253</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">300234060430010</att>
-      <att name="institution">International Arctic Buoy Programme (IABP)</att>
-      <att name="infoUrl">http://iabp.apl.washington.edu/index.html</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="edu_washington_iabp_300234060436000" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>64256</stationId>
@@ -28924,18 +28912,6 @@
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">300234061364150</att>
-      <att name="institution">International Arctic Buoy Programme (IABP)</att>
-      <att name="infoUrl">http://iabp.apl.washington.edu/index.html</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="edu_washington_iabp_300234061367160" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>64266</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">300234061367160</att>
       <att name="institution">International Arctic Buoy Programme (IABP)</att>
       <att name="infoUrl">http://iabp.apl.washington.edu/index.html</att>
       <att name="publisher_name">AOOS</att>
@@ -29062,24 +29038,12 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="edu_washington_iabp_300234063245420" type="EDDTableFromAxiomStation">
+  <dataset datasetID="edu_washington_iabp_300234063982330" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>64301</stationId>
+    <stationId>64306</stationId>
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">300234063245420</att>
-      <att name="institution">International Arctic Buoy Programme (IABP)</att>
-      <att name="infoUrl">http://iabp.apl.washington.edu/index.html</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="edu_washington_iabp_300234063980340" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>64305</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">300234063980340</att>
+      <att name="title">300234063982330</att>
       <att name="institution">International Arctic Buoy Programme (IABP)</att>
       <att name="infoUrl">http://iabp.apl.washington.edu/index.html</att>
       <att name="publisher_name">AOOS</att>
@@ -29118,6 +29082,150 @@
       <att name="title">Hakai Institute Quadra Island Field Station</att>
       <att name="institution">Hakai Institute</att>
       <att name="infoUrl">https://www.hakai.org/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="org_oceanalaska_ketchikan" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64370</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Ketchikan</att>
+      <att name="institution">OceansAlaska Ketchikan Shellfish Hatchery</att>
+      <att name="infoUrl">http://oceansalaska.org/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="com_alaskarailroad_portage" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64382</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Portage</att>
+      <att name="institution">Alaska Railroad</att>
+      <att name="infoUrl">https://www.alaskarailroad.com/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="com_alaskarailroad_tunnel" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64384</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Tunnel</att>
+      <att name="institution">Alaska Railroad</att>
+      <att name="infoUrl">https://www.alaskarailroad.com/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="com_alaskarailroad_mile_43_peak" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64385</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Mile 43 Peak</att>
+      <att name="institution">Alaska Railroad</att>
+      <att name="infoUrl">https://www.alaskarailroad.com/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="com_alaskarailroad_moosepass" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64386</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Moose Pass</att>
+      <att name="institution">Alaska Railroad</att>
+      <att name="infoUrl">https://www.alaskarailroad.com/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="com_alyeska_aly_base_hr" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64387</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">ALY_BASE_HR</att>
+      <att name="institution">Alyeska Resort</att>
+      <att name="infoUrl">http://www.alyeskaresort.com/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="com_alyeska_aly_mid_hr" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64389</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">ALY_MID_HR</att>
+      <att name="institution">Alyeska Resort</att>
+      <att name="infoUrl">http://www.alyeskaresort.com/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="cnfaic_sn193" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64390</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Crown Point </att>
+      <att name="institution">Friends of Chugach National Forest Avalanche Information Center (F-CNFAIC)</att>
+      <att name="infoUrl">http://www.cnfaic.org/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="edu_washington_iabp_300234063245420" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64301</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">300234063245420</att>
+      <att name="institution">International Arctic Buoy Programme (IABP)</att>
+      <att name="infoUrl">http://iabp.apl.washington.edu/index.html</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="edu_washington_iabp_300234060430010" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64253</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">300234060430010</att>
+      <att name="institution">International Arctic Buoy Programme (IABP)</att>
+      <att name="infoUrl">http://iabp.apl.washington.edu/index.html</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="edu_washington_iabp_300234061367160" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64266</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">300234061367160</att>
+      <att name="institution">International Arctic Buoy Programme (IABP)</att>
+      <att name="infoUrl">http://iabp.apl.washington.edu/index.html</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="edu_washington_iabp_300234063980340" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64305</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">300234063980340</att>
+      <att name="institution">International Arctic Buoy Programme (IABP)</att>
+      <att name="infoUrl">http://iabp.apl.washington.edu/index.html</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
