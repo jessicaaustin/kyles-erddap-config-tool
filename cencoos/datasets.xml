@@ -8494,18 +8494,6 @@
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="cencoos_trinidad" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>20357</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">(CeNCOOS) TDPC1 Trinidad</att>
-      <att name="institution">Central &amp; Northern California Ocean Observing System (CeNCOOS)</att>
-      <att name="infoUrl">http://cencoos.org/</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="cencoos_tiburon" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>20358</stationId>
@@ -11517,18 +11505,6 @@
       <att name="title">ptac1</att>
       <att name="institution">NOAA National Data Buoy Center (NDBC)</att>
       <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="mlml_mlsc1" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>48317</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Moss Landing, South Harbor, CA</att>
-      <att name="institution">Moss Landing Marine Laboratories (MLML)</att>
-      <att name="infoUrl">http://www.mlml.calstate.edu/</att>
       <att name="publisher_name">CeNCOOS</att>
       <att name="publisher_email">jpatterson@mbari.org</att>
     </addAttributes>
@@ -16108,8 +16084,8 @@
   </dataset>
   <dataset type="EDDTableFromNcCFFiles" datasetID="sp011_20140923t0000">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/platforms/stage/download/glider/ioos_dac</fileDir>
-    <fileNameRegex>sp011-20140923T0000.nc</fileNameRegex>
+    <fileDir>/mnt/gluster/data/platforms/prod/IoosGliderDac/f6b6a9fa-0c7a-47ce-b8cc-18466be33444/download/</fileDir>
+    <fileNameRegex>sp011-20140923T0000.enhanced.nc</fileNameRegex>
     <addAttributes>
       <att name="title">(CeNCOOS) Line 67 Glider - sp011-20140923T0000</att>
     </addAttributes>
@@ -16311,8 +16287,8 @@
   </dataset>
   <dataset type="EDDTableFromNcCFFiles" datasetID="sp011_20150427t1749">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/platforms/stage/download/glider/ioos_dac</fileDir>
-    <fileNameRegex>sp011-20150427T1749.nc</fileNameRegex>
+    <fileDir>/mnt/gluster/data/platforms/prod/IoosGliderDac/39e8d26e-0244-4f12-9d82-8b95f165c6d7/download/</fileDir>
+    <fileNameRegex>sp011-20150427T1749.enhanced.nc</fileNameRegex>
     <addAttributes>
       <att name="title">(CeNCOOS) Line 67 Glider - sp011-20150427T1749</att>
     </addAttributes>
@@ -16514,8 +16490,8 @@
   </dataset>
   <dataset type="EDDTableFromNcCFFiles" datasetID="sp025_20150813t1746">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/platforms/stage/download/glider/ioos_dac</fileDir>
-    <fileNameRegex>sp025-20150813T1746.nc</fileNameRegex>
+    <fileDir>/mnt/gluster/data/platforms/prod/IoosGliderDac/d5c1cfe2-3400-4d3e-8720-a5326947c67c/download/</fileDir>
+    <fileNameRegex>sp025-20150813T1746.enhanced.nc</fileNameRegex>
     <addAttributes>
       <att name="title">(CeNCOOS) Line 67 Glider - sp025-20150813T1746</att>
     </addAttributes>
@@ -16717,8 +16693,8 @@
   </dataset>
   <dataset type="EDDTableFromNcCFFiles" datasetID="sp025_20160310t1858">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/platforms/stage/download/glider/ioos_dac</fileDir>
-    <fileNameRegex>sp025-20160310T1858.nc</fileNameRegex>
+    <fileDir>/mnt/gluster/data/platforms/prod/IoosGliderDac/9e6ece89-478c-4dfc-ab31-67d11301ad53/download/</fileDir>
+    <fileNameRegex>sp025-20160310T1858.enhanced.nc</fileNameRegex>
     <addAttributes>
       <att name="title">(CeNCOOS) Line 67 Glider - sp025-20160310T1858</att>
     </addAttributes>
@@ -16918,10 +16894,213 @@
       <dataType>byte</dataType>
     </dataVariable>
   </dataset>
+  <dataset type="EDDTableFromNcCFFiles" datasetID="sp025_20160913t1826">
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <fileDir>/mnt/gluster/data/platforms/prod/IoosGliderDac/f39e5f46-1339-4c50-bf89-a994404ecf79/download/</fileDir>
+    <fileNameRegex>sp025-20160913T1826.enhanced.nc</fileNameRegex>
+    <addAttributes>
+      <att name="title">(CeNCOOS) Line 67 Glider - sp025-20160913T1826</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>trajectory</sourceName>
+      <destinationName>trajectory</destinationName>
+      <dataType>String</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>wmo_id</sourceName>
+      <destinationName>wmo_id</destinationName>
+      <dataType>String</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>latitude</sourceName>
+      <destinationName>latitude</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>longitude</sourceName>
+      <destinationName>longitude</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>profile_id</sourceName>
+      <destinationName>profile_id</destinationName>
+      <dataType>short</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_uv</sourceName>
+      <destinationName>time_uv</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lat_uv</sourceName>
+      <destinationName>lat_uv</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lon_uv</sourceName>
+      <destinationName>lon_uv</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>u</sourceName>
+      <destinationName>u</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>v</sourceName>
+      <destinationName>v</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>latitude_qc</sourceName>
+      <destinationName>latitude_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>longitude_qc</sourceName>
+      <destinationName>longitude_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_qc</sourceName>
+      <destinationName>time_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>depth</sourceName>
+      <destinationName>depth</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>depth_qc</sourceName>
+      <destinationName>depth_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>pressure</sourceName>
+      <destinationName>pressure</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>pressure_qc</sourceName>
+      <destinationName>pressure_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>conductivity</sourceName>
+      <destinationName>conductivity</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>conductivity_qc</sourceName>
+      <destinationName>conductivity_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>density</sourceName>
+      <destinationName>density</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>density_qc</sourceName>
+      <destinationName>density_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lat</sourceName>
+      <destinationName>precise_lat</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lon</sourceName>
+      <destinationName>precise_lon</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_time</sourceName>
+      <destinationName>precise_time</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lat_qc</sourceName>
+      <destinationName>precise_lat_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lon_qc</sourceName>
+      <destinationName>precise_lon_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_time_qc</sourceName>
+      <destinationName>precise_time_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>salinity</sourceName>
+      <destinationName>salinity</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>salinity_qc</sourceName>
+      <destinationName>salinity_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>temperature</sourceName>
+      <destinationName>temperature</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>temperature_qc</sourceName>
+      <destinationName>temperature_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_uv_qc</sourceName>
+      <destinationName>time_uv_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lat_uv_qc</sourceName>
+      <destinationName>lat_uv_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lon_uv_qc</sourceName>
+      <destinationName>lon_uv_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>u_qc</sourceName>
+      <destinationName>u_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>v_qc</sourceName>
+      <destinationName>v_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>platform_meta</sourceName>
+      <destinationName>platform_meta</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>instrument_ctd</sourceName>
+      <destinationName>instrument_ctd</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+  </dataset>
   <dataset type="EDDTableFromNcCFFiles" datasetID="sp028_20140605t170300">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/platforms/stage/download/glider/ioos_dac</fileDir>
-    <fileNameRegex>sp028-20140605T170300.nc</fileNameRegex>
+    <fileDir>/mnt/gluster/data/platforms/prod/IoosGliderDac/e686ad21-054e-4111-960c-05d7d5ba309c/download/</fileDir>
+    <fileNameRegex>sp028-20140605T170300.enhanced.nc</fileNameRegex>
     <addAttributes>
       <att name="title">(CeNCOOS) Line 67 Glider - sp028-20140605T170300</att>
     </addAttributes>
@@ -17123,8 +17302,8 @@
   </dataset>
   <dataset type="EDDTableFromNcCFFiles" datasetID="sp028_20151124t1741">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/platforms/stage/download/glider/ioos_dac</fileDir>
-    <fileNameRegex>sp028-20151124T1741.nc</fileNameRegex>
+    <fileDir>/mnt/gluster/data/platforms/prod/IoosGliderDac/a0a4d331-c896-4c75-a50e-59f7dd454107/download/</fileDir>
+    <fileNameRegex>sp028-20151124T1741.enhanced.nc</fileNameRegex>
     <addAttributes>
       <att name="title">(CeNCOOS) Line 67 Glider - sp028-20151124T1741</att>
     </addAttributes>
@@ -17326,8 +17505,8 @@
   </dataset>
   <dataset type="EDDTableFromNcCFFiles" datasetID="sp028_20160628t1737">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/platforms/stage/download/glider/ioos_dac</fileDir>
-    <fileNameRegex>sp028-20160628T1737.nc</fileNameRegex>
+    <fileDir>/mnt/gluster/data/platforms/prod/IoosGliderDac/72088dca-9c5b-4746-9c38-700ecba5046c/download/</fileDir>
+    <fileNameRegex>sp028-20160628T1737.enhanced.nc</fileNameRegex>
     <addAttributes>
       <att name="title">(CeNCOOS) Line 67 Glider - sp028-20160628T1737</att>
     </addAttributes>
@@ -17529,8 +17708,8 @@
   </dataset>
   <dataset type="EDDTableFromNcCFFiles" datasetID="sp030_20150109t2113">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/platforms/stage/download/glider/ioos_dac</fileDir>
-    <fileNameRegex>sp030-20150109T2113.nc</fileNameRegex>
+    <fileDir>/mnt/gluster/data/platforms/prod/IoosGliderDac/43d7e91b-1948-4fa3-a0a6-7695f63c0788/download/</fileDir>
+    <fileNameRegex>sp030-20150109T2113.enhanced.nc</fileNameRegex>
     <addAttributes>
       <att name="title">(CeNCOOS) Line 67 Glider - sp030-20150109T2113</att>
     </addAttributes>
@@ -17732,8 +17911,8 @@
   </dataset>
   <dataset type="EDDTableFromNcCFFiles" datasetID="uw130_20150309t2005">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/platforms/stage/download/glider/ioos_dac</fileDir>
-    <fileNameRegex>UW130-20150309T2005.nc</fileNameRegex>
+    <fileDir>/mnt/gluster/data/platforms/prod/IoosGliderDac/3c32db9f-dcd2-46ed-9c78-060bf07a0af7/download/</fileDir>
+    <fileNameRegex>UW130-20150309T2005.enhanced.nc</fileNameRegex>
     <addAttributes>
       <att name="title">(CeNCOOS) Trinidad Glider - UW130-20150309T2005</att>
     </addAttributes>
@@ -17935,8 +18114,8 @@
   </dataset>
   <dataset type="EDDTableFromNcCFFiles" datasetID="uw157_20141116t2118">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/platforms/stage/download/glider/ioos_dac</fileDir>
-    <fileNameRegex>UW157-20141116T2118.nc</fileNameRegex>
+    <fileDir>/mnt/gluster/data/platforms/prod/IoosGliderDac/fc63d642-ba09-4d62-ab59-e0a2d3acc7b1/download/</fileDir>
+    <fileNameRegex>UW157-20141116T2118.enhanced.nc</fileNameRegex>
     <addAttributes>
       <att name="title">(CeNCOOS) Trinidad Glider - UW157-20141116T2118</att>
     </addAttributes>
@@ -18138,8 +18317,8 @@
   </dataset>
   <dataset type="EDDTableFromNcCFFiles" datasetID="uw157_20150917t1833">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/platforms/stage/download/glider/ioos_dac</fileDir>
-    <fileNameRegex>UW157-20150917T1833.nc</fileNameRegex>
+    <fileDir>/mnt/gluster/data/platforms/prod/IoosGliderDac/1e812fba-1587-40d1-9205-2e4427b15a6b/download/</fileDir>
+    <fileNameRegex>UW157-20150917T1833.enhanced.nc</fileNameRegex>
     <addAttributes>
       <att name="title">(CeNCOOS) Trinidad Glider - UW157-20150917T1833</att>
     </addAttributes>
@@ -18341,8 +18520,8 @@
   </dataset>
   <dataset type="EDDTableFromNcCFFiles" datasetID="ucsc260_20150520t0000">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/platforms/stage/download/glider/ioos_dac</fileDir>
-    <fileNameRegex>UCSC260-20150520T0000.nc</fileNameRegex>
+    <fileDir>/mnt/gluster/data/platforms/prod/IoosGliderDac/d8a18eb3-4eda-4e06-b6c4-09b65bd67faf/download/</fileDir>
+    <fileNameRegex>UCSC260-20150520T0000.enhanced.nc</fileNameRegex>
     <addAttributes>
       <att name="title">(CeNCOOS) Monterey Bay - UCSC260-20150520T0000</att>
     </addAttributes>
@@ -18544,8 +18723,8 @@
   </dataset>
   <dataset type="EDDTableFromNcCFFiles" datasetID="ucsc294_20150430t2218">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/platforms/stage/download/glider/ioos_dac</fileDir>
-    <fileNameRegex>UCSC294-20150430T2218.nc</fileNameRegex>
+    <fileDir>/mnt/gluster/data/platforms/prod/IoosGliderDac/b9b6acde-e521-4f2d-9804-f99e6aa26c99/download/</fileDir>
+    <fileNameRegex>UCSC294-20150430T2218.enhanced.nc</fileNameRegex>
     <addAttributes>
       <att name="title">(CeNCOOS) Monterey Bay - UCSC294-20150430T2218</att>
     </addAttributes>
@@ -18744,65 +18923,5 @@
       <destinationName>instrument_ctd</destinationName>
       <dataType>byte</dataType>
     </dataVariable>
-  </dataset>
-  <dataset datasetID="edu_ucdavis_bml_bodega" type="EDDTableFromAxiomStation" active="false">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>20366</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">(CeNCOOS) Bodega Bay</att>
-      <att name="institution">University of California Davis, Bodega Marine Laboratory</att>
-      <att name="infoUrl">http://bml.ucdavis.edu/</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="edu_calpoly_marine_bm1" type="EDDTableFromAxiomStation" active="false">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>20596</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">BM1</att>
-      <att name="institution">California Polytechnic State University, Center for Coastal Marine Sciences</att>
-      <att name="infoUrl">http://www.marine.calpoly.edu/</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="cencoos_santacruz" type="EDDTableFromAxiomStation" active="false">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>20359</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Santa Cruz</att>
-      <att name="institution">Central &amp; Northern California Ocean Observing System (CeNCOOS)</att>
-      <att name="infoUrl">http://cencoos.org/</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="edu_ucdavis_bml_fortpoint" type="EDDTableFromAxiomStation" active="false">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>20364</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">(CeNCOOS) Fort Point</att>
-      <att name="institution">University of California Davis, Bodega Marine Laboratory</att>
-      <att name="infoUrl">http://bml.ucdavis.edu/</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="cencoos_carquinez" type="EDDTableFromAxiomStation" active="false">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>20365</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">(CeNCOOS) Carquinez</att>
-      <att name="institution">Central &amp; Northern California Ocean Observing System (CeNCOOS)</att>
-      <att name="infoUrl">http://cencoos.org/</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
   </dataset>
 </erddapDatasets>

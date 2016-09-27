@@ -58094,4 +58094,2308 @@
       <att name="publisher_email">vembu@secoora.org</att>
     </addAttributes>
   </dataset>
+  <dataset datasetID="wmo_42089" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64395</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">42089 Little Cayman Research Center, Cayman Islands</att>
+      <att name="institution">NOAA National Data Buoy Center (NDBC)</att>
+      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="edu_ucsd_cdip_42097" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64396</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">42097 Pulley Ridge, FL 226</att>
+      <att name="institution">The Coastal Data Information Program</att>
+      <att name="infoUrl">http://cdip.ucsd.edu/</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="wmo_42364" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64397</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">42364 Ram Powell TLP - Viosca Knoll 956</att>
+      <att name="institution">NOAA National Data Buoy Center (NDBC)</att>
+      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="wmo_42901" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64400</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">42901 Helix Q5000 - Mississippi Canyon 777</att>
+      <att name="institution">NOAA National Data Buoy Center (NDBC)</att>
+      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="wmo_42902" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64401</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">42902 Deepwater Proteus - Mississippi Canyon 392</att>
+      <att name="institution">NOAA National Data Buoy Center (NDBC)</att>
+      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="wmo_42927" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64402</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">42927 Noble Bully I - Mississippi Canyon 567</att>
+      <att name="institution">NOAA National Data Buoy Center (NDBC)</att>
+      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="wmo_gdqm6" type="EDDTableFromAxiomStation">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64424</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">GDQM6 Bangs Lake, Grand Bay Reserve, MS</att>
+      <att name="institution">NOAA National Data Buoy Center (NDBC)</att>
+      <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+      <att name="publisher_name">SECOORA</att>
+      <att name="publisher_email">vembu@secoora.org</att>
+    </addAttributes>
+  </dataset>
+  <dataset type="EDDTableFromNcCFFiles" datasetID="bass_20160909t1733">
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <fileDir>/mnt/gluster/data/platforms/prod/IoosGliderDac/d6dddbd3-d93b-44c9-97bb-0d391d170227/download/</fileDir>
+    <fileNameRegex>bass-20160909T1733.enhanced.nc</fileNameRegex>
+    <addAttributes>
+      <att name="title">(SECOORA) Glider - bass-20160909T1733</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>trajectory</sourceName>
+      <destinationName>trajectory</destinationName>
+      <dataType>String</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>wmo_id</sourceName>
+      <destinationName>wmo_id</destinationName>
+      <dataType>String</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>latitude</sourceName>
+      <destinationName>latitude</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>longitude</sourceName>
+      <destinationName>longitude</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>profile_id</sourceName>
+      <destinationName>profile_id</destinationName>
+      <dataType>short</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_uv</sourceName>
+      <destinationName>time_uv</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lat_uv</sourceName>
+      <destinationName>lat_uv</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lon_uv</sourceName>
+      <destinationName>lon_uv</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>u</sourceName>
+      <destinationName>u</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>v</sourceName>
+      <destinationName>v</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>latitude_qc</sourceName>
+      <destinationName>latitude_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>longitude_qc</sourceName>
+      <destinationName>longitude_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_qc</sourceName>
+      <destinationName>time_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>depth</sourceName>
+      <destinationName>depth</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>depth_qc</sourceName>
+      <destinationName>depth_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>pressure</sourceName>
+      <destinationName>pressure</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>pressure_qc</sourceName>
+      <destinationName>pressure_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>conductivity</sourceName>
+      <destinationName>conductivity</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>conductivity_qc</sourceName>
+      <destinationName>conductivity_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>density</sourceName>
+      <destinationName>density</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>density_qc</sourceName>
+      <destinationName>density_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lat</sourceName>
+      <destinationName>precise_lat</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lon</sourceName>
+      <destinationName>precise_lon</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_time</sourceName>
+      <destinationName>precise_time</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lat_qc</sourceName>
+      <destinationName>precise_lat_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lon_qc</sourceName>
+      <destinationName>precise_lon_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_time_qc</sourceName>
+      <destinationName>precise_time_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>salinity</sourceName>
+      <destinationName>salinity</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>salinity_qc</sourceName>
+      <destinationName>salinity_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>temperature</sourceName>
+      <destinationName>temperature</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>temperature_qc</sourceName>
+      <destinationName>temperature_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_uv_qc</sourceName>
+      <destinationName>time_uv_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lat_uv_qc</sourceName>
+      <destinationName>lat_uv_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lon_uv_qc</sourceName>
+      <destinationName>lon_uv_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>u_qc</sourceName>
+      <destinationName>u_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>v_qc</sourceName>
+      <destinationName>v_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>platform_meta</sourceName>
+      <destinationName>platform_meta</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>instrument_ctd</sourceName>
+      <destinationName>instrument_ctd</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNcCFFiles" datasetID="modena_20160909t1758">
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <fileDir>/mnt/gluster/data/platforms/prod/IoosGliderDac/47fa07c5-e1cd-4265-baab-19e1255106b4/download/</fileDir>
+    <fileNameRegex>modena-20160909T1758.enhanced.nc</fileNameRegex>
+    <addAttributes>
+      <att name="title">(SECOORA) Glider - modena-20160909T1758</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>trajectory</sourceName>
+      <destinationName>trajectory</destinationName>
+      <dataType>String</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>wmo_id</sourceName>
+      <destinationName>wmo_id</destinationName>
+      <dataType>String</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>latitude</sourceName>
+      <destinationName>latitude</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>longitude</sourceName>
+      <destinationName>longitude</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>profile_id</sourceName>
+      <destinationName>profile_id</destinationName>
+      <dataType>short</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_uv</sourceName>
+      <destinationName>time_uv</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lat_uv</sourceName>
+      <destinationName>lat_uv</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lon_uv</sourceName>
+      <destinationName>lon_uv</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>u</sourceName>
+      <destinationName>u</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>v</sourceName>
+      <destinationName>v</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>latitude_qc</sourceName>
+      <destinationName>latitude_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>longitude_qc</sourceName>
+      <destinationName>longitude_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_qc</sourceName>
+      <destinationName>time_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>depth</sourceName>
+      <destinationName>depth</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>depth_qc</sourceName>
+      <destinationName>depth_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>pressure</sourceName>
+      <destinationName>pressure</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>pressure_qc</sourceName>
+      <destinationName>pressure_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>conductivity</sourceName>
+      <destinationName>conductivity</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>conductivity_qc</sourceName>
+      <destinationName>conductivity_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>density</sourceName>
+      <destinationName>density</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>density_qc</sourceName>
+      <destinationName>density_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lat</sourceName>
+      <destinationName>precise_lat</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lon</sourceName>
+      <destinationName>precise_lon</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_time</sourceName>
+      <destinationName>precise_time</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lat_qc</sourceName>
+      <destinationName>precise_lat_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lon_qc</sourceName>
+      <destinationName>precise_lon_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_time_qc</sourceName>
+      <destinationName>precise_time_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>salinity</sourceName>
+      <destinationName>salinity</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>salinity_qc</sourceName>
+      <destinationName>salinity_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>temperature</sourceName>
+      <destinationName>temperature</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>temperature_qc</sourceName>
+      <destinationName>temperature_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_uv_qc</sourceName>
+      <destinationName>time_uv_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lat_uv_qc</sourceName>
+      <destinationName>lat_uv_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lon_uv_qc</sourceName>
+      <destinationName>lon_uv_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>u_qc</sourceName>
+      <destinationName>u_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>v_qc</sourceName>
+      <destinationName>v_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>platform_meta</sourceName>
+      <destinationName>platform_meta</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>instrument_ctd</sourceName>
+      <destinationName>instrument_ctd</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNcCFFiles" datasetID="ramses_20160909t2028">
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <fileDir>/mnt/gluster/data/platforms/prod/IoosGliderDac/ddc8a6b9-ad02-419d-bc7e-795ed41ec6f6/download/</fileDir>
+    <fileNameRegex>ramses-20160909T2028.enhanced.nc</fileNameRegex>
+    <addAttributes>
+      <att name="title">(SECOORA) Glider - ramses-20160909T2028</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>trajectory</sourceName>
+      <destinationName>trajectory</destinationName>
+      <dataType>String</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>wmo_id</sourceName>
+      <destinationName>wmo_id</destinationName>
+      <dataType>String</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>latitude</sourceName>
+      <destinationName>latitude</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>longitude</sourceName>
+      <destinationName>longitude</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>profile_id</sourceName>
+      <destinationName>profile_id</destinationName>
+      <dataType>short</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_uv</sourceName>
+      <destinationName>time_uv</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lat_uv</sourceName>
+      <destinationName>lat_uv</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lon_uv</sourceName>
+      <destinationName>lon_uv</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>u</sourceName>
+      <destinationName>u</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>v</sourceName>
+      <destinationName>v</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>latitude_qc</sourceName>
+      <destinationName>latitude_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>longitude_qc</sourceName>
+      <destinationName>longitude_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_qc</sourceName>
+      <destinationName>time_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>depth</sourceName>
+      <destinationName>depth</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>depth_qc</sourceName>
+      <destinationName>depth_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>pressure</sourceName>
+      <destinationName>pressure</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>pressure_qc</sourceName>
+      <destinationName>pressure_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>conductivity</sourceName>
+      <destinationName>conductivity</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>conductivity_qc</sourceName>
+      <destinationName>conductivity_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>density</sourceName>
+      <destinationName>density</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>density_qc</sourceName>
+      <destinationName>density_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lat</sourceName>
+      <destinationName>precise_lat</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lon</sourceName>
+      <destinationName>precise_lon</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_time</sourceName>
+      <destinationName>precise_time</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lat_qc</sourceName>
+      <destinationName>precise_lat_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lon_qc</sourceName>
+      <destinationName>precise_lon_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_time_qc</sourceName>
+      <destinationName>precise_time_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>salinity</sourceName>
+      <destinationName>salinity</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>salinity_qc</sourceName>
+      <destinationName>salinity_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>temperature</sourceName>
+      <destinationName>temperature</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>temperature_qc</sourceName>
+      <destinationName>temperature_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_uv_qc</sourceName>
+      <destinationName>time_uv_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lat_uv_qc</sourceName>
+      <destinationName>lat_uv_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lon_uv_qc</sourceName>
+      <destinationName>lon_uv_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>u_qc</sourceName>
+      <destinationName>u_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>v_qc</sourceName>
+      <destinationName>v_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>platform_meta</sourceName>
+      <destinationName>platform_meta</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>instrument_ctd</sourceName>
+      <destinationName>instrument_ctd</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromNcCFFiles" datasetID="salacia_20160919t2028">
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <fileDir>/mnt/gluster/data/platforms/prod/IoosGliderDac/e63eba82-3a8a-427e-9f0e-14f150a1dbe6/download/</fileDir>
+    <fileNameRegex>salacia-20160919T2028.enhanced.nc</fileNameRegex>
+    <addAttributes>
+      <att name="title">(SECOORA) Glider - salacia-20160919T2028</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>trajectory</sourceName>
+      <destinationName>trajectory</destinationName>
+      <dataType>String</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>wmo_id</sourceName>
+      <destinationName>wmo_id</destinationName>
+      <dataType>String</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>latitude</sourceName>
+      <destinationName>latitude</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>longitude</sourceName>
+      <destinationName>longitude</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>profile_id</sourceName>
+      <destinationName>profile_id</destinationName>
+      <dataType>short</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_uv</sourceName>
+      <destinationName>time_uv</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lat_uv</sourceName>
+      <destinationName>lat_uv</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lon_uv</sourceName>
+      <destinationName>lon_uv</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>u</sourceName>
+      <destinationName>u</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>v</sourceName>
+      <destinationName>v</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>latitude_qc</sourceName>
+      <destinationName>latitude_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>longitude_qc</sourceName>
+      <destinationName>longitude_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_qc</sourceName>
+      <destinationName>time_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>depth</sourceName>
+      <destinationName>depth</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>depth_qc</sourceName>
+      <destinationName>depth_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>pressure</sourceName>
+      <destinationName>pressure</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>pressure_qc</sourceName>
+      <destinationName>pressure_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>conductivity</sourceName>
+      <destinationName>conductivity</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>conductivity_qc</sourceName>
+      <destinationName>conductivity_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>density</sourceName>
+      <destinationName>density</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>density_qc</sourceName>
+      <destinationName>density_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lat</sourceName>
+      <destinationName>precise_lat</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lon</sourceName>
+      <destinationName>precise_lon</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_time</sourceName>
+      <destinationName>precise_time</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lat_qc</sourceName>
+      <destinationName>precise_lat_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lon_qc</sourceName>
+      <destinationName>precise_lon_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_time_qc</sourceName>
+      <destinationName>precise_time_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>salinity</sourceName>
+      <destinationName>salinity</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>salinity_qc</sourceName>
+      <destinationName>salinity_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>temperature</sourceName>
+      <destinationName>temperature</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>temperature_qc</sourceName>
+      <destinationName>temperature_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_uv_qc</sourceName>
+      <destinationName>time_uv_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lat_uv_qc</sourceName>
+      <destinationName>lat_uv_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lon_uv_qc</sourceName>
+      <destinationName>lon_uv_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>u_qc</sourceName>
+      <destinationName>u_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>v_qc</sourceName>
+      <destinationName>v_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>platform_meta</sourceName>
+      <destinationName>platform_meta</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>instrument_ctd</sourceName>
+      <destinationName>instrument_ctd</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromDatabase" datasetID="secoora_fact_aat_datacenter_attributes" active="false">
+    <sourceUrl>DB_CONNECTION_STRING</sourceUrl>
+    <driverName>org.postgresql.Driver</driverName>
+    <connectionProperty name="user">erddap</connectionProperty>
+    <connectionProperty name="password">erdpass</connectionProperty>
+    <catalogName>DB_NAME</catalogName>
+    <schemaName>erddap</schemaName>
+    <tableName>datacenter_attributes</tableName>
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="Conventions">???</att>
+      <att name="infoUrl">http://www.oceantrackingnetwork.org/</att>
+      <att name="institution">OTN</att>
+      <att name="license">[standard]</att>
+      <att name="summary">Datacenter Attributes.</att>
+      <att name="title">Datacenter Attributes</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>datacenter_reference</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Datacenter Reference</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>datacenter_name</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Datacenter Name</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>datacenter_abstract</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Datacenter Abstract</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>datacenter_citation</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Datacenter Citation</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>datacenter_pi</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Datacenter PI</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>datacenter_pi_organization</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Datacenter PI Organization</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>datacenter_pi_contact</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Datacenter PI Contact</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>datacenter_infourl</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Datacenter Info URL</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>datacenter_keywords</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Datacenter Keywords</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>datacenter_keywords_vocabulary</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Datacenter Keywords Vocabulary</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>datacenter_doi</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Datacenter Digital Object Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>datacenter_license</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Datacenter License</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>datacenter_distribution_statement</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Datacenter Distribution Statement</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>datacenter_date_modified</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Datacenter Date Modified</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>datacenter_geospatial_lon_min</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Datacenter Geospatial Longitude Minimum</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>datacenter_geospatial_lon_max</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Datacenter Geospatial Longitude Maximum</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>datacenter_geospatial_lat_min</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Datacenter Geospatial Latitude Minimum</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>datacenter_geospatial_lat_max</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Datacenter Geospatial Latitude Maximum</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>datacenter_time_coverage_start</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Datacenter Time Coverage Start</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>datacenter_time_coverage_end</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Datacenter Time Coverage End</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromDatabase" datasetID="secoora_fact_aat_detections" active="false">
+    <sourceUrl>DB_CONNECTION_STRING</sourceUrl>
+    <driverName>org.postgresql.Driver</driverName>
+    <connectionProperty name="user">erddap</connectionProperty>
+    <connectionProperty name="password">erdpass</connectionProperty>
+    <connectionProperty name="defaultFetchSize">10000</connectionProperty>
+    <catalogName>DB_NAME</catalogName>
+    <schemaName>erddap</schemaName>
+    <tableName>detections</tableName>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="Conventions">???</att>
+      <att name="infoUrl">http://www.oceantrackingnetwork.org/</att>
+      <att name="institution">OTN</att>
+      <att name="license">[standard]</att>
+      <att name="summary">Detections data.</att>
+      <att name="title">Detections</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>detection_project_reference</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Detection Project Reference</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>datacenter_reference</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Datacenter Reference</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>detection_id</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Detection ID</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>detection_guid</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Detection Guid</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>detection_timestamp_utc</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="units">seconds since 1970-01-01T00:00:00Z</att>
+        <att name="ioos_category">Time</att>
+        <att name="long_name">Detection Timestamp UTC</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>detection_latitude</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Detection Latitude</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>detection_longitude</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Detection Longitude</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>tracker_reference</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Tracker Reference</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>detection_reference_id</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Detection Reference ID</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>detection_reference_type</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Detection Reference Type</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>transmitter_codespace</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Transmitter Codespace</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>transmitter_id</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Transmitter ID</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>detection_transmittername</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Detection Transmitter Name</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>detection_serial_number</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Detection Serial Number</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>sensor_data</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Sensor Data</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>sensor_data_units</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Sensor Data Units</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>receiver_log_id</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Receiver Log ID</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>deployment_id</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Deployment ID</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>detection_quality</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Deployment Quality</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>depth</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="units">m</att>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Depth</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>position_data_source</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Position Data Source</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>uncertainty_in_latitude</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Uncertainty in Latitude</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>uncertainty_in_longitude</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Uncertainty in Longitude</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>depth_data_source</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Depth Data Source</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>uncertainty_in_depth</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Uncertainty in Depth</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>other_position_data</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Other Position Data</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>dataset_quality</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Dataset Quality</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromDatabase" datasetID="secoora_fact_aat_manmade_platform" active="false">
+    <sourceUrl>DB_CONNECTION_STRING</sourceUrl>
+    <driverName>org.postgresql.Driver</driverName>
+    <connectionProperty name="user">erddap</connectionProperty>
+    <connectionProperty name="password">erdpass</connectionProperty>
+    <connectionProperty name="defaultFetchSize">100</connectionProperty>
+    <catalogName>DB_NAME</catalogName>
+    <schemaName>erddap</schemaName>
+    <tableName>manmade_platform</tableName>
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="Conventions">???</att>
+      <att name="infoUrl">http://www.oceantrackingnetwork.org/</att>
+      <att name="institution">OTN</att>
+      <att name="license">[standard]</att>
+      <att name="summary">Manmade Platform data.</att>
+      <att name="title">Manmade Platform</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>platform_project_reference</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Platform Project Reference</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>datacenter_reference</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Datacenter Reference</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>platform_reference_id</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Platform Reference ID</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>platform_guid</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Platform Guid</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>platform_type</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Platform Type</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>platform_depth</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Platform Depth</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>platform_name</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Platform Name</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>platform_latitude</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Platform Latitude</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>platform_longitude</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Platform Longitude</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromDatabase" datasetID="secoora_fact_aat_animals" active="false">
+    <sourceUrl>DB_CONNECTION_STRING</sourceUrl>
+    <driverName>org.postgresql.Driver</driverName>
+    <connectionProperty name="user">erddap</connectionProperty>
+    <connectionProperty name="password">erdpass</connectionProperty>
+    <connectionProperty name="defaultFetchSize">1000</connectionProperty>
+    <catalogName>DB_NAME</catalogName>
+    <schemaName>erddap</schemaName>
+    <tableName>animals</tableName>
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="Conventions">???</att>
+      <att name="infoUrl">http://www.oceantrackingnetwork.org/</att>
+      <att name="institution">OTN</att>
+      <att name="license">[standard]</att>
+      <att name="summary">Animals data.</att>
+      <att name="title">Animals</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>animal_project_reference</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Animal Project Reference</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>datacenter_reference</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Datacenter Reference</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>animal_reference_id</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Animal Reference ID</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>animal_guid</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Animal Guid</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>vernacularname</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Fish Species</att>
+        <att name="long_name">Vernacular Name</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>scientificname</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Fish Species</att>
+        <att name="long_name">Scientific Name</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>taxonrank</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Taxonomy</att>
+        <att name="long_name">Taxonomic Rank</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>aphiaid</sourceName>
+      <dataType>long</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Aphia ID</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>tsn</sourceName>
+      <dataType>long</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">TSN</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>animal_origin</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Animal Origin</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>stock</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Stock</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>length</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Length</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>length_type</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Length Type</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>weight</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Weight</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>life_stage</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Life Stage</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>age</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Age</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>sex</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Sex</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromDatabase" datasetID="secoora_fact_aat_recover_offload_details" active="false">
+    <sourceUrl>DB_CONNECTION_STRING</sourceUrl>
+    <driverName>org.postgresql.Driver</driverName>
+    <connectionProperty name="user">erddap</connectionProperty>
+    <connectionProperty name="password">erdpass</connectionProperty>
+    <connectionProperty name="defaultFetchSize">10000</connectionProperty>
+    <catalogName>DB_NAME</catalogName>
+    <schemaName>erddap</schemaName>
+    <tableName>recover_offload_details</tableName>
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="Conventions">???</att>
+      <att name="infoUrl">http://www.oceantrackingnetwork.org/</att>
+      <att name="institution">OTN</att>
+      <att name="license">[standard]</att>
+      <att name="summary">Recover Offload Details.</att>
+      <att name="title">Recover Offload Details</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>recovery_project_reference</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Recovery Project Reference</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>datacenter_reference</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Datacenter Reference</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>recovery_id</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Recovery ID</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>deployment_id</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Deployment ID</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>recovery_guid</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Recovery Guid</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>recovery_latitude</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Recovery Latitude</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>recovery_longitude</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Recovery Longitude</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>recovery_datetime_utc</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="units">seconds since 1970-01-01T00:00:00Z</att>
+        <att name="ioos_category">Time</att>
+        <att name="long_name">Recovery Datetime UTC</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>recovery_outcome</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Recovery Outcome</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>data_offloaded</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Data Offloaded</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>offload_datetime_utc</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="units">seconds since 1970-01-01T00:00:00Z</att>
+        <att name="ioos_category">Time</att>
+        <att name="long_name">Offload Datetime UTC</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>log_filenames</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Log Filenames</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>recovery_comments</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Recovery Comments</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>clock_synchronized</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Clock Synchronized</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>recovered_by</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Recovered By</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromDatabase" datasetID="secoora_fact_aat_receivers" active="false">
+    <sourceUrl>DB_CONNECTION_STRING</sourceUrl>
+    <driverName>org.postgresql.Driver</driverName>
+    <connectionProperty name="user">erddap</connectionProperty>
+    <connectionProperty name="password">erdpass</connectionProperty>
+    <connectionProperty name="defaultFetchSize">100</connectionProperty>
+    <catalogName>DB_NAME</catalogName>
+    <schemaName>erddap</schemaName>
+    <tableName>receivers</tableName>
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="Conventions">???</att>
+      <att name="infoUrl">http://www.oceantrackingnetwork.org/</att>
+      <att name="institution">OTN</att>
+      <att name="license">[standard]</att>
+      <att name="summary">Receivers.</att>
+      <att name="title">Receivers</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>deployment_project_reference</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Deployment Project Reference</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>datacenter_reference</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Datacenter Reference</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>deployment_id</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Deployment ID</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>deployment_guid</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Deployment Guid</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>receiver_manufacturer</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Receiver Manufacturer</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>receiver_model</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Receiver Model</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>frequencies_monitored</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Frequencies Monitored</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>receiver_coding_scheme</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Receiver Coding Scheme</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>receiver_serial_number</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Receiver Serial Number</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>deployment_latitude</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Deployment Latitude</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>deployment_longitude</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Deployment Longitude</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>deployment_datetime_utc</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="units">seconds since 1970-01-01T00:00:00Z</att>
+        <att name="ioos_category">Time</att>
+        <att name="long_name">Deployment Datetime UTC</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>recovery_datetime_utc</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="units">seconds since 1970-01-01T00:00:00Z</att>
+        <att name="ioos_category">Time</att>
+        <att name="long_name">Recovery Datetime UTC</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>array_name</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Array Name</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>receiver_reference_type</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Receiver Reference Type</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>receiver_reference_id</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Receiver Reference ID</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>bottom_depth</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="units">m</att>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Bottom Depth</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>receiver_depth</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="units">m</att>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Receiver Depth</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>deployment_comments</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Deployment Comments</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>deployed_by</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Deployed By</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>expected_receiver_life</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Expected Receiver Life</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromDatabase" datasetID="secoora_fact_aat_tag_releases" active="false">
+    <sourceUrl>DB_CONNECTION_STRING</sourceUrl>
+    <driverName>org.postgresql.Driver</driverName>
+    <connectionProperty name="user">erddap</connectionProperty>
+    <connectionProperty name="password">erdpass</connectionProperty>
+    <connectionProperty name="defaultFetchSize">100</connectionProperty>
+    <catalogName>DB_NAME</catalogName>
+    <schemaName>erddap</schemaName>
+    <tableName>tag_releases</tableName>
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="Conventions">???</att>
+      <att name="infoUrl">http://www.oceantrackingnetwork.org/</att>
+      <att name="institution">OTN</att>
+      <att name="license">[standard]</att>
+      <att name="summary">Tag Releases.</att>
+      <att name="title">Tag Releases</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>release_project_reference</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Release Project Reference</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>datacenter_reference</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Datacenter Reference</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>tag_device_id</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Tag Device ID</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>release_guid</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Release Guid</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>release_reference_id</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Release Reference ID</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>release_reference_type</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Release Reference Type</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>release_latitude</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Release Latitude</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>release_longitude</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Release Longitude</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>release_datetime_utc</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="units">seconds since 1970-01-01T00:00:00Z</att>
+        <att name="ioos_category">Time</att>
+        <att name="long_name">Release Datetime UTC</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>expected_enddate</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="units">seconds since 1970-01-01T00:00:00Z</att>
+        <att name="ioos_category">Time</att>
+        <att name="long_name">Expected Enddate</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>manufacturer</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Manufacturer</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>tag_model</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Tag Model</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>tag_serial_number</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Tag Serial Number</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>tag_frequency</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Tag Frequency</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>tag_coding_system</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Tag Coding System</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>transmitted_id</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Transmitted ID</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>transmittername</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Transmittername</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>transmitter_type</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Transmitter Type</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>tag_programming_id</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Tag Programming ID</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
+  <dataset type="EDDTableFromDatabase" datasetID="secoora_fact_aat_project_attributes" active="false">
+    <sourceUrl>DB_CONNECTION_STRING</sourceUrl>
+    <driverName>org.postgresql.Driver</driverName>
+    <connectionProperty name="user">erddap</connectionProperty>
+    <connectionProperty name="password">erdpass</connectionProperty>
+    <catalogName>DB_NAME</catalogName>
+    <schemaName>erddap</schemaName>
+    <tableName>project_attributes</tableName>
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="cdm_data_type">Other</att>
+      <att name="Conventions">???</att>
+      <att name="infoUrl">http://www.oceantrackingnetwork.org/</att>
+      <att name="institution">OTN</att>
+      <att name="license">[standard]</att>
+      <att name="summary">Project Attributes.</att>
+      <att name="title">Project Attributes</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>project_reference</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Project Reference</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>datacenter_reference</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Datacenter Reference</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>project_name</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Identifier</att>
+        <att name="long_name">Project Name</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>project_abstract</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Project Abstract</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>project_citation</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Project Citation</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>project_pi</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Project PI</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>project_pi_organization</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Project PI Organization</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>project_pi_contact</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Project PI Contact</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>project_infourl</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Project Info URL</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>project_keywords</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Project Keywords</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>project_keywords_vocabulary</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Project Keywords Vocabulary</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>project_references</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Project References</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>project_doi</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Project Digital Object Identifier</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>project_license</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Project License</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>project_distribution_statement</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Project Distribution Statement</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>project_date_modified</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Project Date Modified</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>project_datum</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Project Datum</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>project_geospatial_lon_min</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Project Geospatial Longitude Minimum</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>project_geospatial_lon_max</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Project Geospatial Longitude Maximum</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>project_geospatial_lat_min</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Project Geospatial Latitude Minimum</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>project_geospatial_lat_max</sourceName>
+      <dataType>double</dataType>
+      <addAttributes>
+        <att name="ioos_category">Location</att>
+        <att name="long_name">Project Geospatial Latitude Maximum</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>project_linestring</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Project Linestring</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>geospatial_vertical_min</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Geospatial Vertical Minimum</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>geospatial_vertical_max</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Geospatial Vertical Maximum</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>geospatial_vertical_positive</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Geospatial Vertical Positive</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>project_time_coverage_start</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Project Time Coverage Start</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>project_time_coverage_end</sourceName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Unknown</att>
+        <att name="long_name">Project Time Coverage End</att>
+      </addAttributes>
+    </dataVariable>
+  </dataset>
 </erddapDatasets>

@@ -2,6 +2,7 @@
 import os
 import argparse
 
+import requests
 from lxml import etree
 from slugify import UniqueSlugify
 
@@ -58,22 +59,32 @@ ioos_template = """
 
 def main(ztype, outfile, names, highlight_title):
 
-    root_folder = '/mnt/gluster/data/platforms/stage/download/glider/'
+    url = 'http://platforms-prod.axiomdatascience.com/platforms/byclass/ioosgliderdac/'
+    lst = requests.get(url).json()
+
+    datafile = '{name}.enhanced.nc'
+    datafolder = '/mnt/gluster/data/platforms/prod/IoosGliderDac/{uuid}/download/'
     slug = UniqueSlugify(separator='_', to_lower=True)
 
     datasets = []
     for n in sorted(names):
 
-        if ztype == 'ioos':
-            folder = 'ioos_dac'
-            template = ioos_template
-        else:
+        try:
+            gd = next(x for x in lst if x['slug'].lower() == n.lower())
+            assert 'Enhanced NetCDF' in [ y['name'] for y in gd['datafiles'] ]
+        except StopIteration:
+            print('No glider {} found!'.format(n))
+            continue
+        except AssertionError:
+            print('No enhanced.nc file for {} found!'.format(n))
             continue
 
-        xml = template.format(slug=slug(n),
-                              file='{}.nc'.format(n),
-                              folder=os.path.join(root_folder, folder),
-                              title='{} - {}'.format(highlight_title, n))
+        xml = ioos_template.format(
+            slug=slug(n),
+            file=datafile.format(name=n),
+            folder=datafolder.format(uuid=gd['id']),
+            title='{} - {}'.format(highlight_title, n)
+        )
         datasets.append(etree.fromstring(xml))
 
     with open(outfile, 'wt') as f:

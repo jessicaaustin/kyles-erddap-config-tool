@@ -60789,3 +60789,94 @@
   </addAttributes>
 </dataset>
 
+<dataset datasetID="wmo_42089" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64395</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">42089 Little Cayman Research Center, Cayman Islands</att>
+    <att name="institution">NOAA National Data Buoy Center (NDBC)</att>
+    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="edu_ucsd_cdip_42097" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64396</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">42097 Pulley Ridge, FL 226</att>
+    <att name="institution">The Coastal Data Information Program</att>
+    <att name="infoUrl">http://cdip.ucsd.edu/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="wmo_42364" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64397</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">42364 Ram Powell TLP - Viosca Knoll 956</att>
+    <att name="institution">NOAA National Data Buoy Center (NDBC)</att>
+    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="wmo_42901" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64400</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">42901 Helix Q5000 - Mississippi Canyon 777</att>
+    <att name="institution">NOAA National Data Buoy Center (NDBC)</att>
+    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="wmo_42902" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64401</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">42902 Deepwater Proteus - Mississippi Canyon 392</att>
+    <att name="institution">NOAA National Data Buoy Center (NDBC)</att>
+    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="wmo_42927" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64402</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">42927 Noble Bully I - Mississippi Canyon 567</att>
+    <att name="institution">NOAA National Data Buoy Center (NDBC)</att>
+    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="wmo_gdqm6" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64424</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">GDQM6 Bangs Lake, Grand Bay Reserve, MS</att>
+    <att name="institution">NOAA National Data Buoy Center (NDBC)</att>
+    <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
