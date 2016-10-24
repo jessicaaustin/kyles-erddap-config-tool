@@ -5926,48 +5926,12 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="miscwebcam_74" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13231</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Sag River, DOT</att>
-      <att name="institution">North Coast Webcams</att>
-      <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="miscwebcam_76" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13232</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Seldovia Airport</att>
-      <att name="institution">North Coast Webcams</att>
-      <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="miscwebcam_77" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>13233</stationId>
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Seldovia City Dock</att>
-      <att name="institution">North Coast Webcams</att>
-      <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="miscwebcam_78" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13234</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Seldovia Small Boat Harbor</att>
       <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
@@ -6076,18 +6040,6 @@
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Sunnahae Mt Craig</att>
-      <att name="institution">North Coast Webcams</att>
-      <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="miscwebcam_91" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13247</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Talkeetna, Ak</att>
       <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
@@ -6286,36 +6238,12 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="gov_faa_7" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13561</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Anchorage</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="gov_faa_106" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>13562</stationId>
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Aniak</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="gov_faa_58" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13563</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Atqasuk</att>
       <att name="institution">Federal Aviation Administration (FAA)</att>
       <att name="infoUrl">http://avcams.faa.gov/</att>
       <att name="publisher_name">AOOS</att>
@@ -6346,18 +6274,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="gov_faa_15" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13566</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Bettles</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="gov_faa_132" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>13568</stationId>
@@ -6370,36 +6286,12 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="gov_faa_19" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13569</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Cape Yakataga</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="gov_faa_121" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>13570</stationId>
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Chefornak</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="gov_faa_130" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13571</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Chickaloon</att>
       <att name="institution">Federal Aviation Administration (FAA)</att>
       <att name="infoUrl">http://avcams.faa.gov/</att>
       <att name="publisher_name">AOOS</att>
@@ -6436,18 +6328,6 @@
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Delta Junction</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="gov_faa_18" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13575</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Dutch NDB</att>
       <att name="institution">Federal Aviation Administration (FAA)</att>
       <att name="infoUrl">http://avcams.faa.gov/</att>
       <att name="publisher_name">AOOS</att>
@@ -6502,18 +6382,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="gov_faa_22" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13580</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Haines</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="gov_faa_24" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>13581</stationId>
@@ -6556,18 +6424,6 @@
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Hydaburg</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="gov_faa_63" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13585</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Igiugig</att>
       <att name="institution">Federal Aviation Administration (FAA)</att>
       <att name="infoUrl">http://avcams.faa.gov/</att>
       <att name="publisher_name">AOOS</att>
@@ -6664,18 +6520,6 @@
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Knik</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="gov_faa_30" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13594</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Kodiak</att>
       <att name="institution">Federal Aviation Administration (FAA)</att>
       <att name="infoUrl">http://avcams.faa.gov/</att>
       <att name="publisher_name">AOOS</att>
@@ -6808,18 +6652,6 @@
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Minto</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="gov_faa_37" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13606</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Mountain Village</att>
       <att name="institution">Federal Aviation Administration (FAA)</att>
       <att name="infoUrl">http://avcams.faa.gov/</att>
       <att name="publisher_name">AOOS</att>
@@ -7090,18 +6922,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="gov_faa_48" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13629</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Tanana</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="gov_faa_166" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>13630</stationId>
@@ -7120,18 +6940,6 @@
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Togiak</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="gov_faa_50" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13632</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Toksook Bay</att>
       <att name="institution">Federal Aviation Administration (FAA)</att>
       <att name="infoUrl">http://avcams.faa.gov/</att>
       <att name="publisher_name">AOOS</att>
@@ -7270,18 +7078,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="gov_faa_91" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13646</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Birchwood</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="gov_faa_137" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>13647</stationId>
@@ -7378,18 +7174,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="gov_faa_59" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13656</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Dutch Haystack</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="gov_faa_127" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>13658</stationId>
@@ -7438,18 +7222,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="gov_faa_21" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13662</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Gustavus</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="gov_faa_143" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>13663</stationId>
@@ -7468,30 +7240,6 @@
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Homer</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="gov_faa_23" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13665</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Hoonah</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="gov_faa_52" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13666</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Huslia</att>
       <att name="institution">Federal Aviation Administration (FAA)</att>
       <att name="infoUrl">http://avcams.faa.gov/</att>
       <att name="publisher_name">AOOS</att>
@@ -7570,36 +7318,12 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="gov_faa_28" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13673</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Kipnuk</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="gov_faa_122" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>13674</stationId>
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Klawock</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="gov_faa_29" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13675</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Knob Ridge</att>
       <att name="institution">Federal Aviation Administration (FAA)</att>
       <att name="infoUrl">http://avcams.faa.gov/</att>
       <att name="publisher_name">AOOS</att>
@@ -7660,18 +7384,6 @@
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Livengood</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="gov_faa_66" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13682</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Marshall</att>
       <att name="institution">Federal Aviation Administration (FAA)</att>
       <att name="infoUrl">http://avcams.faa.gov/</att>
       <att name="publisher_name">AOOS</att>
@@ -7858,42 +7570,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="gov_faa_16" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13699</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Russian Mission</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="gov_faa_43" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13700</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Scammon Bay</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="gov_faa_3" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13701</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Seward</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="gov_faa_5" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>13702</stationId>
@@ -7942,36 +7618,12 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="gov_faa_4" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13707</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Tahneta Pass</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="gov_faa_160" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>13708</stationId>
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Talkeetna</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="gov_faa_157" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13709</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Tazlina-Tolsona</att>
       <att name="institution">Federal Aviation Administration (FAA)</att>
       <att name="infoUrl">http://avcams.faa.gov/</att>
       <att name="publisher_name">AOOS</att>
@@ -8020,18 +7672,6 @@
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Uganik Bay</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="gov_faa_87" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13714</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Valdez</att>
       <att name="institution">Federal Aviation Administration (FAA)</att>
       <att name="infoUrl">http://avcams.faa.gov/</att>
       <att name="publisher_name">AOOS</att>
@@ -8158,18 +7798,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="gov_faa_27" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13730</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Kaltag</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="gov_faa_182" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>13731</stationId>
@@ -8200,18 +7828,6 @@
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Merrill Pass High</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="gov_faa_84" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13736</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Cape Spencer</att>
       <att name="institution">Federal Aviation Administration (FAA)</att>
       <att name="infoUrl">http://avcams.faa.gov/</att>
       <att name="publisher_name">AOOS</att>
@@ -8274,18 +7890,6 @@
       <att name="title">Elim</att>
       <att name="institution">Federal Aviation Administration (FAA)</att>
       <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="miscwebcam_1" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13745</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Akutan</att>
-      <att name="institution">North Coast Webcams</att>
-      <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
@@ -9160,18 +8764,6 @@
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Nuchek</att>
-      <att name="institution">North Coast Webcams</att>
-      <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="miscwebcam_110" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>13845</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Umiat Air Field</att>
       <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
@@ -10930,18 +10522,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="miscwebcam_234" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>14173</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Alyeska</att>
-      <att name="institution">North Coast Webcams</att>
-      <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="gov_faa_186" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>14175</stationId>
@@ -10950,18 +10530,6 @@
       <att name="title">Petersburg</att>
       <att name="institution">Federal Aviation Administration (FAA)</att>
       <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="miscwebcam_alyeska" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>14195</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Alyeska</att>
-      <att name="institution">North Coast Webcams</att>
-      <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
@@ -11020,18 +10588,6 @@
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Anchorage Town Square</att>
-      <att name="institution">North Coast Webcams</att>
-      <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="miscwebcam_115" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>14202</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Lake Otis &amp; Tudor South View</att>
       <att name="institution">North Coast Webcams</att>
       <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
       <att name="publisher_name">AOOS</att>
@@ -17266,18 +16822,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="nsf_aon_calon_004" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>15699</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">CCALON TOO-004 LOR</att>
-      <att name="institution">NSF Circum-Arctic Lakes Observation Network (CALON)</att>
-      <att name="infoUrl">http://datagarrison.com/users/300234011204340/300234011204340/plots.php</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="nsf_aon_calon_001" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>15700</stationId>
@@ -19486,18 +19030,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="gov_faa_232" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>20169</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Gustavus Dock</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="gov_faa_235" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>20170</stationId>
@@ -19516,18 +19048,6 @@
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">Akun Island</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="gov_faa_236" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>20172</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Lime Village</att>
       <att name="institution">Federal Aviation Administration (FAA)</att>
       <att name="infoUrl">http://avcams.faa.gov/</att>
       <att name="publisher_name">AOOS</att>
@@ -20458,18 +19978,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="gov_faa_237" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>20721</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">White Pass</att>
-      <att name="institution">Federal Aviation Administration (FAA)</att>
-      <att name="infoUrl">http://avcams.faa.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="gov_noaa_nws_cyqq" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>20794</stationId>
@@ -20794,18 +20302,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="com_micro_specialties_kayak_island" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>48032</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Kayak Island</att>
-      <att name="institution">Alaska Harbor Observation Network (AHON)</att>
-      <att name="infoUrl">http://www.micro-specialties.com/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="edu_oregonstate_burkolator" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>48037</stationId>
@@ -20920,18 +20416,6 @@
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">southeast_ak_56n_134w</att>
-      <att name="institution">Carbon Dioxide Information Analysis Center</att>
-      <att name="infoUrl">http://cdiac.ornl.gov/</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="gov_ornl_cdiac_kodiak_152w_57n" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>49386</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">kodiak_152w_57n</att>
       <att name="institution">Carbon Dioxide Information Analysis Center</att>
       <att name="infoUrl">http://cdiac.ornl.gov/</att>
       <att name="publisher_name">AOOS</att>
@@ -28558,36 +28042,12 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="edu_washington_iabp_123268" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>64196</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">123268</att>
-      <att name="institution">International Arctic Buoy Programme (IABP)</att>
-      <att name="infoUrl">http://iabp.apl.washington.edu/index.html</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="edu_washington_iabp_126477" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>64197</stationId>
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
     <addAttributes>
       <att name="title">126477</att>
-      <att name="institution">International Arctic Buoy Programme (IABP)</att>
-      <att name="infoUrl">http://iabp.apl.washington.edu/index.html</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="edu_washington_iabp_127317" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>64198</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">127317</att>
       <att name="institution">International Arctic Buoy Programme (IABP)</att>
       <att name="infoUrl">http://iabp.apl.washington.edu/index.html</att>
       <att name="publisher_name">AOOS</att>
@@ -29050,42 +28510,6 @@
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>
   </dataset>
-  <dataset datasetID="edu_washington_iabp_300234062558760" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>64285</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">300234062558760</att>
-      <att name="institution">International Arctic Buoy Programme (IABP)</att>
-      <att name="infoUrl">http://iabp.apl.washington.edu/index.html</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="edu_washington_iabp_300234062957210" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>64298</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">300234062957210</att>
-      <att name="institution">International Arctic Buoy Programme (IABP)</att>
-      <att name="infoUrl">http://iabp.apl.washington.edu/index.html</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="edu_washington_iabp_300234063245420" type="EDDTableFromAxiomStation">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>64301</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">300234063245420</att>
-      <att name="institution">International Arctic Buoy Programme (IABP)</att>
-      <att name="infoUrl">http://iabp.apl.washington.edu/index.html</att>
-      <att name="publisher_name">AOOS</att>
-      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-    </addAttributes>
-  </dataset>
   <dataset datasetID="edu_washington_iabp_300234063982330" type="EDDTableFromAxiomStation">
     <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
     <stationId>64306</stationId>
@@ -29139,7 +28563,7 @@
     <stationId>64370</stationId>
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
     <addAttributes>
-      <att name="title">Ketchikan</att>
+      <att name="title">AOOS Burkolator at OceansAlaska Ketchikan Shellfish Hatchery</att>
       <att name="institution">OceansAlaska Ketchikan Shellfish Hatchery</att>
       <att name="infoUrl">http://oceansalaska.org/</att>
       <att name="publisher_name">AOOS</att>
@@ -29226,6 +28650,582 @@
       <att name="title">Crown Point </att>
       <att name="institution">Friends of Chugach National Forest Avalanche Information Center (F-CNFAIC)</att>
       <att name="infoUrl">http://www.cnfaic.org/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_21" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13662</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Gustavus</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="miscwebcam_alyeska" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>14195</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Alyeska</att>
+      <att name="institution">North Coast Webcams</att>
+      <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="miscwebcam_110" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13845</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Umiat Air Field</att>
+      <att name="institution">North Coast Webcams</att>
+      <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_28" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13673</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Kipnuk</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_52" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13666</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Huslia</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_7" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13561</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Anchorage</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="miscwebcam_76" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13232</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Seldovia Airport</att>
+      <att name="institution">North Coast Webcams</att>
+      <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_157" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13709</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Tazlina-Tolsona</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="miscwebcam_91" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13247</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Talkeetna, Ak</att>
+      <att name="institution">North Coast Webcams</att>
+      <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_22" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13580</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Haines</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_50" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13632</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Toksook Bay</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_232" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>20169</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Gustavus Dock</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_15" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13566</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Bettles</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_27" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13730</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Kaltag</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_29" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13675</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Knob Ridge</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="miscwebcam_234" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>14173</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Alyeska</att>
+      <att name="institution">North Coast Webcams</att>
+      <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_84" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13736</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Cape Spencer</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="miscwebcam_78" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13234</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Seldovia Small Boat Harbor</att>
+      <att name="institution">North Coast Webcams</att>
+      <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="edu_washington_iabp_300234062957210" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64298</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">300234062957210</att>
+      <att name="institution">International Arctic Buoy Programme (IABP)</att>
+      <att name="infoUrl">http://iabp.apl.washington.edu/index.html</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_3" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13701</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Seward</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_236" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>20172</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Lime Village</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_130" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13571</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Chickaloon</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_237" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>20721</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">White Pass</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_66" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13682</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Marshall</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="miscwebcam_1" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13745</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Akutan</att>
+      <att name="institution">North Coast Webcams</att>
+      <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_23" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13665</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Hoonah</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_87" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13714</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Valdez</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="edu_washington_iabp_300234063245420" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64301</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">300234063245420</att>
+      <att name="institution">International Arctic Buoy Programme (IABP)</att>
+      <att name="infoUrl">http://iabp.apl.washington.edu/index.html</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_37" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13606</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Mountain Village</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="edu_washington_iabp_127317" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64198</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">127317</att>
+      <att name="institution">International Arctic Buoy Programme (IABP)</att>
+      <att name="infoUrl">http://iabp.apl.washington.edu/index.html</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_43" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13700</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Scammon Bay</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="miscwebcam_115" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>14202</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Lake Otis &amp; Tudor South View</att>
+      <att name="institution">North Coast Webcams</att>
+      <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="edu_washington_iabp_300234062558760" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64285</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">300234062558760</att>
+      <att name="institution">International Arctic Buoy Programme (IABP)</att>
+      <att name="infoUrl">http://iabp.apl.washington.edu/index.html</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_18" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13575</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Dutch NDB</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_59" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13656</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Dutch Haystack</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_16" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13699</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Russian Mission</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_91" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13646</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Birchwood</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_58" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13563</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Atqasuk</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_19" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13569</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Cape Yakataga</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="edu_washington_iabp_123268" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>64196</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">123268</att>
+      <att name="institution">International Arctic Buoy Programme (IABP)</att>
+      <att name="infoUrl">http://iabp.apl.washington.edu/index.html</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_30" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13594</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Kodiak</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_48" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13629</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Tanana</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="com_micro_specialties_kayak_island" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>48032</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Kayak Island</att>
+      <att name="institution">Alaska Harbor Observation Network (AHON)</att>
+      <att name="infoUrl">http://www.micro-specialties.com/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="miscwebcam_74" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13231</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Sag River, DOT</att>
+      <att name="institution">North Coast Webcams</att>
+      <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_63" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13585</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Igiugig</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="nsf_aon_calon_004" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>15699</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">CCALON TOO-004 LOR</att>
+      <att name="institution">NSF Circum-Arctic Lakes Observation Network (CALON)</att>
+      <att name="infoUrl">http://datagarrison.com/users/300234011204340/300234011204340/plots.php</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_faa_4" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>13707</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">Tahneta Pass</att>
+      <att name="institution">Federal Aviation Administration (FAA)</att>
+      <att name="infoUrl">http://avcams.faa.gov/</att>
+      <att name="publisher_name">AOOS</att>
+      <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+    </addAttributes>
+  </dataset>
+  <dataset datasetID="gov_ornl_cdiac_kodiak_152w_57n" type="EDDTableFromAxiomStation" active="false">
+    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+    <stationId>49386</stationId>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <addAttributes>
+      <att name="title">kodiak_152w_57n</att>
+      <att name="institution">Carbon Dioxide Information Analysis Center</att>
+      <att name="infoUrl">http://cdiac.ornl.gov/</att>
       <att name="publisher_name">AOOS</att>
       <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
     </addAttributes>

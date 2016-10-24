@@ -38517,6 +38517,19 @@
   </addAttributes>
 </dataset>
 
+<dataset datasetID="nerrs_noclcwq" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>41665</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Loosin Creek</att>
+    <att name="institution">NOAA National Estuarine Research Reserve System (NERRS)</att>
+    <att name="infoUrl">http://www.nerrs.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
 <dataset datasetID="nerrs_nocrcmet" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>41666</stationId>
@@ -58142,7 +58155,7 @@
   <stationId>60398</stationId>
   <reloadEveryNMinutes>360</reloadEveryNMinutes>
   <addAttributes>
-    <att name="title">(SECOORA) Pilot&#8217;s Cove, Apalachicola Bay</att>
+    <att name="title">(SECOORA) Pilot's Cove, Apalachicola Bay</att>
     <att name="institution">Florida Department of Environmental Protection</att>
     <att name="infoUrl">http://fldep-stevens.com/</att>
     <att name="publisher_name">SECOORA</att>
@@ -60386,6 +60399,19 @@
   </addAttributes>
 </dataset>
 
+<dataset datasetID="gov_usgs_waterdata_0204347500" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>62130</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">CURRITUCK SOUND AT US 158 NR POINT HARBOR, NC</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
 <dataset datasetID="gov_usgs_waterdata_363642076312501" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>62209</stationId>
@@ -60451,6 +60477,19 @@
   </addAttributes>
 </dataset>
 
+<dataset datasetID="gov_usgs_waterdata_0209270825" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>62768</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">BOGUE SOUND AT SR 1182 AT ATLANTIC BEACH, NC</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
 <dataset datasetID="gov_usgs_waterdata_363257076272201" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>62975</stationId>
@@ -60496,6 +60535,32 @@
   <reloadEveryNMinutes>360</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">OYSTER CREEK NEAR FLAMINGO, FL</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_0208117991" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>63638</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">ROANOKE SOUND AT US HIGHWAY 64/264 POND ISLAND, NC</att>
+    <att name="institution">USGS National Water Information System (NWIS)</att>
+    <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_usgs_waterdata_02092576" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>63938</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">TRENT RIVER AT US HIGHWAY 70 AT NEW BERN, NC</att>
     <att name="institution">USGS National Water Information System (NWIS)</att>
     <att name="infoUrl">http://waterdata.usgs.gov/nwis</att>
     <att name="publisher_name">SECOORA</att>
@@ -60875,6 +60940,32 @@
     <att name="title">GDQM6 Bangs Lake, Grand Bay Reserve, MS</att>
     <att name="institution">NOAA National Data Buoy Center (NDBC)</att>
     <att name="infoUrl">http://www.ndbc.noaa.gov/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="edu_ccu_lbos_148" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64428</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Whitepoint Swash</att>
+    <att name="institution">Long Bay Observation System</att>
+    <att name="infoUrl">http://bccmws.coastal.edu/lbos/</att>
+    <att name="publisher_name">SECOORA</att>
+    <att name="publisher_email">vembu@secoora.org</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="edu_ccu_lbos_149" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>64429</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Singleton Swash</att>
+    <att name="institution">Long Bay Observation System</att>
+    <att name="infoUrl">http://bccmws.coastal.edu/lbos/</att>
     <att name="publisher_name">SECOORA</att>
     <att name="publisher_email">vembu@secoora.org</att>
   </addAttributes>
