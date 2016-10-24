@@ -1,0 +1,18 @@
+stages:
+  - deploy
+
+deploy_stage:
+  stage: deploy
+  environment: stage
+  only:
+    - master
+  script:
+    - docker run --rm registry.axiom/ansible ap apps-stage erddap-docker-regions --tags deploy --skip-tags=restart_container
+
+deploy_prod:
+  stage: deploy
+  environment: prod
+  only:
+    - tags
+  script:
+    - docker run --rm registry.axiom/ansible ap apps-prod erddap-docker-regions --tags deploy --skip-tags=restart_container
