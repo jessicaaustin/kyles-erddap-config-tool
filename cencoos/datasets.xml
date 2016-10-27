@@ -18302,6 +18302,209 @@
       <dataType>byte</dataType>
     </dataVariable>
   </dataset>
+  <dataset type="EDDTableFromNcCFFiles" datasetID="uw157_20161021t1807">
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <fileDir>/mnt/gluster/data/platforms/prod/IoosGliderDac/029dfd3d-3a53-491a-b88f-c0796f140cb2/download/</fileDir>
+    <fileNameRegex>UW157-20161021T1807.enhanced.nc</fileNameRegex>
+    <addAttributes>
+      <att name="title">(CeNCOOS) Trinidad Glider - UW157-20161021T1807</att>
+    </addAttributes>
+    <dataVariable>
+      <sourceName>trajectory</sourceName>
+      <destinationName>trajectory</destinationName>
+      <dataType>String</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>wmo_id</sourceName>
+      <destinationName>wmo_id</destinationName>
+      <dataType>String</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time</sourceName>
+      <destinationName>time</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>latitude</sourceName>
+      <destinationName>latitude</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>longitude</sourceName>
+      <destinationName>longitude</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>profile_id</sourceName>
+      <destinationName>profile_id</destinationName>
+      <dataType>short</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_uv</sourceName>
+      <destinationName>time_uv</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lat_uv</sourceName>
+      <destinationName>lat_uv</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lon_uv</sourceName>
+      <destinationName>lon_uv</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>u</sourceName>
+      <destinationName>u</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>v</sourceName>
+      <destinationName>v</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>latitude_qc</sourceName>
+      <destinationName>latitude_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>longitude_qc</sourceName>
+      <destinationName>longitude_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_qc</sourceName>
+      <destinationName>time_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>depth</sourceName>
+      <destinationName>depth</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>depth_qc</sourceName>
+      <destinationName>depth_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>pressure</sourceName>
+      <destinationName>pressure</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>pressure_qc</sourceName>
+      <destinationName>pressure_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>conductivity</sourceName>
+      <destinationName>conductivity</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>conductivity_qc</sourceName>
+      <destinationName>conductivity_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>density</sourceName>
+      <destinationName>density</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>density_qc</sourceName>
+      <destinationName>density_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lat</sourceName>
+      <destinationName>precise_lat</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lon</sourceName>
+      <destinationName>precise_lon</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_time</sourceName>
+      <destinationName>precise_time</destinationName>
+      <dataType>double</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lat_qc</sourceName>
+      <destinationName>precise_lat_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_lon_qc</sourceName>
+      <destinationName>precise_lon_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>precise_time_qc</sourceName>
+      <destinationName>precise_time_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>salinity</sourceName>
+      <destinationName>salinity</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>salinity_qc</sourceName>
+      <destinationName>salinity_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>temperature</sourceName>
+      <destinationName>temperature</destinationName>
+      <dataType>float</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>temperature_qc</sourceName>
+      <destinationName>temperature_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>time_uv_qc</sourceName>
+      <destinationName>time_uv_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lat_uv_qc</sourceName>
+      <destinationName>lat_uv_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>lon_uv_qc</sourceName>
+      <destinationName>lon_uv_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>u_qc</sourceName>
+      <destinationName>u_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>v_qc</sourceName>
+      <destinationName>v_qc</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>platform_meta</sourceName>
+      <destinationName>platform_meta</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>instrument_ctd</sourceName>
+      <destinationName>instrument_ctd</destinationName>
+      <dataType>byte</dataType>
+    </dataVariable>
+  </dataset>
   <dataset type="EDDTableFromNcCFFiles" datasetID="ucsc260_20150520t0000">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <fileDir>/mnt/gluster/data/platforms/prod/IoosGliderDac/d8a18eb3-4eda-4e06-b6c4-09b65bd67faf/download/</fileDir>
@@ -18707,233 +18910,5 @@
       <destinationName>instrument_ctd</destinationName>
       <dataType>byte</dataType>
     </dataVariable>
-  </dataset>
-  <dataset datasetID="caltrans_h101p56_d1" type="EDDTableFromAxiomStation" active="false">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>19220</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">US-101 : South Of SR-36</att>
-      <att name="institution">Caltrans</att>
-      <att name="infoUrl">http://www.dot.ca.gov/</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="caltrans_h101p77_d1" type="EDDTableFromAxiomStation" active="false">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>19223</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">US-101 : Eureka / Wabash Maintenance Yard</att>
-      <att name="institution">Caltrans</att>
-      <att name="infoUrl">http://www.dot.ca.gov/</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="caltrans_m20p1_d1" type="EDDTableFromAxiomStation" active="false">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>19205</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">SR-20 : At SR-1</att>
-      <att name="institution">Caltrans</att>
-      <att name="infoUrl">http://www.dot.ca.gov/</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="caltrans_m1p70n_d1" type="EDDTableFromAxiomStation" active="false">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>19204</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">SR-1 : Ten Mile River Bridge</att>
-      <att name="institution">Caltrans</att>
-      <att name="infoUrl">http://www.dot.ca.gov/</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="miscwebcam_137" type="EDDTableFromAxiomStation" active="false">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>18464</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Ayala Cove, Angel Island</att>
-      <att name="institution">North Coast Webcams</att>
-      <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="caltrans_h101p59_d1" type="EDDTableFromAxiomStation" active="false">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>19221</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">US-101 : North Of SR-36</att>
-      <att name="institution">Caltrans</att>
-      <att name="infoUrl">http://www.dot.ca.gov/</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="caltrans_h101p89_d1" type="EDDTableFromAxiomStation" active="false">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>19226</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">US-101 : North Of SR-299</att>
-      <att name="institution">Caltrans</att>
-      <att name="infoUrl">http://www.dot.ca.gov/</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="miscwebcam_124" type="EDDTableFromAxiomStation" active="false">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>18448</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Elkhorn Slough</att>
-      <att name="institution">North Coast Webcams</att>
-      <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="miscwebcam_132" type="EDDTableFromAxiomStation" active="false">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>18459</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">Sausalito</att>
-      <att name="institution">North Coast Webcams</att>
-      <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="caltrans_h101p80n_d1" type="EDDTableFromAxiomStation" active="false">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>19224</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">US-101: Eureka / R Street</att>
-      <att name="institution">Caltrans</att>
-      <att name="infoUrl">http://www.dot.ca.gov/</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="caltrans_h101p87_d1" type="EDDTableFromAxiomStation" active="false">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>19225</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">US-101 : South Of SR-299</att>
-      <att name="institution">Caltrans</att>
-      <att name="infoUrl">http://www.dot.ca.gov/</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="caltrans_d101p21_d1" type="EDDTableFromAxiomStation" active="false">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>19227</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">US-101 : South Of Cushing Creek</att>
-      <att name="institution">Caltrans</att>
-      <att name="infoUrl">http://www.dot.ca.gov/</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="caltrans_h101p70_d1" type="EDDTableFromAxiomStation" active="false">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>19222</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">US-101 : Eureka / Spruce Point</att>
-      <att name="institution">Caltrans</att>
-      <att name="infoUrl">http://www.dot.ca.gov/</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="caltrans_m101p105_d1" type="EDDTableFromAxiomStation" active="false">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>19219</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">US-101: South of SR 271</att>
-      <att name="institution">Caltrans</att>
-      <att name="infoUrl">http://www.dot.ca.gov/</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="caltrans_cam4" type="EDDTableFromAxiomStation" active="false">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>19913</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">I-5 I-805 Interchange</att>
-      <att name="institution">Caltrans</att>
-      <att name="infoUrl">http://www.dot.ca.gov/</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="caltrans_d101p22_d1" type="EDDTableFromAxiomStation" active="false">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>19228</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">US-101 : North Of Cushing Creek</att>
-      <att name="institution">Caltrans</att>
-      <att name="infoUrl">http://www.dot.ca.gov/</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="caltrans_d101p37_d1" type="EDDTableFromAxiomStation" active="false">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>19230</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">US-101 : North Of SR-197</att>
-      <att name="institution">Caltrans</att>
-      <att name="infoUrl">http://www.dot.ca.gov/</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="caltrans_d101p28_d1" type="EDDTableFromAxiomStation" active="false">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>19229</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">US-101 : South Of US-199</att>
-      <att name="institution">Caltrans</att>
-      <att name="infoUrl">http://www.dot.ca.gov/</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
-  </dataset>
-  <dataset datasetID="caltrans_m101p101_d1" type="EDDTableFromAxiomStation" active="false">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-    <stationId>19218</stationId>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <addAttributes>
-      <att name="title">US-101 : North of Confusion Hill</att>
-      <att name="institution">Caltrans</att>
-      <att name="infoUrl">http://www.dot.ca.gov/</att>
-      <att name="publisher_name">CeNCOOS</att>
-      <att name="publisher_email">jpatterson@mbari.org</att>
-    </addAttributes>
   </dataset>
 </erddapDatasets>

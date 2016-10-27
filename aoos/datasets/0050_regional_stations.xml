@@ -9488,6 +9488,19 @@
   </addAttributes>
 </dataset>
 
+<dataset datasetID="miscwebcam_110" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>13845</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Umiat Air Field</att>
+    <att name="institution">North Coast Webcams</att>
+    <att name="infoUrl">http://data.aoos.org/maps/sensors/</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
 <dataset datasetID="gov_faa_142" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>13846</stationId>
@@ -19069,19 +19082,6 @@
   </addAttributes>
 </dataset>
 
-<dataset datasetID="gov_faa_206" type="EDDTableFromAxiomStation">
-  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
-  <stationId>15815</stationId>
-  <reloadEveryNMinutes>360</reloadEveryNMinutes>
-  <addAttributes>
-    <att name="title">Nyac</att>
-    <att name="institution">Federal Aviation Administration (FAA)</att>
-    <att name="infoUrl">http://avcams.faa.gov/</att>
-    <att name="publisher_name">AOOS</att>
-    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
-  </addAttributes>
-</dataset>
-
 <dataset datasetID="gov_faa_201" type="EDDTableFromAxiomStation">
   <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
   <stationId>15816</stationId>
@@ -20596,6 +20596,19 @@
   <reloadEveryNMinutes>360</reloadEveryNMinutes>
   <addAttributes>
     <att name="title">Chitina</att>
+    <att name="institution">Federal Aviation Administration (FAA)</att>
+    <att name="infoUrl">http://avcams.faa.gov/</att>
+    <att name="publisher_name">AOOS</att>
+    <att name="publisher_email">axiom+sensors@axiomdatascience.com</att>
+  </addAttributes>
+</dataset>
+
+<dataset datasetID="gov_faa_232" type="EDDTableFromAxiomStation">
+  <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice/</sourceUrl>
+  <stationId>20169</stationId>
+  <reloadEveryNMinutes>360</reloadEveryNMinutes>
+  <addAttributes>
+    <att name="title">Gustavus Dock</att>
     <att name="institution">Federal Aviation Administration (FAA)</att>
     <att name="infoUrl">http://avcams.faa.gov/</att>
     <att name="publisher_name">AOOS</att>
