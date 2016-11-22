@@ -1,51 +1,63 @@
 #! /usr/bin/env python
 import argparse
 
-from slugify import UniqueSlugify
 import requests
 from lxml import etree
+from assetid.urn import IoosUrn
+from slugify import UniqueSlugify
 
 
-def main(outfile, region, publisher, publisher_email, institution, publishers, highlight, highlight_title):
+def main(outfile, region_id):
 
-    # Convert highlight list to ints
-    if highlight:
-        highlight = [ int(x) for x in highlight ]
+    params = {}
+    # Either a name or integer
+    try:
+        params['region_id'] = int(region_id)
+    except ValueError:
+        params['region_name'] = region_id
 
-    if publishers:
-        publishers = [ int(x) for x in publishers ]
-
-    params = {
-        'appregion': region,
-        'realtimeonly': 'false',
-        'verbose': 'true',
-        'jsoncallback': 'false',
-        'method': 'GetStationsResultSetRowsJSON',
-        'version': 3
-    }
-    r = requests.get('http://pdx.axiomalaska.com/stationsensorservice/getDataValues', params=params)
+    r = requests.get('http://pdx.axiomalaska.com/stationsensorservice/getRegionMetadata', params=params)
     r.raise_for_status()
-    r = r.json()
 
-    sources = r.get('sources')
+    try:
+        r = r.json()
+    except BaseException:
+        print("No stations available for the '{}' region".format(region_id))
+        return
 
     slug = UniqueSlugify(separator='_', to_lower=True)
 
     datasets = []
-    for s in sorted(r.get("stations"), key=lambda x: x['id']):
 
-        if publishers and s.get('publisherId') not in publishers:
-            continue
+    stats = r[0].get("stations")
+    stats = [ x for x in stats if x.get('add_to_erddap') is True ]
+    stats = sorted(stats, key=lambda x: x['id'])
 
-        urn = slug(s.get('urn').replace('urn:ioos:station:', ''))
-        dataset = etree.Element("dataset", type="EDDTableFromAxiomStation", datasetID=urn)
+    print("Exporting {} {} stations to ERDDAP XML".format(len(stats), region_id))
+    for s in stats:
+        # Compute the Station URN
+        # Precedence:
+        #  1.) 'urn' global_attribute
+        #  2.) 'id'  and 'naming_authority' global_attributes
+        #  3.) Station URN from sensor service
+        gas = s.get('global_attributes', {})
+        if 'urn' in gas:
+            iurn = IoosUrn.from_string(gas['urn'].lower())
+            gas['id'] = iurn.label
+            gas['naming_authority'] = iurn.authority
+        if 'naming_authority' in gas and 'id' in gas:
+            station_urn = '{}.{}'.format(gas['naming_authority'], gas['id']).lower()
+        else:
+            station_urn = s['urn'].lower()
+
+        station_urn = station_urn.replace('urn:ioos:station:', '')
+        dataset = etree.Element("dataset", type="EDDTableFromAxiomStation", datasetID=slug(station_urn))
 
         source = etree.SubElement(dataset, "sourceUrl")
         source.text = 'http://pdx.axiomalaska.com/stationsensorservice/'
 
-        sid = s.get('id')
         station = etree.SubElement(dataset, "stationId")
-        station.text = str(sid)
+        station.text = str(s.get('id'))
 
         reload = etree.SubElement(dataset, "reloadEveryNMinutes")
         reload.text = '360'
@@ -53,31 +65,30 @@ def main(outfile, region, publisher, publisher_email, institution, publishers, h
         # Attributes
         atts = etree.SubElement(dataset, "addAttributes")
 
-        label = s.get('label')
+        # Title
+        if 'title' not in gas:
+            label = s.get('label')
+        else:
+            label = gas.get('title')
         label = label.replace('(', '').replace(')', '')
-        if sid in highlight:
-            label = '{} {}'.format(highlight_title, label)
+        if s.get('highlight_in_erddap') is True:
+            label = '* ' + label
         title = etree.SubElement(atts, "att", name="title")
         title.text = label
 
-        source_id = s.get('sourceId')
-        institution = sources[str(source_id)]['label']
-        instit = etree.SubElement(atts, "att", name="institution")
-        instit.text = institution
+        # Institution
+        if 'institution' not in gas:
+            owner = s.get('owner_label')
+        else:
+            owner = gas.get('institution')
+        owner = owner.replace('(', '').replace(')', '')
+        own = etree.SubElement(atts, "att", name="institution")
+        own.text = owner
 
-        try:
-            url = sources[str(source_id)]['url']
-            assert url != ''
-            infourl = etree.SubElement(atts, "att", name="infoUrl")
-            infourl.text = url
-        except (KeyError, AssertionError):
-            pass
-
-        pubname = etree.SubElement(atts, "att", name="publisher_name")
-        pubname.text = publisher
-
-        pubemail = etree.SubElement(atts, "att", name="publisher_email")
-        pubemail.text = publisher_email
+        # All other attributes
+        for k, v in gas.items():
+            ele = etree.SubElement(atts, "att", name=k)
+            ele.text = v
 
         datasets.append(dataset)
 
@@ -99,33 +110,9 @@ if __name__ == "__main__":
                         default='output.xml',
                         nargs='?')
     parser.add_argument('-r', '--region',
-                        help="Regional subset (defaults to 'all')",
+                        help="Regional ID subset (defaults to 'all')",
                         default='all',
-                        nargs='?')
-    parser.add_argument('-p', '--publisher',
-                        help="Publisher (defaults to 'Axiom Data Science')",
-                        default='Axiom Data Science',
-                        nargs='?')
-    parser.add_argument('-e', '--publisher_email',
-                        help="Publisher Email (defaults to 'axiom+sensors@axiomdatascience.com')",
-                        default='axiom+sensors@axiomdatascience.com',
-                        nargs='?')
-    parser.add_argument('-i', '--institution',
-                        help="Default Institution (defaults to 'Axiom Data Science') if one can't be found",
-                        default='Axiom Data Science',
-                        nargs='?')
-    parser.add_argument('-d', '--publishers',
-                        help="Subset by these provider IDs",
-                        default=[],
-                        nargs='*')
-    parser.add_argument('-l', '--highlight',
-                        help="Put these stations at the top",
-                        default=[],
-                        nargs='*')
-    parser.add_argument('-t', '--highlight_title',
-                        help="Use this for the highlight title",
-                        default='*',
                         nargs='?')
     args = parser.parse_args()
 
-    main(args.output, args.region, args.publisher, args.publisher_email, args.institution, args.publishers, args.highlight, args.highlight_title)
+    main(args.output, args.region)

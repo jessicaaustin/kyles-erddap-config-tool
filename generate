@@ -1,51 +1,14 @@
 #!/bin/bash
 
-# Generate regional stations
-python oikos_stations.py \
-    -r cencoos \
-    -o cencoos/datasets/0050_regional_stations.xml \
-    -p CeNCOOS \
-    -e jpatterson@mbari.org \
-    -i CeNCOOS \
-    -l 20679 20542 20063 20523 20363 20362 20358 20366 20357 20364 48035 20365 \
-    -t "(CeNCOOS)"
-
-python oikos_stations.py \
-    -r secoora \
-    -o secoora/datasets/0050_regional_stations.xml \
-    -p SECOORA \
-    -e vembu@secoora.org \
-    -i SECOORA \
-    -l 60375 60377 60378 60379 60380 60381 60382 60383 60384 60386 60387 60388 \
-60395 60396 60397 60398 60399 60400 60401 60403 60405 60406 60407 60408 60410 \
-60411 60415 60416 60417 60418 60419 60420 60421 60423 60424 \
-    -t "(SECOORA)"
-
-python oikos_stations.py \
-    -r aoos \
-    -o aoos/datasets/0050_regional_stations.xml \
-    -p AOOS \
-    -i AOOS \
-    -t "(AOOS)"
-
-python oikos_stations.py \
-    -r all \
-    -o axiom/datasets/0050_regional_stations.xml \
-    -p Axiom \
-    -i Axiom
-
-python oikos_stations.py \
-    -r all \
-    -o usgs-cmg/datasets/0050_regional_stations.xml \
-    -p "USGS Coastal and Marine Geology Program" \
-    -e rsignell@usgs.gov \
-    -i "USGS Coastal and Marine Geology Program" \
-    -d 86
+for reg in $(find regions -maxdepth 1 -mindepth 1 -type d); do
+    REG=$(basename $reg)
+    python oikos_stations.py --region $REG --output "regions/$REG/datasets/0050_regional_stations.xml"
+done
 
 # CeNCOOS Gliders
 python gliders.py \
     ioos \
-    -o cencoos/datasets/0070_line_67_gliders.xml \
+    -o regions/cencoos/datasets/0070_line_67_gliders.xml \
     -n sp028-20140605T170300 sp011-20140923T0000 sp030-20150109T2113 \
 sp011-20150427T1749 sp025-20150813T1746 sp028-20151124T1741 \
 sp025-20160310T1858 sp028-20160628T1737 sp025-20160913T1826 \
@@ -53,21 +16,21 @@ sp025-20160310T1858 sp028-20160628T1737 sp025-20160913T1826 \
 
 python gliders.py \
     ioos \
-    -o cencoos/datasets/0071_trinidad_gliders.xml \
+    -o regions/cencoos/datasets/0071_trinidad_gliders.xml \
     -n UW157-20141116T2118 UW130-20150309T2005 UW157-20150917T1833 \
 UW157-20161021T1807 \
     -t "(CeNCOOS) Trinidad Glider"
 
 python gliders.py \
     ioos \
-    -o cencoos/datasets/0072_monterey_bay_gliders.xml \
+    -o regions/cencoos/datasets/0072_monterey_bay_gliders.xml \
     -n UCSC294-20150430T2218 UCSC260-20150520T0000 \
     -t "(CeNCOOS) Monterey Bay"
 
 # SECOORA Gliders
 python gliders.py \
     ioos \
-    -o secoora/datasets/0070_gliders.xml \
+    -o regions/secoora/datasets/0070_gliders.xml \
     -n bass-20160909T1733 modena-20160909T1758 ramses-20160909T2028 \
 salacia-20160919T2028 \
     -t "(SECOORA) Glider"
