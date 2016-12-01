@@ -1,9 +1,24 @@
 stages:
+  - build
+  - push
   - deploy
+
+build_image:
+  stage: build
+  script:
+    - docker build -t erddap-content .
+
+push_image:
+  stage: push
+  only:
+    - master
+  script:
+    - docker tag erddap-content registry.axiom/erddap-content:latest
+    - docker push registry.axiom/erddap-content:latest
 
 deploy_stage:
   stage: deploy
-  environment: stage
+  environment: staging
   only:
     - master
   script:
@@ -11,7 +26,7 @@ deploy_stage:
 
 deploy_prod:
   stage: deploy
-  environment: prod
+  environment: production
   only:
     - tags
   script:
