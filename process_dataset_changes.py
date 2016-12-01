@@ -42,15 +42,16 @@ def main(oldxml, newxml, outfile):
                 dnode.set('active', 'false')
                 ds = newtree.getroot()
                 ds.append(dnode)
-    elif not oldtree and newtree:
+
+    if not oldtree and newtree:
         print("No existing datasets.xml so using the newly generated one")
-    else:
-        print("Not doing anything. No new datasets.xml file.")
 
     if newtree:
         with open(outfile, 'wt') as f:
             f.write(etree.tostring(newtree, encoding='ISO-8859-1', pretty_print=True, xml_declaration=True).decode('iso-8859-1'))
             f.write('\n')
+    else:
+        print("Not doing anything. No new datasets.xml file.")
 
 
 if __name__ == "__main__":

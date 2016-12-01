@@ -21,7 +21,7 @@ for x in $(find $FOLDER -regextype posix-extended -regex '.*[0-9]{4}_.*\.xml' -t
     cat $x >> $TMP  # Append contents
 done
 
-if [ -e $TMP ] && [ -e $MASTER ]; then
+if [ -e $TMP ]; then
     if [ -e $PROCESSED ]; then
         rm -f $PROCESSED  # Clear file
     fi
