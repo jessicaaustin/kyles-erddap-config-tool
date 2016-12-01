@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# SECOORA Gliders
+python gliders.py \
+    ioos \
+    -o regions/secoora/datasets/0070_gliders.xml \
+    -n bass-20160909T1733 modena-20160909T1758 ramses-20160909T2028 \
+salacia-20160919T2028 \
+    -t "(SECOORA) Glider"

@@ -1,4 +1,5 @@
 #! /usr/bin/env python
+import os
 import argparse
 
 from lxml import etree
@@ -6,39 +7,50 @@ from lxml import etree
 
 def main(oldxml, newxml, outfile):
 
-    oldtree = etree.parse(oldxml)
-    newtree = etree.parse(newxml)
+    oldtree = None
+    if os.path.isfile(oldxml):
+        oldtree = etree.parse(oldxml)
 
-    # Find removed datasets
-    datasetids = etree.XPath(
-        "//erddapDatasets/dataset/@datasetID",
-        smart_strings=False
-    )
+    newtree = None
+    if os.path.isfile(newxml):
+        newtree = etree.parse(newxml)
 
-    oldids = set(list(datasetids(oldtree)))
-    newids = set(list(datasetids(newtree)))
-    removedids = list(oldids.difference(newids))
+    if oldtree and newtree:
+        # Find removed datasets
+        datasetids = etree.XPath(
+            "//erddapDatasets/dataset/@datasetID",
+            smart_strings=False
+        )
 
-    find_dataset = etree.XPath("//erddapDatasets/dataset[@datasetID=$name]")
-    for r in removedids:
-        # **** NOTE ****
-        # This won't handle a dataset that was marked as active=false
-        # and then came back into the picture. It won't remove active=false
-        # and the datasets will be in a state of purgatory. This shouldn't
-        # happen often, if ever.
-        dnode = find_dataset(oldtree, name=r)[0]
-        if dnode.get('active') == 'false':
-            # Don't do anything, it's ready to be removed from the datasets.xml
-            pass
-        else:
-            # Deactivate the dataset
-            dnode.set('active', 'false')
-            ds = newtree.getroot()
-            ds.append(dnode)
+        oldids = set(list(datasetids(oldtree)))
+        newids = set(list(datasetids(newtree)))
+        removedids = list(oldids.difference(newids))
 
-    with open(outfile, 'wt') as f:
-        f.write(etree.tostring(newtree, encoding='ISO-8859-1', pretty_print=True, xml_declaration=True).decode('iso-8859-1'))
-        f.write('\n')
+        find_dataset = etree.XPath("//erddapDatasets/dataset[@datasetID=$name]")
+        for r in removedids:
+            # **** NOTE ****
+            # This won't handle a dataset that was marked as active=false
+            # and then came back into the picture. It won't remove active=false
+            # and the datasets will be in a state of purgatory. This shouldn't
+            # happen often, if ever.
+            dnode = find_dataset(oldtree, name=r)[0]
+            if dnode.get('active') == 'false':
+                # Don't do anything, it's ready to be removed from the datasets.xml
+                pass
+            else:
+                # Deactivate the dataset
+                dnode.set('active', 'false')
+                ds = newtree.getroot()
+                ds.append(dnode)
+    elif not oldtree and newtree:
+        print("No existing datasets.xml so using the newly generated one")
+    else:
+        print("Not doing anything. No new datasets.xml file.")
+
+    if newtree:
+        with open(outfile, 'wt') as f:
+            f.write(etree.tostring(newtree, encoding='ISO-8859-1', pretty_print=True, xml_declaration=True).decode('iso-8859-1'))
+            f.write('\n')
 
 
 if __name__ == "__main__":

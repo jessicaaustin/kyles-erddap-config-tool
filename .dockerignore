@@ -1,7 +1,6 @@
-*.~
-*.pyc
-*.egg-info*
-
-**/*/datasets.xml
+**/__pycache__
+**/*.pyc
+.git
+.idea
 **/*/0050_regional_stations.xml
 **/*/007*.xml

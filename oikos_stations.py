@@ -66,10 +66,7 @@ def main(outfile, region_id):
         atts = etree.SubElement(dataset, "addAttributes")
 
         # Title
-        if 'title' not in gas:
-            label = s.get('label')
-        else:
-            label = gas.get('title')
+        label = gas.get('title', s.get('label'))
         label = label.replace('(', '').replace(')', '')
         if s.get('highlight_in_erddap') is True:
             label = '* ' + label
@@ -77,10 +74,7 @@ def main(outfile, region_id):
         title.text = label
 
         # Institution
-        if 'institution' not in gas:
-            owner = s.get('owner_label')
-        else:
-            owner = gas.get('institution')
+        owner = gas.get('institution', s.get('owner_label'))
         owner = owner.replace('(', '').replace(')', '')
         own = etree.SubElement(atts, "att", name="institution")
         own.text = owner
