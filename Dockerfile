@@ -50,5 +50,5 @@ RUN mkdir -p "$PROJECT_ROOT"
 COPY . $PROJECT_ROOT
 WORKDIR $PROJECT_ROOT
 
-VOLUME /code/regions
-CMD [ "/sbin/my_init", "--", "bash", "generate" ]
+VOLUME /output
+CMD [ "bash", "generate" ]

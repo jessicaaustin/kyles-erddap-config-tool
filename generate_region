@@ -1,19 +1,22 @@
 #!/bin/bash
 REGION=$1
+OUTPUT_FOLDER="/output/$REGION"
+mkdir -p "$OUTPUT_FOLDER"
 
 # Stations
-python oikos_stations.py --region $REGION --output "regions/$REGION/datasets/0050_regional_stations.xml"
+python oikos_stations.py --region "$REGION" --output "regions/$REGION/datasets/0050_regional_stations.xml"
 
 # Gliders
 if [ -f "./regions/$REGION/generate_gliders" ]; then
-    bash ./regions/$REGION/generate_gliders
+    bash "./regions/$REGION/generate_gliders"
 fi
 
 # Merge all of the individual dataset XML files in a single datasets.xml
+
 FOLDER=$(dirname "./regions/$REGION/datasets")
-TMP=$FOLDER/datasets.tmp
-MASTER=$FOLDER/datasets.xml
-PROCESSED=$FOLDER/datasets.processed
+TMP="$FOLDER/datasets.tmp"
+MASTER="$OUTPUT_FOLDER/datasets.xml"
+PROCESSED="$FOLDER/datasets.processed"
 if [ -e $TMP ]; then
     rm -f $TMP  # Clear file
 fi
@@ -33,3 +36,8 @@ if [ -e $PROCESSED ]; then
     xmllint --format $PROCESSED --noblanks --output $MASTER
     rm $PROCESSED
 fi
+
+# Copy other content to an output directory
+echo "Copying data to $OUTPUT_FOLDER"
+cp "$FOLDER/setup.xml" "$OUTPUT_FOLDER/setup.xml"
+cp -r "$FOLDER/images" "$OUTPUT_FOLDER"

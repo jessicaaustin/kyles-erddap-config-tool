@@ -1,5 +1,5 @@
 #!/bin/bash
 for reg in $(find regions -maxdepth 1 -mindepth 1 -type d); do
     REG=$(basename $reg)
-    bash ./generate_region $REG
+    bash ./generate_region "$REG"
 done
