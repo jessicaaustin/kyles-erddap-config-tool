@@ -16,14 +16,6 @@ push_image:
     - docker tag erddap-content registry.axiom/erddap-content:latest
     - docker push registry.axiom/erddap-content:latest
 
-deploy_stage:
-  stage: deploy
-  environment: staging
-  only:
-    - master
-  script:
-    - docker run --rm registry.axiom/ansible ap apps-stage erddap-docker-regions --tags deploy --skip-tags=restart_container
-
 deploy_prod:
   stage: deploy
   environment: production
