@@ -16,7 +16,7 @@ def main(outfile, region_id):
     except ValueError:
         params['region_name'] = region_id
 
-    r = requests.get('http://pdx.axiomalaska.com/stationsensorservice/getRegionMetadata', params=params)
+    r = requests.get('http://sensors.axds.co/stationsensorservice/getRegionMetadata', params=params)
     r.raise_for_status()
 
     try:
@@ -54,7 +54,7 @@ def main(outfile, region_id):
         dataset = etree.Element("dataset", type="EDDTableFromAxiomStation", datasetID=slug(station_urn))
 
         source = etree.SubElement(dataset, "sourceUrl")
-        source.text = 'http://pdx.axiomalaska.com/stationsensorservice/'
+        source.text = 'http://sensors.axds.co/stationsensorservice/'
 
         station = etree.SubElement(dataset, "stationId")
         station.text = str(s.get('id'))

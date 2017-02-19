@@ -1,5 +1,5 @@
 <dataset type="EDDTableFromAxiomSensorCSVService" datasetID="ioos_sensor_service">
-    <sourceUrl>http://pdx.axiomalaska.com/stationsensorservice-ioos/</sourceUrl>
+    <sourceUrl>http://sensors.axds.co/stationsensorservice-ioos/</sourceUrl>
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
     <region>all</region>
     <portalId>-1</portalId>

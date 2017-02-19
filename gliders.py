@@ -58,7 +58,7 @@ ioos_template = """
 
 def main(ztype, outfile, names, highlight_title):
 
-    url = 'http://platforms-prod.axiomdatascience.com/platforms/byclass/ioosgliderdac/'
+    url = 'http://platforms.axds.co/platforms/byclass/ioosgliderdac/'
     lst = requests.get(url).json()
 
     datafile = '{name}.enhanced.nc'
