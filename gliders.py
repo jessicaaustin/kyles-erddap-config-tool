@@ -66,7 +66,7 @@ def main(ztype, outfile, names, highlight_title):
     slug = UniqueSlugify(separator='_', to_lower=True)
 
     if "all" in names:
-        names = [ x['slug'] for x in lst ]
+        names = [ x['name'] for x in lst ]
 
     datasets = []
     for n in sorted(names):
