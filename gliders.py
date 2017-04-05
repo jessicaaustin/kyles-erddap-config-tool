@@ -65,6 +65,9 @@ def main(ztype, outfile, names, highlight_title):
     datafolder = '/mnt/gluster/data/platforms/prod/IoosGliderDac/{uuid}/download/'
     slug = UniqueSlugify(separator='_', to_lower=True)
 
+    if "all" in names:
+        names = [ x['slug'] for x in lst ]
+
     datasets = []
     for n in sorted(names):
 
