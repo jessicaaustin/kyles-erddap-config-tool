@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# All Gliders
+python gliders.py \
+    ioos \
+    -o regions/ioos/datasets/0010_all_gliders.xml \
+    -n all \
+    -t "IOOS Glider"
