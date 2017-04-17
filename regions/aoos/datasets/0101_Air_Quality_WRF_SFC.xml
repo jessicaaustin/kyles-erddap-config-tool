@@ -7,8 +7,8 @@
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
     <matchAxisNDigits>20</matchAxisNDigits>
-    <fileTableInMemory>false</fileTableInMemory>
-    <accessibleViaFiles>false</accessibleViaFiles>
+    <fileTableInMemory>true</fileTableInMemory>
+    <accessibleViaFiles>true</accessibleViaFiles>
     <addAttributes>
         <att name="cdm_data_type">Grid</att>
         <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
