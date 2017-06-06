@@ -7,4 +7,6 @@ regions/*/datasets.tmp
 regions/*/datasets.xml
 regions/*/datasets/0050_regional_stations.xml
 regions/*/datasets/007*.xml
-regions/testing/datasets
+regions/testing/datasets/*.xml
+!regions/testing/datasets/0000_header.xml
+!regions/testing/datasets/9999_footer.xml
