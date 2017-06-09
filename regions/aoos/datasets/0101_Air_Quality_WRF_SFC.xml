@@ -36,7 +36,7 @@ output, PBLH, PCPC, PCPNC, PCPT, perturbation, physical, planetary, potential, p
         <att name="license">[standard]</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
         <att name="summary">The Arctic Air Quality Impact Assessment Modeling dataset is an hourly 5-year gridded reanalysis product for the period 2009-2013, covering the Chukchi-Beaufort Seas and most of Alaska. It was produced with a modified version of the Weather Research and Forecasting (WRF) model, Polar WRF or PWRF (v3.6.1), which optimizes the surface energy budget and parameterization of sea-ice and permanent ice surfaces. The modifications included implementation of a variable sea-ice and snow thickness and seasonally-variable sea-ice albedo. The WRF model was run with Four Dimensional Data Assimilation (FDDA), a combination of analysis and observation nudging. The model outputs represent hourly results at ~12 km spatial resolution with the goal to provide the meteorological dataset needed for air quality (AQ) modeling in the Arctic. More information including the final report can be found on the BOEM Environmental Studies Program Information System (ESPIS) page for this project: https://marinecadastre.gov/espis/#/search/study/26887.</att>
-        <att name="title">BOEM Arctic Air Quality Impact Assessment Modeling Study 2009-2013</att>
+        <att name="title">* BOEM Arctic Air Quality Impact Assessment Modeling Study 2009-2013</att>
     </addAttributes>
     <axisVariable>
         <sourceName>TIME</sourceName>

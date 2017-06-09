@@ -44,7 +44,7 @@ PBLH, PCPC, PCPNC, PCPT, phase, physical, planetary, point, precipitation, press
         <att name="license">[standard]</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
         <att name="summary">The Chukchi-Beaufort High-Resolution Atmospheric Reanalysis (CBHAR) is an hourly 31-year gridded reanalysis product covering the period 1979-2009 for the Chukchi-Beaufort Seas and North Slope. It was produced with a customized version of the Weather Research and Forecasting (WRF) model (WRFv3.2.1), optimized for the model domain and including improvements designed to improve the model's accuracy in representing the Arctic environment. The WRF model data assimilation system (WRFDA) was used to assimilate highly quality-controlled observational data collected across the region via the 3D variational technique. The model outputs represent hourly results at ~10 km spatial resolution with the goal to more accurately capture the finer scale processes of the region's surface wind field (10 meter height) covering the Chukchi, Beaufort, and northern Bering Seas. More information including the final report can be found on the BOEM Environmental Studies Program Information System (ESPIS) page for this project: https://marinecadastre.gov/espis/#/search/study/23141.</att>
-        <att name="title">Chukchi Beaufort High-resolution Atmospheric Reanalysis (CBHAR) 1979-2009</att>
+        <att name="title">* Chukchi Beaufort High-resolution Atmospheric Reanalysis (CBHAR) 1979-2009</att>
     </addAttributes>
     <axisVariable>
         <sourceName>TIME</sourceName>

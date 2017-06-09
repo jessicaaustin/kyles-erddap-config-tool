@@ -55,6 +55,7 @@
         <att name="keywords">along, area, argos, axiomdatascience, before, began, beginning, between, comma, comma-separated, count, crossing, crs, data, depth, depth_str, descent, diagno, dive, dive-start, dive_duration, dive_lat_end, dive_lon_end, dive_time_end, dives, duration, elapsed, end, ending, event, following, grp_number, identifier, intermediate, latitude, length, locations, longitude, maximum, n_depths, n_speeds, next, number, obs, observations, percent, percent_area, percentage, point, points, present, propn_str, ptt, received, record, recorded, same, sent, separated, shows, since, speeds, start, starting, statistics, string, surface, surface_duration, that, threshold, time, times, trajectory, transmission, values, was, were, which, with</att>
         <att name="sourceUrl">(local files)</att>
         <att name="subsetVariables">trajectory, n_depths, n_speeds, grp_number</att>
+        <att name="title">* MARES Marine Mammal Tagging and Tracking - eb03-061-15 - Dives</att>
     </addAttributes>
     <dataVariable>
         <sourceName>trajectory</sourceName>
