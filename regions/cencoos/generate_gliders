@@ -14,7 +14,7 @@ python gliders.py \
     ioos \
     -o regions/cencoos/datasets/0071_trinidad_gliders.xml \
     -n UW157-20141116T2118 UW130-20150309T2005 UW157-20150917T1833 \
-UW157-20161021T1807 \
+UW157-20161021T1807 UW130-20170605T1834 \
     -t "(CeNCOOS) Trinidad Glider"
 
 python gliders.py \
