@@ -91,7 +91,7 @@ def main(outfile, region_id, link):
     print("Exporting {} stations (linked: {}) from region '{}' to {}".format(
         len(stats), link, region_id, outfile)
     )
-    for s in stats[:10]:
+    for s in stats:
         # Compute the Station URN
         # Precedence:
         #  1.) 'urn' global_attribute
