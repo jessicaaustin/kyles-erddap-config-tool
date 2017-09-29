@@ -22,4 +22,4 @@ deploy_prod:
   only:
     - tags
   script:
-    - docker run --rm registry.axiom/ansible ap apps-prod erddap-docker-regions --tags deploy
+    - docker run --rm registry.axiom/ansible ap apps-prod erddap-docker-regions --tags deploy --skip-tags restart_container
