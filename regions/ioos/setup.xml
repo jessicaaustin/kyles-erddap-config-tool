@@ -168,12 +168,12 @@ and you are using anti-virus software (e.g., McAfee) make sure McAfee
 Anti Virus Standard Protections :
 Prevent mass mailing worms from sending mail" is un-checked.
 -->
-<emailFromAddress>ioos.erddap@axiomdatascience.com</emailFromAddress>
+<emailFromAddress></emailFromAddress>
 <emailUserName></emailUserName>
 <emailPassword></emailPassword>
 <emailProperties></emailProperties>
-<emailSmtpHost>smtp.iinet.com</emailSmtpHost>
-<emailSmtpPort>25</emailSmtpPort>
+<emailSmtpHost></emailSmtpHost>
+<emailSmtpPort></emailSmtpPort>
 
 
 <!-- Information about the ERDDAP administrator is used for the SOS and WMS servers.
