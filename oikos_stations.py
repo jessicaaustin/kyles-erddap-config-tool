@@ -56,6 +56,9 @@ def make_from_erddap(dataset_id):
     rl = etree.SubElement(dataset, "reloadEveryNMinutes")
     rl.text = '60'
 
+    su = etree.Subelement(dataset, "subscribeToRemoteErddapDataset")
+    su.text = 'false'
+
     rd = etree.SubElement(dataset, "redirect")
     rd.text = 'false'
 
