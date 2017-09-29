@@ -3,16 +3,12 @@ REGION=$1
 OUTPUT_FOLDER="/output/$REGION"
 mkdir -p "$OUTPUT_FOLDER"
 
-# Stations
-python oikos_stations.py --region "$REGION" --output "regions/$REGION/datasets/0050_regional_stations.xml"
-
-# Gliders
-if [ -f "./regions/$REGION/generate_gliders" ]; then
-    bash "./regions/$REGION/generate_gliders"
-fi
+# Run any generate_* files that are executable
+for g in $(find "./regions/$REGION" -name "generate_*" -type f); do
+    bash $g
+done
 
 # Merge all of the individual dataset XML files in a single datasets.xml
-
 FOLDER=$(dirname "./regions/$REGION/datasets")
 TMP="$FOLDER/datasets.tmp"
 MASTER="$OUTPUT_FOLDER/datasets.xml"

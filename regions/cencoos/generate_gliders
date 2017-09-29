@@ -1,9 +1,10 @@
 #!/bin/bash
+RELDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # CeNCOOS Gliders
 python gliders.py \
     ioos \
-    -o regions/cencoos/datasets/0070_line_67_gliders.xml \
+    -o "$RELDIR/datasets/0070_line_67_gliders.xml" \
     -n sp028-20140605T170300 sp011-20140923T0000 sp030-20150109T2113 \
 sp011-20150427T1749 sp025-20150813T1746 sp028-20151124T1741 \
 sp025-20160310T1858 sp028-20160628T1737 sp025-20160913T1826 \
@@ -12,13 +13,13 @@ sp028-20161214T1951 sp025-20170328T1708 sp028-20170713T2055 \
 
 python gliders.py \
     ioos \
-    -o regions/cencoos/datasets/0071_trinidad_gliders.xml \
+    -o "$RELDIR/datasets/0071_trinidad_gliders.xml" \
     -n UW157-20141116T2118 UW130-20150309T2005 UW157-20150917T1833 \
 UW157-20161021T1807 UW130-20170605T1834 \
     -t "(CeNCOOS) Trinidad Glider"
 
 python gliders.py \
     ioos \
-    -o regions/cencoos/datasets/0072_monterey_bay_gliders.xml \
+    -o "$RELDIR/datasets/0072_monterey_bay_gliders.xml" \
     -n UCSC294-20150430T2218 UCSC260-20150520T0000 \
     -t "(CeNCOOS) Monterey Bay"

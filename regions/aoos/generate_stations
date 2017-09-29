@@ -1,0 +1,7 @@
+#!/bin/bash
+RELDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+python oikos_stations.py \
+    --link \
+    --region "aoos" \
+    --output "$RELDIR/datasets/0050_regional_stations.xml"

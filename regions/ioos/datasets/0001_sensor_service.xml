@@ -1,9 +1,0 @@
-<dataset type="EDDTableFromAxiomSensorCSVService" datasetID="ioos_sensor_service">
-    <sourceUrl>http://sensors.axds.co/stationsensorservice-ioos/</sourceUrl>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <region>all</region>
-    <portalId>-1</portalId>
-    <addAttributes>
-        <att name="title">IOOS Unified Sensor Data</att>
-    </addAttributes>
-</dataset>

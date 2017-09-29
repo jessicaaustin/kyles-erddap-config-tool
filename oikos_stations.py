@@ -1,4 +1,5 @@
 #! /usr/bin/env python
+import sys
 import argparse
 
 import requests
@@ -7,7 +8,61 @@ from assetid.urn import IoosUrn
 from slugify import UniqueSlugify
 
 
-def main(outfile, region_id):
+def make_from_service(dataset_id, station, global_atts):
+    dataset_type = 'EDDTableFromAxiomStation'
+    dataset = etree.Element("dataset", type=dataset_type, datasetID=dataset_id)
+
+    st = etree.SubElement(dataset, "stationId")
+    st.text = str(station.get('id'))
+
+    # Attributes
+    atts = etree.SubElement(dataset, "addAttributes")
+
+    # Title
+    label = global_atts.get('title', station.get('label'))
+    label = label.replace('(', '').replace(')', '')
+    if station.get('highlight_in_erddap') is True:
+        label = '* ' + label
+    title = etree.SubElement(atts, "att", name="title")
+    title.text = label
+
+    # Institution
+    owner = global_atts.get('institution', station.get('owner_label'))
+    owner = owner.replace('(', '').replace(')', '')
+    own = etree.SubElement(atts, "att", name="institution")
+    own.text = owner
+
+    # All other attributes
+    for k, v in global_atts.items():
+        ele = etree.SubElement(atts, "att", name=k)
+        ele.text = v
+
+    source = etree.SubElement(dataset, "sourceUrl")
+    source.text = 'http://sensors.axds.co/stationsensorservice/'
+
+    rl = etree.SubElement(dataset, "reloadEveryNMinutes")
+    rl.text = '360'
+
+    return dataset
+
+
+def make_from_erddap(dataset_id):
+    dataset_type = 'EDDTableFromErddap'
+    dataset = etree.Element("dataset", type=dataset_type, datasetID=dataset_id)
+
+    source = etree.SubElement(dataset, "sourceUrl")
+    source.text = 'http://erddap.axds.co/erddap/tabledap/{}'.format(dataset_id)
+
+    rl = etree.SubElement(dataset, "reloadEveryNMinutes")
+    rl.text = '60'
+
+    rd = etree.SubElement(dataset, "redirect")
+    rd.text = 'false'
+
+    return dataset
+
+
+def main(outfile, region_id, link):
 
     params = {}
     # Either a name or integer
@@ -16,14 +71,14 @@ def main(outfile, region_id):
     except ValueError:
         params['region_name'] = region_id
 
-    r = requests.get('http://sensors.axds.co/stationsensorservice/getRegionMetadata', params=params)
+    r = requests.get('http://sensors.axds.co/stationsensorservice/getRegionMetadata', params=params, timeout=300)
     r.raise_for_status()
 
     try:
         r = r.json()
     except BaseException:
         print("No stations available for the '{}' region".format(region_id))
-        return
+        return 1
 
     slug = UniqueSlugify(separator='_', to_lower=True)
 
@@ -33,8 +88,10 @@ def main(outfile, region_id):
     stats = [ x for x in stats if x.get('add_to_erddap') is True ]
     stats = sorted(stats, key=lambda x: x['id'])
 
-    print("Exporting {} {} stations to ERDDAP XML".format(len(stats), region_id))
-    for s in stats:
+    print("Exporting {} stations (linked: {}) from region '{}' to {}".format(
+        len(stats), link, region_id, outfile)
+    )
+    for s in stats[:10]:
         # Compute the Station URN
         # Precedence:
         #  1.) 'urn' global_attribute
@@ -51,38 +108,12 @@ def main(outfile, region_id):
             station_urn = s['urn'].lower()
 
         station_urn = station_urn.replace('urn:ioos:station:', '')
-        dataset = etree.Element("dataset", type="EDDTableFromAxiomStation", datasetID=slug(station_urn))
+        dataset_id = slug(station_urn)
 
-        source = etree.SubElement(dataset, "sourceUrl")
-        source.text = 'http://sensors.axds.co/stationsensorservice/'
-
-        station = etree.SubElement(dataset, "stationId")
-        station.text = str(s.get('id'))
-
-        reload = etree.SubElement(dataset, "reloadEveryNMinutes")
-        reload.text = '360'
-
-        # Attributes
-        atts = etree.SubElement(dataset, "addAttributes")
-
-        # Title
-        label = gas.get('title', s.get('label'))
-        label = label.replace('(', '').replace(')', '')
-        if s.get('highlight_in_erddap') is True:
-            label = '* ' + label
-        title = etree.SubElement(atts, "att", name="title")
-        title.text = label
-
-        # Institution
-        owner = gas.get('institution', s.get('owner_label'))
-        owner = owner.replace('(', '').replace(')', '')
-        own = etree.SubElement(atts, "att", name="institution")
-        own.text = owner
-
-        # All other attributes
-        for k, v in gas.items():
-            ele = etree.SubElement(atts, "att", name=k)
-            ele.text = v
+        if link is False:
+            dataset = make_from_service(dataset_id, s, gas)
+        else:
+            dataset = make_from_erddap(dataset_id)
 
         datasets.append(dataset)
 
@@ -93,6 +124,9 @@ def main(outfile, region_id):
                 f.write('\n')
             except UnicodeDecodeError:
                 print("ERROR WITH: {}\n\n".format(etree.tostring(d)))
+                return 1
+
+    return 0
 
 
 if __name__ == "__main__":
@@ -104,9 +138,13 @@ if __name__ == "__main__":
                         default='output.xml',
                         nargs='?')
     parser.add_argument('-r', '--region',
-                        help="Regional ID subset (defaults to 'all')",
-                        default='all',
+                        help="Regional ID subset (defaults to 'global')",
+                        default='global',
                         nargs='?')
+    parser.add_argument('-l', '--link',
+                        help='Should the datasets be created as links to the master ERDDAP server',
+                        action='store_true',
+                        default=False)
     args = parser.parse_args()
 
-    main(args.output, args.region)
+    sys.exit(main(args.output, args.region, args.link))
