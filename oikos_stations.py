@@ -113,7 +113,7 @@ def main(outfile, region_id, link):
         station_urn = station_urn.replace('urn:ioos:station:', '')
         dataset_id = slug(station_urn)
 
-        if link is False:
+        if link is False or s.get('highlight_in_erddap') is True:
             dataset = make_from_service(dataset_id, s, gas)
         else:
             dataset = make_from_erddap(dataset_id)
