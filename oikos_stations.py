@@ -150,7 +150,4 @@ if __name__ == "__main__":
                         default=False)
     args = parser.parse_args()
 
-    try:
-        sys.exit(main(args.output, args.region, args.link))
-    except BaseException:
-        sys.exit(1)
+    sys.exit(main(args.output, args.region, args.link))
