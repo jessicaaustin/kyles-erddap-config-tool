@@ -268,14 +268,14 @@ Note that if you change this and restart ERDDAP, the list of subscriptions
 (in [bigParentDirectory]/subscriptionsV1.txt) isn't affected.
 See also the subscriptionEmailBlacklist in datasets.xml.
 -->
-<subscriptionSystemActive>true</subscriptionSystemActive>
+<subscriptionSystemActive>false</subscriptionSystemActive>
 
 <!-- ERDDAP has converters for time, keywords, units, FIPS codes, etc.
 ([domain]/erddap/convert/index.html).
 You may make this system active ("true", the strongly-encouraged default value)
 or not ("false").
 -->
-<convertersActive>true</convertersActive>
+<convertersActive>false</convertersActive>
 
 <!-- ERDDAP has a slide sorter ([domain]/erddap/slidesorter.html).
 You may make this system active ("true", the default value) or not ("false").
