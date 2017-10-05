@@ -8,13 +8,43 @@ from assetid.urn import IoosUrn
 from slugify import UniqueSlugify
 
 
-def make_from_service(dataset_id, station, global_atts):
+def make_from_service(dataset_id):
     dataset_type = 'EDDTableFromAxiomStation'
+
     dataset = etree.Element("dataset", type=dataset_type, datasetID=dataset_id)
 
     st = etree.SubElement(dataset, "stationId")
-    st.text = str(station.get('id'))
+    st.text = dataset_id
 
+    source = etree.SubElement(dataset, "sourceUrl")
+    source.text = 'http://sensors.axds.co/stationsensorservice/'
+
+    rl = etree.SubElement(dataset, "reloadEveryNMinutes")
+    rl.text = '360'
+
+    return dataset
+
+
+def make_from_erddap(dataset_id, remote_dataset_id):
+    dataset_type = 'EDDTableFromErddap'
+    dataset = etree.Element("dataset", type=dataset_type, datasetID=dataset_id)
+
+    source = etree.SubElement(dataset, "sourceUrl")
+    source.text = 'http://erddap.axds.co/erddap/tabledap/{}'.format(remote_dataset_id)
+
+    rl = etree.SubElement(dataset, "reloadEveryNMinutes")
+    rl.text = '60'
+
+    su = etree.SubElement(dataset, "subscribeToRemoteErddapDataset")
+    su.text = 'false'
+
+    rd = etree.SubElement(dataset, "redirect")
+    rd.text = 'false'
+
+    return dataset
+
+
+def add_global_attributes(dataset, station, global_atts):
     # Attributes
     atts = etree.SubElement(dataset, "addAttributes")
 
@@ -36,31 +66,6 @@ def make_from_service(dataset_id, station, global_atts):
     for k, v in global_atts.items():
         ele = etree.SubElement(atts, "att", name=k)
         ele.text = v
-
-    source = etree.SubElement(dataset, "sourceUrl")
-    source.text = 'http://sensors.axds.co/stationsensorservice/'
-
-    rl = etree.SubElement(dataset, "reloadEveryNMinutes")
-    rl.text = '360'
-
-    return dataset
-
-
-def make_from_erddap(dataset_id):
-    dataset_type = 'EDDTableFromErddap'
-    dataset = etree.Element("dataset", type=dataset_type, datasetID=dataset_id)
-
-    source = etree.SubElement(dataset, "sourceUrl")
-    source.text = 'http://erddap.axds.co/erddap/tabledap/{}'.format(dataset_id)
-
-    rl = etree.SubElement(dataset, "reloadEveryNMinutes")
-    rl.text = '60'
-
-    su = etree.SubElement(dataset, "subscribeToRemoteErddapDataset")
-    su.text = 'false'
-
-    rd = etree.SubElement(dataset, "redirect")
-    rd.text = 'false'
 
     return dataset
 
@@ -95,29 +100,32 @@ def main(outfile, region_id, link):
         len(stats), link, region_id, outfile)
     )
     for s in stats:
-        # Compute the Station URN
-        # Precedence:
-        #  1.) 'urn' global_attribute
-        #  2.) 'id'  and 'naming_authority' global_attributes
-        #  3.) Station URN from sensor service
+
+        remote_dataset_id = str(s['id'])
         gas = s.get('global_attributes', {})
-        if 'urn' in gas:
-            iurn = IoosUrn.from_string(gas['urn'].lower())
-            gas['id'] = iurn.label
-            gas['naming_authority'] = iurn.authority
-        if 'naming_authority' in gas and 'id' in gas:
-            station_urn = '{}.{}'.format(gas['naming_authority'], gas['id']).lower()
+
+        if link is False:
+            dataset = make_from_service(remote_dataset_id)
         else:
-            station_urn = s['urn'].lower()
+            # Compute the Station URN
+            # Precedence:
+            #  1.) 'urn' global_attribute
+            #  2.) 'id'  and 'naming_authority' global_attributes
+            #  3.) Station URN from sensor service
+            if 'urn' in gas:
+                iurn = IoosUrn.from_string(gas['urn'].lower())
+                gas['id'] = iurn.label
+                gas['naming_authority'] = iurn.authority
+            if 'naming_authority' in gas and 'id' in gas:
+                station_urn = '{}.{}'.format(gas['naming_authority'], gas['id']).lower()
+            else:
+                station_urn = s['urn'].lower()
 
-        station_urn = station_urn.replace('urn:ioos:station:', '')
-        dataset_id = slug(station_urn)
+            station_urn = station_urn.replace('urn:ioos:station:', '')
+            dataset_id = slug(station_urn)
+            dataset = make_from_erddap(dataset_id, remote_dataset_id)
 
-        if link is False or s.get('highlight_in_erddap') is True:
-            dataset = make_from_service(dataset_id, s, gas)
-        else:
-            dataset = make_from_erddap(dataset_id)
-
+        dataset = add_global_attributes(dataset, s, gas)
         datasets.append(dataset)
 
     with open(outfile, 'wt') as f:
