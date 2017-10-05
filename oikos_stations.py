@@ -74,10 +74,13 @@ def main(outfile, region_id, link):
 
     params = {}
     # Either a name or integer
-    try:
-        params['region_id'] = int(region_id)
-    except ValueError:
-        params['region_name'] = region_id
+    if region_id == 'global':
+        params['global_region'] = 'true'
+    else:
+        try:
+            params['region_id'] = int(region_id)
+        except ValueError:
+            params['region_name'] = region_id
 
     r = requests.get('http://sensors.axds.co/stationsensorservice/getRegionMetadata', params=params, timeout=300)
     r.raise_for_status()
