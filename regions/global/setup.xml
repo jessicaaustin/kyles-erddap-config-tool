@@ -331,7 +331,7 @@ The default is 60 minutes.  Some people will set this to longer.
 unusualActivity, an email is sent to emailEverythingTo.
 The default is 10000.
 -->
-<unusualActivity>100000</unusualActivity>
+<unusualActivity>1000000</unusualActivity>
 
 <!-- The title for the map's legend (or nothing if you don't want a legend title).
 At ERD, we don't use these.  To use these, uncomment them.
