@@ -24,3 +24,9 @@ python gliders.py \
     -o "$RELDIR/datasets/0072_monterey_bay_gliders.xml" \
     -n UCSC294-20150430T2218 UCSC260-20150520T0000 \
     -t "(CeNCOOS) Monterey Bay"
+
+python gliders.py \
+    ioos \
+    -o "$RELDIR/datasets/0073_nemesis_gliders.xml" \
+    -n Nemesis-20170412T0000 Nemesis-20170512T0000 Nemesis-20171115T0000 \
+    -t "(CeNCOOS) Nemesis Glider"
