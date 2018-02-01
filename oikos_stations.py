@@ -33,7 +33,7 @@ def make_from_erddap(dataset_id, remote_dataset_id):
     source.text = 'http://erddap.axds.co/erddap/tabledap/{}'.format(remote_dataset_id)
 
     rl = etree.SubElement(dataset, "reloadEveryNMinutes")
-    rl.text = '60'
+    rl.text = '120'
 
     su = etree.SubElement(dataset, "subscribeToRemoteErddapDataset")
     su.text = 'false'
