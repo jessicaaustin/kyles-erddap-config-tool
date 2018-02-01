@@ -1,4 +1,4 @@
-FROM phusion/baseimage:0.9.19
+FROM krallin/ubuntu-tini:trusty
 
 MAINTAINER Kyle Wilcox <kyle@axiomdatascience.com>
 ENV DEBIAN_FRONTEND noninteractive
@@ -9,12 +9,11 @@ RUN apt-get update && apt-get install -y \
         build-essential \
         bzip2 \
         ca-certificates \
+        curl \
         libglib2.0-0 \
         libsm6 \
         libxext6 \
         libxrender1 \
-        pwgen \
-        wget \
         && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*

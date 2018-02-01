@@ -15,10 +15,10 @@ The ERDDAP config will be in `$(pwd)/output/[region]`
 
 #### Testing Locally
 
-1.  Make files in: `testing/datasets/*.xml`.
+1.  Make files in: `regions/testing/datasets/*.xml`.
 2.  Build image: `docker build -t erddap-content .`.
 3.  Generate the `testing` region: `docker run -v $(pwd)/output:/output erddap-content bash generate_region testing`.
-4.  Run ERDDAP: `docker run -d --name erddap-content-testing -v /data/Development/platform_overlord/platforms:/data/Development/platform_overlord/platforms:ro -v $(pwd)/output/testing:/usr/local/tomcat/content/erddap/ -p 33333:8080 registry.axiom/erddap-axiom:latest`
+4.  Run ERDDAP: `docker run -d --name erddap-content-testing -v $(pwd)/output/testing:/usr/local/tomcat/content/erddap/ -p 33333:8080 registry.axiom/erddap-axiom:latest`
 
 #### Reserved names:
 
