@@ -1,4 +1,4 @@
-  <dataset type="EDDTableFromNcFiles" datasetID="ioos_atn_public_tracks" active="false">
+<dataset type="EDDTableFromNcFiles" datasetID="ioos_atn_public_tracks">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/mnt/store/data/atn/single-dataset/</fileDir>
