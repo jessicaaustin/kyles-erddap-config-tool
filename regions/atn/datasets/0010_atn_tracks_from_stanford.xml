@@ -1,7 +1,7 @@
-<dataset type="EDDTableFromNcFiles" datasetID="ioos_atn_public_tracks">
+<dataset type="EDDTableFromNcFiles" datasetID="stanford_import_ssm_public">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/mnt/store/data/atn/single-dataset/</fileDir>
+    <fileDir>/mnt/store/data/atn/stanford_import/ssm/public</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -14,77 +14,16 @@
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     <accessibleViaFiles>true</accessibleViaFiles>
-    <!-- sourceAttributes>
-        <att name="creator_email">alans@cuervo.stanford.edu</att>
-        <att name="creator_name">Dr. Barbara Block</att>
-        <att name="creator_url">https://blocklab.stanford.edu/</att>
-        <att name="date_created">2017-01-31T13:45:50+00:00</att>
-        <att name="deploy_year" type="int">2011</att>
-        <att name="deployment_date">2011-08-22 07:00:00</att>
-        <att name="embargountil">1970-01-01</att>
-        <att name="Event_ID" type="double">1.111009E8</att>
-        <att name="eventid" type="int">111100900</att>
-        <att name="featureType">Trajectory</att>
-        <att name="genus">Thunnus</att>
-        <att name="geospatial_bounds">POLYGON ((230.7166895 27.99568283,230.7166895 33.27104896,244.1756698 33.27104896,230.7166895 33.27104896,230.7166895 27.99568283))</att>
-        <att name="geospatial_bounds_crs">EPSG:4326</att>
-        <att name="geospatial_bounds_vertical__crs">EPSG:4326</att>
-        <att name="geospatial_bounds_vertical_positive">up</att>
-        <att name="geospatial_lat_max" type="double">33.27104896</att>
-        <att name="geospatial_lat_min" type="double">27.99568283</att>
-        <att name="geospatial_lat_units">degrees_north</att>
-        <att name="geospatial_lon_max" type="double">244.1756698</att>
-        <att name="geospatial_lon_min" type="double">230.7166895</att>
-        <att name="geospatial_lon_units">degrees_east</att>
-        <att name="history">Thu Apr 26 23:05:33 2018: /opt/conda/bin/ncks -O - - no_tmp_fl -x -v LC - - output=/data/user/Files/netcdfs_with_meta/erddap/public/yellowfinTuna/111100900.nc /data/user/Files/original_netcdfs/erddap/public/yellowfinTuna/111100900_2011-08-22_to_2012-05-07_SSM_tmp.nc
-Thu Apr 26 23:05:33 2018: /opt/conda/bin/ncatted -a _FillValue,LON,o,d,-1.0000000000000001E34 -a _FillValue,LAT,o,d,-1.0000000000000001E34 -a missing_value,LAT,o,d,-1.0000000000000001E34 -a missing_value,LON,o,d,-1.0000000000000001E34 -a missing_value,Time,o,d,-9999 -a _FillValue,Time,o,d,-9999 - - overwrite - - output=/data/user/Files/original_netcdfs/erddap/public/yellowfinTuna/111100900_2011-08-22_to_2012-05-07_SSM_tmp.nc /data/user/Files/original_netcdfs/erddap/public/yellowfinTuna/111100900_2011-08-22_to_2012-05-07_SSM.nc
-generated for eventid 111100900 from 111100900SSM.txt Tue Jan 31 21:45:50 PST 2017; Then original NetCDF file was made available by Stanford ATN via ERDDAP server. Variable Attributes and Global Attributes were updated by Axiom Data Science in April, 2018. Attributes were pulled from the Stanford Core1 database based on eventid.</att>
-        <att name="id">111100900</att>
-        <att name="infoUrl">http://oceanview.pfeg.noaa.gov/ATN/</att>
-        <att name="institue">Hopkins Marine Station, Stanford University</att>
-        <att name="institution">ATN DAC</att>
-        <att name="isdrifter" type="int">0</att>
-        <att name="keywords">ATN,telemetry,argos,Yellowfin Tuna,Thunnus albacares,</att>
-        <att name="license">The data may be used and redistributed for free but is not intended for legal use, since it may contain inaccuracies. Neither the data Contributor, ERD, NOAA, nor the United States Government, nor any of their employees or contractors, makes any warranty, express or implied, including warranties of merchantability and fitness for a particular purpose, or assumes any legal liability for the accuracy, completeness, or usefulness, of this information.</att>
-        <att name="Metadata_Conventions">COARDS, CF-1.4, Unidata Dataset Discovery v1.0</att>
-        <att name="metadata_link">https://ioos.noaa.gov/project/atn/</att>
-        <att name="naming_authority">gov.noaa.ioos.atn</att>
-        <att name="NCO">4.7.3</att>
-        <att name="number_of_tags" type="int">1</att>
-        <att name="permission" type="int">1</att>
-        <att name="processing_level">NetCDF file obtianed by IOOS ATN DAC created by a state space model with metadata from the core1 database added by Axiom Data Sciene. </att>
-        <att name="project" type="int">1</att>
-        <att name="pttno">0</att>
-        <att name="publisher_name">IOOS ATN</att>
-        <att name="publisher_url">gov.noaa.ioos.atn</att>
-        <att name="rerun">True</att>
-        <att name="sourceUrl">(local files)</att>
-        <att name="species">albacares</att>
-        <att name="species_common_name">Yellowfin Tuna</att>
-        <att name="standard_name_vocabulary">CF-12</att>
-        <att name="subsetVariables">commonName, yearDeployed, project, toppID, eventID, serialNumber, isDrifter</att>
-        <att name="summary">Yellowfin Tuna telemetry event 111100900 deployed 2011-08-22 07:00:00 within POLYGON ((230.7166895 27.99568283,230.7166895 33.27104896,244.1756698 33.27104896,230.7166895 33.27104896,230.7166895 27.99568283)).</att>
-        <att name="tag_model">DD2217</att>
-        <att name="taxon">Fish</att>
-        <att name="time_coverage_duration">P0Y8M16DT0H0M0S</att>
-        <att name="time_coverage_end">2012-05-07T05:00:00+00:00</att>
-        <att name="time_coverage_resolution">P0Y0M01DT0H0M0S</att>
-        <att name="time_coverage_start">2011-08-22T05:00:00+00:00</att>
-        <att name="title">Yellowfin Tuna telemetry event 111100900 deployed 2011-08-22 07:00:00</att>
-        <att name="TOPP_ID">1111009</att>
-        <att name="workgroup">Fish</att>
-        <att name="year" type="int">2011</att>
-    </sourceAttributes -->
     <addAttributes>
-      <att name="title">IOOS ATN Trackline Database from Core 1/2"</att>
+      <att name="title">IOOS ATN Trackline Database from Core 1 Dump from the Stanford Block Lab"</att>
       <att name="summary">Animal tracklines as a product of processing and cross referencing data in the Core 1/2 IOOS ATN databases"</att>
       <att name="cdm_data_type">Trajectory</att>
-      <att name="cdm_trajectory_variables">genus, common_name, species, event_id, topp_id, deploy_year</att>
-      <att name="subsetVariables">genus, common_name, species, event_id, topp_id, deploy_year</att>
-      <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
+      <att name="cdm_trajectory_variables">genus, common_name, species, taxon, event_id, topp_id, deploy_year, workgroup, institution</att>
+      <att name="subsetVariables">genus, common_name, species, taxon, event_id, topp_id, deploy_year, workgroup, institution</att>
+      <att name="Conventions">CF-1.6, ACDD-1.3</att>
       <att name="keywords">ioos, argos, atn, dac, data, deployed, event, profile, telemetry</att>
-      <att name="Metadata_Conventions">COARDS, CF-1.4, Unidata Dataset Discovery v1.0</att>
-      <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+      <att name="Metadata_Conventions">COARDS, CF-1.6, Unidata Dataset Discovery v1.0</att>
+      <att name="standard_name_vocabulary">CF Standard Name Table v57</att>
     </addAttributes>
     <dataVariable>
       <sourceName>lat</sourceName>
@@ -142,8 +81,8 @@ generated for eventid 111100900 from 111100900SSM.txt Tue Jan 31 21:45:50 PST 20
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>global:eventid</sourceName>
-      <destinationName>event_id</destinationName>
+      <sourceName>global:id</sourceName>
+      <destinationName>id</destinationName>
       <dataType>int</dataType>
       <addAttributes>
         <att name="ioos_category">Other</att>
@@ -151,7 +90,7 @@ generated for eventid 111100900 from 111100900SSM.txt Tue Jan 31 21:45:50 PST 20
       </addAttributes>
     </dataVariable>
     <dataVariable>
-      <sourceName>global:TOPP_ID</sourceName>
+      <sourceName>global:topp_id</sourceName>
       <destinationName>topp_id</destinationName>
       <dataType>int</dataType>
       <addAttributes>
@@ -162,6 +101,22 @@ generated for eventid 111100900 from 111100900SSM.txt Tue Jan 31 21:45:50 PST 20
       <sourceName>global:deploy_year</sourceName>
       <destinationName>deploy_year</destinationName>
       <dataType>int</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:taxon</sourceName>
+      <destinationName>taxon</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Other</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:institution</sourceName>
+      <destinationName>institution</destinationName>
+      <dataType>String</dataType>
       <addAttributes>
         <att name="ioos_category">Other</att>
       </addAttributes>
@@ -182,6 +137,15 @@ generated for eventid 111100900 from 111100900SSM.txt Tue Jan 31 21:45:50 PST 20
       <addAttributes>
         <att name="ioos_category">Time</att>
         <att name="units">yyyy-MM-dd'T'HH:mm:ssZ</att>
+      </addAttributes>
+    </dataVariable>
+    <dataVariable>
+      <sourceName>global:deployment_date</sourceName>
+      <destinationName>deployment_date</destinationName>
+      <dataType>String</dataType>
+      <addAttributes>
+        <att name="ioos_category">Time</att>
+        <att name="units">yyyy-MM-dd HH:mm:ssZ</att>
       </addAttributes>
     </dataVariable>
   </dataset>
