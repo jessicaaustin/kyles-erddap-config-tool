@@ -37,9 +37,9 @@
       <att name="sourceUrl">(local files)</att>
       <att name="standard_name_vocabulary">CF Standard Name Table v57</att>
       <att name="subsetVariables">genus,common_name,species,taxon,event_id,topp_id,deploy_year,workgroup</att>
-      <att name="summary">Animal tracklines as a product of processing and cross referencing data in the Core 1/2 IOOS ATN databases"</att>
+      <att name="summary">Animal tracklines as a product of processing and cross referencing data in the Core 1/2 IOOS ATN databases</att>
       <att name="tag_model"></att>
-      <att name="title">IOOS ATN Trackline Database from Core 1 Dump from the Stanford Block Lab"</att>
+      <att name="title">IOOS ATN Trackline Database from Core 1 Dump from the Stanford Block Lab</att>
       <att name="year"></att>
     </addAttributes>
     <dataVariable>
