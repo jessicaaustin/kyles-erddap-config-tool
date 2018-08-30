@@ -30,5 +30,5 @@ python gliders.py \
     ioos \
     -o "$RELDIR/datasets/0073_nemesis_gliders.xml" \
     -n Nemesis-20170412T0000 Nemesis-20170512T0000 Nemesis-20171115T0000 \
-Nemesis-20180515T0000 \
+Nemesis-20180515T0000 Nemesis-20180830T0000 \
     -t "(CeNCOOS) Nemesis Glider"
