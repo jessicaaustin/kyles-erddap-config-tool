@@ -1,6 +1,7 @@
 *.~
 *.pyc
 *.egg-info*
+.idea
 
 output/
 regions/*/datasets.tmp
