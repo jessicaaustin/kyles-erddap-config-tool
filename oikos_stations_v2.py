@@ -6,13 +6,13 @@ import requests
 from lxml import etree
 
 
-def make_from_service(station_id):
+def make_from_service(station):
     dataset_type = 'EDDTableFromAxiomStation'
 
-    dataset = etree.Element("dataset", type=dataset_type, datasetID=f'station-{station_id}')
+    dataset = etree.Element("dataset", type=dataset_type, datasetID=str(station['uuid']))
 
     st = etree.SubElement(dataset, "stationId")
-    st.text = station_id
+    st.text = str(station['id'])
 
     source = etree.SubElement(dataset, "sourceUrl")
     source.text = 'https://sensors.axds.co/api/'
@@ -42,10 +42,9 @@ def main(outfile, filter_uuid):
     stations = sorted(stations, key=lambda x: x['id'])
 
     print(f'Exporting {len(stations)} stations from filter {filter_uuid} to {outfile}')
-    for s in stations:
+    for station in stations:
 
-        station_id = str(s['id'])
-        dataset = make_from_service(station_id)
+        dataset = make_from_service(station)
         datasets.append(dataset)
 
     with open(outfile, 'wt') as f:
