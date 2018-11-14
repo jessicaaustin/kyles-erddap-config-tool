@@ -7,7 +7,7 @@ from lxml import etree
 
 
 def make_from_service(station):
-    dataset_type = 'EDDTableFromAxiomStation'
+    dataset_type = 'EDDTableFromAxiomStationV2'
 
     dataset = etree.Element("dataset", type=dataset_type, datasetID=str(station['uuid']))
 
