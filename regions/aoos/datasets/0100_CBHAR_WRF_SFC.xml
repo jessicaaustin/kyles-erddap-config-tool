@@ -1,7 +1,7 @@
 <dataset type="EDDGridFromNcFiles" datasetID="CBHAR_WRF_SFC_1979_2009" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/mnt/gluster/data/netCDF/wrfsfc/</fileDir>
+    <fileDir>/mnt/store/data/netCDF/wrfsfc/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>

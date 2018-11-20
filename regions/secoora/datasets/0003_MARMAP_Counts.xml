@@ -1,6 +1,6 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="MARMAP_Counts" active="true">
     <reloadEveryNMinutes>10</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/netCDF/secoora/marmap/</fileDir>
+    <fileDir>/mnt/store/data/netCDF/secoora/marmap/</fileDir>
     <fileNameRegex>.*\.txt</fileNameRegex>
     <columnNamesRow>1</columnNamesRow>
     <addAttributes>

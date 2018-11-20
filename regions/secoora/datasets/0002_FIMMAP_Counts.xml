@@ -1,6 +1,6 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="FIMMAP_Counts" active="true">
     <reloadEveryNMinutes>10</reloadEveryNMinutes>
-    <fileDir>/mnt/gluster/data/netCDF/secoora/fimmap/</fileDir>
+    <fileDir>/mnt/store/data/netCDF/secoora/fimmap/</fileDir>
     <fileNameRegex>.*\.txt</fileNameRegex>
     <columnNamesRow>1</columnNamesRow>
     <addAttributes>

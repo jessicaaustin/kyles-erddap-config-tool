@@ -1,7 +1,7 @@
 <dataset type="EDDTableFromNcCFFiles" datasetID="mares_2015_move_eb03-057-15" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/mnt/gluster/data/platforms/prod/MaresMove/</fileDir>
+    <fileDir>/mnt/store/data/platforms/prod/MaresMove/</fileDir>
     <fileNameRegex>move-eb03-057-15.nc</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>

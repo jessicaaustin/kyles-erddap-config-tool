@@ -1,7 +1,7 @@
 <dataset type="EDDTableFromNcCFFiles" datasetID="mares_2015_dive_eb03-057-15" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/mnt/gluster/data/platforms/prod/MaresDive/</fileDir>
+    <fileDir>/mnt/store/data/platforms/prod/MaresDive/</fileDir>
     <fileNameRegex>dive-eb03-057-15.nc</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
