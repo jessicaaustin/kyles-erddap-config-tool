@@ -37,7 +37,7 @@
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="ai_bathy_20090101" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>ai_bathy\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -150,7 +150,7 @@ Tue Mar 17 10:54:39 2015: GDAL CreateCopy( ai_bathy.nc, ... )</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="Aquarius_V3_scat_wind_speed_Daily" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>Aquarius_V3_scat_wind_speed_Daily\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -357,7 +357,7 @@ podaac, speed, standard, surface, v3.0, wind, wind_speed, winds</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="Aquarius_V3_scat_wind_speed_Monthly" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>41280</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>Aquarius_V3_scat_wind_speed_Monthly\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -554,7 +554,7 @@ podaac, speed, standard, surface, v3.0, wind, wind_speed, winds</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="Aquarius_V3_scat_wind_speed_Weekly" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>Aquarius_V3_scat_wind_speed_Weekly\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -751,7 +751,7 @@ podaac, speed, standard, surface, v3.0, weely, wind, wind_speed, winds</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="Aquarius_V3_SSS_Daily" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>Aquarius_V3_SSS_Daily\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -946,7 +946,7 @@ podaac, salinity, sea, sea_surface_salinity, standard, surface, v3.0</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="Aquarius_V3_SSS_Monthly" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>41280</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>Aquarius_V3_SSS_Monthly\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -1141,7 +1141,7 @@ podaac, salinity, sea, sea_surface_salinity, standard, surface, v3.0</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="Aquarius_V3_SSS_Weekly" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>Aquarius_V3_SSS_Weekly\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -1336,7 +1336,7 @@ podaac, salinity, sea, sea_surface_salinity, standard, surface, v3.0, weekly</at
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="ARDEM" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>ARDEM\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -1471,7 +1471,7 @@ region, relief, sciences, sea, sea level, sea_floor_depth_below_sea_surface, sea
 but this dataset will only serve 4 because the others use different dimensions.
 --><dataset active="true" datasetID="CA_DAS" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>CA_DAS\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -1670,7 +1670,7 @@ oregon, regional, regional ocean model, remote, roms, salinity, sea, sea_water_s
 but this dataset will only serve 4 because the others use different dimensions.
 --><dataset active="true" datasetID="CA_FCST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>CA_FCST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -1866,7 +1866,7 @@ oregon, regional, regional ocean model, remote, roms, salinity, sea, sea_water_s
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="cgoa_bathy_20090101" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>cgoa_bathy\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -1977,7 +1977,7 @@ oregon, regional, regional ocean model, remote, roms, salinity, sea, sea_water_s
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="ci_bathy_20090101" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>ci_bathy\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -2090,7 +2090,7 @@ Tue Mar 17 10:55:25 2015: GDAL CreateCopy( ci_bathy.nc, ... )</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="COAMPS_3KM_AGG_AIR_TEMP" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>COAMPS_3KM_AGG_AIR_TEMP\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -2258,7 +2258,7 @@ atmospheric, coamps, isobaric, lab, naval, research, surface, temperature</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="COAMPS_3KM_AGG_WIND" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>COAMPS_3KM_AGG_WIND\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -2451,7 +2451,7 @@ atmospheric, coamps, eastward, eastward_wind, lab, meridional, naval, northward,
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="COAMPS_4KM_10M_WIND" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>720</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>COAMPS_4KM_10M_WIND\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -2630,7 +2630,7 @@ atmospheric, coamps, eastward, eastward_wind, meridional, northward, northward_w
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="COAMPS_4KM_2M_AIR_TEMP" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>720</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>COAMPS_4KM_2M_AIR_TEMP\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -2782,7 +2782,7 @@ atmospheric, coamps, ground, height, surface, temperature</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="COAMPS_4KM_AGG_AIR_TEMP" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>720</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>COAMPS_4KM_AGG_AIR_TEMP\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -2948,7 +2948,7 @@ atmospheric, coamps, isobaric, surface, temperature</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="COAMPS_4KM_AGG_WIND" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>720</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>COAMPS_4KM_AGG_WIND\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -3140,7 +3140,7 @@ atmospheric, coamps, eastward, eastward_wind, meridional, northward, northward_w
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="COAMPS_4KM_CLD_BASE" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>COAMPS_4KM_CLD_BASE\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -3291,7 +3291,7 @@ base, boundary, cloud, cloud_base_altitude, clouds, coamps, forecast, height, la
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="COAMPS_4KM_GRND_SEA_TEMP" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>720</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>COAMPS_4KM_GRND_SEA_TEMP\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -3446,7 +3446,7 @@ sea, skin, surface, surface_temperature, temperature</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="COAMPS_4KM_IR_FLUX" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>COAMPS_4KM_IR_FLUX\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -3597,7 +3597,7 @@ atmospheric, coamps, downward, flux, heat, heat flux, radiation, surface, surfac
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="COAMPS_4KM_PRES_MSL" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>COAMPS_4KM_PRES_MSL\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -3750,7 +3750,7 @@ atmospheric, coamps, level, measurements, msl, pressure, reduce, sea, static</at
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="COAMPS_4KM_RLTV_HUM" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>COAMPS_4KM_RLTV_HUM\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -3902,7 +3902,7 @@ atmospheric, coamps, ground, height, humidity, meteorology, relative, relative_h
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="COAMPS_4KM_SOL_RAD" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>COAMPS_4KM_SOL_RAD\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -4047,7 +4047,7 @@ atmospheric, coamps, ground, height, humidity, meteorology, relative, relative_h
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="COAMPS_4KM_TTL_PRCP" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>COAMPS_4KM_TTL_PRCP\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -4201,7 +4201,7 @@ coamps, division, forecast, hour, laboratory, marine, meteorology, naval, precip
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="COAMPS_4KM_VISIB" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>COAMPS_4KM_VISIB\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -4356,7 +4356,7 @@ coamps, division, forecast, laboratory, marine, meteorology, naval, quality, res
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="COAMPS_MBAY_3KM_AIR_TEMP" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>720</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>COAMPS_MBAY_3KM_AIR_TEMP\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -4512,7 +4512,7 @@ atmospheric, coamps, forecast, ground, height, historical, lab, naval, research,
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="COAMPS_MBAY_3KM_GRND_SEA_TEMP" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>720</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>COAMPS_MBAY_3KM_GRND_SEA_TEMP\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -4669,7 +4669,7 @@ research, sea, skin, surface, surface_temperature, temperature</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="COAMPS_MBAY_3KM_WIND_10M" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>720</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>COAMPS_MBAY_3KM_WIND_10M\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -4851,7 +4851,7 @@ atmospheric, coamps, eastward, eastward_wind, forecast, historical, lab, meridio
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="COAMPS_MONTHLY_WINDS" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>COAMPS_MONTHLY_WINDS\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -5005,7 +5005,7 @@ atmospheric, averaged, cencoos, coamps, eastward, eastward_wind, meridional, mes
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="CORDC_MONTHLY" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>CORDC_MONTHLY\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -5163,7 +5163,7 @@ radar, sea, seawater, southern, surface, system, velocity, water, west, west coa
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="CORDC_USEGC_1km" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>CORDC_USEGC_1km\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -5334,7 +5334,7 @@ real, research, resolution, sea, seawater, surface, time, u.s, velocity, water, 
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="CORDC_USEGC_2km" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>CORDC_USEGC_2km\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -5519,7 +5519,7 @@ real, research, resolution, sea, seawater, surface, time, u.s, velocity, water, 
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="CORDC_USEGC_6km" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>CORDC_USEGC_6km\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -5695,7 +5695,7 @@ real, research, resolution, sea, seawater, surface, time, u.s, velocity, water, 
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="CORDC_USWC_1km" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>CORDC_USWC_1km\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -5868,7 +5868,7 @@ real, research, resolution, sea, seawater, surface, time, u.s, velocity, water, 
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="CORDC_USWC_2km" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>CORDC_USWC_2km\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -6041,7 +6041,7 @@ real, research, resolution, sea, seawater, surface, time, u.s, velocity, water, 
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="CORDC_USWC_500m" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>CORDC_USWC_500m\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -6214,7 +6214,7 @@ real, research, resolution, sea, seawater, surface, time, u.s, velocity, water, 
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="CORDC_USWC_6km" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>CORDC_USWC_6km\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -6385,7 +6385,7 @@ real, research, resolution, sea, seawater, surface, time, u.s, velocity, water, 
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="CORDC" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>CORDC\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -6553,7 +6553,7 @@ real, resolution, scripps, sea, seawater, slope, surface, time, velocity, water,
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="ERDATSSTA1DAY" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>ERDATSSTA1DAY\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -6751,7 +6751,7 @@ poes, sea, sea_surface_temperature, sst, surface, temperature, wcn, west</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="ERDATSSTA8DAY" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>ERDATSSTA8DAY\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -6949,7 +6949,7 @@ poes, sea, sea_surface_temperature, sst, surface, temperature, wcn, west</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="ERDATSSTAMDAY" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>41280</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>ERDATSSTAMDAY\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -7146,7 +7146,7 @@ poes, sea, sea_surface_temperature, sst, surface, temperature, wcn, west</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="ERDMWCHLA1DAY" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>ERDMWCHLA1DAY\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -7345,7 +7345,7 @@ sea, seawater, water, wcn, west</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="ERDMWCHLA8DAY" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>ERDMWCHLA8DAY\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -7544,7 +7544,7 @@ sea, seawater, water, wcn, west</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="ERDMWCHLAMDAY" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>41280</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>ERDMWCHLAMDAY\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -7744,7 +7744,7 @@ sea, seawater, water, wcn, west</att>
 but this dataset will only serve 11 because the others use different dimensions.
 --><dataset active="true" datasetID="FALMOUTH" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>FALMOUTH\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -8091,7 +8091,7 @@ omega, potential, s-coordinate, salinity, scale, sea, sea_water_salinity, seawat
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="G1_SST_GLOBAL" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>G1_SST_GLOBAL\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -8264,7 +8264,7 @@ propulsion, sea, sea_surface_temperature, sst, surface, temperature</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="G1_SST_US_WEST_COAST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>G1_SST_US_WEST_COAST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -8428,7 +8428,7 @@ propulsion, sea, sea_surface_temperature, sst, surface, temperature</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GEBCO2014_NORTHERN_HEM" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GEBCO2014_NORTHERN_HEM\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -8573,7 +8573,7 @@ reference, relative, sea, second, surface, terrain, topography</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GEBCO2014" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GEBCO2014\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -8709,7 +8709,7 @@ reference, relative, sea, second, surface, terrain, topography</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GEBCO" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GEBCO\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -8816,7 +8816,7 @@ reference, relative, sea, second, surface, terrain, topography</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GLOS_BATH" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_BATH\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -8932,7 +8932,7 @@ Wed Oct  1 14:37:07 2014: ncatted -O -a _CoordinateAxes,topo,m,c,Time Lat Lon te
 but this dataset will only serve 10 because the others use different dimensions.
 --><dataset active="true" datasetID="GLOS_ERIE_2D_NOWCAST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_ERIE_2D_NOWCAST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -9225,7 +9225,7 @@ period, sea, sea level, sea_ice, sea_surface_elevation, sea_surface_wave_mean_pe
 but this dataset will only serve 3 because the others use different dimensions.
 --><dataset active="true" datasetID="GLOS_ERIE_3D_FORECAST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>720</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_ERIE_3D_FORECAST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -9394,7 +9394,7 @@ sea, sea_water_temperature, seawater, system, temperature, velocity, water, zona
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GLOS_ERIE_SATELLITE_CDOM" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_ERIE_SATELLITE_CDOM\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -9540,7 +9540,7 @@ sea, sea_water_temperature, seawater, system, temperature, velocity, water, zona
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GLOS_ERIE_SATELLITE_CHL" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_ERIE_SATELLITE_CHL\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -9693,7 +9693,7 @@ satellite, sea, seawater, surface, water</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GLOS_ERIE_SATELLITE_DOC" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_ERIE_SATELLITE_DOC\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -9839,7 +9839,7 @@ satellite, sea, seawater, surface, water</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GLOS_ERIE_SATELLITE_SM" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_ERIE_SATELLITE_SM\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -9985,7 +9985,7 @@ satellite, sea, seawater, surface, water</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GLOS_ERIE_SATELLITE_SST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_ERIE_SATELLITE_SST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -10139,7 +10139,7 @@ Thu Sep 25 10:44:58 2014: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Erie/
 but this dataset will only serve 10 because the others use different dimensions.
 --><dataset active="true" datasetID="GLOS_HURON_2D_NOWCAST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_HURON_2D_NOWCAST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -10434,7 +10434,7 @@ period, sea, sea level, sea_ice, sea_surface_elevation, sea_surface_wave_mean_pe
 but this dataset will only serve 3 because the others use different dimensions.
 --><dataset active="true" datasetID="GLOS_HURON_3D_FORECAST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>720</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_HURON_3D_FORECAST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -10603,7 +10603,7 @@ sea, sea_water_temperature, seawater, system, temperature, velocity, water, zona
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GLOS_HURON_SATELLITE_CDOM" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_HURON_SATELLITE_CDOM\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -10749,7 +10749,7 @@ Thu Sep 25 10:46:40 2014: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Huron
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GLOS_HURON_SATELLITE_CHL" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_HURON_SATELLITE_CHL\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -10902,7 +10902,7 @@ satellite, sea, seawater, surface, water</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GLOS_HURON_SATELLITE_DOC" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_HURON_SATELLITE_DOC\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -11048,7 +11048,7 @@ Thu Sep 25 10:46:15 2014: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Huron
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GLOS_HURON_SATELLITE_SM" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_HURON_SATELLITE_SM\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -11194,7 +11194,7 @@ Thu Sep 25 10:45:37 2014: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Huron
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GLOS_HURON_SATELLITE_SST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_HURON_SATELLITE_SST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -11347,7 +11347,7 @@ Thu Sep 25 10:46:03 2014: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Huron
 but this dataset will only serve 12 because the others use different dimensions.
 --><dataset active="true" datasetID="GLOS_MICHIGAN_2D_NOWCAST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_MICHIGAN_2D_NOWCAST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -11678,7 +11678,7 @@ period, sea, sea level, sea_ice, sea_surface_elevation, sea_surface_wave_mean_pe
 but this dataset will only serve 3 because the others use different dimensions.
 --><dataset active="true" datasetID="GLOS_MICHIGAN_3D_FORECAST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>720</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_MICHIGAN_3D_FORECAST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -11847,7 +11847,7 @@ sea, sea_water_temperature, seawater, system, temperature, velocity, water, zona
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GLOS_MICHIGAN_SATELLITE_CDOM" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_MICHIGAN_SATELLITE_CDOM\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -11993,7 +11993,7 @@ Thu Sep 25 10:46:58 2014: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Michi
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GLOS_MICHIGAN_SATELLITE_CHL" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_MICHIGAN_SATELLITE_CHL\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -12139,7 +12139,7 @@ Thu Sep 25 10:47:13 2014: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Michi
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GLOS_MICHIGAN_SATELLITE_DOC" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_MICHIGAN_SATELLITE_DOC\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -12285,7 +12285,7 @@ Thu Sep 25 10:47:25 2014: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Michi
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GLOS_MICHIGAN_SATELLITE_SM" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_MICHIGAN_SATELLITE_SM\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -12431,7 +12431,7 @@ Thu Sep 25 10:49:02 2014: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Michi
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GLOS_MICHIGAN_SATELLITE_SST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_MICHIGAN_SATELLITE_SST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -12584,7 +12584,7 @@ Thu Sep 25 10:50:58 2014: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Michi
 but this dataset will only serve 10 because the others use different dimensions.
 --><dataset active="true" datasetID="GLOS_ONTARIO_2D_NOWCAST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_ONTARIO_2D_NOWCAST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -12877,7 +12877,7 @@ period, sea, sea level, sea_ice, sea_surface_elevation, sea_surface_wave_mean_pe
 but this dataset will only serve 3 because the others use different dimensions.
 --><dataset active="true" datasetID="GLOS_ONTARIO_3D_FORECAST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>720</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_ONTARIO_3D_FORECAST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -13046,7 +13046,7 @@ sea, sea_water_temperature, seawater, system, temperature, velocity, water, zona
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GLOS_ONTARIO_SATELLITE_CDOM" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_ONTARIO_SATELLITE_CDOM\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -13192,7 +13192,7 @@ sea, sea_water_temperature, seawater, system, temperature, velocity, water, zona
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GLOS_ONTARIO_SATELLITE_CHL" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_ONTARIO_SATELLITE_CHL\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -13345,7 +13345,7 @@ ontario, satellite, sea, seawater, surface, water</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GLOS_ONTARIO_SATELLITE_DOC" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_ONTARIO_SATELLITE_DOC\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -13491,7 +13491,7 @@ ontario, satellite, sea, seawater, surface, water</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GLOS_ONTARIO_SATELLITE_SM" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_ONTARIO_SATELLITE_SM\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -13637,7 +13637,7 @@ ontario, satellite, sea, seawater, surface, water</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GLOS_ONTARIO_SATELLITE_SST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_ONTARIO_SATELLITE_SST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -13791,7 +13791,7 @@ Thu Sep 25 10:49:55 2014: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Ontar
 but this dataset will only serve 10 because the others use different dimensions.
 --><dataset active="true" datasetID="GLOS_SUPERIOR_2D_NOWCAST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_SUPERIOR_2D_NOWCAST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -14084,7 +14084,7 @@ period, sea, sea level, sea_ice, sea_surface_elevation, sea_surface_wave_mean_pe
 but this dataset will only serve 3 because the others use different dimensions.
 --><dataset active="true" datasetID="GLOS_SUPERIOR_3D_FORECAST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>720</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_SUPERIOR_3D_FORECAST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -14253,7 +14253,7 @@ sea, sea_water_temperature, seawater, system, temperature, velocity, water, zona
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GLOS_SUPERIOR_SATELLITE_CDOM" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_SUPERIOR_SATELLITE_CDOM\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -14399,7 +14399,7 @@ Thu Sep 25 10:51:36 2014: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Super
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GLOS_SUPERIOR_SATELLITE_CHL" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_SUPERIOR_SATELLITE_CHL\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -14552,7 +14552,7 @@ satellite, sea, seawater, superior, surface, water</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GLOS_SUPERIOR_SATELLITE_DOC" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_SUPERIOR_SATELLITE_DOC\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -14698,7 +14698,7 @@ Thu Sep 25 10:52:02 2014: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Super
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GLOS_SUPERIOR_SATELLITE_SM" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_SUPERIOR_SATELLITE_SM\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -14844,7 +14844,7 @@ Thu Sep 25 10:52:53 2014: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Super
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GLOS_SUPERIOR_SATELLITE_SST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GLOS_SUPERIOR_SATELLITE_SST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -14995,7 +14995,7 @@ Wed Sep 03 11:55:19 2014: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Super
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="GRACE" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>GRACE\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -15394,7 +15394,7 @@ liquid, local, lwe, lwe_thickness_of_soil_moisture_content, moisture, soil, soil
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="HAB_CELLULAR_DOMOIC_ACID_FORECAST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>HAB_CELLULAR_DOMOIC_ACID_FORECAST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -15571,7 +15571,7 @@ liquid, local, lwe, lwe_thickness_of_soil_moisture_content, moisture, soil, soil
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="HAB_CELLULAR_DOMOIC_ACID_NOWCAST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>HAB_CELLULAR_DOMOIC_ACID_NOWCAST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -15748,7 +15748,7 @@ Creation of probability using Clarissa Anderson model</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="HAB_PARTICULATE_DOMOIC_ACID_FORECAST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>HAB_PARTICULATE_DOMOIC_ACID_FORECAST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -15925,7 +15925,7 @@ Creation of probability using Clarissa Anderson model</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="HAB_PARTICULATE_DOMOIC_ACID_NOWCAST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>HAB_PARTICULATE_DOMOIC_ACID_NOWCAST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -16102,7 +16102,7 @@ Creation of probability using Clarissa Anderson model</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="HAB_PSEUDO_NITZSCHIA_FORECAST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>HAB_PSEUDO_NITZSCHIA_FORECAST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -16279,7 +16279,7 @@ Creation of probability using Clarissa Anderson model</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="HAB_PSEUDO_NITZSCHIA_NOWCAST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>HAB_PSEUDO_NITZSCHIA_NOWCAST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -16458,7 +16458,7 @@ Creation of probability using Clarissa Anderson model</att>
 but this dataset will only serve 4 because the others use different dimensions.
 --><dataset active="true" datasetID="HYCOM" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>HYCOM\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -16665,7 +16665,7 @@ research, salinity, sea, sea_water_salinity, sea_water_temperature, seawater, te
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="IBCAO" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>IBCAO\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -16784,7 +16784,7 @@ research, salinity, sea, sea_water_salinity, sea_water_temperature, seawater, te
 but this dataset will only serve 14 because the others use different dimensions.
 --><dataset active="true" datasetID="JPL_BERING_HINDCAST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>JPL_BERING_HINDCAST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -17138,7 +17138,7 @@ oxygen, phosphate, phytoplankton, phytoplankton species, po4, salinity, sea, sea
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="MASIE" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>MASIE\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -17286,7 +17286,7 @@ sea, sea ice edges, sea ice extent, sea ice growth, sea ice melt, sea_ice_area, 
 but this dataset will only serve 5 because the others use different dimensions.
 --><dataset active="true" datasetID="MAURER" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>MAURER\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -17511,7 +17511,7 @@ atmospheric, civil, clara, daily, data, degree, department, direction, engineeri
 but this dataset will only serve 4 because the others use different dimensions.
 --><dataset active="true" datasetID="MB_DAS" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>MB_DAS\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -17717,7 +17717,7 @@ operation, regional, regional ocean model, remote, resolution, roms, salinity, s
 but this dataset will only serve 4 because the others use different dimensions.
 --><dataset active="true" datasetID="MB_FCST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>MB_FCST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -17921,7 +17921,7 @@ operation, regional, regional ocean model, remote, resolution, roms, salinity, s
 but this dataset will only serve 1 because the others use different dimensions.
 --><dataset active="true" datasetID="MBON_FKNMS" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>MBON_FKNMS\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -18020,7 +18020,7 @@ but this dataset will only serve 1 because the others use different dimensions.
 but this dataset will only serve 1 because the others use different dimensions.
 --><dataset active="true" datasetID="MBON_MBNMS" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>MBON_MBNMS\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -18117,7 +18117,7 @@ but this dataset will only serve 1 because the others use different dimensions.
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="MUR2" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>MUR2\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -18311,7 +18311,7 @@ product, propulsion, sea, sea ice area fraction, sea_surface_foundation_temperat
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="MUR" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>MUR\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -18462,7 +18462,7 @@ Original Dataset = sea_surface_temperature/2011_JPL_L4uhfnd-GLOB-MUR.nc; Transla
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="NAM_12_CONUS_ALASKA" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>NAM_12_CONUS_ALASKA\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -18982,7 +18982,7 @@ total, vegetation, visibility, visibility_in_air, water, weather, wind, wind_spe
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="NCEP_SKIN_TEMP" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>NCEP_SKIN_TEMP\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -19138,7 +19138,7 @@ reanalysis, sea, skin, sst, sst/land, surface, surface_temperature, temperature<
 but this dataset will only serve 4 because the others use different dimensions.
 --><dataset active="true" datasetID="NCOM_SOCAL" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>NCOM_SOCAL\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -19355,7 +19355,7 @@ pressure, regional, research, salinity, sea, sea_water_salinity, sea_water_tempe
 but this dataset will only serve 2 because the others use different dimensions.
 --><dataset active="true" datasetID="NCSU_SABGOM_1" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>NCSU_SABGOM_1\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -19553,7 +19553,7 @@ regional, regional ocean model, roms, sea, seawater, south, south-atlantic, syst
 but this dataset will only serve 3 because the others use different dimensions.
 --><dataset active="true" datasetID="NCSU_SABGOM_2" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>NCSU_SABGOM_2\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -19765,7 +19765,7 @@ phytoplankton, phytoplankton species, regional, regional ocean model, roms, sea,
 but this dataset will only serve 4 because the others use different dimensions.
 --><dataset active="true" datasetID="NCSU_SABGOM_3" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>NCSU_SABGOM_3\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -20002,7 +20002,7 @@ potential, regional, regional ocean model, roms, salinity, sea, sea_water_potent
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="NDFD_Aggregate" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>NDFD_Aggregate\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -20344,7 +20344,7 @@ atmospheric, blowing, bottom, bottom character, character, cloud, cloud_area_fra
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="NDFD_Maximum_Temperature" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>NDFD_Maximum_Temperature\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -20484,7 +20484,7 @@ atmospheric, forecast, hour, intervals, maximum, national, nwstg, products, serv
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="NDFD_Minimum_Temperature" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>NDFD_Minimum_Temperature\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -20624,7 +20624,7 @@ atmospheric, forecast, hour, intervals, minimum, national, nwstg, products, serv
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="NDFD_Significant_height_of_wind_waves" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>NDFD_Significant_height_of_wind_waves\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -20762,7 +20762,7 @@ products, sea, sea_surface_wind_wave_significant_height, service, significant, s
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="NDFD_Total_Precipitation" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>NDFD_Total_Precipitation\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -20901,7 +20901,7 @@ forecast, hour, intervals, meteorology, national, nwstg, one, precipitation, pre
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="NDFD_Total_Snowfall" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>NDFD_Total_Snowfall\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -21045,7 +21045,7 @@ thickness, thickness_of_snowfall_amount, total, weather, wmc</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="NDFD_Wind_Speed_Gust" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>NDFD_Wind_Speed_Gust\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -21184,7 +21184,7 @@ atmospheric, forecast, gust, national, nwstg, products, service, speed, surface,
 but this dataset will only serve 2 because the others use different dimensions.
 --><dataset active="true" datasetID="NOAA_CSDL_ROMS" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>NOAA_CSDL_ROMS\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -21322,7 +21322,7 @@ sea, seawater, source, velocity, water, zonal</att>
 but this dataset will only serve 2 because the others use different dimensions.
 --><dataset active="true" datasetID="NODC_ARCTIC_REGIONAL_ClIMATOLOGY" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>NODC_ARCTIC_REGIONAL_ClIMATOLOGY\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -21534,7 +21534,7 @@ regional, salinity, sea, sea level, sea_water_salinity, sea_water_temperature, s
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="norton_bathy_20090101" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>norton_bathy\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -21647,7 +21647,7 @@ regional, salinity, sea, sea level, sea_water_salinity, sea_water_temperature, s
 but this dataset will only serve 5 because the others use different dimensions.
 --><dataset active="true" datasetID="NSCU" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>NSCU\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -21894,7 +21894,7 @@ potential, salinity, sea, sea level, sea_water_potential_temperature, sea_water_
 but this dataset will only serve 1 because the others use different dimensions.
 --><dataset active="true" datasetID="NSIDC_SEA_ICE_CON" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>NSIDC_SEA_ICE_CON\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -22022,7 +22022,7 @@ Final output file appended to this netCDF file.</att>
 but this dataset will only serve 11 because the others use different dimensions.
 --><dataset active="true" datasetID="PMEL_CCCMA1" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>PMEL_CCCMA1\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -22370,7 +22370,7 @@ offshore, offshore_neocalanus_concentration, phytoplankton, phytoplankton specie
 but this dataset will only serve 11 because the others use different dimensions.
 --><dataset active="true" datasetID="PMEL_CFSR" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>PMEL_CFSR\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -22716,7 +22716,7 @@ offshore, offshore_neocalanus_concentration, phytoplankton, phytoplankton specie
 but this dataset will only serve 11 because the others use different dimensions.
 --><dataset active="true" datasetID="PMEL_CORE" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>PMEL_CORE\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -23064,7 +23064,7 @@ offshore, offshore_neocalanus_concentration, phytoplankton, phytoplankton specie
 but this dataset will only serve 11 because the others use different dimensions.
 --><dataset active="true" datasetID="PMEL_ECHOG" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>PMEL_ECHOG\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -23412,7 +23412,7 @@ offshore, offshore_neocalanus_concentration, phytoplankton, phytoplankton specie
 but this dataset will only serve 11 because the others use different dimensions.
 --><dataset active="true" datasetID="PMEL_FORECAST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>PMEL_FORECAST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -23760,7 +23760,7 @@ offshore, offshore_neocalanus_concentration, phytoplankton, phytoplankton specie
 but this dataset will only serve 11 because the others use different dimensions.
 --><dataset active="true" datasetID="PMEL_MIROC" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>PMEL_MIROC\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -24106,7 +24106,7 @@ offshore, offshore_neocalanus_concentration, phytoplankton, phytoplankton specie
 but this dataset will only serve 4 because the others use different dimensions.
 --><dataset active="true" datasetID="PWS_DAS" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>PWS_DAS\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -24287,7 +24287,7 @@ salinity, sea, sea_water_salinity, sea_water_temperature, seawater, source, temp
 but this dataset will only serve 4 because the others use different dimensions.
 --><dataset active="true" datasetID="PWS_L0_FCST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>PWS_L0_FCST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -24468,7 +24468,7 @@ salinity, sea, sea_water_salinity, sea_water_temperature, seawater, source, temp
 but this dataset will only serve 4 because the others use different dimensions.
 --><dataset active="true" datasetID="PWS_L1_FCST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>PWS_L1_FCST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -24649,7 +24649,7 @@ salinity, sea, sea_water_salinity, sea_water_temperature, seawater, source, temp
 but this dataset will only serve 4 because the others use different dimensions.
 --><dataset active="true" datasetID="PWS_L2_FCST" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>PWS_L2_FCST\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -24828,7 +24828,7 @@ salinity, sea, sea_water_salinity, sea_water_temperature, seawater, source, temp
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="RAPID_REFRESH_SKIN_TEMP" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>RAPID_REFRESH_SKIN_TEMP\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -24968,7 +24968,7 @@ products, sea, service, surface, surface_temperature, temperature, weather, wmc<
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="RAPID_REFRESH_UV10M" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>RAPID_REFRESH_UV10M\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -25132,7 +25132,7 @@ products, sea, service, surface, surface_temperature, temperature, weather, wmc<
 but this dataset will only serve 4 because the others use different dimensions.
 --><dataset active="true" datasetID="SCB_DAS" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>SCB_DAS\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -25330,7 +25330,7 @@ remote, salinity, salnity, scb, sea, sea_water_salinity, sea_water_temperature, 
 but this dataset will only serve 1 because the others use different dimensions.
 --><dataset active="true" datasetID="ShelikofStraits_CookInlet_DEM" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>ShelikofStraits_CookInlet_DEM\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -25433,7 +25433,7 @@ data, dem, depth, depth/height, digital, elevation, height, local, model, source
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="SNAP_A1B" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>SNAP_A1B\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -25572,7 +25572,7 @@ atmospheric, composite, data, equivalent, liquid, lwe, lwe_thickness_of_precipit
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="SNAP_A2" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>SNAP_A2\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -25711,7 +25711,7 @@ atmospheric, composite, data, equivalent, liquid, lwe, lwe_thickness_of_precipit
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="SNAP_B1" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>SNAP_B1\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -25850,7 +25850,7 @@ atmospheric, composite, data, equivalent, liquid, lwe, lwe_thickness_of_precipit
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="SNAP_JOHN_WALSH_HISTORICAL" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>SNAP_JOHN_WALSH_HISTORICAL\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -26127,7 +26127,7 @@ atmospheric, composite, data, equivalent, liquid, lwe, lwe_thickness_of_precipit
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="SNAP_JOHN_WALSH_RCP60" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>SNAP_JOHN_WALSH_RCP60\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -26404,7 +26404,7 @@ atmospheric, composite, data, equivalent, liquid, lwe, lwe_thickness_of_precipit
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="SNAP_JOHN_WALSH_RCP85" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>SNAP_JOHN_WALSH_RCP85\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -26681,7 +26681,7 @@ atmospheric, composite, data, equivalent, liquid, lwe, lwe_thickness_of_precipit
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="SNAP_JOHN_WALSH_SEA_ICE" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>SNAP_JOHN_WALSH_SEA_ICE\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -26888,7 +26888,7 @@ atmospheric, composite, data, equivalent, liquid, lwe, lwe_thickness_of_precipit
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="SNAP_PRC_CRU" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>SNAP_PRC_CRU\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -27006,7 +27006,7 @@ composite, equivalent, liquid, lwe, lwe_thickness_of_precipitation_amount, meteo
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="SNAP_SEA_ICE_ATLAS" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>SNAP_SEA_ICE_ATLAS\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -27123,7 +27123,7 @@ Fri Oct 03 09:32:56 2014: GDAL CreateCopy( sea_ice_atlas_1850_01.nc, ... )</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="SNAP_TAVE_CRU" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>SNAP_TAVE_CRU\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -27242,7 +27242,7 @@ atmospheric, composite, model, network, planning, scenarios, surface, tempera, t
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="TAMU_SWAN_PWS" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>TAMU_SWAN_PWS\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -27384,7 +27384,7 @@ peak, period, periods, sea, sea_surface_wave_period_at_variance_spectral_density
 but this dataset will only serve 4 because the others use different dimensions.
 --><dataset active="true" datasetID="UCSC" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>UCSC\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -27637,7 +27637,7 @@ potential, regional, regional ocean model, roms, salinity, santa, sea, sea_water
 but this dataset will only serve 1 because the others use different dimensions.
 --><dataset active="true" datasetID="UF_NAM_2D_EC" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>UF_NAM_2D_EC\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -27760,7 +27760,7 @@ sea, sea level, sea_surface_height_above_sea_level, source, surface, topography<
 but this dataset will only serve 1 because the others use different dimensions.
 --><dataset active="true" datasetID="UF_NAM_2D_NG" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>UF_NAM_2D_NG\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -27883,7 +27883,7 @@ sea, sea level, sea_surface_height_above_sea_level, source, surface, topography<
 but this dataset will only serve 1 because the others use different dimensions.
 --><dataset active="true" datasetID="UF_NAM_2D_SE" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>UF_NAM_2D_SE\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -28007,7 +28007,7 @@ sea, sea level, sea_surface_height_above_sea_level, source, surface, topography<
 but this dataset will only serve 1 because the others use different dimensions.
 --><dataset active="true" datasetID="UF_NAM_2D_SW" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>UF_NAM_2D_SW\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -28130,7 +28130,7 @@ sea, sea level, sea_surface_height_above_sea_level, source, surface, topography<
 but this dataset will only serve 5 because the others use different dimensions.
 --><dataset active="true" datasetID="UF_NAM_3D_EC" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>UF_NAM_3D_EC\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -28341,7 +28341,7 @@ salinity, sea, sea level, sea_surface_height_above_sea_level, sea_surface_wave_s
 but this dataset will only serve 5 because the others use different dimensions.
 --><dataset active="true" datasetID="UF_NAM_3D_NG" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>UF_NAM_3D_NG\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -28552,7 +28552,7 @@ salinity, sea, sea level, sea_surface_height_above_sea_level, sea_surface_wave_s
 but this dataset will only serve 5 because the others use different dimensions.
 --><dataset active="true" datasetID="UF_NAM_3D_SE" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>UF_NAM_3D_SE\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -28763,7 +28763,7 @@ salinity, sea, sea level, sea_surface_height_above_sea_level, sea_surface_wave_s
 but this dataset will only serve 5 because the others use different dimensions.
 --><dataset active="true" datasetID="UF_NAM_3D_SW" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>UF_NAM_3D_SW\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -28974,7 +28974,7 @@ salinity, sea, sea level, sea_surface_height_above_sea_level, sea_surface_wave_s
 but this dataset will only serve 5 because the others use different dimensions.
 --><dataset active="true" datasetID="USF_FVCOM" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>USF_FVCOM\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -29182,7 +29182,7 @@ salinity, sea, sea_water_salinity, sea_water_temperature, seawater, temperature,
 but this dataset will only serve 2 because the others use different dimensions.
 --><dataset active="true" datasetID="USF_WEST_FLORIDA_SHELF_WFS" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>USF_WEST_FLORIDA_SHELF_WFS\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -29370,7 +29370,7 @@ regional, regional ocean model, roms, salinity, sea, sea_water_salinity, sea_wat
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="WAVE_3" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>WAVE_3\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -29772,7 +29772,7 @@ ordered, period, primary, products, sea, sea_surface_swell_wave_period, sea_surf
 but this dataset will only serve 10 because the others use different dimensions.
 --><dataset active="true" datasetID="WRF_D01" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>WRF_D01\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -30188,7 +30188,7 @@ thickness, thickness_of_snowfall_amount, tmn, water, wind, winds</att>
 but this dataset will only serve 10 because the others use different dimensions.
 --><dataset active="true" datasetID="WRF_D02" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>WRF_D02\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -30602,7 +30602,7 @@ thickness, thickness_of_snowfall_amount, tmn, vector, water, wind, winds</att>
  * You can change the order of the dataVariables or remove any of them.
 --><dataset active="true" datasetID="WRF_MPH" type="EDDGridFromNcFiles">
     <reloadEveryNMinutes>720</reloadEveryNMinutes>
-    <fileDir>/mnt/store/data/netCDF/netcdf-model-ncml/</fileDir>
+    <fileDir>/mnt/store/data/netcdf-model-ncml/prod/</fileDir>
     <recursive>true</recursive>
     <fileNameRegex>WRF_MPH\.ncml</fileNameRegex>
     <metadataFrom>last</metadataFrom>
