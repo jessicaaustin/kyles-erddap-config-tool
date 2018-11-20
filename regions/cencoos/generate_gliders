@@ -33,3 +33,9 @@ python gliders.py \
     -n Nemesis-20170412T0000 Nemesis-20170512T0000 Nemesis-20171115T0000 \
 Nemesis-20180515T0000 Nemesis-20180830T0000 \
     -t "(CeNCOOS) Nemesis Glider"
+
+python gliders.py \
+    ioos \
+    -o "$RELDIR/datasets/0074_teledyne_gliders.xml" \
+    -n unit713-20180907T0000 \
+    -t "(CeNCOOS) Teledyne Glider"
