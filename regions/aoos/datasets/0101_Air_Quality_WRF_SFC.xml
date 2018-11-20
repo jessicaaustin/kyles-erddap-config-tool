@@ -1,7 +1,7 @@
 <dataset type="EDDGridFromNcFiles" datasetID="Air_Quality_WRF_SFC_2009_2013" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/mnt/gluster/data/netCDF/aqwrfsfc/</fileDir>
+    <fileDir>/mnt/store/data/netCDF/aqwrfsfc/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>

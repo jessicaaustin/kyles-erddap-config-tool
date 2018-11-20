@@ -62,7 +62,7 @@ def main(ztype, outfile, names, highlight_title):
     lst = requests.get(url).json()
 
     datafile = '{name}.enhanced.nc'
-    datafolder = '/mnt/gluster/data/platforms/prod/IoosGliderDac/{uuid}/download/'
+    datafolder = '/mnt/store/data/platforms/prod/IoosGliderDac/{uuid}/download/'
     slug = UniqueSlugify(separator='_', to_lower=True)
 
     if "all" in names:
