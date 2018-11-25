@@ -17,13 +17,7 @@ def make_from_service(station):
     source = etree.SubElement(dataset, "sourceUrl")
     source.text = 'https://sensors.axds.co/api/'
 
-    # every hour, check for new data (incremental) and add it to the dataset if it exists
-    rl = etree.SubElement(dataset, "updateEveryNMillis")
-    rl.text = '3600000'
-
-    # once a week, full reload no matter what
-    rl = etree.SubElement(dataset, "reloadEveryNMinutes")
-    rl.text = '10080'
+    # dataset is backed by a file, so don't need reloadEveryNMinutes
 
     return dataset
 
