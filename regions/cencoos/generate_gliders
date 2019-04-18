@@ -18,8 +18,8 @@ python gliders.py \
     -o "$RELDIR/datasets/0071_trinidad_gliders.xml" \
     -n UW157-20141116T2118 UW130-20150309T2005 UW157-20150917T1833 \
 UW157-20161021T1807 UW130-20170605T1834 UW157-20180417T1832 \
-UW130-20181107T0000 \
-    -t "(CeNCOOS) Trinidad Glider"
+UW130-20181107T0000 UW646-20190409T0000 \
+    -t "(CeNCOOS) Trinidad Gliders"
 
 python gliders.py \
     ioos \
