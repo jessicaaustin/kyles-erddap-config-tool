@@ -6,5 +6,8 @@ python gliders.py \
     ioos \
     -o "$RELDIR/datasets/0070_gliders.xml" \
     -n bass-20160909T1733 modena-20160909T1758 ramses-20160909T2028 \
-salacia-20160919T2028 bass-20180301T0000 pelagia-20180401T0000 \
+salacia-20160919T2028 Murphy-20170426T1610 Sam-20170516T1416 \
+bass-20180301T0000 pelagia-20180401T0000 \
+ramses-20180704T0000 sam-20180824T0000 bass-20180808T0000 \
+pelagia-20180910T0000 angus-20190522T0000 franklin-20190522T0000 \
     -t "(SECOORA) Glider"
