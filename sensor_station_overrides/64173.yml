@@ -1,0 +1,8 @@
+---
+
+region_settings:
+  cencoos:
+    highlight_in_erddap: True
+
+global_attributes:
+  comment: "August 30, 2017: Replaced HACH conductivity sensor. Prior to this change a salinity of 35 PPT would read approximately 42.9 ms/cm due to the old 15 C reference. Under the new settings, a salinity of 35 PPT would read 53.1 ms/cm at the new 25 C reference."

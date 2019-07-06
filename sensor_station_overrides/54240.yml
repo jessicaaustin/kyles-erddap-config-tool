@@ -1,0 +1,35 @@
+---
+
+region_settings:
+  cencoos:
+    highlight_in_erddap: True
+
+global_attributes:
+  acknowledgment: "Data collection was supported by multiple awards to Bodega Marine Laboratory, University of California, Davis and an award from NOAA's Integrated Observing System to the Central and Northern California Ocean Observing System at the Monterey Bay Aquarium Research Institute (NA11NOS0120032)."
+  comment: "Data produced by Ryan Walter with partial funding from CeNCOOS (cencoos_communicatons@mbari.org)"
+  coverage_content_type: "physicalMeasurement"
+  creator_email: "rkwalter@calpoly.edu"
+  creator_institution: "California Polytechnic State Univeristy, San Luis Obispo"
+  creator_name: "Ryan Walter"
+  creator_role: "pi"
+  creator_type: "person"
+  creator_url: "http://www.marine.calpoly.edu"
+  institution: "California Polytechnic State Univeristy, San Luis Obispo"
+  instrument: "SeaBird"
+  ISO_Topic_Categories: "Oceans"
+  keywords: "Earth Science > Oceans > Ocean Chemistry > Chlorophyll, Earth Science > Oceans > Ocean Optics > Turbidity, Earth Science > Oceans > Ocean Pressure > Water Pressure, Earth Science > Oceans > Ocean Temperature > Water Temperature, Earth Science > Oceans > Salinity/Density > Conductivity, Earth Science > Oceans > Salinity/Density > Salinity, Earth Science > Oceans > Water Quality"
+  keywords_vocabulary: "GCMD Earth Science Keywords. Version 5.3.3"
+  metadata_conventions: "CF-1.6,ACDD-1.3"
+  metadata_link: "http://www.marine.calpoly.edu"
+  platform: "Cal Poly Wharf Met Station"
+  program: "CeNCOOS"
+  project: "CeNCOOS"
+  publisher_email: "cencoos_communicatons@mbari.org"
+  publisher_name: "CeNCOOS"
+  publisher_type: "institution"
+  publisher_url: "http://www.cencoos.org"
+  sea_name: "NE Pacific"
+  source: "Pier Mounted instrument measuring oceanographic parameters"
+  standard_name_vocabulary: "CF-1.6"
+  summary: "The San Luis Bay met station is located on the Cal Poly Pier and is maintained by Cal Poly San Luis Obispo. The station has been operational since 2003 and consists of an automous profiler, a weather station, flow through seawater system, and a water current profiler. These nearshore sensors are part of the Central and Norther California Ocean Observing System (CeNCOOS). They measure various water quality parameters at fixed points along the California coast."
+  title: "CeNCOOS in situ water quality monitoring at the Cal Poly Pier San Luis Obispo."

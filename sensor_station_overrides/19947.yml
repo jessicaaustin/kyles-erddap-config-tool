@@ -1,0 +1,35 @@
+---
+
+region_settings:
+  cencoos:
+    highlight_in_erddap: True
+
+global_attributes:
+  acknowledgment: "Data collection was supported by multiple awards to Bodega Marine Laboratory, University of California, Davis and an award from NOAA's Integrated Observing System to the Central and Northern California Ocean Observing System at the Monterey Bay Aquarium Research Institute (NA11NOS0120032)."
+  comment: "Data produced by John Largier with partial funding from CeNCOOS (cencoos_communicatons@mbari.org)"
+  coverage_content_type: "physicalMeasurement"
+  creator_email: "jlargier@ucdavis.edu"
+  creator_institution: "Bodega Marine Laboratory"
+  creator_name: "John Largier"
+  creator_role: "pi"
+  creator_type: "person"
+  creator_url: "http://bml.ucdavis.edu"
+  institution: "Bodega Marine Laboratory"
+  instrument: "SeaBird"
+  ISO_Topic_Categories: "Oceans"
+  keywords: "Earth Science > Oceans > Ocean Chemistry > Chlorophyll, Earth Science > Oceans > Ocean Optics > Turbidity, Earth Science > Oceans > Ocean Pressure > Water Pressure, Earth Science > Oceans > Ocean Temperature > Water Temperature, Earth Science > Oceans > Salinity/Density > Conductivity, Earth Science > Oceans > Salinity/Density > Salinity, Earth Science > Oceans > Water Quality"
+  keywords_vocabulary: "GCMD Earth Science Keywords. Version 5.3.3"
+  metadata_conventions: "CF-1.6,ACDD-1.3"
+  metadata_link: "http://bml.ucdavis.edu"
+  platform: "Fort Point Shore Station"
+  program: "CeNCOOS"
+  project: "CeNCOOS"
+  publisher_email: "cencoos_communicatons@mbari.org"
+  publisher_name: "CeNCOOS"
+  publisher_type: "institution"
+  publisher_url: "http://www.cencoos.org"
+  sea_name: "NE Pacific"
+  source: "Pier Mounted instrument measuring oceanographic parameters."
+  standard_name_vocabulary: "CF-1.6"
+  summary: "The Fort Point station is located at Fort Point Pier in San Francisco and consists of in-water and meterological sensors. The station has been operational since 2004. This station is maintained by staff of the Bodega Marine Lab and is part of the Bodege Ocean Observing Node (BOON) project. These nearshore sensors are part of the Central and Norther California Ocean Observing System (CeNCOOS). They measure various water quality parameters at fixed points along the California coast."
+  title: "CeNCOOS in situ water quality monitoring at Fort Point Pier."

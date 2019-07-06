@@ -1,0 +1,35 @@
+---
+
+region_settings:
+  cencoos:
+    highlight_in_erddap: True
+
+global_attributes:
+  acknowledgment: "Data collection was supported by multiple awards to Humboldt State University and an award from NOAA's Integrated Observing System to the Central and Northern California Ocean Observing System at the Monterey Bay Aquarium Research Institute (NA11NOS0120032)."
+  comment: "Data produced by Frank Shaughnessy with partial funding from CeNCOOS (cencoos_communicatons@mbari.org)"
+  coverage_content_type: "physicalMeasurement"
+  creator_email: "fj3@humboldt.edu"
+  creator_institution: "Humboldt State University"
+  creator_name: "Frank Shaughnessy"
+  creator_role: "pi"
+  creator_type: "person"
+  creator_url: "http://www.humboldt.edu"
+  institution: "Humboldt State University/CeNCOOS"
+  instrument: "YSI 6600 V2"
+  ISO_Topic_Categories: "Oceans"
+  keywords: "Earth Science > Oceans > Ocean Chemistry > Chlorophyll, Earth Science > Oceans > Ocean Optics > Turbidity, Earth Science > Oceans > Ocean Pressure > Water Pressure, Earth Science > Oceans > Ocean Temperature > Water Temperature, Earth Science > Oceans > Salinity/Density > Conductivity, Earth Science > Oceans > Salinity/Density > Salinity, Earth Science > Oceans > Water Quality"
+  keywords_vocabulary: "GCMD Earth Science Keywords. Version 5.3.3"
+  metadata_conventions: "CF-1.6,ACDD-1.3"
+  metadata_link: "http://www.humboldt.edu"
+  platform: "Trinidad Shore Station"
+  program: "CeNCOOS"
+  project: "CeNCOOS"
+  publisher_email: "cencoos_communicatons@mbari.org"
+  publisher_name: "CeNCOOS"
+  publisher_type: "institution"
+  publisher_url: "http://www.cencoos.org"
+  sea_name: "NE Pacific"
+  source: "Pier Mounted instrument measuring oceanographic parameters"
+  standard_name_vocabulary: "CF-1.6"
+  summary: "The Trinidad shore station is maintained by Humboldt State University. The station has been operational since 2012 and consists of subsurface sensors mounted rigidly to a pier. The sensors provide near-real-time observations of ocean water salinity, temperature, dissolved oxygen, chlorophyll fluorescence, turbidity and pH. Water depth at this location ranges from approximately 5 ft to 15 ft. These nearshore sensors are part of the Central and Norther California Ocean Observing System (CeNCOOS). They measure various water quality parameters at fixed points along the California coast."
+  title: "CeNCOOS in situ water monitoring data at Trinidad Head, California"

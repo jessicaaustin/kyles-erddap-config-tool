@@ -1,0 +1,35 @@
+---
+
+region_settings:
+  cencoos:
+    highlight_in_erddap: True
+
+global_attributes:
+  acknowledgment: "Data collection was supported by multiple awards to Moss Landing Marine Laboratory and an award from NOAA's Integrated Observing System to the Central and Northern California Ocean Observing System at the Monterey Bay Aquarium Research Institute (NA11NOS0120032)."
+  comment: "Data produced by Jason Smith with partial funding from CeNCOOS (cencoos_communicatons@mbari.org)"
+  coverage_content_type: "physicalMeasurement"
+  creator_email: "jsmith@mlml.calstate.edu"
+  creator_institution: "Moss Landing Marine Laboratory"
+  creator_name: "Jason Smith"
+  creator_role: "pi"
+  creator_type: "person"
+  creator_url: "http://mlml.calstate.edu/"
+  institution: "Moss Landing Marine Laboratory"
+  instrument: "YSI 6600"
+  ISO_Topic_Categories: "Oceans"
+  keywords: "Earth Science > Oceans > Ocean Chemistry > Chlorophyll, Earth Science > Oceans > Ocean Optics > Turbidity, Earth Science > Oceans > Ocean Pressure > Water Pressure, Earth Science > Oceans > Ocean Temperature > Water Temperature, Earth Science > Oceans > Salinity/Density > Conductivity, Earth Science > Oceans > Salinity/Density > Salinity, Earth Science > Oceans > Water Quality"
+  keywords_vocabulary: "GCMD Earth Science Keywords. Version 5.3.3"
+  metadata_conventions: "CF-1.6,ACDD-1.3"
+  metadata_link: "http://mlml.calstate.edu/"
+  platform: "Monterey Municipal Wharf Shore Station"
+  program: "CeNCOOS"
+  project: "CeNCOOS"
+  publisher_email: "cencoos_communicatons@mbari.org"
+  publisher_name: "CeNCOOS"
+  publisher_type: "institution"
+  publisher_url: "http://www.cencoos.org"
+  sea_name: "NE Pacific"
+  source: "Pier Mounted instrument measuring oceanographic parameters"
+  standard_name_vocabulary: "CF-1.6"
+  summary: "The Monterey shore station is maintained by Moss Landing Marine Labs. The station has been operational since 2012 and consists of in water sensors that are fixed to a pier sampling every 15 minutes. These sensors provide near-real time observations of ocean water salinity, temperature, dissolved oxygen, chlorophyll fluorescence, turbidity and pH. These sensors provide near-real time observations of ocean water conductivity, salinity, temperature, depth, dissolved oxygen, chlorophyll fluorescence, turbidity and nitrate. These nearshore sensors are part of the Central and Norther California Ocean Observing System (CeNCOOS). They measure various water quality parameters at fixed points along the California coast."
+  title: "CeNCOOS in situ water quality monitoring at Monterey Bay Commercial Wharf."

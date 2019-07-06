@@ -1,0 +1,35 @@
+---
+
+region_settings:
+  cencoos:
+    highlight_in_erddap: True
+
+global_attributes:
+  acknowledgment: "Data collection was supported by multiple awards to San Francisco State University and an award from NOAA's Integrated Observing System to the Central and Northern California Ocean Observing System at the Monterey Bay Aquarium Research Institute (NA11NOS0120032)."
+  comment: "Data produced by Karina Nielsen with partial funding from CeNCOOS (cencoos_communicatons@mbari.org)"
+  coverage_content_type: "physicalMeasurement"
+  creator_email: "knielsen@sfsu.edu,aparker@csum.edu"
+  creator_institution: "San Francisco State University,The California Maritime Academy"
+  creator_name: "Karina Nielsen,Alexander Parker"
+  creator_role: "pi,pi"
+  creator_type: "person,person"
+  creator_url: "http://sfbeams.sfsu.edu,http://csum.edu"
+  institution: "San Francisco State University and The California Maritime Academy"
+  instrument: ""
+  ISO_Topic_Categories: "Oceans"
+  keywords: "Earth Science > Oceans > Ocean Chemistry > Chlorophyll, Earth Science > Oceans > Ocean Optics > Turbidity, Earth Science > Oceans > Ocean Pressure > Water Pressure, Earth Science > Oceans > Ocean Temperature > Water Temperature, Earth Science > Oceans > Salinity/Density > Conductivity, Earth Science > Oceans > Salinity/Density > Salinity, Earth Science > Oceans > Water Quality, Earth Science>Oceans>Ocean Chemistry>pH, Earth Science>Oceans>Ocean Chemistry>Carbon Dioxide"
+  keywords_vocabulary: "GCMD Earth Science Keywords. Version 5.3.3"
+  metadata_conventions: "CF-1.6,ACDD-1.3"
+  metadata_link: "http://sfbeams.sfsu.edu"
+  platform: "Carquinez Shore Station"
+  program: "CeNCOOS"
+  project: "CeNCOOS"
+  publisher_email: "cencoos_communicatons@mbari.org"
+  publisher_name: "CeNCOOS"
+  publisher_type: "institution"
+  publisher_url: "http://www.cencoos.org"
+  sea_name: "NE Pacific"
+  source: "Pier Mounted instrument measuring oceanographic parameters"
+  standard_name_vocabulary: "CF-1.6"
+  summary: "The Carquinez shore station is located on the Cal Maritime pier and maintained by the Romberg Tiburon Center. The station has been operational since 2008 and consists of in-water sensors and a meteorological station. The water quality sensors provide near-real time observations of water salinity, temperature, dissolved oxygen, chlorophyll fluorescence, turbidity and pH. This station is maintained by staff of the Romberg Tiburon Center and is part of the SFBEAMS project. These nearshore sensors are part of the Central and Norther California Ocean Observing System (CeNCOOS). They measure various water quality parameters at fixed points along the California coast."
+  title: "CeNCOOS in situ water quality monitoring at Carquinez at the California Maritime campus."
