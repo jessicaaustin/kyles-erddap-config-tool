@@ -32,37 +32,52 @@ def add_attribute_overrides(dataset, station, region):
     station_id = station['id']
     title = station['label']
 
-    override_file = os.path.join(os.path.dirname(os.path.realpath(__file__)),
-                                 'sensor_station_overrides',
-                                 f'{station_id}.yml')
+    station_override_file = os.path.join(os.path.dirname(os.path.realpath(__file__)),
+                                         'sensor_station_overrides',
+                                         f'{station_id}.yml')
 
-    if not os.path.isfile(override_file):
+    region_override_file = os.path.join(os.path.dirname(os.path.realpath(__file__)),
+                                        'sensor_region_overrides',
+                                        f'{region}.yml')
+
+    if not os.path.isfile(station_override_file) and not os.path.isfile(region_override_file):
         return
 
-    print(f'Loading {override_file}')
-
-    with open(override_file, 'r') as ymlfile:
-        settings = yaml.load(ymlfile, Loader=yaml.BaseLoader)
-
-    # Attributes
     atts = etree.SubElement(dataset, "addAttributes")
-    if 'global_attributes' in settings:
-        global_atts = settings['global_attributes']
-        for k, v in global_atts.items():
-            if 'title' == k:
-                title = v
-            else:
+
+    def add_atts(settings):
+        if 'global_attributes' in settings:
+            global_atts = settings['global_attributes']
+            for k, v in global_atts.items():
                 ele = etree.SubElement(atts, "att", name=k)
                 ele.text = v
 
-    # Title
-    try:
-        if settings['region_settings'][region]['highlight_in_erddap']:
-            title = '* ' + title
-    except KeyError:
-        pass
-    title_elem = etree.SubElement(atts, "att", name="title")
-    title_elem.text = title
+    if os.path.isfile(region_override_file):
+        # print(f'Loading {region_override_file}')
+        with open(region_override_file, 'r') as ymlfile:
+            add_atts(yaml.load(ymlfile, Loader=yaml.BaseLoader))
+
+    if os.path.isfile(station_override_file):
+        print(f'Loading {station_override_file}')
+
+        with open(station_override_file, 'r') as ymlfile:
+            station_settings = yaml.load(ymlfile, Loader=yaml.BaseLoader)
+
+        # Attributes
+        add_atts(station_settings)
+
+        # Title
+        try:
+            title = station_settings['global_attributes']['title']
+        except KeyError:
+            title = station['label']
+        try:
+            if station_settings['region_settings'][region]['highlight_in_erddap']:
+                title = '* ' + title
+                title_elem = etree.SubElement(atts, "att", name="title")
+                title_elem.text = title
+        except KeyError:
+            pass
 
     return dataset
 
@@ -134,7 +149,7 @@ if __name__ == "__main__":
                         default='output.xml',
                         nargs='?')
     parser.add_argument('-r', '--region',
-                        help="Regional ID subset (defaults to 'sensorsv2')",
+                        help="Content region name (defaults to 'sensorsv2')",
                         default='sensorsv2',
                         nargs='?')
     args = parser.parse_args()
