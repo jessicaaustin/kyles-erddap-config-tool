@@ -1,0 +1,9 @@
+<dataset type="EDDTableFromAxiomSensorCSVService" datasetID="cencoos_sensor_service">
+    <sourceUrl>http://sensors.axds.co/stationsensorservice/</sourceUrl>
+    <reloadEveryNMinutes>360</reloadEveryNMinutes>
+    <region>cencoos</region>
+    <portalId>-1</portalId>
+    <addAttributes>
+        <att name="title">(CeNCOOS) Unified Sensor Data</att>
+    </addAttributes>
+</dataset>
