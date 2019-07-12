@@ -16,6 +16,16 @@ push_image:
     - docker tag erddap-content registry.axiom/erddap-content:latest
     - docker push registry.axiom/erddap-content:latest
 
+push_image_branch:
+  stage: push
+  only:
+    - branches
+  except:
+    - master
+  script:
+    - docker tag erddap-content registry.axiom/erddap-content:$CI_BUILD_REF_NAME
+    - docker push registry.axiom/erddap-content:$CI_BUILD_REF_NAME
+
 deploy_prod:
   stage: deploy
   environment: production
