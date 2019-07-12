@@ -8,6 +8,8 @@ import requests
 import yaml
 from lxml import etree
 
+MASTER_ERDDAP_BASE_URL = 'http://erddap.sensors.axds.co'
+
 
 def make_from_service(station, region):
     station_version = int(station['version'])
@@ -28,8 +30,6 @@ def make_from_service(station, region):
         v1_data_source = etree.SubElement(dataset, "v1DataSourceUrl")
         v1_data_source.text = 'http://sensors.axds.co/stationsensorservice/'
 
-    add_attribute_overrides(dataset, station, region)
-
     # once a week, full reload no matter what
     # erddap-dataset-updater should handle intermediate reloads as data comes in
     rl = etree.SubElement(dataset, "reloadEveryNMinutes")
@@ -44,6 +44,29 @@ def make_from_service(station, region):
                 rl.text = '360'
         except Exception:
             pass
+
+    return dataset
+
+
+def link_to_master_erddap(station):
+    dataset_type = 'EDDTableFromErddap'
+    dataset_id = str(station['datasetId'])
+
+    dataset = etree.Element("dataset", type=dataset_type, datasetID=dataset_id)
+
+    dataset.append(etree.Comment(f"station_id={str(station['id'])}"))
+
+    source = etree.SubElement(dataset, "sourceUrl")
+    source.text = f'{MASTER_ERDDAP_BASE_URL}/erddap/tabledap/{dataset_id}'
+
+    rl = etree.SubElement(dataset, "reloadEveryNMinutes")
+    rl.text = '120'
+
+    su = etree.SubElement(dataset, "subscribeToRemoteErddapDataset")
+    su.text = 'false'
+
+    rd = etree.SubElement(dataset, "redirect")
+    rd.text = 'false'
 
     return dataset
 
@@ -108,8 +131,6 @@ def determine_filter_uuid(region):
         return '8f65624e-6790-11e3-a1d4-00219bfe5678'
     if 'global' == region:
         return '00000000-0000-0000-0000-000000000000'
-    if 'globalv2' == region:
-        return '00000000-0000-0000-0000-000000000000'
     if 'ioos' == region:
         return '00000000-0000-0000-0000-000000000000'
     if 'secoora' == region:
@@ -121,7 +142,7 @@ def determine_filter_uuid(region):
     raise ValueError(f'Region {region} not configured!')
 
 
-def main(outfile, region):
+def main(outfile, region, link):
     filter_uuid = determine_filter_uuid(region)
     print(f'Region: {region}, filter uuid: {filter_uuid}')
     r = requests.get(f'https://sensors.axds.co/api/metadata/filter/{filter_uuid}?includeStationVersions=merged',
@@ -141,7 +162,13 @@ def main(outfile, region):
 
     print(f'Exporting {len(stations)} stations from filter {filter_uuid} to {outfile}')
     for station in stations:
-        dataset = make_from_service(station, region)
+
+        if link is True:
+            dataset = link_to_master_erddap(station)
+        else:
+            dataset = make_from_service(station, region)
+
+        add_attribute_overrides(dataset, station, region)
         datasets.append(dataset)
 
     with open(outfile, 'wt') as f:
@@ -165,9 +192,13 @@ if __name__ == "__main__":
                         default='output.xml',
                         nargs='?')
     parser.add_argument('-r', '--region',
-                        help="Content region name (defaults to 'sensorsv2')",
-                        default='sensorsv2',
+                        help="Content region name (defaults to 'global')",
+                        default='global',
                         nargs='?')
+    parser.add_argument('-l', '--link',
+                        help='Should the datasets be created as links to the master (global) ERDDAP server',
+                        action='store_true',
+                        default=False)
     args = parser.parse_args()
 
-    sys.exit(main(args.output, args.region))
+    sys.exit(main(args.output, args.region, args.link))
