@@ -2,6 +2,7 @@
 import argparse
 import os
 import sys
+from datetime import datetime, timedelta
 
 import requests
 import yaml
@@ -9,28 +10,46 @@ from lxml import etree
 
 
 def make_from_service(station, region):
-    dataset_type = 'EDDTableFromAxiomStationV2'
+    station_version = int(station['version'])
 
-    dataset = etree.Element("dataset", type=dataset_type, datasetID=str(station['uuid']))
+    dataset_type = 'EDDTableFromAxiomStationV2'
+    if station_version == 1:
+        # this dataset type pulls metadata from sensors.axds.co/api, and data from sensors.axds.co/stationsensorservice
+        dataset_type = 'EDDTableFromAxiomStationV1'
+
+    dataset = etree.Element("dataset", type=dataset_type, datasetID=str(station['datasetId']))
 
     st = etree.SubElement(dataset, "stationId")
     st.text = str(station['id'])
 
     source = etree.SubElement(dataset, "sourceUrl")
     source.text = 'https://sensors.axds.co/api/'
+    if station_version == 1:
+        v1_data_source = etree.SubElement(dataset, "v1DataSourceUrl")
+        v1_data_source.text = 'http://sensors.axds.co/stationsensorservice/'
 
     add_attribute_overrides(dataset, station, region)
 
     # once a week, full reload no matter what
+    # erddap-dataset-updater should handle intermediate reloads as data comes in
     rl = etree.SubElement(dataset, "reloadEveryNMinutes")
     rl.text = '10080'
+    if station_version == 1:
+        # v1 stations don't have a refresh system, so just manually reload throughout the day
+        try:
+            most_recent_data = station['feedStats']['endDate']
+            end_date = datetime.strptime(most_recent_data, "%Y-%m-%dT%H:%M:%SZ")
+            if end_date > (datetime.now() - timedelta(days=30)):
+                # this station has realtime data, so load more frequently
+                rl.text = '360'
+        except Exception:
+            pass
 
     return dataset
 
 
 def add_attribute_overrides(dataset, station, region):
     station_id = station['id']
-    title = station['label']
 
     station_override_file = os.path.join(os.path.dirname(os.path.realpath(__file__)),
                                          'sensor_station_overrides',
@@ -89,12 +108,12 @@ def determine_filter_uuid(region):
         return '8f65624e-6790-11e3-a1d4-00219bfe5678'
     if 'global' == region:
         return '00000000-0000-0000-0000-000000000000'
+    if 'globalv2' == region:
+        return '00000000-0000-0000-0000-000000000000'
     if 'ioos' == region:
         return '00000000-0000-0000-0000-000000000000'
     if 'secoora' == region:
         return '1695aa00-c779-11e4-8447-00265529168c'
-    if 'sensorsv2' == region:
-        return '00000000-0000-0000-0000-000000000000'
     if 'usgs-cmg' == region:
         # TODO need to verify this
         return '853bc4c4-b61e-11e4-a180-00265529168c'
@@ -103,12 +122,9 @@ def determine_filter_uuid(region):
 
 
 def main(outfile, region):
-    # TODO: for now, we return only v2 stations
-    # Once things are tested and working well, this service can return both v1 and v2 stations and we can get rid
-    # of the old oikos_stations.py
     filter_uuid = determine_filter_uuid(region)
     print(f'Region: {region}, filter uuid: {filter_uuid}')
-    r = requests.get(f'https://sensors.axds.co/api/metadata/filter/{filter_uuid}?includeStationVersions=v2',
+    r = requests.get(f'https://sensors.axds.co/api/metadata/filter/{filter_uuid}?includeStationVersions=merged',
                      timeout=300)
     r.raise_for_status()
 
