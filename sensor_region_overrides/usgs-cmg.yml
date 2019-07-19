@@ -1,0 +1,5 @@
+---
+
+settings:
+  info_url_template: "https://cmgdata.usgsportals.net/?sensor_version=v2#metadata/STATION_ID_PLACEHOLDER/station"
+

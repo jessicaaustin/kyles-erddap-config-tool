@@ -1,4 +1,7 @@
 ---
 
+settings:
+  info_url_template: "https://data.cencoos.org/?sensor_version=v2#metadata/STATION_ID_PLACEHOLDER/station"
+
 global_attributes:
   license: "These data may be used and redistributed for free but they are not intended for legal use, since they may contain inaccuracies. For use for publications please reference the Central and Northern California Ocean Observing system (CeNCOOS) and NOAA. Neither the data provider, CeNCOOS, NOAA, nor the United States Government, nor any of their employees or contractors, makes any warranty, express or implied, including warranties of merchantability and fitness for a particular purpose, or assumes any legal liability for the accuracy, completeness, or usefulness, or this information."

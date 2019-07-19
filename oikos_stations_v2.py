@@ -97,7 +97,18 @@ def add_attribute_overrides(dataset, station, region):
     if os.path.isfile(region_override_file):
         # print(f'Loading {region_override_file}')
         with open(region_override_file, 'r') as ymlfile:
-            add_atts(yaml.load(ymlfile, Loader=yaml.BaseLoader))
+            region_settings = yaml.load(ymlfile, Loader=yaml.BaseLoader)
+            add_atts(region_settings)
+            # Info url override per region
+            try:
+                info_url_template = region_settings['settings']['info_url_template']
+                info_url = info_url_template.replace('STATION_ID_PLACEHOLDER', str(station_id))
+                info_url_elem = etree.SubElement(atts, "att", name="info_url")
+                info_url_elem.text = info_url
+                infoUrl_elem = etree.SubElement(atts, "att", name="infoUrl")
+                infoUrl_elem.text = info_url
+            except KeyError:
+                pass
 
     if os.path.isfile(station_override_file):
         print(f'Loading {station_override_file}')
