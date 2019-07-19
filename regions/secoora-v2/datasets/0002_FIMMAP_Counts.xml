@@ -1,0 +1,968 @@
+<dataset type="EDDTableFromAsciiFiles" datasetID="FIMMAP_Counts" active="true">
+    <reloadEveryNMinutes>10</reloadEveryNMinutes>
+    <fileDir>/mnt/store/data/netCDF/secoora/fimmap/</fileDir>
+    <fileNameRegex>.*\.txt</fileNameRegex>
+    <columnNamesRow>1</columnNamesRow>
+    <addAttributes>
+        <att name="creator_name">Tim MacDonald</att>
+        <att name="creator_email">Tim.MacDonald@myfwc.com</att>
+        <att name="contributor_name">Philip Goldstein</att>
+        <att name="infoUrl">http://myfwc.com/research/about/programs/mfr</att>
+        <att name="institution">Florida Fish and Wildlife Conservation Commission Fish and Wildlife Research Institute</att>
+        <att name="keywords">marine,abundance,habitat,monitoring,fish</att>
+        <att name="license">[standard]</att>
+        <att name="project">FWCFWRI</att>
+        <att name="publisher_name">Vembu Subramanian</att>
+        <att name="publisher_email">vembu@secoora.org</att>
+        <att name="title">(SECOORA) FWCFWRI Fisheries Independent Monitoring Data</att>
+        <att name="sourceUrl">(local files)</att>
+        <att name="cdm_data_type">Point</att>
+        <att name="Conventions">COARDS, CF-1.0, Unidata Dataset Discovery v1.0</att>
+        <att name="summary">Monthly, stratified-random sampling is conducted year-round in Tampa Bay, Charlotte Harbor, Northern and Southern Indian River Lagoon, Cedar Key, Apalachicola Bay, and Jacksonville using a 183-m large haul seine. Sampling is stratified on somewhat arbitrary geographical boundaries, within which the hydrographic and habitat parameters are more similar than the estuary as a whole. In some estuaries sampling is further stratified on the presence or absence of overhanging vegetation. This monitoring effort provides long-term data on relative abundance of estuarine fish and select invertebrate species inhabiting shoreline areas. This project involves data collection, collection of biological samples, management of a long-term database, and basic data summarization. These data and biological samples are then used for FIM research projects on estuarine fish species, populations, and communities (outlined in Level II: Fish Monitoring). The data and biological samples are also used by the FMRI stock assessment group in developing stock assessments for recreationally and commercially important fish species; by other FMRI research programs (e.g., Aquatic Health, Fisheries Genetics) and by research programs from other agencies.</att>
+        <att name="subsetVariables">datasetID,datasetName,higherInstitutionCode,institutionCode,ownerInstitutionCode,collectionCode,catalogNumber,basisOfRecord,recordedBy,vernacularName,scientificName,taxonRank,aphiaID,genus,subgenus,species,infraspecificEpithet,identifiedBy,sex,lifeStage,surveyEventID,sampleID,subsampleID,samplingProtocol,habitat,bottomType,waterBody,islandGroup,island,locality,country,stateProvince,county,municipality,kingdom,phylum,class,order,family</att>
+    </addAttributes>
+    <dataVariable>
+        <sourceName>modified</sourceName>
+        <destinationName>modified</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The most recent date the data originator updated or verified the record, expressed in the standard ISO 8601:2004(E). Can be the record creation date or date of subsequent update or verification. If the data originator does not record or provide this information, IOOS will populate this date with the date the record became available to IOOS.</att>
+            <att name="description">The most recent date the data originator updated or verified the record, expressed in the standard ISO 8601:2004(E). Can be the record creation date or date of subsequent update or verification. If the data originator does not record or provide this information, IOOS will populate this date with the date the record became available to IOOS.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>verbatimModified</sourceName>
+        <destinationName>verbatimModified</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The date and time value of the modified term, recorded in the exact format that the data originator provided it, for purposes of audit trail, since IOOS will convert this to ISO 8601:2004(E) for operational purposes.</att>
+            <att name="description">The date and time value of the modified term, recorded in the exact format that the data originator provided it, for purposes of audit trail, since IOOS will convert this to ISO 8601:2004(E) for operational purposes.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>datasetid</sourceName>
+        <destinationName>datasetID</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">An abbreviated name for the dataset that contains the occurrence record. This may also be the technical name for the data resource in a database or web service. The datasetID occurs on each row to preserve record identity in case records served by the resource become distributed to other resources or applications.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>datasetname</sourceName>
+        <destinationName>datasetName</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">This is a long-form name for the dataset, more explanatory than the datasetCode. The datasetName will read as a recognizable title that reflects information about the dataset that can include originator, content, purpose, method and/or geography.</att>
+            <att name="description">This is a long-form name for the dataset, more explanatory than the datasetCode. The datasetName will read as a recognizable title that reflects information about the dataset that can include originator, content, purpose, method and/or geography.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>higherInstitutionCode</sourceName>
+        <destinationName>higherInstitutionCode </destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">Institution codes, in the form of abbreviated institution names, separated by semicolons, that define the hierarchy of institutions within which the data originator operates. Includes the originating institution as the lowest level (rightmost) code. Abbreviations for institutions in all levels of the hierarchy will be explained in dataset metadata.</att>
+            <att name="description">Institution codes, in the form of abbreviated institution names, separated by semicolons, that define the hierarchy of institutions within which the data originator operates. Includes the originating institution as the lowest level (rightmost) code. Abbreviations for institutions in all levels of the hierarchy will be explained in dataset metadata.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>institutioncode</sourceName>
+        <destinationName>institutionCode</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">An abbreviation for the institution that is the originator of this data resource; the institution involved in research, data collection and/or data management that most directly produced this dataset. This institution also appears as the lowest level (rightmost) code in the higherInstitutionCode term.</att>
+            <att name="description">An abbreviation for the institution that is the originator of this data resource; the institution involved in research, data collection and/or data management that most directly produced this dataset. This institution also appears as the lowest level (rightmost) code in the higherInstitutionCode term.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>ownerInstitutionCode</sourceName>
+        <destinationName>ownerInstitutionCode</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">An abbreviation that identifies the institution, within the higherInstitutionCode hierarchy, that is considered the owner or controller of the data.</att>
+            <att name="description">&gt;An abbreviation that identifies the institution, within the higherInstitutionCode hierarchy, that is considered the owner or controller of the data.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>collectionCode</sourceName>
+        <destinationName>collectionCode</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">An identifier for a subset(s) of data within the dataset, partitioned by methods or parameters meaningful to the data originators. The system and purpose for defining and partitioning by collectionCode within a dataset will be explained in metadata.</att>
+            <att name="description">&gt;An identifier for a subset(s) of data within the dataset, partitioned by methods or parameters meaningful to the data originators. The system and purpose for defining and partitioning by collectionCode within a dataset will be explained in metadata.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>catalogNumber</sourceName>
+        <destinationName>catalogNumber</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">A record identifier provided by the data originator. The identifier is controlled by the data originator and reflects the originator's practices of data administration. Special concerns about the identifier, such as whether it is unique, how it is controlled, if it is persistent, or if it contains embedded information, can be addressed in metadata if applicable.</att>
+            <att name="description">A record identifier provided by the data originator. The identifier is controlled by the data originator and reflects the originator's practices of data administration. Special concerns about the identifier, such as whether it is unique, how it is controlled, if it is persistent, or if it contains embedded information, can be addressed in metadata if applicable.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>eventDate</sourceName>
+        <destinationName>eventDate</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="description">The date and time of observation expressed in local time using the standard ISO 8601:2004(E). Where date and time are imprecise, for example, time not recorded or day not recorded, ISO 8601 practice is to omit the components of the date and time string for those unspecified details. Where date and time imprecision are more complex, for example, "observed between 10am and noon" or "observed during the first half of July", supplement the use of ISO 8601 in this term with the use of verbatimObservationDateTime, nominalObservationDateTime, nominalObservationDateTimeUncertainty, and observationDateTimeAnnotation.</att>
+            <att name="description">The date and time of observation expressed in local time using the standard ISO 8601:2004(E). Where date and time are imprecise, for example, time not recorded or day not recorded, ISO 8601 practice is to omit the components of the date and time string for those unspecified details. Where date and time imprecision are more complex, for example, "observed between 10am and noon" or "observed during the first half of July", supplement the use of ISO 8601 in this term with the use of verbatimObservationDateTime, nominalObservationDateTime, nominalObservationDateTimeUncertainty, and observationDateTimeAnnotation.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>eventDateTimeZone</sourceName>
+        <destinationName>eventDateTimeZone</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The time zone of the observation event, expressed as +/- hh:mm offset from UTC. While time zone information can also be included in the full ISO 8601 expression in observationDateTime, time zone is stored here for reliable use in nominalObservationDateTime and nominalObservationDateTimeUncertainty calculations. nominalObservationDateTime must be expressed in UTC.</att>
+            <att name="description">The time zone of the observation event, expressed as +/- hh:mm offset from UTC. While time zone information can also be included in the full ISO 8601 expression in observationDateTime, time zone is stored here for reliable use in nominalObservationDateTime and nominalObservationDateTimeUncertainty calculations. nominalObservationDateTime must be expressed in UTC.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>eventDateRemarks</sourceName>
+        <destinationName>eventDateRemarks</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">eventDateRemarks explains information about date and time that may not be evident in verbatim, ISO 8601, or nominal forms of the date and time. For example, date and time may include uncertainty, such as time of day left null because time was not recorded. However, data originators may be able to say that although time was not recorded, the observation is known to have been made between 8am and 5pm local time. eventDateRemarks can provide a concise explanation of this condition. eventDateRemarks can also provide explanation for how timeUncertainty was determined.</att>
+            <att name="description">eventDateRemarks explains information about date and time that may not be evident in verbatim, ISO 8601, or nominal forms of the date and time. For example, date and time may include uncertainty, such as time of day left null because time was not recorded. However, data originators may be able to say that although time was not recorded, the observation is known to have been made between 8am and 5pm local time. eventDateRemarks can provide a concise explanation of this condition. eventDateRemarks can also provide explanation for how timeUncertainty was determined.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>verbatimEventDate</sourceName>
+        <destinationName>verbatimEventDate</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The expression of the date and time of the observation in language identical to the originator's description of the date and time of observation. If the originator used a non-standard format or descriptive language for date and time, verbatimObservationDateTime contains this information.</att>
+            <att name="description">The expression of the date and time of the observation in language identical to the originator's description of the date and time of observation. If the originator used a non-standard format or descriptive language for date and time, verbatimObservationDateTime contains this information.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>time</sourceName>
+        <destinationName>time</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="units">seconds since 1970-01-01T00:00:00Z</att>
+            <att name="description">In an IOOS service, this variable may appear simply with the name "time" or with the full name "nominalObservationDateTime". This term identifies a specific instant chosen to represent the date and time of the observation, in Coordinated Universal Time (UTC). Both date and time are specified in this term in order to facilitate some searches and services that require resolution of events to this level of precision in time. Some observation events occur with uncertainty at the level of minutes, hours, or even days or more. A nominal event date and time is determined, even for observations with date and time uncertainty, for IOOS services to best represent the instant of the event. The companion term, nominalObservationDateTimeUncertainty, defines an interval of uncertainty that quantifies precision to correspond to the precision the original data recorded. Methods for determining nominal time and uncertainty will be documented in metadata, and they can be explained (if concise) in the "observationDateTimeAnnotation" term.</att>
+            <att name="description">In an IOOS service, this variable may appear simply with the name "time" or with the full name "nominalObservationDateTime". This term identifies a specific instant chosen to represent the date and time of the observation, in Coordinated Universal Time (UTC). Both date and time are specified in this term in order to facilitate some searches and services that require resolution of events to this level of precision in time. Some observation events occur with uncertainty at the level of minutes, hours, or even days or more. A nominal event date and time is determined, even for observations with date and time uncertainty, for IOOS services to best represent the instant of the event. The companion term, nominalObservationDateTimeUncertainty, defines an interval of uncertainty that quantifies precision to correspond to the precision the original data recorded. Methods for determining nominal time and uncertainty will be documented in metadata, and they can be explained (if concise) in the "observationDateTimeAnnotation" term.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>timeUncertainty</sourceName>
+        <destinationName>timeUncertainty</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="units">second</att>
+            <att name="description">In an IOOS service, this variable may appear simply with the name "timeUncertainty" or with the full name "nominalObservationDateTimeUncertainty". This is the uncertainty in seconds before and after the nominalObservationDateTime, as a result of both precision and accuracy factors in determining observation time. This use of uncertainty makes the nominalObservationDateTime the mid-point in the range of uncertainty equal to twice the value of this term.</att>
+            <att name="description">In an IOOS service, this variable may appear simply with the name "timeUncertainty" or with the full name "nominalObservationDateTimeUncertainty". This is the uncertainty in seconds before and after the nominalObservationDateTime, as a result of both precision and accuracy factors in determining observation time. This use of uncertainty makes the nominalObservationDateTime the mid-point in the range of uncertainty equal to twice the value of this term.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>latitude</sourceName>
+        <destinationName>latitude</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att type="double" name="data_min">24.00</att>
+            <att type="double" name="data_max">36.88</att>
+            <att name="description">The position of the observation north or south of the equator in decimal degrees. Latitudes north of the equator are positive and range to +90 degrees. Positions south of the equator are negative, and range to -90 degrees.</att>
+            <att name="description">The position of the observation north or south of the equator in decimal degrees. Latitudes north of the equator are positive and range to +90 degrees. Positions south of the equator are negative, and range to -90 degrees.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>longitude</sourceName>
+        <destinationName>longitude</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att type="double" name="data_min">-88.55</att>
+            <att type="double" name="data_max">-66.00</att>
+            <att name="description">The position of the observation east or west of the prime meridian in decimal degrees. Positions west of the prime meridian are negative, and range to -180. Positions east of the prime meridian are positive, and range to +180.</att>
+            <att name="description">The position of the observation east or west of the prime meridian in decimal degrees. Positions west of the prime meridian are negative, and range to -180. Positions east of the prime meridian are positive, and range to +180.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>footprintWKT</sourceName>
+        <destinationName>footprintWKT</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description"> Well-Known Text (WKT) representation of geometry associated with the observation. For example, this can be a line segment or polyline representing a cruise path or transect. The location for an occurrence record may have both a point-radius representation (see latitude, longitude) and a footprint representation. This would be a case known to occur in marine data, where the record contains both a point along a transect, as well as a representaiton of the transect itself. The footprintWKT can also represent other geometry such as a polygon.</att>
+            <att name="description">Well-Known Text (WKT) representation of geometry associated with the observation. For example, this can be a line segment or polyline representing a cruise path or transect. The location for an occurrence record may have both a point-radius representation (see latitude, longitude) and a footprint representation. This would be a case known to occur in marine data, where the record contains both a point along a transect, as well as a representaiton of the transect itself. The footprintWKT can also represent other geometry such as a polygon.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>verbatimCoordinates</sourceName>
+        <destinationName>verbatimCoordinates</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">Record original coordinate information here (both latitude and longitude) for audit trail purposes where necessary.</att>
+            <att name="description">Record original coordinate information here (both latitude and longitude) for audit trail purposes where necessary.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>verbatimCoordinateSystem</sourceName>
+        <destinationName>verbatimCoordinateSystem</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The spatial coordinate system for the VerbatimCoordinates.</att>
+            <att name="description">The spatial coordinate system for the VerbatimCoordinates.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>verbatimSRS</sourceName>
+        <destinationName>verbatimSRS</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The ellipsoid, geodetic datum, or spatial reference system (SRS) upon which coordinates given in VerbatimCoordinates are based.</att>
+            <att name="description">The ellipsoid, geodetic datum, or spatial reference system (SRS) upon which coordinates given in VerbatimCoordinates are based.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>geodeticDatum</sourceName>
+        <destinationName>geodeticDatum</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The ellipsoid, geodetic datum, or spatial reference system used in latitude and longitude. IOOS preference is to provide all coordinates using EPSG:4326, also known as WGS 84. This element will identify the actual datum used, confirming WGS 84 or identifying what other datum applies.</att>
+            <att name="description">The ellipsoid, geodetic datum, or spatial reference system used in latitude and longitude. IOOS preference is to provide all coordinates using EPSG:4326, also known as WGS 84. This element will identify the actual datum used, confirming WGS 84 or identifying what other datum applies.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>georeferencedBy</sourceName>
+        <destinationName>georeferencedBy</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The name or other identifier of individual(s) or institution(s) that determined the georeference. Can be a list delimited by semicolon.</att>
+            <att name="description">The name or other identifier of individual(s) or institution(s) that determined the georeference. Can be a list delimited by semicolon.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>georeferenceProtocol</sourceName>
+        <destinationName>georeferenceProtocol</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">A description or reference to the methods used to determine the spatial footprint, coordinates, and uncertainties. Georeference methods, including determionation of coordinates and uncertainty, should be explained in datawet metadata.</att>
+            <att name="description">A description or reference to the methods used to determine the spatial footprint, coordinates, and uncertainties. Georeference methods, including determionation of coordinates and uncertainty, should be explained in datawet metadata.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>minimumdepthinmeters</sourceName>
+        <destinationName>minimumDepthInMeters</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att type="double" name="data_min">null</att>
+            <att type="double" name="data_max">null</att>
+            <att name="description">The minimumDepthInMeters and maximumDepthInMeters express the depth range in which the observation was made. If the data originator provides a single depth measurement, the minimumDepthInMeters and maximumDepthInMeters will be equal. If no depth information is provided, min and max will be NULL.</att>
+            <att name="description">The minimumDepthInMeters and maximumDepthInMeters express the depth range in which the observation was made. If the data originator provides a single depth measurement, the minimumDepthInMeters and maximumDepthInMeters will be equal. If no depth information is provided, min and max will be NULL.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>maximumdepthinmeters</sourceName>
+        <destinationName>maximumDepthInMeters</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att type="double" name="data_min">null</att>
+            <att type="double" name="data_max">null</att>
+            <att name="description">The minimumDepthInMeters and maximumDepthInMeters express the depth range in which the observation was made. If the data originator provides a single depth measurement, the minimumDepthInMeters and maximumDepthInMeters will be equal. If no depth information is provided, min and max will be NULL.</att>
+            <att name="description">The minimumDepthInMeters and maximumDepthInMeters express the depth range in which the observation was made. If the data originator provides a single depth measurement, the minimumDepthInMeters and maximumDepthInMeters will be equal. If no depth information is provided, min and max will be NULL.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>basisOfRecord</sourceName>
+        <destinationName>basisOfRecord</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">Identifies the source of information or observation that generated the biological occurrence record.</att>
+            <att name="description">Identifies the source of information or observation that generated the biological occurrence record.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>recordedBy</sourceName>
+        <destinationName>recordedBy</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The name or other identifier of individual(s) or institution(s) responsible for making the observation and recording it in electronic form. Can be a list delimited by semicolon.</att>
+            <att name="description">The name or other identifier of individual(s) or institution(s) responsible for making the observation and recording it in electronic form. Can be a list delimited by semicolon.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>vernacularName</sourceName>
+        <destinationName>vernacularName</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">A common or vernacular name for the taxon observed. A vernacularName is not required. Use of this term is at the discretion of the data originator. If this term is used, then authorities, references and procedures for making identifications and translating vernacular name to scientific name should be documented in metadata. The recommended practice is that vernacular names be used consistently within a dataset.</att>
+            <att name="description">A common or vernacular name for the taxon observed. A vernacularName is not required. Use of this term is at the discretion of the data originator. If this term is used, then authorities, references and procedures for making identifications and translating vernacular name to scientific name should be documented in metadata. The recommended practice is that vernacular names be used consistently within a dataset.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>scientificName</sourceName>
+        <destinationName>scientificName</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The taxonomic identification of the observation as either 1) Genus and species (and subspecies if provided) in Latin binomial nomenclature form, or 2) the lowest-level taxonomic name to which the observation is identified, expressed in Latin form. scientificName is a required term. Authorities, references and procedures for making identifications should be documented in metadata.</att>
+            <att name="description">The taxonomic identification of the observation as either 1) Genus and species (and subspecies if provided) in Latin binomial nomenclature form, or 2) the lowest-level taxonomic name to which the observation is identified, expressed in Latin form. scientificName is a required term. Authorities, references and procedures for making identifications should be documented in metadata.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>taxonRank</sourceName>
+        <destinationName>taxonRank</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The taxonRank term is a companion to the scientificName term. taxonRank identifies the taxonomic level of the lowest-level name in the scientificName term, if the ScientificName refers to a level above Genus.</att>
+            <att name="description">The taxonRank term is a companion to the scientificName term. taxonRank identifies the taxonomic level of the lowest-level name in the scientificName term, if the ScientificName refers to a level above Genus.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>aphiaID</sourceName>
+        <destinationName>aphiaID</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">A unique taxon identifier obtained by validation of the taxon name with the World Register of Marine Species (WoRMS), www.marinespecies.org.</att>
+            <att name="description">A unique taxon identifier obtained by validation of the taxon name with the World Register of Marine Species (WoRMS), www.marinespecies.org.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>tsn</sourceName>
+        <destinationName>tsn</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">A unique taxon identifier obtained by validation of the taxon name with the Integrated Taxonomic Information System (ITIS), www.itis.gov.</att>
+            <att name="description">A unique taxon identifier obtained by validation of the taxon name with the Integrated Taxonomic Information System (ITIS), www.itis.gov.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>genus</sourceName>
+        <destinationName>genus</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The full scientific name of the genus in which the taxon is classified.</att>
+            <att name="description">The full scientific name of the genus in which the taxon is classified.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>subgenus</sourceName>
+        <destinationName>subgenus</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The full scientific name of the subgenus in which the taxon is classified.</att>
+            <att name="description">The full scientific name of the subgenus in which the taxon is classified.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>species</sourceName>
+        <destinationName>species</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The full scientific name of the species in which the taxon is classified. If a subspecies identification is provided, add the subspecies name after the species name separated by a space.</att>
+            <att name="description">The full scientific name of the species in which the taxon is classified. If a subspecies identification is provided, add the subspecies name after the species name separated by a space.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>infraspecificEpithet</sourceName>
+        <destinationName>infraspecificEpithet</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The full scientific name of the subspecies, variant or other finer level identification.</att>
+            <att name="description">The full scientific name of the subspecies, variant or other finer level identification.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>scientificNameAuthorship</sourceName>
+        <destinationName>scientificNameAuthorship</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The authorship information for the scientificName.</att>
+            <att name="description">The authorship information for the scientificName.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>identifiedBy</sourceName>
+        <destinationName>identifiedBy</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The name or other identifier of individual(s) or institution(s) that assigned the taxonomic name. Can be a list delimited by semicolon.</att>
+            <att name="description">The name or other identifier of individual(s) or institution(s) that assigned the taxonomic name. Can be a list delimited by semicolon.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>identificationDate</sourceName>
+        <destinationName>identificationDate</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The date the identification on this record was made, expressed in ISO 8601 date format.</att>
+            <att name="description">The date the identification on this record was made, expressed in ISO 8601 date format.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>identificationQualifier</sourceName>
+        <destinationName>identificationQualifier</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">A brief phrase or a standard term ("cf.", "aff.") to express the determiner's uncertainty about the Identification.</att>
+            <att name="description">A brief phrase or a standard term ("cf.", "aff.") to express the determiner's uncertainty about the Identification.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>identificationRemarks</sourceName>
+        <destinationName>identificationRemarks</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">Comments or notes about the identification, including any applicable reference to process, authorities, keys, uncertainties, or special conventions used in making the identification and assigning the name and/or formatting the name.</att>
+            <att name="description">Comments or notes about the identification, including any applicable reference to process, authorities, keys, uncertainties, or special conventions used in making the identification and assigning the name and/or formatting the name.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>individualcount</sourceName>
+        <destinationName>individualCount</destinationName>
+        <dataType>int</dataType>
+        <addAttributes>
+            <att name="description">The number of individuals represented in the observation record. Valid values include positive integers, zero, and null. Positive integers represent presence. If the observation record and metadata also contain other required information such as details about the sampling activity, individualCount can contribute to the abundance calculations. Null value for individualCount represents a record of presence, with quantity unspecified, and null values do not support abundance calculations. Zero value represents absence. Zero values for absence are only valid if methodology for establishing absence is recorded in metadata.</att>
+            <att name="ioos_category">Biology</att>
+            <att type="int" name="data_min">1</att>
+            <att type="int" name="data_max">765</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>sex</sourceName>
+        <destinationName>sex</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The sex of biological individuals represented in the observation record. Vocabulary will be consistent within a dataset and will be explained in metadata. Methods of determination (where applicable) will be explained in metadata.</att>
+            <att name="description">The sex of biological individuals represented in the observation record. Vocabulary will be consistent within a dataset and will be explained in metadata. Methods of determination (where applicable) will be explained in metadata.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>lifeStage</sourceName>
+        <destinationName>lifeStage</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">An expression or description of age or lifestage of biological individual(s) in the observation record. Vocabulary will be consistent within a dataset and will be explained in metadata. Methods of determination (where applicable) will be explained in metadata.</att>
+            <att name="description">An expression or description of age or lifestage of biological individual(s) in the observation record. Vocabulary will be consistent within a dataset and will be explained in metadata. Methods of determination (where applicable) will be explained in metadata.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>observedIndividualLengthInCm</sourceName>
+        <destinationName>observedIndividualLengthInCm</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att type="double" name="data_min">1</att>
+            <att type="double" name="data_max">1000</att>
+            <att name="description">If a single individual is observed and measured, record length in centimeters here.</att>
+            <att name="description">If a single individual is observed and measured, record length in centimeters here.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>observedMeanLengthInCm</sourceName>
+        <destinationName>observedMeanLengthInCm</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att type="double" name="data_min">1</att>
+            <att type="double" name="data_max">100</att>
+            <att name="description">If measuring more than one individual for aggregate length values, record mean length in centimeters here.</att>
+            <att name="description">If measuring more than one individual for aggregate length values, record mean length in centimeters here.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>observedMaxLengthInCm</sourceName>
+        <destinationName>observedMaxLengthInCm</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att type="double" name="data_min">1</att>
+            <att type="double" name="data_max">100</att>
+            <att name="description">If measuring more than one individual for aggregate length values, record maximum length in centimeters here.</att>
+            <att name="description">If measuring more than one individual for aggregate length values, record maximum length in centimeters here.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>observedMinLengthInCm</sourceName>
+        <destinationName>observedMinLengthInCm</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att type="double" name="data_min">1</att>
+            <att type="double" name="data_max">100</att>
+            <att name="description">If measuring more than one individual for aggregate length values, record minimum length in centimeters here.</att>
+            <att name="description">If measuring more than one individual for aggregate length values, record minimum length in centimeters here.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>lengthType</sourceName>
+        <destinationName>lengthType</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The type or method of length measurement used in this observation record, such as TL for total length, FL for fork length, SL for standard length.</att>
+            <att name="description">The type or method of length measurement used in this observation record, such as TL for total length, FL for fork length, SL for standard length.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>OccurrenceRemarks</sourceName>
+        <destinationName>OccurrenceRemarks</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">Information, that is not addressed elsewhere in IOOS Biological Terminology, about the observation event and biological or other context details about what was observed. Can be general remarks directly from a corresponding column in the original data. Can also include miscellaneous but applicable information carried over from conversion to Darwin Core / IOOS Biological Terminology and placed here for future reference.</att>
+            <att name="description">Information, that is not addressed elsewhere in IOOS Biological Terminology, about the observation event and biological or other context details about what was observed. Can be general remarks directly from a corresponding column in the original data. Can also include miscellaneous but applicable information carried over from conversion to Darwin Core / IOOS Biological Terminology and placed here for future reference.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>surveyEventID</sourceName>
+        <destinationName>surveyEventID</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The SurveyEventID identifies a tow, trawl, cast, cruise, transect or other event or unit that survey operators, data gatherers and data managers want to treat as a single consistent event or unit. A survey event can contain one or many sample events or SampleIDs.</att>
+            <att name="description">The SurveyEventID identifies a tow, trawl, cast, cruise, transect or other event or unit that survey operators, data gatherers and data managers want to treat as a single consistent event or unit. A survey event can contain one or many sample events or SampleIDs.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>sampleID</sourceName>
+        <destinationName>sampleID</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">A unique identifier for a unit of material, or other medium of observation, gathered at a discrete point in time, that serves as a sample for a survey of biological occurrence (presence, quantification, absence, or derived value). The definition of a sample and assignment of IDs is controlled by the data originator. If applicable, details about how sample are are defined and IDs assigned will be provided in metadata.</att>
+            <att name="description">A unique identifier for a unit of material, or other medium of observation, gathered at a discrete point in time, that serves as a sample for a survey of biological occurrence (presence, quantification, absence, or derived value). The definition of a sample and assignment of IDs is controlled by the data originator. If applicable, details about how sample are are defined and IDs assigned will be provided in metadata.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>subsampleID</sourceName>
+        <destinationName>subsampleID</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">If a sample is further divided by the data originator for purposes of organization, handling, or analysis, and if the data originator wants to maintain the identity of the subsample, capture the ID of the subsample here. Explain in metadata if applicable.</att>
+            <att name="description">If a sample is further divided by the data originator for purposes of organization, handling, or analysis, and if the data originator wants to maintain the identity of the subsample, capture the ID of the subsample here. Explain in metadata if applicable.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>samplingProtocol</sourceName>
+        <destinationName>samplingProtocol</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">Information about the intended sampling method as defined by the data originator. Contents in this term (either verbatim or by vocabulary) will be used consistently in a dataset and will be explained in metadata. If there is more than one aspect of sampling protocol worth capturing, information can be concatenated into this term, delimited by semicolon. Contents in this term (either verbatim or by vocabulary) will be used consistently in a dataset. More extensive discussion of sampling protocol, effort and conditions may be provided in metadata as needed.</att>
+            <att name="description">Information about the intended sampling method as defined by the data originator. Contents in this term (either verbatim or by vocabulary) will be used consistently in a dataset and will be explained in metadata. If there is more than one aspect of sampling protocol worth capturing, information can be concatenated into this term, delimited by semicolon. Contents in this term (either verbatim or by vocabulary) will be used consistently in a dataset. More extensive discussion of sampling protocol, effort and conditions may be provided in metadata as needed.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>samplingEffort</sourceName>
+        <destinationName>samplingEffort</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">Information about the extent, duration or other variable aspects of the sampling activity, as conducted by the data originator, that occurred at the time of the sampling event. In contrast to the samplingProtocol, which describes the intended method of sampling prior to the event, samplingEffort describes actual phenomena as they occur at the time of sampling. More than one type of effort information can be concatenated into this term, delimited by semicolon. Other terms are available in this terminology for some specific details of sampling effort, such as sample dimensions, that are expected to be frequently used in IOOS services. Use the samplingEffort term for additional effort information that is not addressed by other terms. Contents in this term (either verbatim or by vocabulary) will be used consistently in a dataset.More extensive discussion of sampling protocol, effort and conditions may be provided in metadata as needed.</att>
+            <att name="description">Information about the extent, duration or other variable aspects of the sampling activity, as conducted by the data originator, that occurred at the time of the sampling event. In contrast to the samplingProtocol, which describes the intended method of sampling prior to the event, samplingEffort describes actual phenomena as they occur at the time of sampling. More than one type of effort information can be concatenated into this term, delimited by semicolon. Other terms are available in this terminology for some specific details of sampling effort, such as sample dimensions, that are expected to be frequently used in IOOS services. Use the samplingEffort term for additional effort information that is not addressed by other terms. Contents in this term (either verbatim or by vocabulary) will be used consistently in a dataset.More extensive discussion of sampling protocol, effort and conditions may be provided in metadata as needed.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>samplingConditions</sourceName>
+        <destinationName>samplingConditions</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">Information about the state of the sampling location, determined by external factors such as weather, water conditions, lighting and visibility, etc., at the time of the sampling event. More than one type of information about conditions can be concatenated into this term, delimited by semicolon. Other terms are available in this terminology for some specific details of sampling conditions, such as habitat, bottomType, visibilty and temperature, that are expected to be frequently used in IOOS services. Use the samplingConditions term for additional information about conditions that is not addressed by other terms. Like samplingEffort, this term describes phenomena other than the method intended by the data collector in the samplingProtocol.The difference between samplingEffort and samplingConditions is that samplingConditions describes the state of the environment, and samplingEffort describes the actions of the sampler. More than one type of information about conditions can be concatenated into this term, delimited by semicolon. Contents in this term (either verbatim or by vocabulary) will be used consistently in a dataset and will be explained in metadata. More extensive discussion of sampling protocol, effort and conditions may be provided in metadata as needed.</att>
+            <att name="description">Information about the state of the sampling location, determined by external factors such as weather, water conditions, lighting and visibility, etc., at the time of the sampling event. More than one type of information about conditions can be concatenated into this term, delimited by semicolon. Other terms are available in this terminology for some specific details of sampling conditions, such as habitat, bottomType, visibilty and temperature, that are expected to be frequently used in IOOS services. Use the samplingConditions term for additional information about conditions that is not addressed by other terms. Like samplingEffort, this term describes phenomena other than the method intended by the data collector in the samplingProtocol.The difference between samplingEffort and samplingConditions is that samplingConditions describes the state of the environment, and samplingEffort describes the actions of the sampler. More than one type of information about conditions can be concatenated into this term, delimited by semicolon. Contents in this term (either verbatim or by vocabulary) will be used consistently in a dataset and will be explained in metadata. More extensive discussion of sampling protocol, effort and conditions may be provided in metadata as needed.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>sampleShape</sourceName>
+        <destinationName>sampleShape</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The shape of the sample space in which the observation was made, such as R for rectangular, C for cylindrical.</att>
+            <att name="description">The shape of the sample space in which the observation was made, such as R for rectangular, C for cylindrical.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>sampleLengthInMeters</sourceName>
+        <destinationName>sampleLengthInMeters</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The length in meters of the sample space in which the observation was made.</att>
+            <att name="description">The length in meters of the sample space in which the observation was made.</att>
+            <att type="double" name="data_min">25</att>
+            <att type="double" name="data_max">25</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>sampleWidthInMeters</sourceName>
+        <destinationName>sampleWidthInMeters</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The width in meters of the sample space in which the observation was made.</att>
+            <att name="description">The width in meters of the sample space in which the observation was made.</att>
+            <att type="double" name="data_min">2</att>
+            <att type="double" name="data_max">5</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>sampleHeightInMeters</sourceName>
+        <destinationName>sampleHeightInMeters</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The height in meters of the sample space in which the observation was made.</att>
+            <att name="description">The height in meters of the sample space in which the observation was made.</att>
+            <att type="double" name="data_min">4</att>
+            <att type="double" name="data_max">4</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>sampleRadiusInMeters</sourceName>
+        <destinationName>sampleRadiusInMeters</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The radius in meters of a cylindrical sample space.</att>
+            <att name="description">The radius in meters of a cylindrical sample space.</att>
+            <att type="double" name="data_min">4</att>
+            <att type="double" name="data_max">4</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>sampleAreaInSquareMeters</sourceName>
+        <destinationName>sampleAreaInSquareMeters</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The area in square meters, if projected vertically to a plane representing the ocean surface, of the sample space in which the observation was made.</att>
+            <att name="description">The area in square meters, if projected vertically to a plane representing the ocean surface, of the sample space in which the observation was made.</att>
+            <att type="double" name="data_min">4</att>
+            <att type="double" name="data_max">4</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>sampleVolumeInCubicMeters</sourceName>
+        <destinationName>sampleVolumeInCubicMeters</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The volume in cubic meters of the sample space in which the observation was made.</att>
+            <att name="description">The volume in cubic meters of the sample space in which the observation was made.</att>
+            <att type="double" name="data_min">4</att>
+            <att type="double" name="data_max">4</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>visibilityInMeters</sourceName>
+        <destinationName>visibilityInMeters</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">Visibility through the water column in meters .</att>
+            <att name="description">Visibility through the water column in meters .</att>
+            <att type="double" name="data_min">null</att>
+            <att type="double" name="data_max">null</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>visibilityType</sourceName>
+        <destinationName>visibilityType</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The direction of estimated visibility, horizontal or vertical.</att>
+            <att name="description">The direction of estimated visibility, horizontal or vertical.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>waterTemperatureInCelsius</sourceName>
+        <destinationName>waterTemperatureInCelsius</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The temperature of the water at the time of the observation, expressed in Celsius.</att>
+            <att name="description">The temperature of the water at the time of the observation, expressed in Celsius.</att>
+            <att type="double" name="data_min">1</att>
+            <att type="double" name="data_max">35</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>habitat</sourceName>
+        <destinationName>habitat</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">A description or identifier of general information about the habitat in which the observation was made. Vocabulary will be consistent within a dataset and will be explained in metadata. Methods of determination (where applicable) will be explained in metadata .</att>
+            <att name="description">A description or identifier of general information about the habitat in which the observation was made. Vocabulary will be consistent within a dataset and will be explained in metadata. Methods of determination (where applicable) will be explained in metadata .</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>bottomType</sourceName>
+        <destinationName>bottomType</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">A description or identifier of general information about the sea floor at the coordinates or locality where the observation was made. Vocabulary will be consistent within a dataset and will be explained in metadata. Methods of determination (where applicable) will be explained in metadata .</att>
+            <att name="description">A description or identifier of general information about the sea floor at the coordinates or locality where the observation was made. Vocabulary will be consistent within a dataset and will be explained in metadata. Methods of determination (where applicable) will be explained in metadata .</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>quantificationType</sourceName>
+        <destinationName>quantificationType</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">This is a one-character string with enumerated values indicating what type of quantification this record represents. "P" for presence (and no quantification), "Q" for quantified or "A" for absence. </att>
+            <att name="description">This is a one-character string with enumerated values indicating what type of quantification this record represents. "P" for presence (and no quantification), "Q" for quantified or "A" for absence. </att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>quantificationVocabulary</sourceName>
+        <destinationName>quantificationVocabulary</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The names for derived values, referred to as "quantification", can be drawn from a controlled vocabulary or vocabularies of quantification names. Or they can be reported using the verbatim name given by the data originator. Either the name of the controlled vocabulary or the word "verbatim" should be used in this term to record the level of control over names. "Verbatim" means the names are not using a controlled vocabulary other than the names assigned just as they are by the data originator. Either way, within a dataset, identifiers for quantification names must be used consistently, and explained in metadata.</att>
+            <att name="description">The names for derived values, referred to as "quantification", can be drawn from a controlled vocabulary or vocabularies of quantification names. Or they can be reported using the verbatim name given by the data originator. Either the name of the controlled vocabulary or the word "verbatim" should be used in this term to record the level of control over names. "Verbatim" means the names are not using a controlled vocabulary other than the names assigned just as they are by the data originator. Either way, within a dataset, identifiers for quantification names must be used consistently, and explained in metadata.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>quantificationName</sourceName>
+        <destinationName>quantificationName</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">A name for a derived value or processed data about the occurrence, for example, "Biomass". The word used in this terminology for such information is "quantification", rather than "abundance", because the word "abundance" may already be associated with specific, rather than general, practices of quantification in biology. In this example, biomass would not be obtained at survey time, rather biomass would be calculated from input data that was obtained at survey time, combined with a biomass calculation methodology. This term is used along with companion terms for quantification value, units, uncertainty, method, and determination details. It is suggested that names for derived values be more specific than "Biomass", because many institutions will develop biomass information using diverse methods. Suggested practice is to include some more specific reference(s) in the quantification name, such as institution, survey, date or other specifics. For example, "Biomass-PIFSC-2011", and explain the name and method of calculation in metadata.</att>
+            <att name="description">A name for a derived value or processed data about the occurrence, for example, "Biomass". The word used in this terminology for such information is "quantification", rather than "abundance", because the word "abundance" may already be associated with specific, rather than general, practices of quantification in biology. In this example, biomass would not be obtained at survey time, rather biomass would be calculated from input data that was obtained at survey time, combined with a biomass calculation methodology. This term is used along with companion terms for quantification value, units, uncertainty, method, and determination details. It is suggested that names for derived values be more specific than "Biomass", because many institutions will develop biomass information using diverse methods. Suggested practice is to include some more specific reference(s) in the quantification name, such as institution, survey, date or other specifics. For example, "Biomass-PIFSC-2011", and explain the name and method of calculation in metadata.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>quantificationValue</sourceName>
+        <destinationName>quantificationValue</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The value of the derived information product, such as the numerical value for biomass. This term does not include units. Units are contained in another term.</att>
+            <att name="description">The value of the derived information product, such as the numerical value for biomass. This term does not include units. Units are contained in another term.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>quantificationUnit</sourceName>
+        <destinationName>quantificationUnit</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The units in which the value expresses the quantification, for example, "kg/m^2 surface" or "kilograms per square meter of ocean surface".</att>
+            <att name="description">The units in which the value expresses the quantification, for example, "kg/m^2 surface" or "kilograms per square meter of ocean surface".</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>quantificationUncertainty</sourceName>
+        <destinationName>quantificationUncertainty</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">An estimate of the uncertainty, positive and negative (+/-) offset of the stated value, that expresses the uncertainty of the value as calculated and reported. This can be reported in the units of the quantification, or as a percentage. Note that the expression in this term can combine both accuracy and precision considerations to a more general estimate, uncertainty, hence the slightly different name for this term from compared to the Darwin Core (dwc) reference term.</att>
+            <att name="description">An estimate of the uncertainty, positive and negative (+/-) offset of the stated value, that expresses the uncertainty of the value as calculated and reported. This can be reported in the units of the quantification, or as a percentage. Note that the expression in this term can combine both accuracy and precision considerations to a more general estimate, uncertainty, hence the slightly different name for this term from compared to the Darwin Core (dwc) reference term.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>quantificationDeterminedDate</sourceName>
+        <destinationName>quantificationDeterminedDate</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The date the quantification was determined. Can be different from the observation date.</att>
+            <att name="description">The date the quantification was determined. Can be different from the observation date.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>quantificationDeterminedBy</sourceName>
+        <destinationName>quantificationDeterminedBy</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The name or ID of person(s) or institution(s) that determined the quantification.</att>
+            <att name="description">The name or ID of person(s) or institution(s) that determined the quantification.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>quantificationMethod</sourceName>
+        <destinationName>quantificationMethod</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">A reference to the method used to determine the quantification. This will be different from the method used to make the observation of biological occurrence; it will be the companion calucation method that followed the observation method. Quantification information is expected to be useful only if method is sufficiently documented, so this term is vitally important for use of quantification terms for derived values. This term can contain a code or other abbreviated reference to a method. In all cases quantificationMethod should be explained in metadata and supporting publications or related resources identified.</att>
+            <att name="description">A reference to the method used to determine the quantification. This will be different from the method used to make the observation of biological occurrence; it will be the companion calucation method that followed the observation method. Quantification information is expected to be useful only if method is sufficiently documented, so this term is vitally important for use of quantification terms for derived values. This term can contain a code or other abbreviated reference to a method. In all cases quantificationMethod should be explained in metadata and supporting publications or related resources identified.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>waterBody</sourceName>
+        <destinationName>waterBody</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The name of the water body in which the observation was made. For marine data, this is the ocean name. If there is a more specific named region, such as a bay or reef, or sector of the ocean (for example, northwest Pacific), add the regional name after the ocean name, separated by a semicolon. Note that the locality term will contain the most specific name, such as a pier or other named feature, so that lowest level of detail need not be included in the waterbody term. The waterbody term is for the ocean and any named intermediate geography such as a region.</att>
+            <att name="description">The name of the water body in which the observation was made. For marine data, this is the ocean name. If there is a more specific named region, such as a bay or reef, or sector of the ocean (for example, northwest Pacific), add the regional name after the ocean name, separated by a semicolon. Note that the locality term will contain the most specific name, such as a pier or other named feature, so that lowest level of detail need not be included in the waterbody term. The waterbody term is for the ocean and any named intermediate geography such as a region.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>islandGroup</sourceName>
+        <destinationName>islandGroup</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The name of an island group associated with the location where the observation was made.</att>
+            <att name="description">The name of an island group associated with the location where the observation was made.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>island</sourceName>
+        <destinationName>island</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The name of an island associated with the location where the observation was made.</att>
+            <att name="description">The name of an island associated with the location where the observation was made.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>locality</sourceName>
+        <destinationName>locality</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The locality is the most specific named place to identify the location of the observation. Many marine data rely strictly on geographic coordinates, so the locality term may be null. If a locality is used, it may be a specific location or feature name, such as "Pier 39" or "Atafu Atoll", or it may include a descriptive phrase, such as "a tidal pool 1500 meters north of Pier 39". Note that in marine observations, the latitude and longitude may be more precise than any named place would suggest, because the coordinates often come from navigation of GPS systems. Geographic names can be secondary locality identifiers and they can be less precise than coordinates.</att>
+            <att name="description">The locality is the most specific named place to identify the location of the observation. Many marine data rely strictly on geographic coordinates, so the locality term may be null. If a locality is used, it may be a specific location or feature name, such as "Pier 39" or "Atafu Atoll", or it may include a descriptive phrase, such as "a tidal pool 1500 meters north of Pier 39". Note that in marine observations, the latitude and longitude may be more precise than any named place would suggest, because the coordinates often come from navigation of GPS systems. Geographic names can be secondary locality identifiers and they can be less precise than coordinates.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>country</sourceName>
+        <destinationName>country</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The name of the country in which the observation location occurs. Such geographic named locations may not be available or applicable for marine data, and acordingly the use of this term is optional. In some cases such jurisdiction identification may be crucial for data attribution, management and/or use, so this term is retained in the terminology for cases where it may be essential.</att>
+            <att name="description">The name of the country in which the observation location occurs. Such geographic named locations may not be available or applicable for marine data, and acordingly the use of this term is optional. In some cases such jurisdiction identification may be crucial for data attribution, management and/or use, so this term is retained in the terminology for cases where it may be essential.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>stateProvince</sourceName>
+        <destinationName>stateProvince</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The name of the state or province in which the observation location occurs. Such geographic named locations may not be available or applicable for marine data, and acordingly the use of this term is optional. In some cases such jurisdiction identification may be crucial for data attribution, management and/or use, so this term is retained in the terminology for cases where it may be essential.</att>
+            <att name="description">The name of the state or province in which the observation location occurs. Such geographic named locations may not be available or applicable for marine data, and acordingly the use of this term is optional. In some cases such jurisdiction identification may be crucial for data attribution, management and/or use, so this term is retained in the terminology for cases where it may be essential.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>county</sourceName>
+        <destinationName>county</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The name of the county or other comparable geographic unit in which the observation location occurs. Such geographic named locations may not be available or applicable for marine data, and acordingly the use of this term is optional. In some cases such jurisdiction identification may be crucial for data attribution, management and/or use, so this term is retained in the terminology for cases where it may be essential.</att>
+            <att name="description">The name of the county or other comparable geographic unit in which the observation location occurs. Such geographic named locations may not be available or applicable for marine data, and acordingly the use of this term is optional. In some cases such jurisdiction identification may be crucial for data attribution, management and/or use, so this term is retained in the terminology for cases where it may be essential.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>municipality</sourceName>
+        <destinationName>municipality</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The name of the municipality in which the observation location occurs. Such geographic named locations may not be available or applicable for marine data, and acordingly the use of this term is optional. In some cases such jurisdiction identification may be crucial for data attribution, management and/or use, so this term is retained in the terminology for cases where it may be essential.</att>
+            <att name="description">The name of the municipality in which the observation location occurs. Such geographic named locations may not be available or applicable for marine data, and acordingly the use of this term is optional. In some cases such jurisdiction identification may be crucial for data attribution, management and/or use, so this term is retained in the terminology for cases where it may be essential.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>kingdom</sourceName>
+        <destinationName>kingdom</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The full scientific name of the kingdom in which the taxon is classified.</att>
+            <att name="description">The full scientific name of the kingdom in which the taxon is classified.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>phylum</sourceName>
+        <destinationName>phylum</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The full scientific name of the phylum in which the taxon is classified.</att>
+            <att name="description">The full scientific name of the phylum in which the taxon is classified.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>class</sourceName>
+        <destinationName>class</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The full scientific name of the class in which the taxon is classified.</att>
+            <att name="description">The full scientific name of the class in which the taxon is classified.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>order</sourceName>
+        <destinationName>order</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The full scientific name of the order in which the taxon is classified.</att>
+            <att name="description">The full scientific name of the order in which the taxon is classified.</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>family</sourceName>
+        <destinationName>family</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Biology</att>
+            <att name="description">The full scientific name of the family in which the taxon is classified.</att>
+            <att name="description">The full scientific name of the family in which the taxon is classified.</att>
+        </addAttributes>
+    </dataVariable>
+</dataset>

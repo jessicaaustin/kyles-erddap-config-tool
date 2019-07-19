@@ -1,0 +1,685 @@
+<dataset type="EDDGridFromNcFiles" datasetID="CBHAR_WRF_SFC_1979_2009" active="true">
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <updateEveryNMillis>10000</updateEveryNMillis>
+    <fileDir>/mnt/store/data/netCDF/wrfsfc/</fileDir>
+    <fileNameRegex>.*\.nc</fileNameRegex>
+    <recursive>true</recursive>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <matchAxisNDigits>20</matchAxisNDigits>
+    <fileTableInMemory>true</fileTableInMemory>
+    <accessibleViaFiles>true</accessibleViaFiles>
+    <addAttributes>
+        <att name="cdm_data_type">Grid</att>
+        <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
+        <att name="creator_name">University of Alaska Fairbanks
+North Carolina A&amp;T State University
+University of Nebraska-Lincoln</att>
+        <att name="infoUrl">http://portal.aoos.org/#module-metadata/9c1581d0-8674-11e6-9dd3-00265529168c/</att>
+        <att name="institution">University of Alaska Fairbanks North Carolina A&amp;T State University University of Nebraska-Lincoln</att>
+        <att name="keywords">1-hour, 10-meter, 2-meter, a&amp;t, accumulated, agriculture,
+Agriculture &gt; Soils &gt; Soil Moisture/Water Content,
+air, air_pressure, air_temperature, alaska, atmosphere,
+Atmosphere &gt; Atmospheric Pressure &gt; Atmospheric Pressure Measurements,
+Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure,
+Atmosphere &gt; Atmospheric Pressure &gt; Static Pressure,
+Atmosphere &gt; Atmospheric Pressure &gt; Surface Pressure,
+Atmosphere &gt; Atmospheric Radiation &gt; Heat Flux,
+Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature,
+Atmosphere &gt; Atmospheric Temperature &gt; Dew Point Temperature,
+Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature,
+Atmosphere &gt; Atmospheric Water Vapor &gt; Dew Point Temperature,
+Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity,
+Atmosphere &gt; Atmospheric Winds &gt; Surface Winds,
+atmospheric, availability, bare, beaufort, binary, boundary, budget, carolina, categories, cbhar, change, chukchi, component, content, convective, cover, cryosphere,
+Cryosphere &gt; Sea Ice &gt; Ice Depth/Thickness,
+data, depth, dew, dew point, dew_point_temperature, DIR, direction, distribution, downward, eastward, eastward_wind, ELEV, elevation, equivalent, evaporation, fairbanks, flux, fraction, GRDFLX, ground, heat, heat flux, height, high, high-resolution, hour, humidity, ice, ice distribution, identifier, imaging, index, land,
+Land Surface &gt; Soils &gt; Soil Moisture/Water Content,
+land_binary_mask, LANDMASK, large, large-scale, latent, LATFLX, layer, level, lincoln, liquid, longwave, LU_INDEX, LWDOWN, mask, measurements, meridional, meteorology, meter, moderate, modis, moisture, nebraska, nebraska-lincoln, net, north, northward, northward_wind, ocean, oceans,
+Oceans &gt; Ocean Heat Budget &gt; Heat Flux,
+Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature,
+Oceans &gt; Sea Ice &gt; Ice Depth/Thickness,
+PBLH, PCPC, PCPNC, PCPT, phase, physical, planetary, point, precipitation, pressure, PSFC, QFLX, radiation, rain, rainfall, reanalysis, resolution, scale, sea, sea_ice_thickness, sea_surface_skin_temperature, sea_surface_temperature, SEAICE, seawater, SENSFLX, sensible, shortwave, SITHIK, skin, SLP, SNOPCX, snow, SNOWC, SNOWH, soil, soil_moisture_content, SOILH2O, SOILM, SOILMREL, soils, SOILT, SOILT_C, SPD, specific, specific_humidity, spectroradiometer, speed, SST, SST_C, SSTSK, SSTSK_C, state, static, surface, surface_air_pressure, surface_downward_latent_heat_flux, surface_downward_sensible_heat_flux, SWDOWN, T2_C, TD2, TD2_C, temperature, thickness, TIME, top, total, TSK, TSK_C, U10, university, upward, use, V10, vapor, volumetric, water, wind, wind_from_direction, wind_speed, winds, zonal</att>
+        <att name="keywords_vocabulary">GCMD Science Keywords</att>
+        <att name="license">[standard]</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+        <att name="summary">The Chukchi-Beaufort High-Resolution Atmospheric Reanalysis (CBHAR) is an hourly 31-year gridded reanalysis product covering the period 1979-2009 for the Chukchi-Beaufort Seas and North Slope. It was produced with a customized version of the Weather Research and Forecasting (WRF) model (WRFv3.2.1), optimized for the model domain and including improvements designed to improve the model's accuracy in representing the Arctic environment. The WRF model data assimilation system (WRFDA) was used to assimilate highly quality-controlled observational data collected across the region via the 3D variational technique. The model outputs represent hourly results at ~10 km spatial resolution with the goal to more accurately capture the finer scale processes of the region's surface wind field (10 meter height) covering the Chukchi, Beaufort, and northern Bering Seas. More information including the final report can be found on the BOEM Environmental Studies Program Information System (ESPIS) page for this project: https://marinecadastre.gov/espis/#/search/study/23141.</att>
+        <att name="title">* Chukchi Beaufort High-resolution Atmospheric Reanalysis (CBHAR) 1979-2009</att>
+    </addAttributes>
+    <axisVariable>
+        <sourceName>TIME</sourceName>
+        <destinationName>time</destinationName>
+        <!-- sourceAttributes>
+            <att name="long_name">TIME</att>
+            <att name="time_origin">01-JAN-1979 00:00:00</att>
+            <att name="units">hours since 1979-01-01 00:00:00</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="standard_name">time</att>
+        </addAttributes>
+    </axisVariable>
+    <axisVariable>
+        <sourceName>NY</sourceName>
+        <destinationName>NY</destinationName>
+        <!-- sourceAttributes>
+            <att name="axis">Y</att>
+            <att name="point_spacing">even</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Statistics</att>
+            <att name="long_name">NY</att>
+        </addAttributes>
+    </axisVariable>
+    <axisVariable>
+        <sourceName>NX</sourceName>
+        <destinationName>NX</destinationName>
+        <!-- sourceAttributes>
+            <att name="axis">X</att>
+            <att name="point_spacing">even</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Statistics</att>
+            <att name="long_name">NX</att>
+        </addAttributes>
+    </axisVariable>
+    <dataVariable>
+        <sourceName>PCPT</sourceName>
+        <destinationName>PCPT</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="long_name">1-hour accumulated total precipitation</att>
+            <att name="units">kg m-2</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">200.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Meteorology</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>T2</sourceName>
+        <destinationName>T2</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="coordinates">TIME XLON XLAT</att>
+            <att name="long_name">2-meter temperature</att>
+            <att name="standard_name">air_temperature</att>
+            <att name="units">degree_kelvin</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">313.0</att>
+            <att name="colorBarMinimum" type="double">263.0</att>
+            <att name="coordinates">null</att>
+            <att name="ioos_category">Temperature</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>T2_C</sourceName>
+        <destinationName>T2_C</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="long_name">2-meter temperature</att>
+            <att name="units">C</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Temperature</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>TD2</sourceName>
+        <destinationName>TD2</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="long_name">2-meter dew point</att>
+            <att name="units">K</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">313.0</att>
+            <att name="colorBarMinimum" type="double">273.0</att>
+            <att name="ioos_category">Temperature</att>
+            <att name="standard_name">dew_point_temperature</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>TD2_C</sourceName>
+        <destinationName>TD2_C</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="long_name">2-meter dew point</att>
+            <att name="units">C</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Q2</sourceName>
+        <destinationName>Q2</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="long_name">2-meter specific humidity</att>
+            <att name="units">kg kg-1</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">30.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Meteorology</att>
+            <att name="standard_name">specific_humidity</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>U10</sourceName>
+        <destinationName>U10</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="coordinates">TIME XLON XLAT</att>
+            <att name="long_name">10-meter zonal wind component</att>
+            <att name="standard_name">eastward_wind</att>
+            <att name="units">m.s-1</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">15.0</att>
+            <att name="colorBarMinimum" type="double">-15.0</att>
+            <att name="coordinates">null</att>
+            <att name="ioos_category">Wind</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>V10</sourceName>
+        <destinationName>V10</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="coordinates">TIME XLON XLAT</att>
+            <att name="long_name">10-meter meridional wind component</att>
+            <att name="standard_name">northward_wind</att>
+            <att name="units">m.s-1</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">15.0</att>
+            <att name="colorBarMinimum" type="double">-15.0</att>
+            <att name="coordinates">null</att>
+            <att name="ioos_category">Wind</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SPD</sourceName>
+        <destinationName>SPD</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="coordinates">TIME XLON XLAT</att>
+            <att name="long_name">10-meter wind speed</att>
+            <att name="standard_name">wind_speed</att>
+            <att name="units">m.s-1</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">15.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="coordinates">null</att>
+            <att name="ioos_category">Wind</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>DIR</sourceName>
+        <destinationName>DIR</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="coordinates">TIME XLON XLAT</att>
+            <att name="long_name">10-meter wind direction</att>
+            <att name="standard_name">wind_from_direction</att>
+            <att name="units">degrees</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">360.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="coordinates">null</att>
+            <att name="ioos_category">Wind</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SLP</sourceName>
+        <destinationName>SLP</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">-1.0E34</att>
+            <att name="long_name">sea level pressure</att>
+            <att name="units">hPa</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">1050.0</att>
+            <att name="colorBarMinimum" type="double">950.0</att>
+            <att name="ioos_category">Pressure</att>
+            <att name="standard_name">surface_air_pressure</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>PSFC</sourceName>
+        <destinationName>PSFC</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="coordinates">TIME XLON XLAT</att>
+            <att name="long_name">surface pressure</att>
+            <att name="standard_name">air_pressure</att>
+            <att name="units">hpascals</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">1050.0</att>
+            <att name="colorBarMinimum" type="double">950.0</att>
+            <att name="coordinates">null</att>
+            <att name="ioos_category">Pressure</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>ELEV</sourceName>
+        <destinationName>ELEV</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="long_name">surface elevation</att>
+            <att name="units">m</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Location</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>PCPC</sourceName>
+        <destinationName>PCPC</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="long_name">1-hour accumulated convective precipitation</att>
+            <att name="units">kg m-2</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">200.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Meteorology</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>PCPNC</sourceName>
+        <destinationName>PCPNC</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="long_name">1-hour accumulated large-scale precipitation</att>
+            <att name="units">kg m-2</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">200.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Meteorology</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>LANDMASK</sourceName>
+        <destinationName>LANDMASK</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="long_name">land mask (0=water; 1=land)</att>
+            <att name="units">1</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">150.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Identifier</att>
+            <att name="standard_name">land_binary_mask</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SEAICE</sourceName>
+        <destinationName>SEAICE</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">-1.0E34</att>
+            <att name="long_name">sea ice fraction</att>
+            <att name="units">1</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">1.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Ice Distribution</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SITHIK</sourceName>
+        <destinationName>SITHIK</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">-1.0E34</att>
+            <att name="long_name">sea ice thickness</att>
+            <att name="units">m</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">2.5</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Ice Distribution</att>
+            <att name="standard_name">sea_ice_thickness</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>LU_INDEX</sourceName>
+        <destinationName>LU_INDEX</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="long_name">MODIS land use index (20 categories)</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SNOWC</sourceName>
+        <destinationName>SNOWC</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">-1.0E34</att>
+            <att name="long_name">snow cover (0=bare ground; 1=snow)</att>
+            <att name="units">1</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Ice Distribution</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SNOW</sourceName>
+        <destinationName>SNOW</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">-1.0E34</att>
+            <att name="long_name">snow depth water equivalent</att>
+            <att name="units">kg m-2</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">200.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Ice Distribution</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SNOWH</sourceName>
+        <destinationName>SNOWH</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">-1.0E34</att>
+            <att name="long_name">physical snow depth</att>
+            <att name="units">m</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Ice Distribution</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SNOPCX</sourceName>
+        <destinationName>SNOPCX</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="long_name">accumulated snow phase change heat flux</att>
+            <att name="units">W m-2</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">250.0</att>
+            <att name="colorBarMinimum" type="double">-250.0</att>
+            <att name="ioos_category">Heat Flux</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>GRDFLX</sourceName>
+        <destinationName>GRDFLX</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">-1.0E34</att>
+            <att name="long_name">ground heat flux</att>
+            <att name="units">W m-2</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">250.0</att>
+            <att name="colorBarMinimum" type="double">-250.0</att>
+            <att name="ioos_category">Heat Flux</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SWDOWN</sourceName>
+        <destinationName>SWDOWN</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="long_name">surface downward shortwave radiation</att>
+            <att name="units">W m-2</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Heat Flux</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>LWDOWN</sourceName>
+        <destinationName>LWDOWN</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="long_name">surface downward longwave radiation</att>
+            <att name="units">W m-2</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Heat Flux</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SENSFLX</sourceName>
+        <destinationName>SENSFLX</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="long_name">surface sensible net heat flux</att>
+            <att name="units">W m-2</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">250.0</att>
+            <att name="colorBarMinimum" type="double">-250.0</att>
+            <att name="ioos_category">Heat Flux</att>
+            <att name="standard_name">surface_downward_sensible_heat_flux</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>LATFLX</sourceName>
+        <destinationName>LATFLX</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="long_name">surface latent net heat flux</att>
+            <att name="units">W m-2</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">250.0</att>
+            <att name="colorBarMinimum" type="double">-250.0</att>
+            <att name="ioos_category">Heat Flux</att>
+            <att name="standard_name">surface_downward_latent_heat_flux</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>QFLX</sourceName>
+        <destinationName>QFLX</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="long_name">upward surface moisture flux (net evaporation)</att>
+            <att name="units">kg m-2 s-1</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">1.0E-4</att>
+            <att name="colorBarMinimum" type="double">-1.0E-4</att>
+            <att name="ioos_category">Meteorology</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>PBLH</sourceName>
+        <destinationName>PBLH</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">-1.0E34</att>
+            <att name="long_name">planetary boundary layer height</att>
+            <att name="units">m</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>TSK</sourceName>
+        <destinationName>TSK</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="long_name">skin temperature</att>
+            <att name="units">K</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">313.0</att>
+            <att name="colorBarMinimum" type="double">263.0</att>
+            <att name="ioos_category">Temperature</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>TSK_C</sourceName>
+        <destinationName>TSK_C</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="long_name">skin temperature</att>
+            <att name="units">C</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Temperature</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SST</sourceName>
+        <destinationName>SST</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">-1.0E34</att>
+            <att name="long_name">sea surface temperature</att>
+            <att name="units">K</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">305.0</att>
+            <att name="colorBarMinimum" type="double">273.0</att>
+            <att name="ioos_category">Temperature</att>
+            <att name="standard_name">sea_surface_temperature</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SST_C</sourceName>
+        <destinationName>SST_C</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">-1.0E34</att>
+            <att name="long_name">sea surface temperature</att>
+            <att name="units">C</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">32.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Temperature</att>
+            <att name="standard_name">sea_surface_temperature</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SSTSK</sourceName>
+        <destinationName>SSTSK</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">-1.0E34</att>
+            <att name="long_name">sea surface skin temperature</att>
+            <att name="units">K</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">305.0</att>
+            <att name="colorBarMinimum" type="double">273.0</att>
+            <att name="ioos_category">Temperature</att>
+            <att name="standard_name">sea_surface_skin_temperature</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SSTSK_C</sourceName>
+        <destinationName>SSTSK_C</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">-1.0E34</att>
+            <att name="long_name">sea surface skin temperature</att>
+            <att name="units">C</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">32.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Temperature</att>
+            <att name="standard_name">sea_surface_skin_temperature</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SOILT</sourceName>
+        <destinationName>SOILT</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">-1.0E34</att>
+            <att name="long_name">soil temperature of top layer</att>
+            <att name="units">K</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">313.0</att>
+            <att name="colorBarMinimum" type="double">263.0</att>
+            <att name="ioos_category">Temperature</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SOILT_C</sourceName>
+        <destinationName>SOILT_C</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">-1.0E34</att>
+            <att name="long_name">soil temperature of top layer</att>
+            <att name="units">C</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Soils</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SOILM</sourceName>
+        <destinationName>SOILM</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">-1.0E34</att>
+            <att name="long_name">volumetric soil moisture of top layer</att>
+            <att name="units">m3 m-3</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">5.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Soils</att>
+            <att name="standard_name">soil_moisture_content</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SOILH2O</sourceName>
+        <destinationName>SOILH2O</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">-1.0E34</att>
+            <att name="long_name">volumetric soil liquid water of top layer</att>
+            <att name="units">m3 m-3</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Soils</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SOILMREL</sourceName>
+        <destinationName>SOILMREL</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">-1.0E34</att>
+            <att name="long_name">soil moisture availability of top layer</att>
+            <att name="units">1</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">5.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Soils</att>
+            <att name="standard_name">soil_moisture_content</att>
+        </addAttributes>
+    </dataVariable>
+</dataset>
+
+
