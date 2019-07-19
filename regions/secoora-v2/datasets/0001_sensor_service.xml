@@ -1,9 +1,0 @@
-<dataset type="EDDTableFromAxiomSensorCSVService" datasetID="secoora_sensor_service">
-    <sourceUrl>http://sensors.axds.co/stationsensorservice/</sourceUrl>
-    <reloadEveryNMinutes>360</reloadEveryNMinutes>
-    <region>all</region>
-    <portalId>-1</portalId>
-    <addAttributes>
-        <att name="title">(SECOORA) Unified Sensor Data</att>
-    </addAttributes>
-</dataset>
