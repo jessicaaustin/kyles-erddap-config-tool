@@ -5,5 +5,8 @@
     <portalId>-1</portalId>
     <addAttributes>
         <att name="title">(CeNCOOS) Unified Sensor Data</att>
+        <att name="summary">Unified Sensor Data</att>
+        <att name="infoUrl">https://data.cencoos.org/</att>
+        <att name="institution">Central & Northern California Ocean Observing System (CeNCOOS)</att>
     </addAttributes>
 </dataset>
