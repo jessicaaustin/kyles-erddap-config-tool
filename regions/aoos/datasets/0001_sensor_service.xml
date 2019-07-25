@@ -5,5 +5,8 @@
     <portalId>-1</portalId>
     <addAttributes>
         <att name="title">(AOOS) Unified Sensor Data</att>
+        <att name="summary">Unified Sensor Data</att>
+        <att name="infoUrl">https://portal.aoos.org/</att>
+        <att name="institution">Alaska Ocean Observing System (AOOS)</att>
     </addAttributes>
 </dataset>

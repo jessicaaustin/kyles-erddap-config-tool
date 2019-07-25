@@ -5,5 +5,8 @@
     <portalId>-1</portalId>
     <addAttributes>
         <att name="title">(Axiom) Unified Sensor Data</att>
+        <att name="summary">Unified Sensor Data</att>
+        <att name="infoUrl">https://sensors.ioos.us/</att>
+        <att name="institution">Axiom Data Science</att>
     </addAttributes>
 </dataset>

@@ -5,5 +5,8 @@
     <portalId>-1</portalId>
     <addAttributes>
         <att name="title">(SECOORA) Unified Sensor Data</att>
+        <att name="summary">Unified Sensor Data</att>
+        <att name="infoUrl">https://portal.secoora.org/</att>
+        <att name="institution">Southeast Coastal Ocean Observing Regional Association (SECOORA)</att>
     </addAttributes>
 </dataset>
