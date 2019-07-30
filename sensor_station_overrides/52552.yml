@@ -5,6 +5,8 @@ region_settings:
     highlight_in_erddap: True
 
 global_attributes:
+  add_to_thredds: true
+  submit_to_ncei: true
   acknowledgment: "Data collection was supported by multiple awards to Bodega Marine Laboratory, University of California, Davis and an award from NOAA's Integrated Observing System to the Central and Northern California Ocean Observing System at the Monterey Bay Aquarium Research Institute (NA11NOS0120032). Data were also facilitated by the Hog Island Oyster Company."
   comment: "Data produced by Tessa Hill with partial funding from CeNCOOS. Contact: Jennifer Patterson (cencoos_communicatons@mbari.org)"
   coverage_content_type: "physicalMeasurement"

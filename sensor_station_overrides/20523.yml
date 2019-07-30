@@ -5,6 +5,8 @@ region_settings:
     highlight_in_erddap: True
 
 global_attributes:
+  add_to_thredds: true
+  submit_to_ncei: true
   sea_name: "NE Pacific"
   summary: "The Dock B station was maintained by Humboldt State University from 2008-2013. The station has been operational since 2012 and consists of subsurface sensors mounted rigidly to a pier. This station was mounted firmly to a pier at 40.778 N, 124.196 W, with sensors to provide near-real-time observations of ocean water salinity and temperature."
   title: "Humboldt Dock B Shore Station"

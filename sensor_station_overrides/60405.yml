@@ -3,3 +3,6 @@
 region_settings:
   secoora:
     highlight_in_erddap: True
+
+global_attributes:
+  add_to_thredds: true

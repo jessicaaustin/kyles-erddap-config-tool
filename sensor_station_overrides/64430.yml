@@ -3,3 +3,6 @@
 region_settings:
   cencoos:
     highlight_in_erddap: True
+
+global_attributes:
+  add_to_thredds: true

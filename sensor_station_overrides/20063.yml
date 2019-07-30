@@ -3,3 +3,7 @@
 region_settings:
   aoos:
     highlight_in_erddap: True
+
+global_attributes:
+  add_to_thredds: true
+  submit_to_ncei: true
