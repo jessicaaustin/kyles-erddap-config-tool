@@ -82,18 +82,24 @@ def add_attribute_overrides(dataset, station, region):
                                         'sensor_region_overrides',
                                         f'{region}.yml')
 
-    if not os.path.isfile(station_override_file) and not os.path.isfile(region_override_file):
+    tags = station['tags']
+
+    if not os.path.isfile(station_override_file) and not os.path.isfile(region_override_file) and len(tags) == 0:
         return
 
     atts = etree.SubElement(dataset, "addAttributes")
+
+    def add_att(name, value):
+        ele = etree.SubElement(atts, "att", name=name)
+        ele.text = value
 
     def add_atts(settings):
         if 'global_attributes' in settings:
             global_atts = settings['global_attributes']
             for k, v in global_atts.items():
-                ele = etree.SubElement(atts, "att", name=k)
-                ele.text = v
+                add_att(k, v)
 
+    # region overrides
     if os.path.isfile(region_override_file):
         # print(f'Loading {region_override_file}')
         with open(region_override_file, 'r') as ymlfile:
@@ -110,6 +116,7 @@ def add_attribute_overrides(dataset, station, region):
             except KeyError:
                 pass
 
+    # station overrides
     if os.path.isfile(station_override_file):
         print(f'Loading {station_override_file}')
 
@@ -131,6 +138,14 @@ def add_attribute_overrides(dataset, station, region):
                 title_elem.text = title
         except KeyError:
             pass
+
+    # tags
+    if 'submit_to_ndbc' in tags:
+        add_att('submit_to_ndbc', 'true')
+    if 'add_to_thredds' in tags:
+        add_att('add_to_thredds', 'true')
+    if 'submit_to_ncei' in tags:
+        add_att('submit_to_ncei', 'true')
 
     return dataset
 
