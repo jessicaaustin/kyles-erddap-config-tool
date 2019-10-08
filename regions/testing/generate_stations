@@ -2,5 +2,5 @@
 RELDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 python oikos_stations_v2.py \
-    --region "sensorsv2" \
+    --region "cencoos" \
     --output "$RELDIR/datasets/0050_v2_stations.xml"
