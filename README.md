@@ -1,3 +1,7 @@
+# NOTE: This repo is published as documentation only
+
+The code is intimately tied with axiom infrastructure, and is not very useful other than as an example. If/when someone develops a similar but generic tool we'll post it here.
+
 ## ERDDAP Content
 
 Generate the final ERDDAP content for a specific region or all regions
