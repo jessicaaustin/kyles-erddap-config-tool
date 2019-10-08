@@ -2,6 +2,22 @@
 
 The code is intimately tied with axiom infrastructure, and is not very useful other than as an example. If/when someone develops a similar but generic tool we'll post it here.
 
+How it works:
+
+* This project generates all the necessary files under `/erddap/content`, namely `datasets.xml` and `setup.xml`
+* We manage several ERDDAP servers for different projects. Each of these has its own `region`. So to generate content for a single region, we run `generate_region [region_name]` 
+* `generate_region` does the following:
+  * create a `content` folder if it doesn't exist
+  * copy `[region_name]/setup.xml` into the content folder
+  * generate `datasets.xml`
+    * run all the `generate_` scripts in the region folder. each of these scripts spits out a `<dataset>` snippet that goes into the `[region_name]/datasets/` folder
+    * concatenate everything under [region_name]/datasets/` into a single file, and move that to `content/dataset.xml`
+      * If `content/datasets.xml` already exists, then `process_dataset_changes.py` will merge the existing file with the new one
+  
+Each of the `generate_` files are specific to axiom systems. `generate_gliders` talks to an internal API to get a list of glider deployments as JSON, and converts that JSON into an ERDDAP dataset. `generate_stations` talks to an internal API to get a list of in-situ environmental sensor stations as JSON, and converts each of thos into an ERDDAP dataset; this script also looks at `sensor_region_overrides` and `sensor_station_overrides` to override metadata in the system.
+    
+    
+
 ## ERDDAP Content
 
 Generate the final ERDDAP content for a specific region or all regions
